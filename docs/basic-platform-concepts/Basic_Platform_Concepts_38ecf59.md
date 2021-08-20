@@ -263,13 +263,15 @@ SaaS applications are usually displayed in a separate global account.
 
 **Directories** allow you to organize and manage your subaccounts according to your technical and business needs.
 
-A directory can contain one or more subaccounts. It cannot contain other directories. Using directories to group subaccounts is optional - you can still create subaccounts directly under your global account.
+A directory can contain directories and subaccounts to create a hierarchy. Using directories to group other directories and subaccounts is optional - you can still create subaccounts directly under your global account.
+
+You can create a hierarchical structure that is 7 levels deep. The highest level of a given path is always the global account and the lowest is a subaccount, which means that you can have up to 5 levels of directories.
 
 ![Directories and Subaccounts](../images/Relationship_Between_Directories_and_Subaccounts_d60105c.png)
 
 Directories allow you to:
 
--   Group and filter subaccounts
+-   Group and filter directories and subaccounts
 
 -   Monitor usage and, for contracts that use the consumption-based model, cost
 

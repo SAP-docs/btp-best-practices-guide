@@ -352,7 +352,7 @@ The SAP BTP SDK for iOS is based on the Apple Swift programming language for dev
 </td>
 <td>
 
-This Java-based toolkit for Eclipse IDE enables you to develop and deploy applications as well as perform operations such as logging, managing user roles, creating connectivity destinations, and so on.
+SAP JVM Tools for Eclipse is an Eclipse plugin that allows you to debug and profile applications which run on SAP JVM.
 
 
 
