@@ -19,33 +19,36 @@ Within a global account that is on feature set B, you can create directories to 
 
 The most important step in account model setup is to work out a concept that meets your business and technical requirements. The account models in this guide are designed to help you accomplish this. However, when it comes to acctually creating directories and subaccounts in your global account, you can choose between different experiences:
 
--   [8061ecc529d74465b2b9566a634943ec.md](8061ecc529d74465b2b9566a634943ec.md)
+-   [Account Administration in the Cockpit](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/8061ecc529d74465b2b9566a634943ec.html "Learn about frequent administrative tasks you can perform using the SAP BTP cockpit, such as managing global accounts, directories, subaccounts, entitlements, and members.") :arrow_upper_right:
 
--   [7c6df2db6332419ea7a862191525377c.md](7c6df2db6332419ea7a862191525377c.md)
+-   [Account Administration Using the SAP BTP Command Line Interface (btp CLI) [Feature Set B]](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/7c6df2db6332419ea7a862191525377c.html "Use the SAP BTP command line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for all users who like to work in a terminal or want to automate operations using scripts.") :arrow_upper_right:
 
--   [1c8db1483d914cd99047aac5280f61ea.md](1c8db1483d914cd99047aac5280f61ea.md)
+-   [Account Administration Using APIs](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/1c8db1483d914cd99047aac5280f61ea.html "SAP BTP provides REST APIs that enable you to perform administrative tasks on the global account, directory, and subaccount level, such as creating or updating subaccounts, monitoring usage information, managing access, and managing service resources.") :arrow_upper_right:
 
--   **[Using Subaccounts to Create a Staged Development Environment](Using_Subaccounts_to_Create_a_Staged_Development_Environment_74eb32e.md)**  
+-   **[Using Subaccounts to Create a Staged Development Environment](Using_Subaccounts_to_Create_a_Staged_Development_Environment_74eb32e.md "The number of subaccounts you create, and for which purpose, depends on your organizational setup and your use case.")**  
 The number of subaccounts you create, and for which purpose, depends on your organizational setup and your use case.
--   **[Account Models with Subaccounts](Account_Models_with_Subaccounts_049d331.md)**  
+-   **[Account Models with Subaccounts](Account_Models_with_Subaccounts_049d331.md "Account Models 1 - 5 show ways to structure your global account into subaccounts. Note that all of them are just examples. They are not
+		mutually exclusive and you can adapt them to your own needs.")**  
 Account Models 1 - 5 show ways to structure your global account into subaccounts. Note that all of them are just examples. They are not mutually exclusive and you can adapt them to your own needs.
--   **[Account Models With Directories and Subaccounts \[Feature Set B\]](Account_Models_With_Directories_and_Subaccounts_Feature_Set_B_b5a6b58.md#loiob5a6b58694784d0c9f4ff85f9b7336dd)**  
+-   **[Account Models With Directories and Subaccounts \[Feature Set B\]](Account_Models_With_Directories_and_Subaccounts_Feature_Set_B_b5a6b58.md#loiob5a6b58694784d0c9f4ff85f9b7336dd "With cloud management tools feature set
+                                    B, we are introducing a more flexible account structure with
+		directories and custom properties.")**  
 With cloud management tools feature set B, we are introducing a more flexible account structure with directories and custom properties.
 
 **Related Information**  
 
 
-[8ed4a705efa0431b910056c0acdbf377.md](8ed4a705efa0431b910056c0acdbf377.md)
+[Account Model](https://help.sap.com/viewer/60f1b283f0fd4d0aa7b3f8cea4d73d1d/Internal/en-US/8ed4a705efa0431b910056c0acdbf377.html#loio8ed4a705efa0431b910056c0acdbf377 "Learn more about the different types of accounts on SAP BTP and how they relate to each other.") :arrow_upper_right:
 
-[667f34ba9222450491c2b848cd17e189.md](667f34ba9222450491c2b848cd17e189.md)
+[Managing Global Accounts Using the Cockpit](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/667f34ba9222450491c2b848cd17e189.html "Your SAP BTP global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner.") :arrow_upper_right:
 
-[f495ac1a62684affbff9f2629fe58bb0.md](f495ac1a62684affbff9f2629fe58bb0.md)
+[Managing Directories Using the Cockpit [Feature Set B]](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/f495ac1a62684affbff9f2629fe58bb0.html "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the SAP BTP cockpit.") :arrow_upper_right:
 
-[55d0b6d8b96846b8ae93b85194df0944.md](55d0b6d8b96846b8ae93b85194df0944.md)
+[Managing Subaccounts Using the Cockpit](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/55d0b6d8b96846b8ae93b85194df0944.html "Learn how to structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements by managing subaccounts.") :arrow_upper_right:
 
-[caf4e4e23aef4666ad8f125af393dfb2.md](caf4e4e23aef4666ad8f125af393dfb2.md)
+[Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:
 
-[Account Models with Subaccounts](Account_Models_with_Subaccounts_049d331.md)
+[Account Models with Subaccounts](Account_Models_with_Subaccounts_049d331.md "Account Models 1 - 5 show ways to structure your global account into subaccounts. Note that all of them are just examples. They are not mutually exclusive and you can adapt them to your own needs.")
 
-[Account Models With Directories and Subaccounts \[Feature Set B\]](Account_Models_With_Directories_and_Subaccounts_Feature_Set_B_b5a6b58.md#loiob5a6b58694784d0c9f4ff85f9b7336dd)
+[Account Models With Directories and Subaccounts \[Feature Set B\]](Account_Models_With_Directories_and_Subaccounts_Feature_Set_B_b5a6b58.md#loiob5a6b58694784d0c9f4ff85f9b7336dd "With cloud management tools feature set B, we are introducing a more flexible account structure with directories and custom properties.")
 

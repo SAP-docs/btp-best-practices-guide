@@ -29,7 +29,7 @@ We recommend that you use the Cloud Connector if your use case requires any of t
 -   Data replication from on-premise databases or Business Intelligence tools to SAP HANA databases running in the cloud
 -   On-premise system integration using SAP Cloud Integration
 
-For more information, see [e6c7616abb5710148cfcf3e75d96d596.md](e6c7616abb5710148cfcf3e75d96d596.md).
+For more information, see [Cloud Connector](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Dev/en-US/e6c7616abb5710148cfcf3e75d96d596.html "Learn more about the Cloud Connector: features, scenarios and setup.") :arrow_upper_right:.
 
 
 

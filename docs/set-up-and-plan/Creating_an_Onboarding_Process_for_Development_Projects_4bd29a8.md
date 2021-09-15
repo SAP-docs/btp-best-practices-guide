@@ -69,5 +69,5 @@ We recommend that the Cloud Administration Team makes the consumption of service
 **Related Information**  
 
 
-[4570e92cd29e419dbeee4caa1ef90701.md](4570e92cd29e419dbeee4caa1ef90701.md)
+[API Documentation](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/4570e92cd29e419dbeee4caa1ef90701.html "API documentation for the Neo environment.") :arrow_upper_right:
 

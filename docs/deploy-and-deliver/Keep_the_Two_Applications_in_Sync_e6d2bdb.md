@@ -18,6 +18,12 @@ There are three different ways to synchronize your applications in the primary a
 -   Orchestrate your applications through a combination of the Solution Export Wizard and the SAP Cloud Transport Management service. See [Use the Solution Export Wizard and SAP Cloud Transport Management](Keep_the_Two_Applications_in_Sync_e6d2bdb.md#loio8b3131f1b7504bc7b8a2e1e8b46f71f0).
 
 
+**Parent topicColonSymbol** [Implementing Failover](Implementing_Failover_df972c5.md "")
+
+**Previous topicColonSymbol** [Deploy Your Application in Two Data Centers](Deploy_Your_Application_in_Two_Data_Centers_61d08d8.md "Deploy your application in two data centers in parallel so that in case of an issue, you can switch from one to the other.")
+
+**Next topicColonSymbol** [Define How a Failover Is Detected](Define_How_a_Failover_Is_Detected_88b86db.md "Define in which cases the automatic failover from one data center to the other is triggered.")
+
  <a name="loioe6d2bdb006734bd69e394379ff0dd956 loio5606f91c66b44354bd99cce0a0b9da5d__loio5606f91c66b44354bd99cce0a0b9da5d"/>
 
 <!-- loio5606f91c66b44354bd99cce0a0b9da5d -->

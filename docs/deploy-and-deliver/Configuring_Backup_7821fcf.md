@@ -75,11 +75,11 @@ Different configurations can be backed up, depending on your specific service. H
 
 -   **SAP Connectivity service**
 
-    -   You can back up your Cloud Connector configuration. For more information, see [abd1ba7cb0dd484aa24f0f6bed29f3fa.md](abd1ba7cb0dd484aa24f0f6bed29f3fa.md).
+    -   You can back up your Cloud Connector configuration. For more information, see [Configuration Backup](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Dev/en-US/abd1ba7cb0dd484aa24f0f6bed29f3fa.html "You can backup and restore your Cloud Connector configuration.") :arrow_upper_right:.
 
-    -   You can back up your destination configuration. For more information, see [707b49e752df4741bf678bc27523af7a.md](707b49e752df4741bf678bc27523af7a.md).
+    -   You can back up your destination configuration. For more information, see [Export Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Dev/en-US/707b49e752df4741bf678bc27523af7a.html "Export destinations from the Destinations editor in the SAP BTP cockpit to backup or reuse a destination configuration.") :arrow_upper_right:.
 
-    -   You can back up your X.509 certificates. For more information, see [82dbecae3454493782d16a79e30f1a6d.md](82dbecae3454493782d16a79e30f1a6d.md).
+    -   You can back up your X.509 certificates. For more information, see [Set up Trust Between Systems](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Dev/en-US/82dbecae3454493782d16a79e30f1a6d.html "Download and configure X.509 certificates as a prerequisite for user propagation from the Cloud Foundry environment.") :arrow_upper_right:.
 
 -   **Process Visibility capability within the SAP Workflow Management service**: You can back up your visibility scenarios. For more information, see [Export a Scenario](https://help.sap.com/viewer/62fd39fa3eae4046b23dba285e84bfd4/Cloud/en-US/27f76c0dd1534ca0980706f7d72d86a1.html).
 

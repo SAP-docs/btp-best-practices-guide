@@ -31,7 +31,7 @@ Description
 <tr>
 <td>
 
-[8061ecc529d74465b2b9566a634943ec.md](8061ecc529d74465b2b9566a634943ec.md)
+[Account Administration in the Cockpit](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/8061ecc529d74465b2b9566a634943ec.html "Learn about frequent administrative tasks you can perform using the SAP BTP cockpit, such as managing global accounts, directories, subaccounts, entitlements, and members.") :arrow_upper_right:
 
 
 
@@ -47,7 +47,7 @@ The SAP BTP cockpit is the web-based administration interface of SAP BTP and pro
 <tr>
 <td>
 
-[Cloud Connector](e6c7616abb5710148cfcf3e75d96d596.md)
+[Cloud Connector](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Dev/en-US/e6c7616abb5710148cfcf3e75d96d596.html "Learn more about the Cloud Connector: features, scenarios and setup.") :arrow_upper_right:
 
 
 
@@ -63,7 +63,7 @@ The Cloud Connector serves as the link between on-demand applications in SAP BTP
 <tr>
 <td>
 
-[Command Line Interface for Cloud Foundry](2f1d4abd0f9f4760a301f43513d2efa6.md)
+[Command Line Interface for Cloud Foundry](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/2f1d4abd0f9f4760a301f43513d2efa6.html "Find out how to get and use the Cloud Foundry command line interface.") :arrow_upper_right:
 
 
 
@@ -79,7 +79,7 @@ The Cloud Foundry command line interface enables you to work with the Cloud Foun
 <tr>
 <td>
 
-[SAP BTP Command Line Interface \[Feature Set B\]](7c6df2db6332419ea7a862191525377c.md)
+[SAP BTP Command Line Interface [Feature Set B]](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/7c6df2db6332419ea7a862191525377c.html "Use the SAP BTP command line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for all users who like to work in a terminal or want to automate operations using scripts.") :arrow_upper_right:
 
 
 
@@ -249,7 +249,7 @@ The SAP BTP cockpit is the web-based administration interface of SAP BTP and pro
 <tr>
 <td>
 
-[7c6df2db6332419ea7a862191525377c.md](7c6df2db6332419ea7a862191525377c.md)
+[Account Administration Using the SAP BTP Command Line Interface (btp CLI) [Feature Set B]](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/7c6df2db6332419ea7a862191525377c.html "Use the SAP BTP command line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for all users who like to work in a terminal or want to automate operations using scripts.") :arrow_upper_right:
 
 
 
@@ -265,7 +265,7 @@ The SAP BTP command line interface \(btp CLI\) is the command-line tool for conv
 <tr>
 <td>
 
-[43ca1e9e90764dc19191d15b06466fd0.md](43ca1e9e90764dc19191d15b06466fd0.md)
+[SAP Web IDE](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/43ca1e9e90764dc19191d15b06466fd0.html "SAP Web IDE is a fully extensible and customizable experience that accelerates the development life cycle with interactive code editors, integrated developer assistance, and end-to-end application development life cycle support. SAP Web IDE was developed by developers for developers.") :arrow_upper_right:
 
 
 
@@ -281,7 +281,7 @@ SAP Web IDE is a cloud-based meeting space where multiple application developers
 <tr>
 <td>
 
-[4cbdab6e2eb14c92ab76540ffb32174c.md](4cbdab6e2eb14c92ab76540ffb32174c.md)
+[Maven Plugin](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/4cbdab6e2eb14c92ab76540ffb32174c.html "SAP offers a Maven plugin that supports you in using Maven to develop Java applications for SAP BTP. It allows you to conveniently call the SAP BTP console client and its commands from the Maven environment.") :arrow_upper_right:
 
 
 
@@ -297,7 +297,7 @@ The Maven plugin supports you in using Maven to develop Java applications to the
 <tr>
 <td>
 
-[Cloud Connector](d751d065774e45e1b6bdbfdfd541da13.md)
+[Cloud Connector](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Dev/en-US/d751d065774e45e1b6bdbfdfd541da13.html "Learn more about the Cloud Connector: features, scenarios and setup.") :arrow_upper_right:
 
 
 
@@ -313,7 +313,7 @@ The Cloud Connector serves as the link between on-demand applications in the Neo
 <tr>
 <td>
 
-[e7f54c25bb571014baee8ae351acd8d5.md](e7f54c25bb571014baee8ae351acd8d5.md)
+[SAP BTP SDK for Neo Environment](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/e7f54c25bb571014baee8ae351acd8d5.html "The SAP BTP SDK for Neo environment contains everything you need to work with SAP BTP, including a local server runtime and a set of command line tools.") :arrow_upper_right:
 
 
 
@@ -329,7 +329,7 @@ The SAP BTP SDK for the Neo environment contains everything you need to work wit
 <tr>
 <td>
 
-[27e53d67778e4a20bbc7986f586eddca.md](27e53d67778e4a20bbc7986f586eddca.md)
+[SAP BTP SDK for iOS](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/27e53d67778e4a20bbc7986f586eddca.html "SAP BTP SDK for iOS enables developers to quickly develop enterprise-ready native iOS apps, built with Swift, the modern programming language by Apple.") :arrow_upper_right:
 
 
 
@@ -345,7 +345,7 @@ The SAP BTP SDK for iOS is based on the Apple Swift programming language for dev
 <tr>
 <td>
 
-[5be792a1561f41bcb70fbce9380c3fdc.md](5be792a1561f41bcb70fbce9380c3fdc.md)
+[SAP JVM Tools in Eclipse for the Neo Environment](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/5be792a1561f41bcb70fbce9380c3fdc.html "") :arrow_upper_right:
 
 
 
@@ -361,7 +361,7 @@ SAP JVM Tools for Eclipse is an Eclipse plugin that allows you to debug and prof
 <tr>
 <td>
 
-[76132306711e1014839a8273b0e91070.md](76132306711e1014839a8273b0e91070.md)
+[Console Client for the Neo Environment](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/76132306711e1014839a8273b0e91070.html "") :arrow_upper_right:
 
 
 

@@ -143,5 +143,5 @@ The following resources are available for your extension scenarios. The links to
 **Related Information**  
 
 
-[08b1effc53634890a525f945017e2edc.md](08b1effc53634890a525f945017e2edc.md)
+[Extensions](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/08b1effc53634890a525f945017e2edc.html "The extension capabilities of SAP Business Technology Platform (SAP BTP) enables developers to implement loosely coupled extension applications securely, thus implementing additional workflows or modules on top of the existing SAP cloud solution they already have.") :arrow_upper_right:
 

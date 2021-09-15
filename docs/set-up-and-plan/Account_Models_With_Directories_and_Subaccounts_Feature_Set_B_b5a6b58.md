@@ -349,7 +349,7 @@ central-service
 **Related Information**  
 
 
-[Account Model 5: Create a Staged Development Environment Per Functional Area](Account_Model_5_Create_a_Staged_Development_Environment_Per_Functional_Area_8f57535.md)
+[Account Model 5: Create a Staged Development Environment Per Functional Area](Account_Model_5_Create_a_Staged_Development_Environment_Per_Functional_Area_8f57535.md "In this scenario, the IT department creates separate Dev, Test, and Prod subaccounts for each functional area: In our example, HR, IT, and Sales each get their own subaccounts for development, test, and production.")
 
  <a name="loiob5a6b58694784d0c9f4ff85f9b7336dd loiodd78c89de7b04ae4a2147edd7a811187__loiodd78c89de7b04ae4a2147edd7a811187"/>
 

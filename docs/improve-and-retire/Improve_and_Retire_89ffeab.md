@@ -48,5 +48,5 @@ If your application is no longer needed, the Cloud Administration and the Cloud 
 
 SAP is integrating more closely with hyperscalers, such as Amazon Web Services, Google Cloud Platforrm, and Microsoft Azure. If you are currently running secnarios in our Neo enviroment, please have a look at our migration guide for moving from Neo to the multi-cloud foundation.
 
-[aae4e0ae1cdf434b908c3c8cf3ea942a.md](aae4e0ae1cdf434b908c3c8cf3ea942a.md)
+[Migrating from the Neo Environment to the Multi-Cloud Foundation (Cloud Foundry and Kyma)](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Dev/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html "Learn why and how to migrate your scenarios on SAP Business Technology Platform (SAP BTP) from the Neo environment to the multi-cloud foundation.") :arrow_upper_right:
 

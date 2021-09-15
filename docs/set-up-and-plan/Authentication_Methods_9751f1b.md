@@ -171,5 +171,5 @@ A simple identity layer on top of the OAuth 2.0 protocol that allows clients to 
 </tr>
 </table>
 
-Authentication methods depend on buildpacks, and the Cloud Foundry environment offers more than just Java. Please refer to the [SAP Authorization and Trust Management Service in the Cloud Foundry environment](6373bb7a96114d619bfdfdc6f505d1b9.md) documentation for more information.
+Authentication methods depend on buildpacks, and the Cloud Foundry environment offers more than just Java. Please refer to the [SAP Authorization and Trust Management Service in the Cloud Foundry environment](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/6373bb7a96114d619bfdfdc6f505d1b9.html "The global account and subaccounts get their users from identity providers. Administrators make sure that users can only access their dedicated subaccount by making sure that there is a dedicated trust relationship only between the identity providers and the respective subaccounts. Developers configure and deploy application-based security artifacts containing authorizations, and administrators assign these authorizations using the SAP BTP cockpit.") :arrow_upper_right: documentation for more information.
 

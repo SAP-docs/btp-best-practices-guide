@@ -37,7 +37,7 @@ Description
 <tr>
 <td>
 
-**[SAP BTP on the SAP API Business Hub](https://api.sap.com/themes/SAPCloudPlatformService)**
+**[SAP BTP on the SAP API Business Hub](https://api.sap.com/products/SAPCloudPlatform/overview)**
 
 
 
@@ -80,7 +80,7 @@ API Management allows you to build, manage, publish, and monetize your own APIs 
 
 The software development kits \(SDKs\) available for SAP BTP offer APIs to, for example, accelerate enterprise app development.
 
-For an overview on the available SDKs, see [abcae5b568c94e5391a74d15f5db9213.md](abcae5b568c94e5391a74d15f5db9213.md).
+For an overview on the available SDKs, see [Tools](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/abcae5b568c94e5391a74d15f5db9213.html "SAP BTP includes many tools to help you develop and manage applications, and connect them to your on-premise systems.") :arrow_upper_right:.
 
 
 

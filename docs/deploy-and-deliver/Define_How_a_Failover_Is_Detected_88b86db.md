@@ -17,3 +17,9 @@ The following figure illustrates this procedure:
 > ### Example:  
 > As an example, you could define `25` seconds as maximum read timeout and set a number of server error codes \(`5xx`\) to be checked. At each first HTTP request towards the URL of your application, both checks are triggered. All following HTTP requests are ignored to avoid an unnecessary failover if, for example, only an image resource is missing. If one of the two checks fails, the user is automatically redirected to an HTML down page, which must not be cached. This down page provides the link to your failover application. Strictly speaking, the failover itself is therefore manually performed by the user of your application.
 
+**Parent topicColonSymbol** [Implementing Failover](Implementing_Failover_df972c5.md "")
+
+**Previous topicColonSymbol** [Keep the Two Applications in Sync](Keep_the_Two_Applications_in_Sync_e6d2bdb.md#loioe6d2bdb006734bd69e394379ff0dd956 "Synchronize your applications in both data centers to maintain their functionality in case of a downtime.")
+
+**Next topicColonSymbol** [Decide on the Failback](Decide_on_the_Failback_963f962.md "In the setup of your failover scenario, define whether a failback is needed and how it is performed.")
+

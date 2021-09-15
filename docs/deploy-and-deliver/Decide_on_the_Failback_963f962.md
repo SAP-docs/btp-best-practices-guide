@@ -14,3 +14,7 @@ Depending on the setup of your failover scenario, a failback is either optional 
 > ### Recommendation:  
 > In a basic scenario, you can hand over the failback to the users of your application, who perform the failback automatically when later trying to access the primary version of your application again. In this scenario, visually differentiate between your primary and secondary application so that they are constantly reminded to switch back to the primary one once they have completed their transaction. Unlike an automatic failback as soon as the primary data center is available again, this approach ensures that your users are not interrupted while completing a transaction. Instead, they can decide on their own when to switch back to the primary application.
 
+**Parent topicColonSymbol** [Implementing Failover](Implementing_Failover_df972c5.md "")
+
+**Previous topicColonSymbol** [Define How a Failover Is Detected](Define_How_a_Failover_Is_Detected_88b86db.md "Define in which cases the automatic failover from one data center to the other is triggered.")
+
