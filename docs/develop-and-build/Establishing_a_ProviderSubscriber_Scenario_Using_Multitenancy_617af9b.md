@@ -12,10 +12,10 @@ One of the advantages of this approach is that the application lifecycle and res
 
 For more information, see the following:
 
--   [Multitenancy Roles](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/48b552fa449945b9afc7885e1919ce2b.html "") :arrow_upper_right:
+-   [Multitenancy Roles](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/48b552fa449945b9afc7885e1919ce2b.html "") :arrow_upper_right:
 
--   [Developing Multitenant Applications in the Neo Environment](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/54a76156cd114e5d928642b8dde47b91.html "In the Neo environment of SAP BTP, you can develop and run multitenant (tenant-aware) applications. These applications run on a shared compute unit that can be used by multiple consumers (tenants). Each consumer accesses the application through a dedicated URL.") :arrow_upper_right:
+-   [Developing Multitenant Applications in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/54a76156cd114e5d928642b8dde47b91.html "In the Neo environment of SAP BTP, you can develop and run multitenant (tenant-aware) applications. These applications run on a shared compute unit that can be used by multiple consumers (tenants). Each consumer accesses the application through a dedicated URL.") :arrow_upper_right:
 
--   [Developing Multitenant Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/5e8a2b74e4f2442b8257c850ed912f48.html "In the Cloud Foundry environment, you can develop and run multitenant applications, and share them with multiple consumers simultaneously on SAP BTP.") :arrow_upper_right:
+-   [Developing Multitenant Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5e8a2b74e4f2442b8257c850ed912f48.html "In the Cloud Foundry environment, you can develop and run multitenant applications, and share them with multiple consumers simultaneously on SAP BTP.") :arrow_upper_right:
 
 

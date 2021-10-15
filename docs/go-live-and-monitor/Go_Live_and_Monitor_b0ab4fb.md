@@ -28,7 +28,7 @@ Consider embedding applications with internal end users in the SAP Fiori launchp
 
 Ensure that the business users of your application are being provided by using SAP ID service or configuring the trust relationship to an external identity provider. They should also get the right authorization by using application-based authorization artifacts provided by the developers. This allows the administrators to create roles, build role collections, and assign these collections to business users and user groups.
 
-For more information, see [Security Administration: Managing Authentication and Authorization](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/1ff47b2d980e43a6b2ce294352333708.html "This section describes the tasks of administrators in the Cloud Foundry environment of SAP BTP. Administrators ensure user authentication and assign authorization information to users and user groups.") :arrow_upper_right: .
+For more information, see [Security Administration: Managing Authentication and Authorization](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/1ff47b2d980e43a6b2ce294352333708.html "This section describes the tasks of administrators in the Cloud Foundry environment of SAP BTP. Administrators ensure user authentication and assign authorization information to users and user groups.") :arrow_upper_right: .
 
 
 
@@ -136,7 +136,7 @@ Java applications
 </td>
 <td>
 
- [Managing Deployed Applications](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/764f53e1cc9c4a50b2d0587ac82fdd7f.html "For an overview of the current status of the individual applications in your subaccount, use the cockpit. It provides key information in a summarized form and allows you to initiate actions, such as starting, stopping, and undeploying applications.") :arrow_upper_right: 
+ [Managing Deployed Applications](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/764f53e1cc9c4a50b2d0587ac82fdd7f.html "For an overview of the current status of the individual applications in your subaccount, use the cockpit. It provides key information in a summarized form and allows you to initiate actions, such as starting, stopping, and undeploying applications.") :arrow_upper_right: 
 
 
 
@@ -162,7 +162,7 @@ SAP HANA XS applications
 </td>
 <td>
 
- [SAP HANA: Application Operations](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/6902b488768a4b13a75c8d9d50055fa2.html "") :arrow_upper_right: 
+ [SAP HANA: Application Operations](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/6902b488768a4b13a75c8d9d50055fa2.html "") :arrow_upper_right: 
 
 
 
@@ -185,7 +185,7 @@ Log viewer collecting error messages
 </td>
 <td>
 
- [Using Logs in the Cockpit for HTML5 Applications](https://help.sap.com/viewer/f88a032109f0429caea276fc6e3a95f9/Dev/en-US/9f358860642c4ed283cd889a5bc42461.html "You can view logs on an HTML5 application running in your subaccount or on a subscription to an HTML application.") :arrow_upper_right: 
+ [Using Logs in the Cockpit for HTML5 Applications](https://help.sap.com/viewer/f88a032109f0429caea276fc6e3a95f9/Cloud/en-US/9f358860642c4ed283cd889a5bc42461.html "You can view logs on an HTML5 application running in your subaccount or on a subscription to an HTML application.") :arrow_upper_right: 
 
 
 
@@ -212,7 +212,7 @@ To get notifications for updates and downtimes, subscribe at the [Cloud System N
 
 In addition, you can get a personalized, at-a-glance view of additional SAP BTP offerings with [SAP Cloud Availability Center](https://support.sap.com/en/my-support/systems-installations/cloud-systems-installations.html#section), such as SAP BTP Integration.
 
-There are additional monitoring tools and options available for certain SAP BTP services, such as the SAP BTP Identity Authentication service. Please refer to the respective service documentation for more details: [Solutions and Services](https://help.sap.com/viewer/60f1b283f0fd4d0aa7b3f8cea4d73d1d/Internal/en-US/7613d9ce711e1014839a8273b0e91070.html#loio7613d9ce711e1014839a8273b0e91070 "Consume the solutions and services by SAP BTP according to your preferred development environment and use cases.") :arrow_upper_right:.
+There are additional monitoring tools and options available for certain SAP BTP services, such as the SAP BTP Identity Authentication service. Please refer to the respective service documentation for more details: [Solutions and Services](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7613d9ce711e1014839a8273b0e91070.html#loio7613d9ce711e1014839a8273b0e91070 "Consume the solutions and services by SAP BTP according to your preferred development environment and use cases.") :arrow_upper_right:.
 
 
 
@@ -329,7 +329,7 @@ Trace the performance of SAP BTP applications. You can:
 
 [Trace Analysis](https://help.sap.com/viewer/82f6dd44db4e4518aad4dfce00116fcf/7.2.07/en-US/a56e3b810bd74f37b9468bc27f55f696.html)
 
-[End-to-End Trace Analysis](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/a1e3101e108a4ca7a2a8c62654534ef8.html "Trace user actions with excessive execution time within a complex system landscape using the End-to-End (E2E) trace analysis.") :arrow_upper_right: \(Neo environment\)
+[End-to-End Trace Analysis](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/a1e3101e108a4ca7a2a8c62654534ef8.html "Trace user actions with excessive execution time within a complex system landscape using the End-to-End (E2E) trace analysis.") :arrow_upper_right: \(Neo environment\)
 
 
 

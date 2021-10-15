@@ -14,5 +14,5 @@ It's important you understand that simply using SAP software, such as SAP BTP, d
 **Related Information**  
 
 
-[SAP BTP Data Protection and Privacy](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/7e513d31704a4a87831191e504ca850a.html "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.") :arrow_upper_right:
+[SAP BTP Data Protection and Privacy](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7e513d31704a4a87831191e504ca850a.html "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.") :arrow_upper_right:
 

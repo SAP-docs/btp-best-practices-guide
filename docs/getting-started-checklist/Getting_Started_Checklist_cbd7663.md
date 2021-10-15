@@ -116,7 +116,7 @@ More Information and Troubleshooting
 </td>
 <td>
 
-If you don't receive this email, for some reason, or have inadvertently deleted it, simply access your SAP BTP cockpit using the region-specific link [Regions](https://help.sap.com/viewer/60f1b283f0fd4d0aa7b3f8cea4d73d1d/Internal/en-US/350356d1dc314d3199dca15bd2ab9b0e.html#loio350356d1dc314d3199dca15bd2ab9b0e "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:. SAP has activated your account prior to sending you this e-mail.
+If you don't receive this email, for some reason, or have inadvertently deleted it, simply access your SAP BTP cockpit using the region-specific link [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html#loio350356d1dc314d3199dca15bd2ab9b0e "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:. SAP has activated your account prior to sending you this e-mail.
 
 
 
@@ -247,7 +247,7 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 
 [Develop and Build](../develop-and-build/Develop_and_Build_7e30686.md)
 
-[Developing with the SAP Cloud Application Programming Model](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/00823f91779d4d42aa29a498e0535cdf.html "The SAP Cloud Application Programming Model (CAP) is a framework of languages, libraries, and tools for building enterprise-grade services and applications. It guides developers along a ‘golden path’ of proven best practices and a great wealth of out-of-the-box solutions to recurring tasks.") :arrow_upper_right:
+[Developing with the SAP Cloud Application Programming Model](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00823f91779d4d42aa29a498e0535cdf.html "The SAP Cloud Application Programming Model (CAP) is a framework of languages, libraries, and tools for building enterprise-grade services and applications. It guides developers along a ‘golden path’ of proven best practices and a great wealth of out-of-the-box solutions to recurring tasks.") :arrow_upper_right:
 
 [Deploy and Deliver](../deploy-and-deliver/Deploy_and_Deliver_5972cdb.md)
 

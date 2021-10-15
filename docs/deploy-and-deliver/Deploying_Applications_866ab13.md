@@ -79,5 +79,10 @@ There are two options for deploying MTAs: Manually or managed.
 
 -   **Manually:** You can archive all components of your application into one package that includes the deployment descriptor. You can then manually trigger the deployment of the solution using the SAP BTP cockpit or the Console Client. The actual deployment of the MTA files is then performed automatically by the SAP BTP deployment infrastructure, considering all interdependencies specified in the MTA deployment descriptor that is part of the MTA archive. By assigning roles and encapsulating the Console Client in a script, you can achieve a somewhat controlled release mechanism.
 
--   **Managed:** If you prefer a managed approach, you can deploy MTAs as part of a CI/CD approach or implement transport or change management processes for your SAP BTP apps, using enhanced Change and Transport \(CTS+\) for example. For more information, see [Transporting Multitarget Applications with CTS+](https://help.sap.com/viewer/663f91a6573b49ae9fa5f0007abb4d18/Internal/en-US/f598f69a9be347029b7e5e7205fc7d1f.html "You can enable transport of SAP BTP applications and application content that is available as Multitarget Applications (MTA) using the Enhanced Change and Transport System (CTS+).") :arrow_upper_right:.
+-   **Managed:** If you prefer a managed approach, you can deploy MTAs as part of a CI/CD approach or implement transport or change management processes for your SAP BTP apps, using enhanced Change and Transport \(CTS+\) for example. For more information, see [Transporting Multitarget Applications with CTS+](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/f598f69a9be347029b7e5e7205fc7d1f.html "You can enable transport of SAP BTP applications and application content that is available as Multitarget Applications (MTA) using the Enhanced Change and Transport System (CTS+).") :arrow_upper_right:.
+
+**Related Information**  
+
+
+[Deploying to the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2a21055cc94b4a528a820f73e6fa7d69.html "Get an overview of available deployment options.") :arrow_upper_right:
 

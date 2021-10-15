@@ -12,7 +12,7 @@ We recommend that you use the SAP Cloud Application Programming Model for your d
 
 ## Development Guide
 
-For best practices, guidelines and step-by-step instructions, see [Development](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/c2fec62b49fa43b8bd945c85ecc2e5bd.html "Develop and run business applications on SAP Business Technology Platform (SAP BTP) using our cloud application programming model, APIs, services, tools, and capabilities.") :arrow_upper_right:.
+For best practices, guidelines and step-by-step instructions, see [Development](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c2fec62b49fa43b8bd945c85ecc2e5bd.html "Develop and run business applications on SAP Business Technology Platform (SAP BTP) using our cloud application programming model, APIs, services, tools, and capabilities.") :arrow_upper_right:.
 
 We recommend that you create multitarget applications for managing dependencies more easily. For more information, see [Using Multitarget Applications to Manage Dependencies](Using_Multitarget_Applications_to_Manage_Dependencies_41184aa.md).
 

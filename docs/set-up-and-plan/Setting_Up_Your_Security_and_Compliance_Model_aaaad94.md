@@ -13,7 +13,7 @@ The level of security you implement may vary depending on your use case and your
 SAP BTP provides various options for implementing user authentication.
 -   **[Setting Up Authorization](Setting_Up_Authorization_cb9f0ac.md "Users in an application require different authorizations because they work in different jobs. For more information, see . SAP BTP provides
 		various options for implementing user authorization.")**  
-Users in an application require different authorizations because they work in different jobs. For more information, see **[Authorization Entities](https://help.sap.com/viewer/50fd4b19521f4bec9ee9cc6c72a90872//en-US/5d8ed75b5c72432cb0e4d846f411e0cd.html "Business users in an application require different authorizations because they work in different jobs.") :arrow_upper_right:**. SAP BTP provides various options for implementing user authorization.
+Users in an application require different authorizations because they work in different jobs. For more information, see **[Authorization Entities](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5d8ed75b5c72432cb0e4d846f411e0cd.html "Business users in an application require different authorizations because they work in different jobs.") :arrow_upper_right:**. SAP BTP provides various options for implementing user authorization.
 -   **[Setting Up Identity Propagation](Setting_Up_Identity_Propagation_12cf719.md "SAP BTP provides
 		various options for identity propagation. ")**  
 SAP BTP provides various options for identity propagation.
