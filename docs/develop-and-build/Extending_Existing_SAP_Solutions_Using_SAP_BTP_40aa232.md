@@ -75,6 +75,7 @@ The extension use cases include but are not limited to:
 
     -   Building completely new Fiori-based user interfaces that can be seamlessly integrated in the SAP Fiori launchpad.
 
+
 -   Enhancing the functionality of your SAP cloud solution by connecting it with other SAP solutions.
 
     For example:
@@ -82,6 +83,7 @@ The extension use cases include but are not limited to:
     -   Connecting SAP S/4HANA Cloud with other SAP solutions, such as SAP Commerce Cloud, SAP Cloud for Customer, SAP Field Service Management, SAP SuccessFactors.
 
     -   Connecting SAP SuccessFactors by connecting it to other SAP solutions, such as SAP Commerce Cloud, SAP Cloud for Customer, SAP Field Service Management, SAP S/4HANA Cloud.
+
 
 -   Enhancing core business processes with analytics and machine learning capabilities.
 
@@ -94,6 +96,7 @@ The extension use cases include but are not limited to:
     -   SAP App Center
 
     -   SAP BTP cockpit
+
 
 
 For more use cases, see [https://www.sap.com/products/cloud-platform/use-cases.html?sort=title\_asc](https://www.sap.com/products/cloud-platform/use-cases.html?sort=title_asc).
@@ -121,6 +124,7 @@ The following resources are available for your extension scenarios. The links to
     -   [SAP S/4HANA Cloud Extensions on SAP BTP](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/HP_2.0/en-US/bd051afa72a745d49ce91344ad8f2628.html?collapse=) \(Learning Journey on SAP Help Portal\)
 
     -   [Extending SAP S/4HANA Cloud in the Cloud Foundry Environment Manually](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6b9c4be039914ff2b3ff8b6669a9cadf.html) \(SAP Help Portal\)
+
 -   SAP Customer Experience \(CX\) products
 
     -   [Extending SAP Customer Experience Products in the Kyma Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/83df31ad3b634c0783ced522107d2e73.html) \(SAP Help Portal\)
@@ -128,6 +132,7 @@ The following resources are available for your extension scenarios. The links to
     -   [Create Extensions in the Kyma Environment Using Functions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fe4ba5b46f794037a4aee13df9df2d3c.html) \(SAP Help Portal\)
 
     -   [Extending SAP Cloud for Customer in the Cloud Foundry Environment Manually](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/1150e4395ba6487bad2a7164db7ea417.html) \(SAP Help Portal\)
+
 
 -   SAP SuccessFactors
 
@@ -138,6 +143,7 @@ The following resources are available for your extension scenarios. The links to
     -   [Build Resilient Cloud Native Applications](https://discovery-center.cloud.sap/missiondetail/3197/3228) \(Mission in Discovery Center\)
 
     -   [SAP SuccessFactors Extensions on SAP BTP](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/HP_2.0/en-US/ba16ffc927ce4c26ad21b6c2b91fe38d.html) \(Learning Journey on SAP Help Portal\)
+
 
 
 **Related Information**  

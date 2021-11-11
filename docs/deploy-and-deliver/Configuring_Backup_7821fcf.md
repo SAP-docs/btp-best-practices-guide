@@ -4,17 +4,17 @@
 
 Backup and recovery of data stored in the following services are performed by SAP. For other services, you can follow our best practices to back up your configurations.
 
- <a name="loio7821fcf6f0cc487799fb6b75e8d0e0f7 loio6c1e071845dd4db2829b413a05154a7c__loio6c1e071845dd4db2829b413a05154a7c"/>
+ <a name="loio6c1e071845dd4db2829b413a05154a7c"/>
 
 <!-- loio6c1e071845dd4db2829b413a05154a7c -->
 
-# Data Backups Managed by SAP
+## Data Backups Managed by SAP
 
 SAP handles the backup and recovery of service data. However, there are some exceptions.
 
 
 
-<a name="loio7821fcf6f0cc487799fb6b75e8d0e0f7 loio6c1e071845dd4db2829b413a05154a7c__section_wg4_p1m_r4b"/>
+<a name="loio6c1e071845dd4db2829b413a05154a7c__section_wg4_p1m_r4b"/>
 
 ## Services with Automated Data Backups
 
@@ -29,15 +29,15 @@ Data stored in the following services is automatically backed up by SAP:
 
 Data stored using these services and components is fully backed up on a regular basis. For services running in the SAP BTP, Cloud Foundry environment, the backed-up data is copied to additional availability zones within the same region. Each availability zone represents a physically separate location with its own power supply, network, and cooling. For more information, see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html).
 
-![](../images/Data_copied_to_additional_AZs_in_a_region_6198557.png)
+![](images/Data_copied_to_additional_AZs_in_a_region_6198557.png)
 
 For services running in the SAP BTP, Neo environment, the backed-up data is copied to an availability zone in another region. For more information, see [Regions in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/21c30a4e491544fc927ecf3a5857c54e.html).
 
-![](../images/Data_copied_to_a_secondary_AZ_449d088.png)
+![](images/Data_copied_to_a_secondary_AZ_449d088.png)
 
 
 
-<a name="loio7821fcf6f0cc487799fb6b75e8d0e0f7 loio6c1e071845dd4db2829b413a05154a7c__section_dbc_r1m_r4b"/>
+<a name="loio6c1e071845dd4db2829b413a05154a7c__section_dbc_r1m_r4b"/>
 
 ## Services Without Automated Data Backups
 
@@ -57,17 +57,19 @@ The following services don’t currently provide any backup and restore features
         -   [Preventing Accidental Deletion of Azure Containers](https://help.sap.com/viewer/2ee77ef7ea4648f9ab2c54ee3aef0a29/Cloud/en-US/67e5ba7dae7749c88483b8a3fe395eff.html)
 
 
- <a name="loio7821fcf6f0cc487799fb6b75e8d0e0f7 loio9de0caa8abe34f4897e5b727868019c0__loio9de0caa8abe34f4897e5b727868019c0"/>
+
+
+ <a name="loio9de0caa8abe34f4897e5b727868019c0"/>
 
 <!-- loio9de0caa8abe34f4897e5b727868019c0 -->
 
-# Service Configurations Managed by Customers
+## Service Configurations Managed by Customers
 
 SAP doesn't manage backups of service configurations. However, you can back up your service-specific configuration yourself. This backup allows you to restore your configuration in case it’s deleted by accident.
 
 
 
-<a name="loio7821fcf6f0cc487799fb6b75e8d0e0f7 loio9de0caa8abe34f4897e5b727868019c0__section_u5q_mbm_r4b"/>
+<a name="loio9de0caa8abe34f4897e5b727868019c0__section_u5q_mbm_r4b"/>
 
 ## Services with User-Specific Configurations
 
@@ -81,6 +83,7 @@ Different configurations can be backed up, depending on your specific service. H
 
     -   You can back up your X.509 certificates. For more information, see [Set up Trust Between Systems](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/82dbecae3454493782d16a79e30f1a6d.html "Download and configure X.509 certificates as a prerequisite for user propagation from the Cloud Foundry environment.") :arrow_upper_right:.
 
+
 -   **Process Visibility capability within the SAP Workflow Management service**: You can back up your visibility scenarios. For more information, see [Export a Scenario](https://help.sap.com/viewer/62fd39fa3eae4046b23dba285e84bfd4/Cloud/en-US/27f76c0dd1534ca0980706f7d72d86a1.html).
 
 -   **SAP Authorization and Trust Management service**: You can back up your configurations with the [SAP Authorization and Trust Management service API package](https://api.sap.com/package/authtrustmgmnt?section=Artifacts) available on the [SAP API Business Hub](https://api.sap.com/). The configurations include:
@@ -91,6 +94,7 @@ Different configurations can be backed up, depending on your specific service. H
 
     -   Identity provider configurations. You can back up identity provider configurations with the [Identity Provider Management](https://api.sap.com/api/TrustConfigurationAPI/overview) API.
 
+
 -   **SAP Cloud Integration**: You can back up keystore entries. For more information, see [Backing Up Keystore Entries](https://help.sap.com/viewer/368c481cd6954bdfa5d0435479fd4eaf/Cloud/en-US/b8e03b7f25264dea8f6cec4a8316d634.html).
 
 -   **SAP Alert Notification service for SAP BTP**: You can back up your subscriptions, conditions, and actions. For more information, see [Exporting or Importing Configurations](https://help.sap.com/viewer/5967a369d4b74f7a9c2b91f5df8e6ab6/Cloud/en-US/771da5b383ee4722afc4eb1f58aa4648.html).
@@ -98,7 +102,7 @@ Different configurations can be backed up, depending on your specific service. H
 
 
 
-<a name="loio7821fcf6f0cc487799fb6b75e8d0e0f7 loio9de0caa8abe34f4897e5b727868019c0__section_h4l_4bm_r4b"/>
+<a name="loio9de0caa8abe34f4897e5b727868019c0__section_h4l_4bm_r4b"/>
 
 ## Services Without User-Specific Configurations
 

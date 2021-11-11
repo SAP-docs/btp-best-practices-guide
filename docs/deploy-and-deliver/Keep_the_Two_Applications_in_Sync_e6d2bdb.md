@@ -1,5 +1,7 @@
 <!-- loioe6d2bdb006734bd69e394379ff0dd956 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Keep the Two Applications in Sync
 
 Synchronize your applications in both data centers to maintain their functionality in case of a downtime.
@@ -18,17 +20,11 @@ There are three different ways to synchronize your applications in the primary a
 -   Orchestrate your applications through a combination of the Solution Export Wizard and the SAP Cloud Transport Management service. See [Use the Solution Export Wizard and SAP Cloud Transport Management](Keep_the_Two_Applications_in_Sync_e6d2bdb.md#loio8b3131f1b7504bc7b8a2e1e8b46f71f0).
 
 
-**Parent topicColonSymbol** [Implementing Failover](Implementing_Failover_df972c5.md "")
-
-**Previous topicColonSymbol** [Deploy Your Application in Two Data Centers](Deploy_Your_Application_in_Two_Data_Centers_61d08d8.md "Deploy your application in two data centers in parallel so that in case of an issue, you can switch from one to the other.")
-
-**Next topicColonSymbol** [Define How a Failover Is Detected](Define_How_a_Failover_Is_Detected_88b86db.md "Define in which cases the automatic failover from one data center to the other is triggered.")
-
- <a name="loioe6d2bdb006734bd69e394379ff0dd956 loio5606f91c66b44354bd99cce0a0b9da5d__loio5606f91c66b44354bd99cce0a0b9da5d"/>
+ <a name="loio5606f91c66b44354bd99cce0a0b9da5d"/>
 
 <!-- loio5606f91c66b44354bd99cce0a0b9da5d -->
 
-# Synchronize Your Applications Manually
+## Synchronize Your Applications Manually
 
 You can orchestrate your applications manually by duplicating your modifications in both data centers, for example, by mirroring from Git repositories.
 
@@ -36,20 +32,20 @@ The following figure illustrates this process:
 
    
   
-<a name="loioe6d2bdb006734bd69e394379ff0dd956 loio5606f91c66b44354bd99cce0a0b9da5d__fig_glj_vql_wgb"/>Manual Synchronization
+<a name="loio5606f91c66b44354bd99cce0a0b9da5d__fig_glj_vql_wgb"/>Manual Synchronization
 
- ![Manual Synchronization](../images/Manual_Synchronization_53bfe9d.png "Manual Synchronization") 
+ ![Manual Synchronization](images/Manual_Synchronization_53bfe9d.png "Manual Synchronization") 
 
 With this approach, you can decide yourself which of your changes to transport from one data center to the other. Therefore, synchronizing your applications manually allows you to maintain two non-identical applications, for example, if you want to visually differentiate between the UIs in your primary and the backup version.
 
 > ### Recommendation:  
 > With regard to the relatively high effort needed for this approach, we recommend it only if you do not plan regular updates or changes to your application.
 
- <a name="loioe6d2bdb006734bd69e394379ff0dd956 loioe603c7411eb0483eaeda10fee8aacb5b__loioe603c7411eb0483eaeda10fee8aacb5b"/>
+ <a name="loioe603c7411eb0483eaeda10fee8aacb5b"/>
 
 <!-- loioe603c7411eb0483eaeda10fee8aacb5b -->
 
-# Use a Continuous Integration and Delivery Pipeline
+## Use a Continuous Integration and Delivery Pipeline
 
 You can synchronize the deployment of your applications in two different data centers by using a continuous integration and delivery \(CI/CD\) pipeline. Configure it for multi-deployment so that in the final stage of your CI/CD pipeline, your changes are automatically deployed to two subaccounts in parallel. In our case, these subaccounts are hosted in different data centers. For more information about subaccounts, see [Managing Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c4c25cc63ac845779f76202360f98694.html).
 
@@ -57,9 +53,9 @@ The following figure illustrates this procedure:
 
    
   
-<a name="loioe6d2bdb006734bd69e394379ff0dd956 loioe603c7411eb0483eaeda10fee8aacb5b__fig_t3t_kjs_yhb"/>Synchronized Deployment Through a CI/CD Pipeline
+<a name="loioe603c7411eb0483eaeda10fee8aacb5b__fig_t3t_kjs_yhb"/>Synchronized Deployment Through a CI/CD Pipeline
 
- ![Synchronized Deployment Through a CI/CD Pipeline](../images/CI_CD_Synchronization_6216d70.png "Synchronized Deployment Through a CI/CD Pipeline") 
+ ![Synchronized Deployment Through a CI/CD Pipeline](images/CI_CD_Synchronization_6216d70.png "Synchronized Deployment Through a CI/CD Pipeline") 
 
 > ### Recommendation:  
 > Use a pre-configured pipeline of project "Piper" and adapt it for multi-deployment to your two subaccounts in different data centers. For more information, see [project "Piper"](https://sap.github.io/jenkins-library/).
@@ -73,11 +69,11 @@ The following figure illustrates this procedure:
 
 [Blog - Continuous Delivery with Jenkins Pipelines](https://blogs.sap.com/2017/11/21/continuous-delivery-with-jenkins-pipelines/)
 
- <a name="loioe6d2bdb006734bd69e394379ff0dd956 loio8b3131f1b7504bc7b8a2e1e8b46f71f0__loio8b3131f1b7504bc7b8a2e1e8b46f71f0"/>
+ <a name="loio8b3131f1b7504bc7b8a2e1e8b46f71f0"/>
 
 <!-- loio8b3131f1b7504bc7b8a2e1e8b46f71f0 -->
 
-# Use the Solution Export Wizard and SAP Cloud Transport Management
+## Use the Solution Export Wizard and SAP Cloud Transport Management
 
 You can orchestrate your applications through a combination of the solution export wizard and the SAP Cloud Transport Management service.
 
@@ -108,9 +104,9 @@ The following figure illustrates this procedure:
 
    
   
-<a name="loioe6d2bdb006734bd69e394379ff0dd956 loio8b3131f1b7504bc7b8a2e1e8b46f71f0__fig_ob4_vjs_yhb"/>Synchronization Through Solution Export Wizard and Transport Management
+<a name="loio8b3131f1b7504bc7b8a2e1e8b46f71f0__fig_ob4_vjs_yhb"/>Synchronization Through Solution Export Wizard and Transport Management
 
- ![Synchronization Through Solution Export Wizard and Transport Management](../images/Solution_Export_Wizard_TMS_ccec825.png "Synchronization Through Solution Export Wizard and Transport
+ ![Synchronization Through Solution Export Wizard and Transport Management](images/Solution_Export_Wizard_TMS_ccec825.png "Synchronization Through Solution Export Wizard and Transport
 						Management") 
 
 > ### Note:  
@@ -124,9 +120,9 @@ The following figure illustrates this procedure:
 
 1.  In the cockpit, navigate to your subaccount in the Neo environment, in which your HTML5 application is deployed. See [Navigate to Global Accounts and Subaccounts in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html).
 
-2.  From the navigation pane, choose     *Solutions*.
+2.  From the navigation pane, choose <span class="SAP-icons"></span> *Solutions*.
 
-3.  To access the solution export wizard, choose     *Export*. For more information, see [Exporting Solutions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/14a0ff1480494bcd993674061fb4f505.html).
+3.  To access the solution export wizard, choose <span class="SAP-icons"></span> *Export*. For more information, see [Exporting Solutions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/14a0ff1480494bcd993674061fb4f505.html).
 
 4.  In the *Select Components* section of the *Solution Export Wizard* dialog, select the components of your HTML5 application you have changed.
 
@@ -137,11 +133,11 @@ The following figure illustrates this procedure:
 
 6.  In the cockpit, navigate to your subaccount in the Cloud Foundry environment. See [Navigate to Global Accounts and Subaccounts in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html).
 
-7.  From the navigation pane, choose     *Subscriptions*.
+7.  From the navigation pane, choose <span class="SAP-icons"></span> *Subscriptions*.
 
-8.  On the     *Transport Management Service* tile, choose *Go to Application*.
+8.  On the <span class="SAP-icons"></span> *Transport Management Service* tile, choose *Go to Application*.
 
-9.  From the navigation pane, choose     *Transport Nodes* and select the target node.
+9.  From the navigation pane, choose <span class="SAP-icons"></span> *Transport Nodes* and select the target node.
 
 10. In the *IMPORT QUEUE* tab, select the MTA archive you have exported with the help of the solution export wizard.
 

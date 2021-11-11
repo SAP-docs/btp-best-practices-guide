@@ -11,35 +11,35 @@ Destinations are required to consume a target remote service from an application
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Authentication Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Environment
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Internet Proxy
 
 
 
 </th>
-<th>
+<th valign="top">
 
 On-Premise Proxy
 
@@ -48,35 +48,35 @@ On-Premise Proxy
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 AppToAppSSO
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Used for application-to-application communication if the caller needs to propagate its logged-in user. Both applications must be deployed on SAP BTP.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Neo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
@@ -85,35 +85,35 @@ No
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 BasicAuthentication
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Used for destinations that refer to a service on the Internet or an on-premise system that requires basic authentication.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Neo and Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -122,35 +122,35 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ClientCertificateAuthentication
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Uses a technical user certificate to perform mutual transport layer security \(TLS\) authentication.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Neo and Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
@@ -159,35 +159,35 @@ No
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 NoAuthentication
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Used for destinations that refer to a service on the Internet or an on-premise system that doesn't require authentication.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Neo and Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -196,35 +196,35 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OAuth2SAMLBearerAssertion
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Enables applications to use SAML assertions to access OAuth-protected resources.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Neo and Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -236,35 +236,35 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 PrincipalPropagation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Forwards the identity of an on-demand user to the Cloud Connector, and from there to the back end of the relevant on-premise system.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Neo and Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -273,14 +273,14 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OAuth2ClientCredentials
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Used to request an access token from an OAuth authorization server, using the `client_credentials` grant.
 
@@ -289,21 +289,21 @@ The retrieved access token is cached and auto-renovated. When a token is about t
 
 
 </td>
-<td>
+<td valign="top">
 
 Neo and Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -315,14 +315,14 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OAuth2UserTokenExchange
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Using this authentication type, the destination service performs all the user token exchange steps automatically, which lets you simplify your application development.
 
@@ -331,21 +331,21 @@ This enables you to use a user token that you already have, in order to fetch a 
 
 
 </td>
-<td>
+<td valign="top">
 
 Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
@@ -354,35 +354,35 @@ No
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OAuth2Password
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Provides support for applications to use the OAuth password grant flow for consuming OAuth-protected resources.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
@@ -391,14 +391,14 @@ No
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OAuth2JWTBearer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 To allow an application to call another application, pass the user context, and fetch resources, the caller application must pass an access token. In this authorization flow, the initial user token is passed to the OAuth server as input data. This process is performed automatically by the destination service, which helps to simplify application development.
 
@@ -407,21 +407,21 @@ This enables you to use a user token that you already have, in order to fetch a 
 
 
 </td>
-<td>
+<td valign="top">
 
 Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
@@ -430,35 +430,35 @@ No
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAMLAssertion
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Retrieves a generated SAML assertion from the destination service.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Cloud Foundry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 

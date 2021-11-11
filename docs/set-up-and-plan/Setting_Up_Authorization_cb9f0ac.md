@@ -10,9 +10,11 @@ Users in an application require different authorizations because they work in di
 
     -   Technically, with a prerequisite of the passing of the group attribute in the SAML assertion, you can set up federated authorization with platform users configured with a custom IdP too.
 
+
 -   Provisioning by way of external tools like the Identity Provisioning service and the SAP Cloud Identity Access Governance service. Like federation, this is an automated process and maps the roles to the organizations. This method is also typical for large firms, especially in the production phase.
 
     -   With provisioning, you assign individual authorizations to a business role. For example, if you have a user who needs access to different systems, the automation makes sure to assign all the authorizations that are necessary to access all the connected systems.
+
 
 
 > ### Note:  
@@ -27,7 +29,7 @@ Use the decision tree below to determine how to set up authorization.
   
 <a name="loiocb9f0ac174a248c4bc7391e5bf5a0b1a__fig_sgf_zrw_42b"/>Setting Up Authorization
 
- ![](../images/sap_cp_lm_authorization_34cb489.png "Setting Up Authorization") 
+ ![](images/sap_cp_lm_authorization_34cb489.png "Setting Up Authorization") 
 
 In general, although you can use either identity federation or provisioning in development and testing accounts too, it makes sense to just use the manual authorization configuration.
 

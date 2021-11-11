@@ -6,7 +6,7 @@ In this scenario, the IT department creates separate Dev, Test, and Prod subacco
 
 With a separate account landscape per functional area, you can use multiple instances of the same SaaS subscription \(e.g. in case you need to keep data or user access separated\). For example, HR subaccounts would use an internal identity provider, whereas for public or external scenarios, an external identity provider could be used.
 
-![](../images/sap_cp_lm_account_model_scenarios_5_69892c5.png)
+![](images/sap_cp_lm_account_model_scenarios_5_69892c5.png)
 
 Using this account model, you can distribute the subaccount administration to several teams, which allows for easy scaling as the number of cloud projects grows while still having a manageable amount of maintenance and governance efforts \(unlike with account model 2\). If possible, consider assigning responsible colleagues to each group of three subaccounts, i.e. to each account landscape.
 

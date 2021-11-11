@@ -7,21 +7,21 @@ If you're new to SAP BTP, this checklist helps you ensure the implementation rea
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Step
 
 
 
 </th>
-<th>
+<th valign="top">
 
 More Information and Troubleshooting
 
@@ -30,21 +30,21 @@ More Information and Troubleshooting
 </th>
 </tr>
 <tr>
-<td rowspan="8">
+<td valign="top" rowspan="8">
 
 **Fulfill prerequisites**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1. Get familiar with the use cases SAP BTP covers with its service portfolio, understand basic platform concepts and your responsibilities throughout the implementation project.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Learning Journey: SAP BTP](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/HP_2.0/en-US/ec5aa55abb8c4970bc3b07efe2253cfb.html)
 
@@ -57,14 +57,14 @@ More Information and Troubleshooting
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2. Identify one or more initial development projects or a pilot project.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Use Cases on SAP BTP](https://www.sap.com/products/business-technology-platform/use-cases.htmll)
 
@@ -73,14 +73,14 @@ More Information and Troubleshooting
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 3. Decide which commercial model \(subscription- or consumption-based\) best suits your needs and sign contracts for SAP BTP.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Extension Suite](https://www.sap.com/products/extension-suite/pricing.html) and [Integration Suite](https://www.sap.com/products/integration-suite/pricing.html) pricing
 
@@ -89,14 +89,14 @@ More Information and Troubleshooting
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 4. Review Service Level Agreement.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [SAP BTP Service Description Guide](https://www.sap.com/about/agreements/policies/cloud-platform.html)
 
@@ -107,14 +107,14 @@ More Information and Troubleshooting
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 5. Receive onboarding e-mail with a link to the cockpit.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If you don't receive this email, for some reason, or have inadvertently deleted it, simply access your SAP BTP cockpit using the region-specific link [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html#loio350356d1dc314d3199dca15bd2ab9b0e "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:. SAP has activated your account prior to sending you this e-mail.
 
@@ -123,14 +123,14 @@ If you don't receive this email, for some reason, or have inadvertently deleted 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 6. Obtain a customer number \(required for support tickets\).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Check with your system administrator if you do not know your customer number.
 
@@ -139,14 +139,14 @@ Check with your system administrator if you do not know your customer number.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 7. If you use SAP ID Service, create SAP user IDs \(S-users\) for all technical users who need access to your SAP BTP accounts.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Contact a user administrator in your company. If you don't want to use SAP ID Service, configure your subaccounts to use a different identity provider.
 
@@ -158,14 +158,14 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 8. Build a Cloud Administration and a Cloud Development Team \(and optionally, a Cloud Center of Excellence\).
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Building Teams](../set-up-and-plan/Building_Teams_fdeddf2.md#loiofdeddf22a6964d86a199b9eb11c7075e) 
 
@@ -174,21 +174,21 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 </tr>
 <tr>
-<td rowspan="3">
+<td valign="top" rowspan="3">
 
 **Get started**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 9. Set up your account model.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Setting Up Your Account Model](../set-up-and-plan/Setting_Up_Your_Account_Model_2db81f4.md) 
 
@@ -197,14 +197,14 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 10. Set up your security model.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Setting Up Your Security and Compliance Model](../set-up-and-plan/Setting_Up_Your_Security_and_Compliance_Model_aaaad94.md) 
 
@@ -213,14 +213,14 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 11. Create an enrollment process for development projects.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Creating an Onboarding Process for Development Projects](../set-up-and-plan/Creating_an_Onboarding_Process_for_Development_Projects_4bd29a8.md) 
 
@@ -229,21 +229,21 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 </tr>
 <tr>
-<td rowspan="4">
+<td valign="top" rowspan="4">
 
 **Implement**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 12. Develop, integrate, deploy, and transport your application.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Develop and Build](../develop-and-build/Develop_and_Build_7e30686.md)
 
@@ -256,14 +256,14 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 13. Test and evaluate your application.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Integrate and Test](../integrate-and-test/Integrate_and_Test_84ddc25.md#loio84ddc25bf6024506b9c56fbbe4438169) 
 
@@ -272,14 +272,14 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14. Go live with your application.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Go Live and Monitor](../go-live-and-monitor/Go_Live_and_Monitor_b0ab4fb.md#loiob0ab4fb5cb914ee19923e4a8f020e868) 
 
@@ -288,14 +288,14 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 15. Make improvements to your application, or retire it if it's no longer needed.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  [Improve and Retire](../improve-and-retire/Improve_and_Retire_89ffeab.md#loio89ffeab7ea7742fd9a1ad2de4970b077) 
 

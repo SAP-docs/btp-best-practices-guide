@@ -6,17 +6,17 @@ Test and integrate your application with other solutions.
 
  
 
- <a name="loio84ddc25bf6024506b9c56fbbe4438169 loiof0cc091b8e154132a84b449bd19adb0b__loiof0cc091b8e154132a84b449bd19adb0b"/>
+ <a name="loiof0cc091b8e154132a84b449bd19adb0b"/>
 
 <!-- loiof0cc091b8e154132a84b449bd19adb0b -->
 
-# Integrating Your Application
+## Integrating Your Application
 
 SAP BTP offers various options for integrating your cloud application with other cloud and on-premise solutions.
 
 
 
-<a name="loio84ddc25bf6024506b9c56fbbe4438169 loiof0cc091b8e154132a84b449bd19adb0b__section_i4b_fd3_r2b"/>
+<a name="loiof0cc091b8e154132a84b449bd19adb0b__section_i4b_fd3_r2b"/>
 
 ## Cloud Connector
 
@@ -33,7 +33,7 @@ For more information, see [Cloud Connector](https://help.sap.com/viewer/cca91383
 
 
 
-<a name="loio84ddc25bf6024506b9c56fbbe4438169 loiof0cc091b8e154132a84b449bd19adb0b__section_yy5_4h3_r2b"/>
+<a name="loiof0cc091b8e154132a84b449bd19adb0b__section_yy5_4h3_r2b"/>
 
 ## SAP Cloud Integration
 
@@ -56,7 +56,7 @@ For more information, see [SAP Cloud Integration](https://help.sap.com/viewer/pr
 
 
 
-<a name="loio84ddc25bf6024506b9c56fbbe4438169 loiof0cc091b8e154132a84b449bd19adb0b__section_c1v_rc3_r2b"/>
+<a name="loiof0cc091b8e154132a84b449bd19adb0b__section_c1v_rc3_r2b"/>
 
 ## Cloud Integration Automation Service
 
@@ -73,17 +73,17 @@ If you're planning on integrating your SAP BTP application into a hybrid landsca
 
 [Blog Post: Cloud Integration Automation Service: Step-by-Step](https://blogs.sap.com/2018/06/08/cloud-integration-automation-service-step-by-step/)
 
- <a name="loio84ddc25bf6024506b9c56fbbe4438169 loio998fbbb1a53c4fbb888e9b14892b3c0c__loio998fbbb1a53c4fbb888e9b14892b3c0c"/>
+ <a name="loio998fbbb1a53c4fbb888e9b14892b3c0c"/>
 
 <!-- loio998fbbb1a53c4fbb888e9b14892b3c0c -->
 
-# Performing Integration Tests
+## Performing Integration Tests
 
 In contrast to unit tests that are performed locally on your development subaccount without any external dependencies in the develop and build phase, integration tests target the interplay of a complete system, spanning several single components and units potentially spread throughout a hybrid landscape. Integration tests verify that all building blocks work together, meet specified requirements, and fulfill the targeted business case. They should therefore then be executed on your test infrastructure or in your test subaccount after the integration into an existing landscape has taken place. This ensures that the interplay with backend functionalities is verified. In a CI/CD setup, note that such integration tests are part of the pipeline.
 
 
 
-<a name="loio84ddc25bf6024506b9c56fbbe4438169 loio998fbbb1a53c4fbb888e9b14892b3c0c__section_cfw_qtc_wgb"/>
+<a name="loio998fbbb1a53c4fbb888e9b14892b3c0c__section_cfw_qtc_wgb"/>
 
 ## Integration Tests for SAPUI5
 
@@ -91,7 +91,7 @@ One Page Acceptance Tests \(OPA5\) is an API for SAPUI5 controls. It hides async
 
 
 
-<a name="loio84ddc25bf6024506b9c56fbbe4438169 loio998fbbb1a53c4fbb888e9b14892b3c0c__section_fbq_ync_wgb"/>
+<a name="loio998fbbb1a53c4fbb888e9b14892b3c0c__section_fbq_ync_wgb"/>
 
 ## Integration Tests for Apps Written Using SAP Cloud SDK
 

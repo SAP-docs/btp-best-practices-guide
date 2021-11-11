@@ -25,16 +25,6 @@ The most important step in account model setup is to work out a concept that mee
 
 -   [Account Administration Using APIs](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/1c8db1483d914cd99047aac5280f61ea.html "SAP BTP provides REST APIs that enable you to perform administrative tasks on the global account, directory, and subaccount level, such as creating or updating subaccounts, monitoring usage information, managing access, and managing service resources.") :arrow_upper_right:
 
--   **[Using Subaccounts to Create a Staged Development Environment](Using_Subaccounts_to_Create_a_Staged_Development_Environment_74eb32e.md "The number of subaccounts you create, and for which purpose, depends on your organizational setup and your use case.")**  
-The number of subaccounts you create, and for which purpose, depends on your organizational setup and your use case.
--   **[Account Models with Subaccounts](Account_Models_with_Subaccounts_049d331.md "Account Models 1 - 5 show ways to structure your global account into subaccounts. Note that all of them are just examples. They are not
-		mutually exclusive and you can adapt them to your own needs.")**  
-Account Models 1 - 5 show ways to structure your global account into subaccounts. Note that all of them are just examples. They are not mutually exclusive and you can adapt them to your own needs.
--   **[Account Models With Directories and Subaccounts \[Feature Set B\]](Account_Models_With_Directories_and_Subaccounts_Feature_Set_B_b5a6b58.md#loiob5a6b58694784d0c9f4ff85f9b7336dd "With cloud management tools feature set
-                                    B, we are introducing a more flexible account structure with
-		directories and custom properties.")**  
-With cloud management tools feature set B, we are introducing a more flexible account structure with directories and custom properties.
-
 **Related Information**  
 
 

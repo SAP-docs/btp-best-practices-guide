@@ -9,21 +9,21 @@ You can implement the authentication methods that are available on SAP BTP on th
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Authentication Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Default Options
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -32,21 +32,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 FORM or SAML2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Trusted SAML 2.0 identity provider with application-to-application SSO
 
 
 
 </td>
-<td>
+<td valign="top">
 
 FORM authentication implemented through the Security Assertion Markup Language \(SAML\) 2.0 protocol. Authentication is delegated to the SAP ID service or a custom identity provider.
 
@@ -55,21 +55,21 @@ FORM authentication implemented through the Security Assertion Markup Language \
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 BASIC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 User name and password
 
 
 
 </td>
-<td>
+<td valign="top">
 
 HTTP basic authentication delegated to the SAP ID service or to an on-premise SAP NetWeaver AS Java system. Web browsers prompt users to enter a user name and password. By default, the SAP ID service is used.
 
@@ -78,21 +78,21 @@ HTTP basic authentication delegated to the SAP ID service or to an on-premise SA
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CERT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Client certificate
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Used for authentication only with client certificate.
 
@@ -101,21 +101,21 @@ Used for authentication only with client certificate.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 BASICCERT
 
 
 
 </td>
-<td>
+<td valign="top">
 
 User name and password client certificate
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Used for authentication either with a client certificate or with user name and password.
 
@@ -124,21 +124,21 @@ Used for authentication either with a client certificate or with user name and p
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OAUTH
 
 
 
 </td>
-<td>
+<td valign="top">
 
 OAuth 2.0 token
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Authentication according to the OAuth 2.0 protocol with an OAuth access token.
 
@@ -147,21 +147,21 @@ Authentication according to the OAuth 2.0 protocol with an OAuth access token.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OpenID-Connect \(OIDC\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 OIDC token
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A simple identity layer on top of the OAuth 2.0 protocol that allows clients to verify the identity of the end user based on the authentication performed by an identity provider, as well as to obtain basic profile information about the user.
 

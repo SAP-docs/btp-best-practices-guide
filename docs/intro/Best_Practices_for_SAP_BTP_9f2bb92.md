@@ -44,7 +44,7 @@ Plan and set up your landscape to manage the lifecycle of your cloud application
 
 
 
-![](../images/sap_cp_lm_cycle_3177b14.png)
+![](images/sap_cp_lm_cycle_3177b14.png)
 
 -   [Improve and Retire](../improve-and-retire/Improve_and_Retire_89ffeab.md#loio89ffeab7ea7742fd9a1ad2de4970b077)
 -   [Set Up and Plan](../set-up-and-plan/Set_Up_and_Plan_75e5031.md)

@@ -9,7 +9,7 @@ In this scenario, the IT department of an organization creates a staged developm
 
 Dedicated spaces for specific applications or projects are created in each of the subaccounts in the Cloud Foundry environment.
 
- ![](../images/sap_cp_lm_account_model_scenarios_4_74c7980.png) 
+ ![](images/sap_cp_lm_account_model_scenarios_4_74c7980.png) 
 
 If you need to deploy an application to a space within the Cloud Foundry environment, you can use SAP Web IDE Full-Stack, which runs in a subaccount in the Neo environment. In this case, we recommend that you create three subaccounts in the Cloud Foundry environment to separate the three different development stages. In addition, create one subaccount in the Neo environment that you use for developing using the SAP Web IDE Full-Stack. You can connect that subaccount with your Development and Testing subaccounts in the Cloud Foundry environment by configuring trust and destinations.
 
@@ -19,7 +19,7 @@ If you need to deploy an application to a space within the Cloud Foundry environ
 **Related Information**  
 
 
-<?sap-ot O2O class="- topic/link " href="f70fcf1c2d0a4a979adfe44cebc93c20.xml" text="" desc="" xtrc="link:1" xtrf="file:/d:/dita/ekd1631521642269/src/cms/content/localization/en-US/d109515c5f364cf4be167690f93ec079.xml" ?>
+<?sap-ot O2O class="- topic/link " href="f70fcf1c2d0a4a979adfe44cebc93c20.xml" text="" desc="" xtrc="link:1" xtrf="file:/c:/dita/edd1633942192239/src/cms/content/localization/en-US/d109515c5f364cf4be167690f93ec079.xml" ?>
 
 [Configure Trust](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/f96e4c5930a94d1ba117e05a3f3c30fc.html)
 

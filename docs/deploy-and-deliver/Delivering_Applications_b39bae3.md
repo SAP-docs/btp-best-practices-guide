@@ -7,42 +7,42 @@ There are several options for propagating developed applications from one subacc
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Delivery Option \(Tool Support and Automation Decreasing from Top to Bottom\)
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Development content \(such as Java, HTML5, SAP HANA XSA\)
 
 
 
 </th>
-<th>
+<th valign="top">
 
 SAP Integration packages
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Other app-specific content
 
 
 
 </th>
-<th>
+<th valign="top">
 
 SAP HANA XS
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Portal Site
 
@@ -51,42 +51,42 @@ Portal Site
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CI/CD
 
 
 
 </td>
-<td>
+<td valign="top">
 
 recommended
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
 
 
 </td>
-<td>
+<td valign="top">
 
 recommended for SAP HANA XSA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 partly possible
 
@@ -95,42 +95,42 @@ partly possible
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Transport Management service with the option to integrate into Change Management \(ChaRM or QGM of SAP Solution Manager\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 recommended, but only possible as MTA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 recommended, but only possible as MTA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 recommended
 
 
 
 </td>
-<td>
+<td valign="top">
 
 recommended
 
 
 
 </td>
-<td>
+<td valign="top">
 
 recommended, but only possible as MTA
 
@@ -139,42 +139,42 @@ recommended, but only possible as MTA
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 CTS+ with the option to integrate into Change Management \(ChaRM or QGM of SAP Solution Manager\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 recommended, but only possible as MTA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 recommended, but only possible as MTA
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
 
 
 </td>
-<td>
+<td valign="top">
 
 recommended
 
 
 
 </td>
-<td>
+<td valign="top">
 
 recommended, but only possible as MTA
 
@@ -183,42 +183,42 @@ recommended, but only possible as MTA
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 SAP HANA Application Lifecycle Management
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
 
 
 </td>
-<td>
+<td valign="top">
 
 recommended for SAP HANA XSC
 
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
@@ -227,42 +227,42 @@ n/a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Manually
 
 
 
 </td>
-<td>
+<td valign="top">
 
 possible
 
 
 
 </td>
-<td>
+<td valign="top">
 
 possible
 
 
 
 </td>
-<td>
+<td valign="top">
 
 recommended, but with app-specific procedures
 
 
 
 </td>
-<td>
+<td valign="top">
 
 possible
 
 
 
 </td>
-<td>
+<td valign="top">
 
 possible
 
@@ -281,28 +281,28 @@ possible
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     CI/CD Solution
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Required Expertise in CI/CD
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Level of Flexibility
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Infrastructure
 
@@ -311,28 +311,28 @@ possible
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      **[SAP Continuous Integration and Delivery](https://help.sap.com/viewer/product/CONTINUOUS_DELIVERY/Cloud/en-US)** 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Low
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Low
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     SAP Continuous Integration and Delivery is ready to use and doesn’t need a separate CI/CD infrastructure.
 
@@ -341,28 +341,28 @@ possible
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      **[Project "Piper"](https://sap.github.io/jenkins-library/)** 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Medium
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Medium
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Project "Piper" requires Jenkins as underlying CI/CD infrastructure. If you don’t have a Jenkins instance, yet, use the Cx Server to bootstrap a preconfigured one. See [Getting Started with Project "Piper"](http://help.sap.com/disclaimer?site=https://sap.github.io/jenkins-library/guidedtour/).
 
@@ -371,28 +371,28 @@ possible
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      **[Continuous Integration and Delivery Best Practices Guide](https://help.sap.com/viewer/3324745951b44b578bd65221d2ff8f9a/Cloud/en-US)** 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     High
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     High
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     The CI/CD Best Practices guide requires an existing infrastructure on any CI/CD stack.
 
@@ -409,6 +409,7 @@ possible
     -   Maven project archetypes for rapidly creating a new SAP S/4HANA extension application along best practices
     -   A preconfigured Jenkins CI and CD server that is managed via easy-to-use lifecycle scripts and Docker images
     -   A ready-to-use pipeline for building, testing, quality checking, and deploying applications that have been created from the SAP Cloud SDK archetypes without writing any pipeline code
+
     For more information, see [SAP Cloud SDK](https://developers.sap.com/topics/s4hana-cloud-sdk.html).
 
 -   If you want to have more control, especially when propagating changes towards your production environment, consider the following transport management options:
@@ -425,6 +426,7 @@ possible
         With this approach, you can set up synchronized transports in hybrid scenarios \(involving both on-premise ABAP content and SAP BTP content\). For more information, see [Interplay of SAP Transport Management, CTS+ and ChaRM in hybrid landscapes](https://blogs.sap.com/2020/01/31/interplay-of-sap-cloud-platform-transport-management-cts-and-charm-in-hybrid-landscapes/).
 
         Combine CI/CD with transport management \(either in the form of SAP BTP Transport Management service or CTS+\), to gain more control over the delivery of release candidates towards your production environment and at the same time benefit from the agility CI/CD brings to your development. For more information, see [How to integrate SAP Transport Management into your CI/CD pipeline](https://blogs.sap.com/2019/08/20/how-to-integrate-sap-cloud-platform-transport-management-into-your-cicd-pipeline/). It is also possible to combine CI/CD, CTS+, Transport Management and SAP Solution Manager Change Management.
+
 
 -   **Deploy applications manually** from your IDE to different subaccounts. Import or export your application using the SAP BTP cockpit, or use the Console Client for the Neo environment or the Cloud Foundry command line interface to deploy your application.
 

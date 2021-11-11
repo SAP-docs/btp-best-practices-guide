@@ -9,7 +9,7 @@ The number of subaccounts you create, and for which purpose, depends on your org
 
 
 
-![](../images/sap_cp_lm_account_model_scenarios_1_e6e2d62.png)
+![](images/sap_cp_lm_account_model_scenarios_1_e6e2d62.png)
 
 -   Development – for development purposes and for testing individual increments in the cloud.
 -   Testing – for integration testing and testing in production-like environment prior to making it publicly available, to ensure quality delivery. In highly DevOps-driven companies, this subaccount is also used for production applications, as testing occurs in the development subaccount.
@@ -70,28 +70,28 @@ You can use both subaccounts and spaces to develop applications and to use servi
 -   Accurate billing is only possible for global accounts. For the consumption-based model, you can calculate costs according to usage, but note that this is only approximate. See [Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "In a global account that uses the consumption-based commercial model, you can monitor the usage of billed services and your consumption costs in the SAP BTP cockpit.") :arrow_upper_right:.
 
 
-![](../images/sap_cp_lm_account_model_scenarios_1_cf_17b88f0.png)
+![](images/sap_cp_lm_account_model_scenarios_1_cf_17b88f0.png)
 
 To decide whether to create separate subaccounts or separate spaces within the same subaccount, consider the different configuration possibilities, available for subaccounts and spaces:
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Configuration
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Subaccount
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Space
 
@@ -100,21 +100,21 @@ Space
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Configure your own group of business users
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
@@ -123,21 +123,21 @@ No
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Configure a Cloud Connector tunnel
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
@@ -146,21 +146,21 @@ No
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Configure roles and trust
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
@@ -169,21 +169,21 @@ No
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Assign quotas
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes \(mandatory\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 

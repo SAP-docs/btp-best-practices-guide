@@ -15,7 +15,7 @@ The following graphic shows the basic flow for continuous integration:
   
 Continuous Integration Basic Flow
 
- ![Continuous Integration Basic Flow](../images/Continuous_Integration_Basic_Flow_87a814e.png "Continuous Integration Basic Flow") 
+ ![Continuous Integration Basic Flow](images/Continuous_Integration_Basic_Flow_87a814e.png "Continuous Integration Basic Flow") 
 
 The **continuous delivery \(CD\)** concept expands on the one of continuous integration. It adds the aspect that any change that has successfully passed the tests is immediately ready to be deployed to production, both from a technical and a qualitative point of view.
 
@@ -42,6 +42,7 @@ At the moment, SAP offers three different solutions that help you apply CI/CD in
     -   A [shared library](https://github.com/SAP/jenkins-library), which contains the description of steps, scenarios, and utilities required to use Jenkins pipelines
 
     -   A [set of Docker images](https://github.com/SAP/devops-docker-images) that can be used to implement best practice processes
+
 
 -   **[Continuous Integration and Delivery Best Practices Guide](https://help.sap.com/viewer/3324745951b44b578bd65221d2ff8f9a/Cloud/en-US)**
 

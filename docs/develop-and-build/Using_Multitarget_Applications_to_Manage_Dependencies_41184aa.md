@@ -21,7 +21,7 @@ The multitarget application archive contains all required application types and 
 
 As all interdependencies are part of the archive file, it's easy to pass multitarget applications from development to operations. All required information for deployment is provided during the development process. Due to the benefits provided by applying the multitarget application approach, it is also part of the SAP Cloud Application Programming Model.
 
-![](../images/sap_cp_lm_mta_926ef9d.png)
+![](images/sap_cp_lm_mta_926ef9d.png)
 
 > ### Recommendation:  
 > The approach isn't mandatory for applications that are running on SAP BTP – you can also develop without applying it. Without the multitarget application approach, you'll need to manually deploy your application artifacts, for example by triggering the deployment from SAP Web IDE or manually uploading artifacts via SAP BTP cockpit.
@@ -44,7 +44,4 @@ There are several options to create multitarget application archives:
 
 -   If you have solutions already deployed in the Neo environment, you can use the solution export wizard, as offered in the Solutions view of the SAP BTP cockpit. The wizard lets you select existing components \(considering interdependencies automatically\) and offers to download the multitarget application archive \(not supported for archives comprising Java modules\) or descriptor files, or to integrate the changes into transport management processes \(see [Deploy and Deliver](../deploy-and-deliver/Deploy_and_Deliver_5972cdb.md)\). Applications, configuration content, such as destinations, roles, and security groups are supported. For more information, see [Exporting Solutions](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/14a0ff1480494bcd993674061fb4f505.html "") :arrow_upper_right: on SAP Help Portal.
 
-
--   **[Establishing a Provider/Subscriber Scenario Using Multitenancy](Establishing_a_ProviderSubscriber_Scenario_Using_Multitenancy_617af9b.md "The provider/subscriber approach is one of the important scenarios that that are supported with multitarget application.")**  
-The provider/subscriber approach is one of the important scenarios that that are supported with multitarget application.
 

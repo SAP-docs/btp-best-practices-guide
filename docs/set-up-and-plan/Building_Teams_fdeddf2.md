@@ -4,11 +4,11 @@
 
 We recommend that you set up two types of teams: **Cloud Development Teams**, who build and operate applications, and a central **Cloud Administration Team / Center of Excellence**, who is responsible for any account operations, the build infrastructure, for defining central governance and compliance guidelines, and for driving cloud adoption throughout your organization.
 
- <a name="loiofdeddf22a6964d86a199b9eb11c7075e loiof36d159b91004ebda56faf35c2ebd90d__loiof36d159b91004ebda56faf35c2ebd90d"/>
+ <a name="loiof36d159b91004ebda56faf35c2ebd90d"/>
 
 <!-- loiof36d159b91004ebda56faf35c2ebd90d -->
 
-# Cloud Administration Team / Center of Excellence
+## Cloud Administration Team / Center of Excellence
 
 The Cloud Administration Team defines, sets up, and maintains your cloud landscape.
 
@@ -27,11 +27,11 @@ We recommend that the Cloud Administration Team / Center of Excellence \(CoE\) c
 -   [Services Catalog](Creating_an_Onboarding_Process_for_Development_Projects_4bd29a8.md#loio4bd29a8a49c84727aeb81a8f60e74ea0__section_services_catalog)
 
 
- <a name="loiofdeddf22a6964d86a199b9eb11c7075e loio4157200ef2644243aa74ae2770df1d94__loio4157200ef2644243aa74ae2770df1d94"/>
+ <a name="loio4157200ef2644243aa74ae2770df1d94"/>
 
 <!-- loio4157200ef2644243aa74ae2770df1d94 -->
 
-# Cloud Development Teams
+## Cloud Development Teams
 
 The Cloud Development Teams are responsible for developing and operating the applications that run on SAP BTP.
 

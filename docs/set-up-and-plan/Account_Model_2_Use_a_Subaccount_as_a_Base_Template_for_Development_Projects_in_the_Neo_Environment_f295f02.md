@@ -11,5 +11,5 @@ This account setup is especially well suited for organizations that rely heavily
 > ### Note:  
 > This account setup might require a high level of maintenance and governance efforts. For instance, it is important that the responsible teams of each project landscape stay tightly aligned. Since each team has full access to their subaccounts, it is important to define and follow guidelines for all projects, such as security requirements, access guidelines, governance processes, and so on.
 
- ![](../images/sap_cp_lm_account_model_scenarios_3_2b0de68.png) 
+ ![](images/sap_cp_lm_account_model_scenarios_3_2b0de68.png) 
 

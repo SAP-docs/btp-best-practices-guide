@@ -58,21 +58,21 @@ Here are some examples of custom properties:
 > 
 > The below-mentioned account models for feature set B work for all environments. A subaccount with feature set B can either be a multi-environment subaccount where Cloud Foundry, Kyma, ABAP can be enabled, or it can be a Neo environment subaccount. For the account structure, there's no difference. Inside a subaccount, you can further structure your projects depending on the environment, for example by creating Cloud Foundry spaces.
 
- <a name="loiob5a6b58694784d0c9f4ff85f9b7336dd loio9a100731c3f649e7a50a2f9c2c1af5fa__loio9a100731c3f649e7a50a2f9c2c1af5fa"/>
+ <a name="loio9a100731c3f649e7a50a2f9c2c1af5fa"/>
 
 <!-- loio9a100731c3f649e7a50a2f9c2c1af5fa -->
 
-# Account Model 6: Create Directories Per Functional Area
+## Account Model 6: Create Directories Per Functional Area
 
 This account model is based on Account Model 5 for feature set A, but it has directories as additional structural elements, i.e. a separate directory for each functional area and one for central services that are used by all.
 
 Within each of those directories, three subaccounts \(for development, test, and production\) are created. For each directory, the functional area can use their own identity provider and manage their entitlements. Additionally, you can make use of custom properties, for example for the person responsible, cost center, or other aspects that you need for reportings later on.
 
-![](../images/plm_account_model_6_1f0bc9e.png)
+![](images/plm_account_model_6_1f0bc9e.png)
 
 
 
-<a name="loiob5a6b58694784d0c9f4ff85f9b7336dd loio9a100731c3f649e7a50a2f9c2c1af5fa__section_nxz_bxz_knb"/>
+<a name="loio9a100731c3f649e7a50a2f9c2c1af5fa__section_nxz_bxz_knb"/>
 
 ## Example of naming conventions for this account model in the Cloud Foundry environment
 
@@ -81,28 +81,28 @@ To ensure that there are no conflicts with special characters, we recommend to s
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 Directory
 
 
 
 </td>
-<td colspan="3">
+<td valign="top" colspan="3">
 
 mycompany-hr
 
 
 
 </td>
-<td colspan="3">
+<td valign="top" colspan="3">
 
 my-company-sales
 
 
 
 </td>
-<td colspan="3">
+<td valign="top" colspan="3">
 
 my-company-IT
 
@@ -111,70 +111,70 @@ my-company-IT
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Subaccounts and subdomains
 
 
 
 </td>
-<td>
+<td valign="top">
 
 mycompany-hr-dev
 
 
 
 </td>
-<td>
+<td valign="top">
 
 my-company-hr-test
 
 
 
 </td>
-<td>
+<td valign="top">
 
 my-company-hr-prod
 
 
 
 </td>
-<td>
+<td valign="top">
 
 my-company-sales-dev
 
 
 
 </td>
-<td>
+<td valign="top">
 
 my-company-sales-test
 
 
 
 </td>
-<td>
+<td valign="top">
 
 my-company-sales-prod
 
 
 
 </td>
-<td>
+<td valign="top">
 
 my-company-IT-dev
 
 
 
 </td>
-<td>
+<td valign="top">
 
 my-company-IT-test
 
 
 
 </td>
-<td>
+<td valign="top">
 
 my-company-IT-prod
 
@@ -183,70 +183,70 @@ my-company-IT-prod
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cloud Foundry Orgs \(same name as subaccounts\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 mycompany-hr-dev
 
 
 
 </td>
-<td>
+<td valign="top">
 
 my-company-hr-test
 
 
 
 </td>
-<td>
+<td valign="top">
 
 my-company-hr-prod
 
 
 
 </td>
-<td>
+<td valign="top">
 
 my-company-sales-dev
 
 
 
 </td>
-<td>
+<td valign="top">
 
 my-company-sales-test
 
 
 
 </td>
-<td>
+<td valign="top">
 
 my-company-sales-prod
 
 
 
 </td>
-<td>
+<td valign="top">
 
 my-company-IT-dev
 
 
 
 </td>
-<td>
+<td valign="top">
 
 my-company-IT-test
 
 
 
 </td>
-<td>
+<td valign="top">
 
 my-company-IT-prod
 
@@ -255,14 +255,14 @@ my-company-IT-prod
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Spaces
 
 
 
 </td>
-<td>
+<td valign="top">
 
 project-portal
 
@@ -271,7 +271,7 @@ activity-recording
 
 
 </td>
-<td>
+<td valign="top">
 
 project-portal
 
@@ -280,7 +280,7 @@ activity-recording
 
 
 </td>
-<td>
+<td valign="top">
 
 project-portal
 
@@ -289,7 +289,7 @@ activity-recording
 
 
 </td>
-<td>
+<td valign="top">
 
 customer-acquisition
 
@@ -298,7 +298,7 @@ sales-support
 
 
 </td>
-<td>
+<td valign="top">
 
 customer-acquisition
 
@@ -307,7 +307,7 @@ sales-support
 
 
 </td>
-<td>
+<td valign="top">
 
 customer-acquisition
 
@@ -316,7 +316,7 @@ sales-support
 
 
 </td>
-<td>
+<td valign="top">
 
 it-support
 
@@ -325,7 +325,7 @@ central-service
 
 
 </td>
-<td>
+<td valign="top">
 
 it-support
 
@@ -334,7 +334,7 @@ central-service
 
 
 </td>
-<td>
+<td valign="top">
 
 it-support
 
@@ -351,45 +351,45 @@ central-service
 
 [Account Model 5: Create a Staged Development Environment Per Functional Area](Account_Model_5_Create_a_Staged_Development_Environment_Per_Functional_Area_8f57535.md "In this scenario, the IT department creates separate Dev, Test, and Prod subaccounts for each functional area: In our example, HR, IT, and Sales each get their own subaccounts for development, test, and production.")
 
- <a name="loiob5a6b58694784d0c9f4ff85f9b7336dd loiodd78c89de7b04ae4a2147edd7a811187__loiodd78c89de7b04ae4a2147edd7a811187"/>
+ <a name="loiodd78c89de7b04ae4a2147edd7a811187"/>
 
 <!-- loiodd78c89de7b04ae4a2147edd7a811187 -->
 
-# Account Model 7: Create Directories Per Location
+## Account Model 7: Create Directories Per Location
 
 In this account model, you create different directories for geographical areas. Additionally, for example, you can create custom properties for subaccounts that belong to the same departments in those locations.
 
-![](../images/Account_model_8_c81ad78.png)
+![](images/Account_model_8_c81ad78.png)
 
- <a name="loiob5a6b58694784d0c9f4ff85f9b7336dd loio4f6e239aa7c0485eb4a255a5101cf1f5__loio4f6e239aa7c0485eb4a255a5101cf1f5"/>
+ <a name="loio4f6e239aa7c0485eb4a255a5101cf1f5"/>
 
 <!-- loio4f6e239aa7c0485eb4a255a5101cf1f5 -->
 
-# Account Model 8: Create Directories Per Subsidiary
+## Account Model 8: Create Directories Per Subsidiary
 
 In this account model, you create directories for each subsidiary of your company. Additionally, you can create custom properties, for example, for cost centers or owners of the individual subaccounts or directories.
 
-![](../images/account_model_9_c8d8507.png)
+![](images/account_model_9_c8d8507.png)
 
- <a name="loiob5a6b58694784d0c9f4ff85f9b7336dd loio7f1c318292934e088e5cd119271f0b1e__loio7f1c318292934e088e5cd119271f0b1e"/>
+ <a name="loio7f1c318292934e088e5cd119271f0b1e"/>
 
 <!-- loio7f1c318292934e088e5cd119271f0b1e -->
 
-# Checklist for the Account Model Setup
+## Checklist for the Account Model Setup
 
 Independent of the account model you choose, we recommend to go through the following steps and define guidelines for your development teams.
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Task
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Step
 
@@ -398,14 +398,14 @@ Step
 </th>
 </tr>
 <tr>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 **Fulfill prerequisites**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1. Evaluate your business and technical needs and define an account model that fits the requirements of your company.
 
@@ -416,7 +416,7 @@ Ensure that the account model is suitable for all areas in your company.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2. Define account hierarchy and guidelines and roll them out to a few pilot project managers to get their feedback.
 
@@ -425,14 +425,14 @@ Ensure that the account model is suitable for all areas in your company.
 </td>
 </tr>
 <tr>
-<td rowspan="4">
+<td valign="top" rowspan="4">
 
 **Define account standards and rules**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 3. Create a template for new directories. See below.
 
@@ -441,7 +441,7 @@ Ensure that the account model is suitable for all areas in your company.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 4. Define naming conventions, for example:
 
@@ -459,7 +459,7 @@ Ensure that the account model is suitable for all areas in your company.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 5. Define custom properties and values according to the reports you want to create.
 
@@ -468,7 +468,7 @@ Ensure that the account model is suitable for all areas in your company.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 6. Define rules for quota limitations.
 
@@ -480,7 +480,7 @@ Ensure that the account model is suitable for all areas in your company.
 
 
 
-<a name="loiob5a6b58694784d0c9f4ff85f9b7336dd loio7f1c318292934e088e5cd119271f0b1e__section_jsr_1zf_gnb"/>
+<a name="loio7f1c318292934e088e5cd119271f0b1e__section_jsr_1zf_gnb"/>
 
 ## Template for New Directories
 
@@ -489,7 +489,7 @@ We recommend that you create a process for the creation of new directories. Here
 
 <table>
 <tr>
-<th colspan="2">
+<th valign="top" colspan="2">
 
 New Directory
 
@@ -498,14 +498,14 @@ New Directory
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Refer to your naming guidelines.
 
@@ -514,14 +514,14 @@ Refer to your naming guidelines.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Owners
 
 
 
 </td>
-<td>
+<td valign="top">
 
 We recommend to appoint at least two owners.
 
@@ -530,14 +530,14 @@ We recommend to appoint at least two owners.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Description
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Describe the developer audience, which LoB or department do they belong to, what types of applications will be developed, which environments should be used, subscriptions that will be used.
 
@@ -546,14 +546,14 @@ Describe the developer audience, which LoB or department do they belong to, what
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cost center
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Define accounting requirements.
 
@@ -562,14 +562,14 @@ Define accounting requirements.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Enrollment
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Describe how projects can enroll in your directory.
 

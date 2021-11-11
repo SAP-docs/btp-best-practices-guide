@@ -4,11 +4,11 @@
 
 Once your application has gone live, we recommend that you continually ensure its quality. If you determine that you no longer need it, you should retire it.
 
- <a name="loio89ffeab7ea7742fd9a1ad2de4970b077 loio069ff72db3624ea3ba06582ad65e3996__loio069ff72db3624ea3ba06582ad65e3996"/>
+ <a name="loio069ff72db3624ea3ba06582ad65e3996"/>
 
 <!-- loio069ff72db3624ea3ba06582ad65e3996 -->
 
-# Improving and Maintaining Your Application
+## Improving and Maintaining Your Application
 
 Once an application has gone live, the Cloud Development Team is responsible for housekeeping and ongoing improvements.
 
@@ -29,22 +29,23 @@ The team should:
     -   In the Cloud Foundry environment, consider using the Feature Flag service that lets you enable or disable specific features in a production solution, for testing purposes, without having to redeploy or restart the solution.
 
 
+
 > ### Recommendation:  
 > To stay up to date, we recommend that you regularly check the [Release Notes](https://help.sap.com/doc/43b304f99a8145809c78f292bfc0bc58/Cloud/en-US/98bf747111574187a7c76f8ced51cfeb.html) and the [SAP Community](https://www.sap.com/community/topic/cloud-platform.html).
 
- <a name="loio89ffeab7ea7742fd9a1ad2de4970b077 loio06deb3339dfa4b91aa8ed99a3018303d__loio06deb3339dfa4b91aa8ed99a3018303d"/>
+ <a name="loio06deb3339dfa4b91aa8ed99a3018303d"/>
 
 <!-- loio06deb3339dfa4b91aa8ed99a3018303d -->
 
-# Retiring Your Application
+## Retiring Your Application
 
 If your application is no longer needed, the Cloud Administration and the Cloud Development Teams should ensure that it is properly retired, and that all data retention requirements are met.
 
- <a name="loio89ffeab7ea7742fd9a1ad2de4970b077 loio13cbe434ce0a48bca14f1112f3db52b7__loio13cbe434ce0a48bca14f1112f3db52b7"/>
+ <a name="loio13cbe434ce0a48bca14f1112f3db52b7"/>
 
 <!-- loio13cbe434ce0a48bca14f1112f3db52b7 -->
 
-# Migrating from Neo to Multi-Cloud
+## Migrating from Neo to Multi-Cloud
 
 SAP is integrating more closely with hyperscalers, such as Amazon Web Services, Google Cloud Platforrm, and Microsoft Azure. If you are currently running secnarios in our Neo enviroment, please have a look at our migration guide for moving from Neo to the multi-cloud foundation.
 

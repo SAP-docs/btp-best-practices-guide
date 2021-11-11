@@ -10,11 +10,11 @@ The decision trees below for the SAP BTP Neo and Cloud Foundry environments migh
   
 <a name="loio12cf719d12164c559b7324ee114b4733__fig_h3x_1sw_42b"/>Setting Up Identity Propagation: Neo Environment
 
- ![](../images/sap_cp_lm_propagation_6df8bc7.png "Setting Up Identity Propagation: Neo Environment") 
+ ![](images/sap_cp_lm_propagation_6df8bc7.png "Setting Up Identity Propagation: Neo Environment") 
 
    
   
-<a name="loio12cf719d12164c559b7324ee114b4733__fig_o1h_dps_mpb"/>![](../images/Setting_Up_Identity_Propagation_CF_Environment_8f0b8c5.png)Setting Up Identity Propagation: Cloud Foundry Environment
+<a name="loio12cf719d12164c559b7324ee114b4733__fig_o1h_dps_mpb"/>![](images/Setting_Up_Identity_Propagation_CF_Environment_8f0b8c5.png)Setting Up Identity Propagation: Cloud Foundry Environment
 
  
 

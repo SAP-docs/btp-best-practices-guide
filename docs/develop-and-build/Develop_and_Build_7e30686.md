@@ -30,25 +30,3 @@ SAP provides the following official guidelines:
 
 -   [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design/)
 
--   **[Programming Models, Programming Languages, Tools, and APIs](Programming_Models,_Programming_Languages,_Tools,_and_APIs_70bbcb4.md "SAP BTP provides
-		various programming languages and tools for your development project. ")**  
-SAP BTP provides various programming languages and tools for your development project.
--   **[Using Multitarget Applications to Manage Dependencies](Using_Multitarget_Applications_to_Manage_Dependencies_41184aa.md "One challenge of moving into the cloud is deploying applications that consist of multiple interconnected components. We recommend that you
-		develop multitarget applications that let you package those components into one bundle, and deploy and manage them all at once.")**  
-One challenge of moving into the cloud is deploying applications that consist of multiple interconnected components. We recommend that you develop multitarget applications that let you package those components into one bundle, and deploy and manage them all at once.
--   **[Add Authentication and Authorization](Add_Authentication_and_Authorization_6612008.md "As part of application development, developers create a role template during design time, which consists of scopes and attributes. Once
-		the application is deployed, an administrator can create a role from this role template, which can then be assigned to a role
-		collection.")**  
-As part of application development, developers create a role template during design time, which consists of scopes and attributes. Once the application is deployed, an administrator can create a role from this role template, which can then be assigned to a role collection.
--   **[Develop Resilient Applications](Develop_Resilient_Applications_b1b929a.md "Our best practices about resilient application design help you to make your applications running on SAP BTP stable and highly available.")**  
-Our best practices about resilient application design help you to make your applications running on SAP BTP stable and highly available.
--   **[Extending Existing SAP Solutions Using SAP BTP](Extending_Existing_SAP_Solutions_Using_SAP_BTP_40aa232.md "SAP BTP offers
-		services, tools, and capabilities to develop, extend, or integrate business applications in
-		the cloud. You can implement additional workflows or modules on top of existing solutions,
-		which lets you benefit from out-of-the-box security, inherited data access governance, user
-		interface embedding, and so on.")**  
-SAP BTP offers services, tools, and capabilities to develop, extend, or integrate business applications in the cloud. You can implement additional workflows or modules on top of existing solutions, which lets you benefit from out-of-the-box security, inherited data access governance, user interface embedding, and so on.
--   **[Performing UI, Usability, and Unit Tests](Performing_UI,_Usability,_and_Unit_Tests_50a7c7d.md "You should always conduct careful testing to ensure that your application is of high
-		quality. Create a release candidate to propagate throughout your landscape.")**  
-You should always conduct careful testing to ensure that your application is of high quality. Create a release candidate to propagate throughout your landscape.
-
