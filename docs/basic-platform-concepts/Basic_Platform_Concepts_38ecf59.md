@@ -242,7 +242,7 @@ A **global account** is the realization of a contract you made with SAP.
 
 
 
-A global account is used to manage subaccounts, members, entitlements and quotas. You receive entitlements and quotas to use platform resources per global account and then distribute the entitlements and quotas to the subaccount for actual consumption. There are two types of global accounts: enterprise accounts \(paid\) and trial accounts \(free\). The type determines pricing, conditions of use, resources, available services, scope of the functionality that you can use, and the level of support you can receive.
+A global account is used to manage subaccounts, members, entitlements and quotas. You receive entitlements and quotas to use platform resources per global account and then distribute the entitlements and quotas to the subaccount for actual consumption. There are two types of global accounts: enterprise accounts \(paid, unless you only use free tier service plans\) and trial accounts \(free\). The type determines pricing, conditions of use, resources, available services, scope of the functionality that you can use, and the level of support you can receive.
 
 Global accounts are region- and environment-independent. Within a global account, you manage all of your subaccounts, which in turn are specific to one region.
 
