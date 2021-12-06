@@ -9,5 +9,5 @@ Once your global account is migrated to cloud management tools, feature set B, y
 **Related Information**  
 
 
-[Account Models With Directories and Subaccounts \[Feature Set B\]](Account_Models_With_Directories_and_Subaccounts_Feature_Set_B_b5a6b58.md#loiob5a6b58694784d0c9f4ff85f9b7336dd "With cloud management tools feature set B, we are introducing a more flexible account structure with directories and custom properties.")
+[Account Models With Directories and Subaccounts \[Feature Set B\]](Account_Models_With_Directories_and_Subaccounts_Feature_Set_B_b5a6b58.md#loiob5a6b58694784d0c9f4ff85f9b7336dd "With cloud management tools feature set B, we're introducing a more flexible account structure with directories.")
 

@@ -253,7 +253,7 @@ SaaS applications are usually displayed in a separate global account.
 
 
 > ### Note:  
-> The following features, **directories** and **custom properties**, are only available if your global account is on feature set B and there is no equivalent in feature set A. For more information, see [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:.
+> The following features, **directories** and **labels**, are only available if your global account is on feature set B. For more information, see [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:.
 
 
 
@@ -273,9 +273,7 @@ Directories allow you to:
 
 -   Group and filter directories and subaccounts
 
--   Monitor usage and, for contracts that use the consumption-based model, cost
-
--   Set custom properties and tags for identification and reporting purposes
+-   Monitor usage and costs for contracts that use the consumption-based commercial model
 
 
 In addition, you can also add the following features to your directories \(optional\):
@@ -291,20 +289,11 @@ In addition, you can also add the following features to your directories \(optio
 
 <a name="loio730bdd6a9a6b46c4ae3c5bce3bea8e5c__section_kv3_whb_gnb"/>
 
-## Custom Properties
+## Labels
 
-Custom properties allow you to label or tag your directories and subaccounts according to your own business and technical needs. This makes organizing and filtering your directories and subaccounts easier within your global account.
+Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily. They let you organize and filter your directories, subaccounts, instances and subscriptions within your global account.
 
-Each custom property has a name \(also referred to as a key\) and typically one or more values that are associated with the property. You can also assign a custom property to a directory or subaccount without giving a specific value. When no value is given, the custom property behaves like a tag. Here are some examples of custom properties:
-
-Consider the following when working with custom properties:
-
--   Directories do not share their custom properties with subaccounts, and vice versa. However, when you view the custom properties of a subaccount, it also shows the custom properties assigned to its parent directory, if one exists.
-
--   When you create a custom property or assign a new value to a property in a directory, they become available for use across all the directories in your global account. The same applies to subaccounts.
-
-
-In the *Directories* and *Subaccounts* pages in the cockpit, you can filter the displayed directories and subaccounts by their assigned custom properties. This gives you the option to easily create reports based on them.
+For more information, see [Labels [Feature Set B]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.") :arrow_upper_right:.
 
 
 

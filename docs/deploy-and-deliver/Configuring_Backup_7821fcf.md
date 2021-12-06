@@ -100,6 +100,8 @@ Different configurations can be backed up, depending on your specific service. H
 -   **SAP Alert Notification service for SAP BTP**: You can back up your subscriptions, conditions, and actions. For more information, see [Exporting or Importing Configurations](https://help.sap.com/viewer/5967a369d4b74f7a9c2b91f5df8e6ab6/Cloud/en-US/771da5b383ee4722afc4eb1f58aa4648.html).
 
 
+If your service has configurations that can be backed up, you can find more details in the **Administration** section of your service documentation. This section provides links to detailed instructions on how to back up and restore your configurations.
+
 
 
 <a name="loio9de0caa8abe34f4897e5b727868019c0__section_h4l_4bm_r4b"/>
