@@ -31,11 +31,11 @@ If you're **new to SAP BTP**:
 
 -   SAP BTP is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly. It is a vital part of the transition to the Intelligent Enterprise. The application development and integration capabilities of SAP BTP enable you to develop new applications, extend existing ones, and are at the center of integration scenarios. For more information about the Intelligent Enterprise, see [https://www.sap.com/products/intelligent-enterprise.html](https://www.sap.com/products/intelligent-enterprise.html)
 
--   [Basic Platform Concepts](../basic-platform-concepts/Basic_Platform_Concepts_38ecf59.md#loio38ecf59cdda64150a102cfaa62d5faab) – regions, environments, accounts, members, quotas, capabilities and links to in-depth explanations.
+-   [Basic Platform Concepts](../basic-platform-concepts/basic-platform-concepts-38ecf59.md#loio38ecf59cdda64150a102cfaa62d5faab) – regions, environments, accounts, members, quotas, capabilities and links to in-depth explanations.
 
--   [Shared Responsibility Model Between You and SAP](../shared-responsibility/Shared_Responsibility_Model_Between_You_and_SAP_898509d.md) – your responsibilities and SAP's responsibilities when it comes to application lifecycle management.
+-   [Shared Responsibility Model Between You and SAP](../shared-responsibility/shared-responsibility-model-between-you-and-sap-898509d.md) – your responsibilities and SAP's responsibilities when it comes to application lifecycle management.
 
--   [Getting Started Checklist](../getting-started-checklist/Getting_Started_Checklist_cbd7663.md) – prerequisites and steps to help you get started with your development project.
+-   [Getting Started Checklist](../getting-started-checklist/getting-started-checklist-cbd7663.md) – prerequisites and steps to help you get started with your development project.
 
 
 If you're **familiar with SAP BTP**:
@@ -46,19 +46,19 @@ Plan and set up your landscape to manage the lifecycle of your cloud application
 
 ![](images/sap_cp_lm_cycle_3177b14.png)
 
--   [Improve and Retire](../improve-and-retire/Improve_and_Retire_89ffeab.md#loio89ffeab7ea7742fd9a1ad2de4970b077)
--   [Set Up and Plan](../set-up-and-plan/Set_Up_and_Plan_75e5031.md)
--   [Develop and Build](../develop-and-build/Develop_and_Build_7e30686.md)
--   [Deploy and Deliver](../deploy-and-deliver/Deploy_and_Deliver_5972cdb.md)
--   [Integrate and Test](../integrate-and-test/Integrate_and_Test_84ddc25.md#loio84ddc25bf6024506b9c56fbbe4438169)
--   [Go Live and Monitor](../go-live-and-monitor/Go_Live_and_Monitor_b0ab4fb.md#loiob0ab4fb5cb914ee19923e4a8f020e868)
+-   [Improve and Retire](../improve-and-retire/improve-and-retire-89ffeab.md#loio89ffeab7ea7742fd9a1ad2de4970b077)
+-   [Set Up and Plan](../set-up-and-plan/set-up-and-plan-75e5031.md)
+-   [Develop and Build](../develop-and-build/develop-and-build-7e30686.md)
+-   [Deploy and Deliver](../deploy-and-deliver/deploy-and-deliver-5972cdb.md)
+-   [Integrate and Test](../integrate-and-test/integrate-and-test-84ddc25.md#loio84ddc25bf6024506b9c56fbbe4438169)
+-   [Go Live and Monitor](../go-live-and-monitor/go-live-and-monitor-b0ab4fb.md#loiob0ab4fb5cb914ee19923e4a8f020e868)
 
-1.  **[Set Up and Plan](../set-up-and-plan/Set_Up_and_Plan_75e5031.md)** – build teams, set up your account and security model, and create an enrollment process for your development projects.
-2.  **[Develop and Build](../develop-and-build/Develop_and_Build_7e30686.md)** – find out about the tools and programming languages that are available on SAP BTP, and how to use multitarget applications to efficiently manage dependencies.
-3.  **[Deploy and Deliver](../deploy-and-deliver/Deploy_and_Deliver_5972cdb.md)** – deploy and deliver simple and multitarget applications.
-4.  **[Integrate and Test](../integrate-and-test/Integrate_and_Test_84ddc25.md#loio84ddc25bf6024506b9c56fbbe4438169)** – test and integrate your application with other solutions.
-5.  **[Go Live and Monitor](../go-live-and-monitor/Go_Live_and_Monitor_b0ab4fb.md#loiob0ab4fb5cb914ee19923e4a8f020e868)** – learn what's important for going live and monitoring applications, services, and hybrid landscapes.
-6.  **[Improve and Retire](../improve-and-retire/Improve_and_Retire_89ffeab.md#loio89ffeab7ea7742fd9a1ad2de4970b077)** – make improvements to your application, perform housekeeping, and learn about what's important to consider when you want to retire it.
+1.  **[Set Up and Plan](../set-up-and-plan/set-up-and-plan-75e5031.md)** – build teams, set up your account and security model, and create an enrollment process for your development projects.
+2.  **[Develop and Build](../develop-and-build/develop-and-build-7e30686.md)** – find out about the tools and programming languages that are available on SAP BTP, and how to use multitarget applications to efficiently manage dependencies.
+3.  **[Deploy and Deliver](../deploy-and-deliver/deploy-and-deliver-5972cdb.md)** – deploy and deliver simple and multitarget applications.
+4.  **[Integrate and Test](../integrate-and-test/integrate-and-test-84ddc25.md#loio84ddc25bf6024506b9c56fbbe4438169)** – test and integrate your application with other solutions.
+5.  **[Go Live and Monitor](../go-live-and-monitor/go-live-and-monitor-b0ab4fb.md#loiob0ab4fb5cb914ee19923e4a8f020e868)** – learn what's important for going live and monitoring applications, services, and hybrid landscapes.
+6.  **[Improve and Retire](../improve-and-retire/improve-and-retire-89ffeab.md#loio89ffeab7ea7742fd9a1ad2de4970b077)** – make improvements to your application, perform housekeeping, and learn about what's important to consider when you want to retire it.
 
 
 

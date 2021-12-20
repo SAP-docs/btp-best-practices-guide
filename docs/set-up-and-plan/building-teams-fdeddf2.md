@@ -20,11 +20,11 @@ The Cloud Administration Team can also operate as a Center of Excellence \(CoE\)
 
 We recommend that the Cloud Administration Team / Center of Excellence \(CoE\) create the following documents:
 
--   [Onboarding Document](Creating_an_Onboarding_Process_for_Development_Projects_4bd29a8.md#loio4bd29a8a49c84727aeb81a8f60e74ea0__section_onboarding_doc)
+-   [Onboarding Document](creating-an-onboarding-process-for-development-projects-4bd29a8.md#loio4bd29a8a49c84727aeb81a8f60e74ea0__section_onboarding_doc)
 
--   [Security Document](Creating_an_Onboarding_Process_for_Development_Projects_4bd29a8.md#loio4bd29a8a49c84727aeb81a8f60e74ea0__section_security_doc)
+-   [Security Document](creating-an-onboarding-process-for-development-projects-4bd29a8.md#loio4bd29a8a49c84727aeb81a8f60e74ea0__section_security_doc)
 
--   [Services Catalog](Creating_an_Onboarding_Process_for_Development_Projects_4bd29a8.md#loio4bd29a8a49c84727aeb81a8f60e74ea0__section_services_catalog)
+-   [Services Catalog](creating-an-onboarding-process-for-development-projects-4bd29a8.md#loio4bd29a8a49c84727aeb81a8f60e74ea0__section_services_catalog)
 
 
  <a name="loio4157200ef2644243aa74ae2770df1d94"/>

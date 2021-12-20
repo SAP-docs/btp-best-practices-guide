@@ -99,6 +99,8 @@ Different configurations can be backed up, depending on your specific service. H
 
 -   **SAP Alert Notification service for SAP BTP**: You can back up your subscriptions, conditions, and actions. For more information, see [Exporting or Importing Configurations](https://help.sap.com/viewer/5967a369d4b74f7a9c2b91f5df8e6ab6/Cloud/en-US/771da5b383ee4722afc4eb1f58aa4648.html).
 
+-   **Identity Provisioning service**: You can back up your systems. For more information, see [Export and Import Systems](https://help.sap.com/viewer/f48e822d6d484fa5ade7dda78b64d9f5/Cloud/en-US/1de7de0ae29444f397d22c062b7f1216.html).
+
 
 If your service has configurations that can be backed up, you can find more details in the **Administration** section of your service documentation. This section provides links to detailed instructions on how to back up and restore your configurations.
 
@@ -113,8 +115,6 @@ There's no backup for user-specific configurations available for the following s
 -   **SAP HTML5 Application Repository service for SAP BTP**
 
 -   **Identity Authentication service**
-
--   **Identity Provisioning service**
 
 -   **SAP Credential Store service**
 

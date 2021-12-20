@@ -109,7 +109,7 @@ Subaccount
 </tr>
 </table>
 
-For more information, see [Account Model](Basic_Platform_Concepts_38ecf59.md#loio730bdd6a9a6b46c4ae3c5bce3bea8e5c) and [Setting Up Your Account Model](../set-up-and-plan/Setting_Up_Your_Account_Model_2db81f4.md).
+For more information, see [Account Model](basic-platform-concepts-38ecf59.md#loio730bdd6a9a6b46c4ae3c5bce3bea8e5c) and [Setting Up Your Account Model](../set-up-and-plan/setting-up-your-account-model-2db81f4.md).
 
  <a name="loioabaaf083a6574edc8ad30d9cd9a062f3"/>
 
@@ -121,7 +121,7 @@ You can deploy applications in different **regions**. Each region represents a g
 
 ![](images/Regions_85986d3.png)
 
-Regions are provided either by SAP or by our Infrastructure-as-a-Service \(IaaS\) partners Amazon Web Services \(AWS\), Microsoft Azure, Google Cloud Platform \(GCP\), and Alibaba Cloud. The third-party region providers operate the infrastructure layer of the regions, whereas SAP operates the platform layer and Cloud Foundry. 
+Regions are provided either by SAP or by our Infrastructure-as-a-Service \(IaaS\) partners Amazon Web Services \(AWS\), Microsoft Azure, Google Cloud, and Alibaba Cloud. The third-party region providers operate the infrastructure layer of the regions, whereas SAP operates the platform layer and Cloud Foundry. 
 
 A region is chosen at the subaccount level. For each subaccount, you select exactly one region \(that is one data center\).
 
@@ -335,7 +335,7 @@ For more information, see
 
 -   [Managing Subaccounts Using the Cockpit](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/55d0b6d8b96846b8ae93b85194df0944.html "Learn how to structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements by managing subaccounts.") :arrow_upper_right:
 
--   [Setting Up Your Account Model](../set-up-and-plan/Setting_Up_Your_Account_Model_2db81f4.md)[Setting Up Your Account Model](../set-up-and-plan/Setting_Up_Your_Account_Model_2db81f4.md)
+-   [Setting Up Your Account Model](../set-up-and-plan/setting-up-your-account-model-2db81f4.md)[Setting Up Your Account Model](../set-up-and-plan/setting-up-your-account-model-2db81f4.md)
 
 
  <a name="loioc9c9dd2686354c67939bbc20d541f597"/>

@@ -13,11 +13,11 @@ Make sure that you transfer changes on one of your applications to the one in th
 
 There are three different ways to synchronize your applications in the primary and the secondary data center:
 
--   Orchestrate your applications manually. See [Synchronize Your Applications Manually](Keep_the_Two_Applications_in_Sync_e6d2bdb.md#loio5606f91c66b44354bd99cce0a0b9da5d).
+-   Orchestrate your applications manually. See [Synchronize Your Applications Manually](keep-the-two-applications-in-sync-e6d2bdb.md#loio5606f91c66b44354bd99cce0a0b9da5d).
 
--   Orchestrate your applications with the help of a continuous integration and delivery pipeline. See [Use a Continuous Integration and Delivery Pipeline](Keep_the_Two_Applications_in_Sync_e6d2bdb.md#loioe603c7411eb0483eaeda10fee8aacb5b).
+-   Orchestrate your applications with the help of a continuous integration and delivery pipeline. See [Use a Continuous Integration and Delivery Pipeline](keep-the-two-applications-in-sync-e6d2bdb.md#loioe603c7411eb0483eaeda10fee8aacb5b).
 
--   Orchestrate your applications through a combination of the Solution Export Wizard and the SAP Cloud Transport Management service. See [Use the Solution Export Wizard and SAP Cloud Transport Management](Keep_the_Two_Applications_in_Sync_e6d2bdb.md#loio8b3131f1b7504bc7b8a2e1e8b46f71f0).
+-   Orchestrate your applications through a combination of the Solution Export Wizard and the SAP Cloud Transport Management service. See [Use the Solution Export Wizard and SAP Cloud Transport Management](keep-the-two-applications-in-sync-e6d2bdb.md#loio8b3131f1b7504bc7b8a2e1e8b46f71f0).
 
 
  <a name="loio5606f91c66b44354bd99cce0a0b9da5d"/>

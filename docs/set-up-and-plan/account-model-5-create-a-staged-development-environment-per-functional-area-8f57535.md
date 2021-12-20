@@ -19,5 +19,5 @@ In the Cloud Foundry environment, if you use a central Fiori Launchpad, and you 
 **Related Information**  
 
 
-[When to Use Which Account Model](When_to_Use_Which_Account_Model_e4b4b5f.md "Determine which account model with subaccounts is the most appropriate for your needs.")
+[When to Use Which Account Model](when-to-use-which-account-model-e4b4b5f.md "Determine which account model with subaccounts is the most appropriate for your needs.")
 

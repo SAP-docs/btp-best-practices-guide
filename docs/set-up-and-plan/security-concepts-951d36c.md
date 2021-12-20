@@ -42,9 +42,9 @@ Subaccounts get their users from identity providers. Administrators ensure that 
 
 See the following for more information about security best practices:
 
--   [Setting Up Authentication](Setting_Up_Authentication_1dbce9c.md)
--   [Setting Up Authorization](Setting_Up_Authorization_cb9f0ac.md)
--   [Setting Up Identity Propagation](Setting_Up_Identity_Propagation_12cf719.md)
+-   [Setting Up Authentication](setting-up-authentication-1dbce9c.md)
+-   [Setting Up Authorization](setting-up-authorization-cb9f0ac.md)
+-   [Setting Up Identity Propagation](setting-up-identity-propagation-12cf719.md)
 
 
 
@@ -60,7 +60,7 @@ See the following for more information about security best practices:
 
 -   [Protection from Web Attacks](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/52750a8f86bb428ca224daa4312d122e.html "To protect your applications from different kind of web attacks, Neo environment provides mechanisms for you to use with your applications.") :arrow_upper_right:
 
--   [Giving Access Rights to Platform Users](Giving_Access_Rights_to_Platform_Users_a03d08e.md)
+-   [Giving Access Rights to Platform Users](giving-access-rights-to-platform-users-a03d08e.md)
 -   [Data Protection and Privacy](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7e513d31704a4a87831191e504ca850a.html "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.") :arrow_upper_right:
 
 

@@ -19,11 +19,11 @@ If you need to deploy an application to a space within the Cloud Foundry environ
 **Related Information**  
 
 
-<?sap-ot O2O class="- topic/link " href="f70fcf1c2d0a4a979adfe44cebc93c20.xml" text="" desc="" xtrc="link:1" xtrf="file:/c:/dita/dvu1636362056355/src/cms/content/localization/en-US/d109515c5f364cf4be167690f93ec079.xml" ?>
+[Principal Propagation](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/f70fcf1c2d0a4a979adfe44cebc93c20.html "Exchange user ID information between systems or environments in SAP BTP.") :arrow_upper_right:
 
 [Configure Trust](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/f96e4c5930a94d1ba117e05a3f3c30fc.html)
 
 [Configure Destinations from the Cockpit](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/60735ad11d8a488c83537cdcfb257135.html)
 
-[When to Use Which Account Model](When_to_Use_Which_Account_Model_e4b4b5f.md "Determine which account model with subaccounts is the most appropriate for your needs.")
+[When to Use Which Account Model](when-to-use-which-account-model-e4b4b5f.md "Determine which account model with subaccounts is the most appropriate for your needs.")
 

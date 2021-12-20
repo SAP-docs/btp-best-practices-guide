@@ -38,7 +38,7 @@ The most important step in account model setup is to work out a concept that mee
 
 [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:
 
-[Account Models with Subaccounts](Account_Models_with_Subaccounts_049d331.md "Account Models 1 - 5 show ways to structure your global account into subaccounts. Note that all of them are just examples. They are not mutually exclusive and you can adapt them to your own needs.")
+[Account Models with Subaccounts](account-models-with-subaccounts-049d331.md "Account Models 1 - 5 show ways to structure your global account into subaccounts. Note that all of them are just examples. They are not mutually exclusive and you can adapt them to your own needs.")
 
-[Account Models With Directories and Subaccounts \[Feature Set B\]](Account_Models_With_Directories_and_Subaccounts_Feature_Set_B_b5a6b58.md#loiob5a6b58694784d0c9f4ff85f9b7336dd "With cloud management tools feature set B, we're introducing a more flexible account structure with directories.")
+[Account Models With Directories and Subaccounts \[Feature Set B\]](account-models-with-directories-and-subaccounts-feature-set-b-b5a6b58.md#loiob5a6b58694784d0c9f4ff85f9b7336dd "With cloud management tools feature set B, we're introducing a more flexible account structure with directories.")
 

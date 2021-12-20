@@ -40,6 +40,6 @@ SAP Web IDE empowers developers to test and evaluate the functionality and perfo
 
 -   Execute unit tests for SAPUI5 \(Qunit\) and Java \(JUnit\). See [Developing Application Tests](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/3655fba62f884e84a774c6030eeeab49.html) and [Test a Java Module](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/25cd7ef4cb8b4e03aaa60ab197cf51b1.html).
 
--   Execute SAPUI5 integration tests based on OPA5. See [Performing Integration Tests](../integrate-and-test/Integrate_and_Test_84ddc25.md#loio998fbbb1a53c4fbb888e9b14892b3c0c).
+-   Execute SAPUI5 integration tests based on OPA5. See [Performing Integration Tests](../integrate-and-test/integrate-and-test-84ddc25.md#loio998fbbb1a53c4fbb888e9b14892b3c0c).
 
 

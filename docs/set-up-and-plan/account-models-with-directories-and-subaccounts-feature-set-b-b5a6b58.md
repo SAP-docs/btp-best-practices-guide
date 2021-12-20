@@ -13,7 +13,7 @@ With cloud management tools feature set B, we're introducing a more flexible acc
 
 ## Directories
 
-Apart from structuring your global account into several subaccounts, you can group individual subaccounts into directories to manage, operate, and analyze such groups of subaccounts together. One global account can contain up to five levels of directories, can contain n subaccounts each. All examples of using directories are based on [Using Subaccounts to Create a Staged Development Environment](Using_Subaccounts_to_Create_a_Staged_Development_Environment_74eb32e.md) and only use one level of directories.
+Apart from structuring your global account into several subaccounts, you can group individual subaccounts into directories to manage, operate, and analyze such groups of subaccounts together. One global account can contain up to five levels of directories, can contain n subaccounts each. All examples of using directories are based on [Using Subaccounts to Create a Staged Development Environment](using-subaccounts-to-create-a-staged-development-environment-74eb32e.md) and only use one level of directories.
 
 Here are a few example use cases where directories help you manage your subaccounts:
 
@@ -354,7 +354,7 @@ central-service
 **Related Information**  
 
 
-[Account Model 5: Create a Staged Development Environment Per Functional Area](Account_Model_5_Create_a_Staged_Development_Environment_Per_Functional_Area_8f57535.md "In this scenario, the IT department creates separate Dev, Test, and Prod subaccounts for each functional area: In our example, HR, IT, and Sales each get their own subaccounts for development, test, and production.")
+[Account Model 5: Create a Staged Development Environment Per Functional Area](account-model-5-create-a-staged-development-environment-per-functional-area-8f57535.md "In this scenario, the IT department creates separate Dev, Test, and Prod subaccounts for each functional area: In our example, HR, IT, and Sales each get their own subaccounts for development, test, and production.")
 
  <a name="loiodd78c89de7b04ae4a2147edd7a811187"/>
 

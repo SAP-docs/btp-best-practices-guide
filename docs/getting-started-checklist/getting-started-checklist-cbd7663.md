@@ -48,9 +48,9 @@ More Information and Troubleshooting
 
 [Learning Journey: SAP BTP](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/HP_2.0/en-US/ec5aa55abb8c4970bc3b07efe2253cfb.html)
 
-[Basic Platform Concepts](../basic-platform-concepts/Basic_Platform_Concepts_38ecf59.md#loio38ecf59cdda64150a102cfaa62d5faab)
+[Basic Platform Concepts](../basic-platform-concepts/basic-platform-concepts-38ecf59.md#loio38ecf59cdda64150a102cfaa62d5faab)
 
-[Shared Responsibility Model Between You and SAP](../shared-responsibility/Shared_Responsibility_Model_Between_You_and_SAP_898509d.md)
+[Shared Responsibility Model Between You and SAP](../shared-responsibility/shared-responsibility-model-between-you-and-sap-898509d.md)
 
 
 
@@ -167,7 +167,7 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 <td valign="top">
 
- [Building Teams](../set-up-and-plan/Building_Teams_fdeddf2.md#loiofdeddf22a6964d86a199b9eb11c7075e) 
+ [Building Teams](../set-up-and-plan/building-teams-fdeddf2.md#loiofdeddf22a6964d86a199b9eb11c7075e) 
 
 
 
@@ -190,7 +190,7 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 <td valign="top">
 
- [Setting Up Your Account Model](../set-up-and-plan/Setting_Up_Your_Account_Model_2db81f4.md) 
+ [Setting Up Your Account Model](../set-up-and-plan/setting-up-your-account-model-2db81f4.md) 
 
 
 
@@ -206,7 +206,7 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 <td valign="top">
 
- [Setting Up Your Security and Compliance Model](../set-up-and-plan/Setting_Up_Your_Security_and_Compliance_Model_aaaad94.md) 
+ [Setting Up Your Security and Compliance Model](../set-up-and-plan/setting-up-your-security-and-compliance-model-aaaad94.md) 
 
 
 
@@ -222,7 +222,7 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 <td valign="top">
 
- [Creating an Onboarding Process for Development Projects](../set-up-and-plan/Creating_an_Onboarding_Process_for_Development_Projects_4bd29a8.md) 
+ [Creating an Onboarding Process for Development Projects](../set-up-and-plan/creating-an-onboarding-process-for-development-projects-4bd29a8.md) 
 
 
 
@@ -245,11 +245,11 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 <td valign="top">
 
-[Develop and Build](../develop-and-build/Develop_and_Build_7e30686.md)
+[Develop and Build](../develop-and-build/develop-and-build-7e30686.md)
 
-[Developing with the SAP Cloud Application Programming Model](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00823f91779d4d42aa29a498e0535cdf.html "The SAP Cloud Application Programming Model (CAP) is a framework of languages, libraries, and tools for building enterprise-grade services and applications. It guides developers along a ‘golden path’ of proven best practices and a great wealth of out-of-the-box solutions to recurring tasks.") :arrow_upper_right:
+[Developing with the SAP Cloud Application Programming Model](https://help.sap.com/viewer/6cdb9cff1d9b4877b9da90e5020a32d2//en-US/00823f91779d4d42aa29a498e0535cdf.html "The SAP Cloud Application Programming Model (CAP) is a framework of languages, libraries, and tools for building enterprise-grade services and applications. It guides developers along a ‘golden path’ of proven best practices and a great wealth of out-of-the-box solutions to recurring tasks.") :arrow_upper_right:
 
-[Deploy and Deliver](../deploy-and-deliver/Deploy_and_Deliver_5972cdb.md)
+[Deploy and Deliver](../deploy-and-deliver/deploy-and-deliver-5972cdb.md)
 
 
 
@@ -265,7 +265,7 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 <td valign="top">
 
- [Integrate and Test](../integrate-and-test/Integrate_and_Test_84ddc25.md#loio84ddc25bf6024506b9c56fbbe4438169) 
+ [Integrate and Test](../integrate-and-test/integrate-and-test-84ddc25.md#loio84ddc25bf6024506b9c56fbbe4438169) 
 
 
 
@@ -281,7 +281,7 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 <td valign="top">
 
- [Go Live and Monitor](../go-live-and-monitor/Go_Live_and_Monitor_b0ab4fb.md#loiob0ab4fb5cb914ee19923e4a8f020e868) 
+ [Go Live and Monitor](../go-live-and-monitor/go-live-and-monitor-b0ab4fb.md#loiob0ab4fb5cb914ee19923e4a8f020e868) 
 
 
 
@@ -297,7 +297,7 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 <td valign="top">
 
- [Improve and Retire](../improve-and-retire/Improve_and_Retire_89ffeab.md#loio89ffeab7ea7742fd9a1ad2de4970b077) 
+ [Improve and Retire](../improve-and-retire/improve-and-retire-89ffeab.md#loio89ffeab7ea7742fd9a1ad2de4970b077) 
 
 
 

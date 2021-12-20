@@ -24,7 +24,7 @@ The number of subaccounts you create, and for which purpose, depends on your org
 Although we recommend that you use subaccounts to create a staged development environment, you can also create subaccounts to do the following:
 
 > ### Note:  
-> If your global account is on feature set B, you can use directories to further structure your global account. See [Account Models With Directories and Subaccounts \[Feature Set B\]](Account_Models_With_Directories_and_Subaccounts_Feature_Set_B_b5a6b58.md#loiob5a6b58694784d0c9f4ff85f9b7336dd).
+> If your global account is on feature set B, you can use directories to further structure your global account. See [Account Models With Directories and Subaccounts \[Feature Set B\]](account-models-with-directories-and-subaccounts-feature-set-b-b5a6b58.md#loiob5a6b58694784d0c9f4ff85f9b7336dd).
 
 -   Separate development scenarios and projects to allow for easier configuration, for example, with regard to access restrictions.
 
@@ -203,6 +203,6 @@ See [Create Spaces](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b
 
 Consider the following account scenarios for creating your own account model:
 
--   [Account Models with Subaccounts](Account_Models_with_Subaccounts_049d331.md)
--   [Account Models With Directories and Subaccounts \[Feature Set B\]](Account_Models_With_Directories_and_Subaccounts_Feature_Set_B_b5a6b58.md#loiob5a6b58694784d0c9f4ff85f9b7336dd)
+-   [Account Models with Subaccounts](account-models-with-subaccounts-049d331.md)
+-   [Account Models With Directories and Subaccounts \[Feature Set B\]](account-models-with-directories-and-subaccounts-feature-set-b-b5a6b58.md#loiob5a6b58694784d0c9f4ff85f9b7336dd)
 
