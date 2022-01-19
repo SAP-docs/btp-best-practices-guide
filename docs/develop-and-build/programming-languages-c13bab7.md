@@ -32,7 +32,7 @@ More Information
 </td>
 <td valign="top">
 
-See [Development in the Cloud Foundry Environment](https://help.sap.com/viewer/6cdb9cff1d9b4877b9da90e5020a32d2//en-US/40a8f8f6f1724e0ca0fd2a8777f45504.html "Learn more about developing applications on the SAP BTP, Cloud Foundry environment.") :arrow_upper_right: 
+See [Development in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/40a8f8f6f1724e0ca0fd2a8777f45504.html "Learn more about developing applications on the SAP BTP, Cloud Foundry environment.") :arrow_upper_right: 
 
 
 

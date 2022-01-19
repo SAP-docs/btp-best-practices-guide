@@ -2,7 +2,7 @@
 
 # Establishing a Provider/Subscriber Scenario Using Multitenancy
 
-The provider/subscriber approach is one of the important scenarios that that are supported with multitarget application.
+The provider/subscriber approach is one of the important scenarios that are supported with multitarget application.
 
 SAP BTP allows you to develop and run multitenant \(tenant-aware\) applications. These applications, which must apply the multitarget application approach, run on a shared compute unit that can be used by multiple consumers \(tenants\). Each consumer accesses the application through a dedicated URL.
 
@@ -16,6 +16,6 @@ For more information, see the following:
 
 -   [Developing Multitenant Applications in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/54a76156cd114e5d928642b8dde47b91.html "In the Neo environment of SAP BTP, you can develop and run multitenant (tenant-aware) applications. These applications run on a shared compute unit that can be used by multiple consumers (tenants). Each consumer accesses the application through a dedicated URL.") :arrow_upper_right:
 
--   [Developing Multitenant Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/6cdb9cff1d9b4877b9da90e5020a32d2//en-US/5e8a2b74e4f2442b8257c850ed912f48.html "In the Cloud Foundry environment, you can develop and run multitenant applications, and share them with multiple consumers simultaneously on SAP BTP.") :arrow_upper_right:
+-   [Developing Multitenant Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5e8a2b74e4f2442b8257c850ed912f48.html "In the Cloud Foundry environment, you can develop and run multitenant applications, and share them with multiple consumers simultaneously on SAP BTP.") :arrow_upper_right:
 
 

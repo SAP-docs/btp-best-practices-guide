@@ -68,3 +68,8 @@ Depending on your failover setup, a failback to the primary data center is eithe
 
 For more information, see [Decide on the Failback](../deploy-and-deliver/decide-on-the-failback-963f962.md).
 
+**Related Information**  
+
+
+[Develop Resilient Applications](../develop-and-build/develop-resilient-applications-b1b929a.md "Our best practices about resilient application design help you to make your applications running on SAP BTP stable and highly available.")
+

@@ -32,7 +32,7 @@ For more information about availability zones, see [Availability Zones in the Cl
 
 See also:
 
--   [Resilience, High Availability, and Disaster Recovery](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html#loioe3ac4f7c25a3442ca585950095eec599 "SAP has a number of processes in place to support resilience in SAP BTP, and provides different offerings so that you can support the high availability of your applications.") :arrow_upper_right: \(Cloud Foundry, ABAP and Kyma Environments\)
+-   [Resilience, High Availability, and Disaster Recovery](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e3ac4f7c25a3442ca585950095eec599.html#loioe3ac4f7c25a3442ca585950095eec599 "SAP has a number of processes in place to support resilience in SAP BTP, and provides different offerings so that you can support the high availability of your applications.") :arrow_upper_right: \(Cloud Foundry, ABAP and Kyma Environments\)
 
 -   [Resilience, High Availability, and Disaster Recovery](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/84dd155500224fe4a7f161d48ee226a9.html "SAP has a number of processes in place to support resilience in SAP BTP, and provides different offerings so that you can support the high availability of your applications.") :arrow_upper_right: \(Neo Environment\)
 
