@@ -89,11 +89,3 @@ In contrast to unit tests that are performed locally on your development subacco
 
 One Page Acceptance Tests \(OPA5\) is an API for SAPUI5 controls. It hides asynchronicity and eases access to SAPUI5 elements. This makes OPA especially helpful for testing user interactions, integration with SAPUI5, navigation, and data binding. See [Integration Testing with One Page Acceptance Tests \(OPA5\)](https://help.sap.com/doc/saphelp_uiaddon20/2.05/en-US/7c/dee404cac441888539ed7bfe076e57/frameset.htm).
 
-
-
-<a name="loio998fbbb1a53c4fbb888e9b14892b3c0c__section_fbq_ync_wgb"/>
-
-## Integration Tests for Apps Written Using SAP Cloud SDK
-
-Integration tests work directly on the defined backend APIs, mainly testing the integration between backend services and the integration between SAP BTP to SAP S/4HANA systems. For integration tests of your backend services, we recommend that you use Arquillian to spawn a server that contains only the resources for the specific backend services that you want to test. See [Step 13 with SAP Cloud SDK: Automated Testing](https://blogs.sap.com/2017/09/19/step-12-with-sap-s4hana-cloud-sdk-automated-testing/).
-

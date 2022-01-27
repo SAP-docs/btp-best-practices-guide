@@ -20,14 +20,6 @@ For SAPUI5 and SAP Fiori testing, please see the demokit for SAP UI5: [https://s
 
 
 
-## SAP Cloud SDK
-
-We recommend that you write JUnit tests for the modules of your backend services. They should be very granular in that they only test individual modules, such as a class. See [Step 13 with SAP Cloud SDK: Automated Testing](https://blogs.sap.com/2017/09/19/step-12-with-sap-s4hana-cloud-sdk-automated-testing/).
-
-As part of the Continuous Integration and Delivery Process, we recommend that you run performance tests in SAP Cloud SDK Pipeline to determine the behavior of the software system and change in responsiveness under simulated load conditions. SAP Cloud SDK Pipeline has integrated support for performance tests using JMeter and Gatling. See [Step 23 with SAP Cloud SDK: Performance Tests](https://blogs.sap.com/2018/01/11/step-23-with-sap-s4hana-cloud-sdk-performance-tests/).
-
-
-
 <a name="loio50a7c7d65c8a458bacb401a95c9ce976__section_ldg_b4f_xgb"/>
 
 ## Testing in SAP Web IDE

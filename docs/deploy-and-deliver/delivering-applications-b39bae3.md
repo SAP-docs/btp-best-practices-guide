@@ -364,7 +364,7 @@ possible
     </td>
     <td valign="top">
 
-    Project "Piper" requires Jenkins as underlying CI/CD infrastructure. If you don’t have a Jenkins instance, yet, use the Cx Server to bootstrap a preconfigured one. See [Getting Started with Project "Piper"](http://help.sap.com/disclaimer?site=https://sap.github.io/jenkins-library/guidedtour/).
+    Project "Piper" is an open-source project that provides preconfigured Jenkins pipelines, which you can use in your own Jenkins infrastructure and adapt according to your needs, if necessary. Project "Piper" requires Jenkins as underlying CI/CD infrastructure. If you don’t have a Jenkins instance, yet, use the Cx Server to bootstrap a preconfigured one. See [Getting Started with Project "Piper"](http://help.sap.com/disclaimer?site=https://sap.github.io/jenkins-library/guidedtour/).
 
 
     
@@ -403,14 +403,6 @@ possible
     </table>
     
     For more information, see [SAP Solutions for Continuous Integration and Delivery](https://help.sap.com/viewer/8cacec64ed854b2a88e9a0973e0f97a2/Cloud/en-US/e9fa320181124fa9808d4446a1bf69dd.html) and [Which SAP Solution for CI/CD Meets Your Needs?](https://help.sap.com/viewer/8cacec64ed854b2a88e9a0973e0f97a2/Cloud/en-US/e9fa320181124fa9808d4446a1bf69dd.html#loioa49d1ba1ecef4e9d96deffd127c4522d).
-
--   If you're building an extension to SAP S/4HANA, consider using the continuous delivery toolkit that's provided with the SAP Cloud SDK. The toolkit helps you manage the infrastructure and provides a ready-to-use continuous delivery pipeline out-of-the-box. It includes the following freely available components:
-
-    -   Maven project archetypes for rapidly creating a new SAP S/4HANA extension application along best practices
-    -   A preconfigured Jenkins CI and CD server that is managed via easy-to-use lifecycle scripts and Docker images
-    -   A ready-to-use pipeline for building, testing, quality checking, and deploying applications that have been created from the SAP Cloud SDK archetypes without writing any pipeline code
-
-    For more information, see [SAP Cloud SDK](https://developers.sap.com/topics/s4hana-cloud-sdk.html).
 
 -   If you want to have more control, especially when propagating changes towards your production environment, consider the following transport management options:
     -   For cloud transports, also in hybrid landscapes: the **SAP Cloud Transport Management** service, which allows you to transport content archives, delivery units of SAP HANA XS classic model, and application-specific content, such as SAP BTP Integration content, between different subaccounts, which might also reside in different global accounts, spread across different regions. This service might be especially suitable if you don't have an ABAP-based landscape, don't want to involve on-premise ABAP systems in your scenario, or have to handle SAP BTP application-specific content, independent of whether it is provided as multitarget application files or in other formats.
