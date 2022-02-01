@@ -66,7 +66,7 @@ More Information and Troubleshooting
 </td>
 <td valign="top">
 
-[Use Cases on SAP BTP](https://www.sap.com/products/business-technology-platform/use-cases.htmll)
+[Use Cases on SAP BTP](https://www.sap.com/products/business-technology-platform/use-cases.html)
 
 
 
