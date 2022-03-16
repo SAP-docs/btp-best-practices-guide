@@ -21,7 +21,7 @@ The decision trees below for the SAP BTP Neo and Cloud Foundry environments migh
 **Related Information**  
 
 
-[Principal Propagation](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/f70fcf1c2d0a4a979adfe44cebc93c20.html "Exchange user ID information between systems or environments in SAP BTP.") :arrow_upper_right:
+[Principal Propagation](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/f70fcf1c2d0a4a979adfe44cebc93c20.html "Exchange user ID information between systems or environments in SAP BTP.") :arrow_upper_right:
 
 [Principal Propagation via the Cloud Connector](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e2cbb48def4342048362039cc157b12e.html "Enable single sign-on (SSO) by forwarding the identity of cloud users to a remote system or service (Cloud Foundry environment).") :arrow_upper_right:
 

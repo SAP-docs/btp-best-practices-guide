@@ -16,7 +16,7 @@ The Cloud Connector is a lightweight on-premise agent that establishes a tunnel 
 
 For more information, see:
 
--   [Principal Propagation](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/f70fcf1c2d0a4a979adfe44cebc93c20.html "Exchange user ID information between systems or environments in SAP BTP.") :arrow_upper_right:
+-   [Principal Propagation](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/f70fcf1c2d0a4a979adfe44cebc93c20.html "Exchange user ID information between systems or environments in SAP BTP.") :arrow_upper_right:
 
 -    [Connectivity](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html) 
 
@@ -61,6 +61,6 @@ See the following for more information about security best practices:
 -   [Protection from Web Attacks](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/52750a8f86bb428ca224daa4312d122e.html "To protect your applications from different kind of web attacks, Neo environment provides mechanisms for you to use with your applications.") :arrow_upper_right:
 
 -   [Giving Access Rights to Platform Users](giving-access-rights-to-platform-users-a03d08e.md)
--   [Data Protection and Privacy](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7e513d31704a4a87831191e504ca850a.html "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.") :arrow_upper_right:
+-   [Data Protection and Privacy](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7e513d31704a4a87831191e504ca850a.html "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.") :arrow_upper_right:
 
 

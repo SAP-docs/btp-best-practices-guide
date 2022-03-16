@@ -1,4 +1,4 @@
-[![REUSE status]()]()
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-docs/btp-best-practices-guide)](https://api.reuse.software/info/github.com/SAP-docs/btp-best-practices-guide)
 
 # Contributions to the Best Practices Guide for SAP BTP
 

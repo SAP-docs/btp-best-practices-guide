@@ -247,7 +247,7 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 
 [Develop and Build](../develop-and-build/develop-and-build-7e30686.md)
 
-[Developing with the SAP Cloud Application Programming Model](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00823f91779d4d42aa29a498e0535cdf.html "The SAP Cloud Application Programming Model (CAP) is a framework of languages, libraries, and tools for building enterprise-grade services and applications. It guides developers along a ‘golden path’ of proven best practices and a great wealth of out-of-the-box solutions to recurring tasks.") :arrow_upper_right:
+[Developing with the SAP Cloud Application Programming Model](https://help.sap.com/viewer/6cdb9cff1d9b4877b9da90e5020a32d2//en-US/00823f91779d4d42aa29a498e0535cdf.html "The SAP Cloud Application Programming Model (CAP) is a framework of languages, libraries, and tools for building enterprise-grade services and applications. It guides developers along a ‘golden path’ of proven best practices and a great wealth of out-of-the-box solutions to recurring tasks.") :arrow_upper_right:
 
 [Deploy and Deliver](../deploy-and-deliver/deploy-and-deliver-5972cdb.md)
 
