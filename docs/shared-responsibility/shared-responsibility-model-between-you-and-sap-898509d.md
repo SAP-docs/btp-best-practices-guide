@@ -34,5 +34,5 @@ In addition, it's up to you to develop and operate applications. You are respons
 
 If you're using the SAP HANA service, you're required to trigger updates of SAP HANA revisions when applicable, using a self-service from SAP BTP.
 
-For a more granular overview of the responsibilities for operating SAP BTP, see [Operating Model in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de55b6e9aaa749ffbb8122c8f1097a34.html "This operating model clearly defines the separation of tasks between the operator and the customer during all phases of an integration project.") :arrow_upper_right:.
+For a more granular overview of the responsibilities for operating SAP BTP, see [Operating Model in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Validation/en-US/de55b6e9aaa749ffbb8122c8f1097a34.html "This operating model clearly defines the separation of tasks between the operator and the customer during all phases of an integration project.") :arrow_upper_right:.
 

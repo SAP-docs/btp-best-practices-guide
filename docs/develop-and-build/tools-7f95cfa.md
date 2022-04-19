@@ -31,7 +31,7 @@ Description
 <tr>
 <td valign="top">
 
-[Account Administration in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8061ecc529d74465b2b9566a634943ec.html "Learn about frequent administrative tasks you can perform using the SAP BTP cockpit, such as managing global accounts, directories, subaccounts, entitlements, and members.") :arrow_upper_right:
+[Account Administration in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Validation/en-US/8061ecc529d74465b2b9566a634943ec.html "Learn about frequent administrative tasks you can perform using the SAP BTP cockpit, such as managing global accounts, directories, subaccounts, entitlements, and members.") :arrow_upper_right:
 
 
 
@@ -63,7 +63,7 @@ The Cloud Connector serves as the link between on-demand applications in SAP BTP
 <tr>
 <td valign="top">
 
-[Command Line Interface for Cloud Foundry](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2f1d4abd0f9f4760a301f43513d2efa6.html "Find out how to get and use the Cloud Foundry command line interface.") :arrow_upper_right:
+[Command Line Interface for Cloud Foundry](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Validation/en-US/2f1d4abd0f9f4760a301f43513d2efa6.html "Find out how to get and use the Cloud Foundry command line interface.") :arrow_upper_right:
 
 
 
@@ -79,7 +79,7 @@ The Cloud Foundry command line interface enables you to work with the Cloud Foun
 <tr>
 <td valign="top">
 
-[SAP BTP Command Line Interface [Feature Set B]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7c6df2db6332419ea7a862191525377c.html "Use the SAP BTP command line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for all users who like to work in a terminal or want to automate operations using scripts.") :arrow_upper_right:
+[SAP BTP Command Line Interface [Feature Set B]](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7c6df2db6332419ea7a862191525377c.html "Use the SAP BTP command line interface (btp CLI) for account management tasks, such as creating or updating subaccounts and directories, and managing entitlements. It is a an alternative to the SAP BTP cockpit for all users who like to work in a terminal or want to automate operations using scripts.") :arrow_upper_right:
 
 
 
@@ -249,7 +249,7 @@ The SAP BTP cockpit is the web-based administration interface of SAP BTP and pro
 <tr>
 <td valign="top">
 
-[Account Administration Using the SAP BTP Command Line Interface (btp CLI) [Feature Set B]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7c6df2db6332419ea7a862191525377c.html "Use the SAP BTP command line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for all users who like to work in a terminal or want to automate operations using scripts.") :arrow_upper_right:
+[Account Administration Using the SAP BTP Command Line Interface (btp CLI) [Feature Set B]](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7c6df2db6332419ea7a862191525377c.html "Use the SAP BTP command line interface (btp CLI) for account management tasks, such as creating or updating subaccounts and directories, and managing entitlements. It is a an alternative to the SAP BTP cockpit for all users who like to work in a terminal or want to automate operations using scripts.") :arrow_upper_right:
 
 
 

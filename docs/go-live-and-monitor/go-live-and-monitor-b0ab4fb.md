@@ -213,7 +213,7 @@ To get notifications for updates and downtimes, subscribe at the [Cloud System N
 
 In addition, you can get a personalized, at-a-glance view of additional SAP BTP offerings with [SAP Cloud Availability Center](https://support.sap.com/en/my-support/systems-installations/cloud-systems-installations.html#section), such as SAP BTP Integration.
 
-There are additional monitoring tools and options available for certain SAP BTP services, such as the SAP BTP Identity Authentication service. Please refer to the respective service documentation for more details: [Solutions and Services](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7613d9ce711e1014839a8273b0e91070.html#loio7613d9ce711e1014839a8273b0e91070 "Consume the solutions and services by SAP BTP according to your use cases.") :arrow_upper_right:.
+There are additional monitoring tools and options available for certain SAP BTP services, such as the SAP BTP Identity Authentication service. Please refer to the respective service documentation for more details: [Solutions and Services](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Validation/en-US/7613d9ce711e1014839a8273b0e91070.html#loio7613d9ce711e1014839a8273b0e91070 "Consume the solutions and services by SAP BTP according to your preferred development environment and use cases.") :arrow_upper_right:.
 
 
 
