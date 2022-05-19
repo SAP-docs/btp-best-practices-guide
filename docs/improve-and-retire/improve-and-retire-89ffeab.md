@@ -4,6 +4,24 @@
 
 Once your application has gone live, we recommend that you continually ensure its quality. If you determine that you no longer need it, you should retire it.
 
+ <a name="loio13cbe434ce0a48bca14f1112f3db52b7"/>
+
+<!-- loio13cbe434ce0a48bca14f1112f3db52b7 -->
+
+## Migrating from Neo to Multi-Cloud
+
+SAP is integrating more closely with hyperscalers, such as Amazon Web Services, Google Cloud Platforrm, and Microsoft Azure. If you are currently running secnarios in our Neo enviroment, please have a look at our migration guide for moving from Neo to the multi-cloud foundation.
+
+[Migrating from the Neo Environment to the Multi-Cloud Foundation (Cloud Foundry and Kyma)](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html "Learn why and how to migrate your scenarios on SAP Business Technology Platform (SAP BTP) from the Neo environment to the multi-cloud foundation.") :arrow_upper_right:
+
+ <a name="loio06deb3339dfa4b91aa8ed99a3018303d"/>
+
+<!-- loio06deb3339dfa4b91aa8ed99a3018303d -->
+
+## Retiring Your Application
+
+If your application is no longer needed, the Cloud Administration and the Cloud Development Teams should ensure that it is properly retired, and that all data retention requirements are met.
+
  <a name="loio069ff72db3624ea3ba06582ad65e3996"/>
 
 <!-- loio069ff72db3624ea3ba06582ad65e3996 -->
@@ -32,22 +50,4 @@ The team should:
 
 > ### Recommendation:  
 > To stay up to date, we recommend that you regularly check the [Release Notes](https://help.sap.com/doc/43b304f99a8145809c78f292bfc0bc58/Cloud/en-US/98bf747111574187a7c76f8ced51cfeb.html) and the [SAP Community](https://www.sap.com/community/topic/cloud-platform.html).
-
- <a name="loio06deb3339dfa4b91aa8ed99a3018303d"/>
-
-<!-- loio06deb3339dfa4b91aa8ed99a3018303d -->
-
-## Retiring Your Application
-
-If your application is no longer needed, the Cloud Administration and the Cloud Development Teams should ensure that it is properly retired, and that all data retention requirements are met.
-
- <a name="loio13cbe434ce0a48bca14f1112f3db52b7"/>
-
-<!-- loio13cbe434ce0a48bca14f1112f3db52b7 -->
-
-## Migrating from Neo to Multi-Cloud
-
-SAP is integrating more closely with hyperscalers, such as Amazon Web Services, Google Cloud Platforrm, and Microsoft Azure. If you are currently running secnarios in our Neo enviroment, please have a look at our migration guide for moving from Neo to the multi-cloud foundation.
-
-[Migrating from the Neo Environment to the Multi-Cloud Foundation (Cloud Foundry and Kyma)](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html "Learn why and how to migrate your scenarios on SAP Business Technology Platform (SAP BTP) from the Neo environment to the multi-cloud foundation.") :arrow_upper_right:
 

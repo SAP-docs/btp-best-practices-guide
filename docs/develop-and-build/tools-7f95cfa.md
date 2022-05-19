@@ -31,7 +31,7 @@ Description
 <tr>
 <td valign="top">
 
-[Account Administration in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Validation/en-US/8061ecc529d74465b2b9566a634943ec.html "Learn about frequent administrative tasks you can perform using the SAP BTP cockpit, such as managing global accounts, directories, subaccounts, entitlements, and members.") :arrow_upper_right:
+[Account Administration in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8061ecc529d74465b2b9566a634943ec.html "Learn about frequent administrative tasks you can perform using the SAP BTP cockpit, such as managing global accounts, directories, subaccounts, entitlements, and members.") :arrow_upper_right:
 
 
 
@@ -63,7 +63,7 @@ The Cloud Connector serves as the link between on-demand applications in SAP BTP
 <tr>
 <td valign="top">
 
-[Command Line Interface for Cloud Foundry](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Validation/en-US/2f1d4abd0f9f4760a301f43513d2efa6.html "Find out how to get and use the Cloud Foundry command line interface.") :arrow_upper_right:
+[Command Line Interface for Cloud Foundry](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2f1d4abd0f9f4760a301f43513d2efa6.html "Find out how to get and use the Cloud Foundry command line interface.") :arrow_upper_right:
 
 
 

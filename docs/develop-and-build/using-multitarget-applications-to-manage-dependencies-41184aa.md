@@ -34,7 +34,7 @@ As all interdependencies are part of the archive file, it's easy to pass multita
 > 
 > -   Your business application has a certain default configuration, for example memory, disk, number of individual app instances, environment variables, service plans, and others.
 
-For more conceptual information about multitarget applications and detailed step-by-step instructions, see [Multitarget Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Validation/en-US/d04fc0e2ad894545aebfd7126384307c.html "A Multitarget application (MTA) is logically a single application comprised of multiple parts created with different technologies, which share the same lifecycle.") :arrow_upper_right:.
+For more conceptual information about multitarget applications and detailed step-by-step instructions, see [Multitarget Applications in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d04fc0e2ad894545aebfd7126384307c.html "A Multitarget application (MTA) is logically a single application comprised of multiple parts created with different technologies, which share the same lifecycle.") :arrow_upper_right:.
 
 There are several options to create multitarget application archives:
 

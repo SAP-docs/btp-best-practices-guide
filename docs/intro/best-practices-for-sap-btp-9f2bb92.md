@@ -19,7 +19,7 @@ If you're an **administrator or developer**, this guide helps you define the cor
 If you're an **SAP partner**, this guide helps you to set up SAP BTP for developing and running production services for your customers.
 
 > ### Note:  
-> This guide is targeted at customers who want to run and use applications in a production environment. If you're an SAP BTP trial user, you might still find that some information in this guide is useful. Check out the following page for more details about trial accounts: [Trial Accounts and Free Tier](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Validation/en-US/046f127f2a614438b616ccfc575fdb16.html "Explore the different options for trying out SAP BTP.") :arrow_upper_right:. Please note that the services available in the trial version differ from the ones in the enterprise version.
+> This guide is targeted at customers who want to run and use applications in a production environment. If you're an SAP BTP trial user, you might still find that some information in this guide is useful. Check out the following page for more details about trial accounts: [Trial Accounts and Free Tier](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/046f127f2a614438b616ccfc575fdb16.html "Explore the different options for trying out SAP BTP.") :arrow_upper_right:. Please note that the services available in the trial version differ from the ones in the enterprise version.
 
 
 
@@ -66,5 +66,5 @@ Plan and set up your landscape to manage the lifecycle of your cloud application
 
 ## Related Resources
 
-The learning jouneys [Lifecycle-Management of Applications on SAP BTP](https://help.sap.com/doc/0c3db190da2c4866a1f2906763d4f59a/Cloud/en-US/358ae3bc28d14c6ea9e46c37a2455a53.html) and [DevOps for Application Development on SAP BTP](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/HP_2.0/en-US/2297e49af15c4ebba9246efb18fc5d96.html) are extensive, well-structured collections of links to resources such as videos, blog posts, openSAP courses, and additional documentation.
+The learning jouneys [Lifecycle-Management of Applications on SAP BTP](https://help.sap.com/doc/0c3db190da2c4866a1f2906763d4f59a/Cloud/en-US/358ae3bc28d14c6ea9e46c37a2455a53.html) and [DevOps for Application Developemt on SAP BTP](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/HP_2.0/en-US/2297e49af15c4ebba9246efb18fc5d96.html) are extensive, well-structured collections of links to resources such as videos, blog posts, openSAP courses, and additional documentation.
 

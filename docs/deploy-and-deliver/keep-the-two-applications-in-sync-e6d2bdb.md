@@ -20,55 +20,6 @@ There are three different ways to synchronize your applications in the primary a
 -   Orchestrate your applications through a combination of the Solution Export Wizard and the SAP Cloud Transport Management service. See [Use the Solution Export Wizard and SAP Cloud Transport Management](keep-the-two-applications-in-sync-e6d2bdb.md#loio8b3131f1b7504bc7b8a2e1e8b46f71f0).
 
 
- <a name="loio5606f91c66b44354bd99cce0a0b9da5d"/>
-
-<!-- loio5606f91c66b44354bd99cce0a0b9da5d -->
-
-## Synchronize Your Applications Manually
-
-You can orchestrate your applications manually by duplicating your modifications in both data centers, for example, by mirroring from Git repositories.
-
-The following figure illustrates this process:
-
-   
-  
-<a name="loio5606f91c66b44354bd99cce0a0b9da5d__fig_glj_vql_wgb"/>Manual Synchronization
-
- ![Manual Synchronization](images/Manual_Synchronization_53bfe9d.png "Manual Synchronization") 
-
-With this approach, you can decide yourself which of your changes to transport from one data center to the other. Therefore, synchronizing your applications manually allows you to maintain two non-identical applications, for example, if you want to visually differentiate between the UIs in your primary and the backup version.
-
-> ### Recommendation:  
-> With regard to the relatively high effort needed for this approach, we recommend it only if you do not plan regular updates or changes to your application.
-
- <a name="loioe603c7411eb0483eaeda10fee8aacb5b"/>
-
-<!-- loioe603c7411eb0483eaeda10fee8aacb5b -->
-
-## Use a Continuous Integration and Delivery Pipeline
-
-You can synchronize the deployment of your applications in two different data centers by using a continuous integration and delivery \(CI/CD\) pipeline. Configure it for multi-deployment so that in the final stage of your CI/CD pipeline, your changes are automatically deployed to two subaccounts in parallel. In our case, these subaccounts are hosted in different data centers. For more information about subaccounts, see [Managing Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c4c25cc63ac845779f76202360f98694.html).
-
-The following figure illustrates this procedure:
-
-   
-  
-<a name="loioe603c7411eb0483eaeda10fee8aacb5b__fig_t3t_kjs_yhb"/>Synchronized Deployment Through a CI/CD Pipeline
-
- ![Synchronized Deployment Through a CI/CD Pipeline](images/CI_CD_Synchronization_6216d70.png "Synchronized Deployment Through a CI/CD Pipeline") 
-
-> ### Recommendation:  
-> Use a pre-configured pipeline of project "Piper" and adapt it for multi-deployment to your two subaccounts in different data centers. For more information, see [project "Piper"](https://sap.github.io/jenkins-library/).
-
-**Related Information**  
-
-
-[Continuous Integration \(CI\) and Delivery \(CD\) Overview](https://help.sap.com/viewer/product/CICD_OVERVIEW/Cloud/en-US)
-
-[Overview of SAP Offerings for CI and CD](https://help.sap.com/viewer/8cacec64ed854b2a88e9a0973e0f97a2/Cloud/en-US/e9fa320181124fa9808d4446a1bf69dd.html)
-
-[Blog - Continuous Delivery with Jenkins Pipelines](https://blogs.sap.com/2017/11/21/continuous-delivery-with-jenkins-pipelines/)
-
  <a name="loio8b3131f1b7504bc7b8a2e1e8b46f71f0"/>
 
 <!-- loio8b3131f1b7504bc7b8a2e1e8b46f71f0 -->
@@ -152,4 +103,53 @@ The following figure illustrates this procedure:
 [Blog - The new cloud-based Transport Management Service](https://blogs.sap.com/2018/05/24/the-new-cloud-based-transport-management-service/)
 
 [Blog - SAP Cloud Transport Management service generally available](https://blogs.sap.com/2019/01/08/sap-cloud-platform-transport-management-service-generally-available/)
+
+ <a name="loioe603c7411eb0483eaeda10fee8aacb5b"/>
+
+<!-- loioe603c7411eb0483eaeda10fee8aacb5b -->
+
+## Use a Continuous Integration and Delivery Pipeline
+
+You can synchronize the deployment of your applications in two different data centers by using a continuous integration and delivery \(CI/CD\) pipeline. Configure it for multi-deployment so that in the final stage of your CI/CD pipeline, your changes are automatically deployed to two subaccounts in parallel. In our case, these subaccounts are hosted in different data centers. For more information about subaccounts, see [Managing Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c4c25cc63ac845779f76202360f98694.html).
+
+The following figure illustrates this procedure:
+
+   
+  
+<a name="loioe603c7411eb0483eaeda10fee8aacb5b__fig_t3t_kjs_yhb"/>Synchronized Deployment Through a CI/CD Pipeline
+
+ ![Synchronized Deployment Through a CI/CD Pipeline](images/CI_CD_Synchronization_6216d70.png "Synchronized Deployment Through a CI/CD Pipeline") 
+
+> ### Recommendation:  
+> Use a pre-configured pipeline of project "Piper" and adapt it for multi-deployment to your two subaccounts in different data centers. For more information, see [project "Piper"](https://sap.github.io/jenkins-library/).
+
+**Related Information**  
+
+
+[Continuous Integration \(CI\) and Delivery \(CD\) Overview](https://help.sap.com/viewer/product/CICD_OVERVIEW/Cloud/en-US)
+
+[Overview of SAP Offerings for CI and CD](https://help.sap.com/viewer/8cacec64ed854b2a88e9a0973e0f97a2/Cloud/en-US/e9fa320181124fa9808d4446a1bf69dd.html)
+
+[Blog - Continuous Delivery with Jenkins Pipelines](https://blogs.sap.com/2017/11/21/continuous-delivery-with-jenkins-pipelines/)
+
+ <a name="loio5606f91c66b44354bd99cce0a0b9da5d"/>
+
+<!-- loio5606f91c66b44354bd99cce0a0b9da5d -->
+
+## Synchronize Your Applications Manually
+
+You can orchestrate your applications manually by duplicating your modifications in both data centers, for example, by mirroring from Git repositories.
+
+The following figure illustrates this process:
+
+   
+  
+<a name="loio5606f91c66b44354bd99cce0a0b9da5d__fig_glj_vql_wgb"/>Manual Synchronization
+
+ ![Manual Synchronization](images/Manual_Synchronization_53bfe9d.png "Manual Synchronization") 
+
+With this approach, you can decide yourself which of your changes to transport from one data center to the other. Therefore, synchronizing your applications manually allows you to maintain two non-identical applications, for example, if you want to visually differentiate between the UIs in your primary and the backup version.
+
+> ### Recommendation:  
+> With regard to the relatively high effort needed for this approach, we recommend it only if you do not plan regular updates or changes to your application.
 

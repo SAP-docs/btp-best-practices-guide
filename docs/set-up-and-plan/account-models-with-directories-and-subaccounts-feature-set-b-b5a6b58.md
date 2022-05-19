@@ -61,7 +61,240 @@ Here are some examples of simple labels:
 **Related Information**  
 
 
-[Labels [Feature Set B]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Validation/en-US/8ed4a705efa0431b910056c0acdbf377.html#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.") :arrow_upper_right:
+[Labels [Feature Set B]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.") :arrow_upper_right:
+
+ <a name="loio7f1c318292934e088e5cd119271f0b1e"/>
+
+<!-- loio7f1c318292934e088e5cd119271f0b1e -->
+
+## Checklist for the Account Model Setup
+
+Independent of the account model you choose, we recommend to go through the following steps and define guidelines for your development teams.
+
+
+<table>
+<tr>
+<th valign="top">
+
+Task
+
+
+
+</th>
+<th valign="top">
+
+Step
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top" rowspan="2">
+
+**Fulfill prerequisites**
+
+
+
+</td>
+<td valign="top">
+
+1. Evaluate your business and technical needs and define an account model that fits the requirements of your company.
+
+Ensure that the account model is suitable for all areas in your company.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+2. Define account hierarchy and guidelines and roll them out to a few pilot project managers to get their feedback.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="4">
+
+**Define account standards and rules**
+
+
+
+</td>
+<td valign="top">
+
+3. Create a template for new directories. See below.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+4. Define naming conventions, for example:
+
+-   To ensure that there are no conflicts with special characters, we recommend to stick with lower-case letters and hyphens, and not to use spaces in names.
+
+-   Give the directory a descriptive name that starts with your company / global account name.
+
+-   There is a 1:1 relationship between Cloud Foundry org and a subaccount, so you should give them identical names.
+
+-   Since there is no connection between spaces in differet subaccounts, we recommend to give identical names to the dev, test, and prod versions of projects and spaces.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+5. Define labels and values according to the reports you want to create.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+6. Define rules for quota limitations.
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loio7f1c318292934e088e5cd119271f0b1e__section_jsr_1zf_gnb"/>
+
+## Template for New Directories
+
+We recommend that you create a process for the creation of new directories. Here is an example template for new directories that you can use or adapt to meet your own requirements:
+
+
+<table>
+<tr>
+<th valign="top" colspan="2">
+
+New Directory
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Name
+
+
+
+</td>
+<td valign="top">
+
+Refer to your naming guidelines.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Owners
+
+
+
+</td>
+<td valign="top">
+
+We recommend to appoint at least two owners.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Description
+
+
+
+</td>
+<td valign="top">
+
+Describe the developer audience, which LoB or department do they belong to, what types of applications will be developed, which environments should be used, subscriptions that will be used.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cost center
+
+
+
+</td>
+<td valign="top">
+
+Define accounting requirements.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enrollment
+
+
+
+</td>
+<td valign="top">
+
+Describe how projects can enroll in your directory.
+
+
+
+</td>
+</tr>
+</table>
+
+**Related Information**  
+
+
+[Labels [Feature Set B]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.") :arrow_upper_right:
+
+ <a name="loio4f6e239aa7c0485eb4a255a5101cf1f5"/>
+
+<!-- loio4f6e239aa7c0485eb4a255a5101cf1f5 -->
+
+## Account Model 8: Create Directories Per Subsidiary
+
+In this account model, you create directories for each subsidiary of your company. Additionally, you canadd labels, for example, for cost centers or owners of the individual subaccounts or directories.
+
+![](images/account_model_9_c8d8507.png)
+
+ <a name="loiodd78c89de7b04ae4a2147edd7a811187"/>
+
+<!-- loiodd78c89de7b04ae4a2147edd7a811187 -->
+
+## Account Model 7: Create Directories Per Location
+
+In this account model, you create different directories for geographical areas. Additionally, for example, you can add labels to subaccounts that belong to the same departments in those locations. Alternatively, you could nest additional directories inside these ones.
+
+![](images/Account_model_8_c81ad78.png)
 
  <a name="loio9a100731c3f649e7a50a2f9c2c1af5fa"/>
 
@@ -355,237 +588,4 @@ central-service
 
 
 [Account Model 5: Create a Staged Development Environment Per Functional Area](account-model-5-create-a-staged-development-environment-per-functional-area-8f57535.md "In this scenario, the IT department creates separate Dev, Test, and Prod subaccounts for each functional area: In our example, HR, IT, and Sales each get their own subaccounts for development, test, and production.")
-
- <a name="loiodd78c89de7b04ae4a2147edd7a811187"/>
-
-<!-- loiodd78c89de7b04ae4a2147edd7a811187 -->
-
-## Account Model 7: Create Directories Per Location
-
-In this account model, you create different directories for geographical areas. Additionally, for example, you can add labels to subaccounts that belong to the same departments in those locations. Alternatively, you could nest additional directories inside these ones.
-
-![](images/Account_model_8_c81ad78.png)
-
- <a name="loio4f6e239aa7c0485eb4a255a5101cf1f5"/>
-
-<!-- loio4f6e239aa7c0485eb4a255a5101cf1f5 -->
-
-## Account Model 8: Create Directories Per Subsidiary
-
-In this account model, you create directories for each subsidiary of your company. Additionally, you canadd labels, for example, for cost centers or owners of the individual subaccounts or directories.
-
-![](images/account_model_9_c8d8507.png)
-
- <a name="loio7f1c318292934e088e5cd119271f0b1e"/>
-
-<!-- loio7f1c318292934e088e5cd119271f0b1e -->
-
-## Checklist for the Account Model Setup
-
-Independent of the account model you choose, we recommend to go through the following steps and define guidelines for your development teams.
-
-
-<table>
-<tr>
-<th valign="top">
-
-Task
-
-
-
-</th>
-<th valign="top">
-
-Step
-
-
-
-</th>
-</tr>
-<tr>
-<td valign="top" rowspan="2">
-
-**Fulfill prerequisites**
-
-
-
-</td>
-<td valign="top">
-
-1. Evaluate your business and technical needs and define an account model that fits the requirements of your company.
-
-Ensure that the account model is suitable for all areas in your company.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-2. Define account hierarchy and guidelines and roll them out to a few pilot project managers to get their feedback.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top" rowspan="4">
-
-**Define account standards and rules**
-
-
-
-</td>
-<td valign="top">
-
-3. Create a template for new directories. See below.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-4. Define naming conventions, for example:
-
--   To ensure that there are no conflicts with special characters, we recommend to stick with lower-case letters and hyphens, and not to use spaces in names.
-
--   Give the directory a descriptive name that starts with your company / global account name.
-
--   There is a 1:1 relationship between Cloud Foundry org and a subaccount, so you should give them identical names.
-
--   Since there is no connection between spaces in differet subaccounts, we recommend to give identical names to the dev, test, and prod versions of projects and spaces.
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-5. Define labels and values according to the reports you want to create.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-6. Define rules for quota limitations.
-
-
-
-</td>
-</tr>
-</table>
-
-
-
-<a name="loio7f1c318292934e088e5cd119271f0b1e__section_jsr_1zf_gnb"/>
-
-## Template for New Directories
-
-We recommend that you create a process for the creation of new directories. Here is an example template for new directories that you can use or adapt to meet your own requirements:
-
-
-<table>
-<tr>
-<th valign="top" colspan="2">
-
-New Directory
-
-
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-Name
-
-
-
-</td>
-<td valign="top">
-
-Refer to your naming guidelines.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Owners
-
-
-
-</td>
-<td valign="top">
-
-We recommend to appoint at least two owners.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Description
-
-
-
-</td>
-<td valign="top">
-
-Describe the developer audience, which LoB or department do they belong to, what types of applications will be developed, which environments should be used, subscriptions that will be used.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Cost center
-
-
-
-</td>
-<td valign="top">
-
-Define accounting requirements.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Enrollment
-
-
-
-</td>
-<td valign="top">
-
-Describe how projects can enroll in your directory.
-
-
-
-</td>
-</tr>
-</table>
-
-**Related Information**  
-
-
-[Labels [Feature Set B]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Validation/en-US/8ed4a705efa0431b910056c0acdbf377.html#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.") :arrow_upper_right:
 

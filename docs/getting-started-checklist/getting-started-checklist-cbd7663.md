@@ -39,14 +39,14 @@ More Information and Troubleshooting
 </td>
 <td valign="top">
 
-1. Get familiar with the use cases SAP BTP covers with its service portfolio, understand basic platform concepts and your responsibilities throughout the implementation project.
+1. Get familiar with SAP Business Technology Platform and its role within the intelligent, sustainable enterprise, understand the basic platform concepts and your responsibilities throughout the implementation project.
 
 
 
 </td>
 <td valign="top">
 
-[Learning Journey: SAP BTP](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/HP_2.0/en-US/ec5aa55abb8c4970bc3b07efe2253cfb.html)
+[Learning Journey: Discover SAP Business Technology Platform](https://learning.sap.com/learning-journey/discover-sap-business-technology-platform)
 
 [Basic Platform Concepts](../basic-platform-concepts/basic-platform-concepts-38ecf59.md#loio38ecf59cdda64150a102cfaa62d5faab)
 
@@ -116,7 +116,7 @@ More Information and Troubleshooting
 </td>
 <td valign="top">
 
-If you don't receive this email, for some reason, or have inadvertently deleted it, simply access your SAP BTP cockpit using the region-specific link [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Validation/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:. SAP has activated your account prior to sending you this e-mail.
+If you don't receive this email, for some reason, or have inadvertently deleted it, simply access your SAP BTP cockpit using the region-specific link [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:. SAP has activated your account prior to sending you this e-mail.
 
 
 
@@ -247,7 +247,7 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 
 [Develop and Build](../develop-and-build/develop-and-build-7e30686.md)
 
-[Developing with the SAP Cloud Application Programming Model](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Validation/en-US/00823f91779d4d42aa29a498e0535cdf.html "The SAP Cloud Application Programming Model (CAP) is a framework of languages, libraries, and tools for building enterprise-grade services and applications. It guides developers along a ‘golden path’ of proven best practices and a great wealth of out-of-the-box solutions to recurring tasks.") :arrow_upper_right:
+[Developing with the SAP Cloud Application Programming Model](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00823f91779d4d42aa29a498e0535cdf.html "The SAP Cloud Application Programming Model (CAP) is a framework of languages, libraries, and tools for building enterprise-grade services and applications. It guides developers along a ‘golden path’ of proven best practices and a great wealth of out-of-the-box solutions to recurring tasks.") :arrow_upper_right:
 
 [Deploy and Deliver](../deploy-and-deliver/deploy-and-deliver-5972cdb.md)
 

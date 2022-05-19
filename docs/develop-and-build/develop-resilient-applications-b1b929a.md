@@ -26,13 +26,13 @@ Setting up your application with multiple instances might have an impact on your
 
 During that period, the remaining instances in the healthy AZs have to carry the request load.
 
-For more information about availability zones, see [Availability Zones in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Validation/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html#loiob6a7e11c3a58416a9ab1175bba17193a "The Cloud Foundry environment follows the recommendations of our partner IaaS providers by leveraging the availability zones (AZ) concept.") :arrow_upper_right:.
+For more information about availability zones, see [Availability Zones in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html#loiob6a7e11c3a58416a9ab1175bba17193a "The Cloud Foundry environment follows the recommendations of our partner IaaS providers by leveraging the availability zones (AZ) concept.") :arrow_upper_right:.
 
 
 
 See also:
 
--   [Resilience, High Availability, and Disaster Recovery](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Validation/en-US/e3ac4f7c25a3442ca585950095eec599.html#loioe3ac4f7c25a3442ca585950095eec599 "SAP has a number of processes in place to support resilience in SAP BTP, and provides different offerings so that you can support the high availability of your applications.") :arrow_upper_right: \(Cloud Foundry, ABAP and Kyma Environments\)
+-   [Resilience, High Availability, and Disaster Recovery](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e3ac4f7c25a3442ca585950095eec599.html#loioe3ac4f7c25a3442ca585950095eec599 "SAP has a number of processes in place to support resilience in SAP BTP, and provides different offerings so that you can support the high availability of your applications.") :arrow_upper_right: \(Cloud Foundry, ABAP and Kyma Environments\)
 
 -   [Resilience, High Availability, and Disaster Recovery](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/84dd155500224fe4a7f161d48ee226a9.html "SAP has a number of processes in place to support resilience in SAP BTP, and provides different offerings so that you can support the high availability of your applications.") :arrow_upper_right: \(Neo Environment\)
 

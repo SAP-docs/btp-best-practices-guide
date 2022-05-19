@@ -6,6 +6,22 @@ Test and integrate your application with other solutions.
 
  
 
+ <a name="loio998fbbb1a53c4fbb888e9b14892b3c0c"/>
+
+<!-- loio998fbbb1a53c4fbb888e9b14892b3c0c -->
+
+## Performing Integration Tests
+
+In contrast to unit tests that are performed locally on your development subaccount without any external dependencies in the develop and build phase, integration tests target the interplay of a complete system, spanning several single components and units potentially spread throughout a hybrid landscape. Integration tests verify that all building blocks work together, meet specified requirements, and fulfill the targeted business case. They should therefore then be executed on your test infrastructure or in your test subaccount after the integration into an existing landscape has taken place. This ensures that the interplay with backend functionalities is verified. In a CI/CD setup, note that such integration tests are part of the pipeline.
+
+
+
+<a name="loio998fbbb1a53c4fbb888e9b14892b3c0c__section_cfw_qtc_wgb"/>
+
+## Integration Tests for SAPUI5
+
+One Page Acceptance Tests \(OPA5\) is an API for SAPUI5 controls. It hides asynchronicity and eases access to SAPUI5 elements. This makes OPA especially helpful for testing user interactions, integration with SAPUI5, navigation, and data binding. See [Integration Testing with One Page Acceptance Tests \(OPA5\)](https://help.sap.com/doc/saphelp_uiaddon20/2.05/en-US/7c/dee404cac441888539ed7bfe076e57/frameset.htm).
+
  <a name="loiof0cc091b8e154132a84b449bd19adb0b"/>
 
 <!-- loiof0cc091b8e154132a84b449bd19adb0b -->
@@ -72,20 +88,4 @@ If you're planning on integrating your SAP BTP application into a hybrid landsca
 [Blog Post: Cloud Integration Automation Service - What is it?](https://blogs.sap.com/2018/05/28/cloud-integration-automation-service-what-is-it/)
 
 [Blog Post: Cloud Integration Automation Service: Step-by-Step](https://blogs.sap.com/2018/06/08/cloud-integration-automation-service-step-by-step/)
-
- <a name="loio998fbbb1a53c4fbb888e9b14892b3c0c"/>
-
-<!-- loio998fbbb1a53c4fbb888e9b14892b3c0c -->
-
-## Performing Integration Tests
-
-In contrast to unit tests that are performed locally on your development subaccount without any external dependencies in the develop and build phase, integration tests target the interplay of a complete system, spanning several single components and units potentially spread throughout a hybrid landscape. Integration tests verify that all building blocks work together, meet specified requirements, and fulfill the targeted business case. They should therefore then be executed on your test infrastructure or in your test subaccount after the integration into an existing landscape has taken place. This ensures that the interplay with backend functionalities is verified. In a CI/CD setup, note that such integration tests are part of the pipeline.
-
-
-
-<a name="loio998fbbb1a53c4fbb888e9b14892b3c0c__section_cfw_qtc_wgb"/>
-
-## Integration Tests for SAPUI5
-
-One Page Acceptance Tests \(OPA5\) is an API for SAPUI5 controls. It hides asynchronicity and eases access to SAPUI5 elements. This makes OPA especially helpful for testing user interactions, integration with SAPUI5, navigation, and data binding. See [Integration Testing with One Page Acceptance Tests \(OPA5\)](https://help.sap.com/doc/saphelp_uiaddon20/2.05/en-US/7c/dee404cac441888539ed7bfe076e57/frameset.htm).
 
