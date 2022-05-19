@@ -187,7 +187,7 @@ The SAP BTP cockpit is structured according to global accounts, directories, and
 
 ## Global Accounts
 
-A **global account** is the realization of a contract you or your comaony made with SAP.
+A **global account** is the realization of a contract you or your company made with SAP.
 
 
 
@@ -197,7 +197,6 @@ Global accounts are region- and environment-independent. Within a global account
 
 ![Relationship between Global Accounts, Regions and Subaccounts](images/SAP_CP_Global_Account_Subaccount_With_Regions_1e39817.png)
 
-SaaS applications are usually displayed in a separate global account.
 
 
 
