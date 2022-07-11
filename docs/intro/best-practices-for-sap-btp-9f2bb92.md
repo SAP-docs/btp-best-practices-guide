@@ -66,5 +66,5 @@ Plan and set up your landscape to manage the lifecycle of your cloud application
 
 ## Related Resources
 
-The learning jouneys [Lifecycle-Management of Applications on SAP BTP](https://help.sap.com/doc/0c3db190da2c4866a1f2906763d4f59a/Cloud/en-US/358ae3bc28d14c6ea9e46c37a2455a53.html) and [DevOps for Application Developemt on SAP BTP](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/HP_2.0/en-US/2297e49af15c4ebba9246efb18fc5d96.html) are extensive, well-structured collections of links to resources such as videos, blog posts, openSAP courses, and additional documentation.
+The learning jouneys [Lifecycle-Management of Applications on SAP BTP](https://help.sap.com/doc/0c3db190da2c4866a1f2906763d4f59a/Cloud/en-US/358ae3bc28d14c6ea9e46c37a2455a53.html) and [DevOps for Application Development on SAP BTP](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/HP_2.0/en-US/2297e49af15c4ebba9246efb18fc5d96.html) are extensive, well-structured collections of links to resources such as videos, blog posts, openSAP courses, and additional documentation.
 
