@@ -15,13 +15,10 @@ Use the decision tree below to determine how to set up authentication. Once you'
 
  ![](images/sap_cp_lm_authentication_49d26c9.png "Setting Up Authentication") 
 
-Users can be authenticated by the Identity Authentication service or by the SAP ID Service \(default\).
+Users can be authenticated by the Identity Authentication service or by the default identity provider.
 
 > ### Recommendation:  
 > We recommend that you use the Identity Authentication service and also connect any corporate IdPs to it.
-> 
-> > ### Note:  
-> > For platform users of feature set B, IdP is not yet available.
 
 The Identity Authentication service can authenticate users stored in the IAS user store, your own corporate user store, or by forwarding to your own corporate identity provider.
 
@@ -32,7 +29,7 @@ The Identity Authentication service can authenticate users stored in the IAS use
 
 
 
-[Trust and Federation with Identity Providers](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/cb1bc8f1bd5c482e891063960d7acd78.html "When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has its own user bases which you want to integrate.") :arrow_upper_right:
+[Trust and Federation with Identity Providers](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cb1bc8f1bd5c482e891063960d7acd78.html "When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has identity providers that you want to integrate.") :arrow_upper_right:
 
 [Identity Authentication](https://www.sap.com/community/topics/cloud-platform-identity-authentication.html)
 

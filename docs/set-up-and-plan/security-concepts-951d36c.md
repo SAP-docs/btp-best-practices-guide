@@ -6,6 +6,16 @@ The level of security you implement may vary depending on your use case and your
 
 
 
+<a name="loio951d36ce07324f919f74f52b0f9f9e0a__section_dx2_bwv_p5b"/>
+
+## SAP BTP Security Recommendations
+
+*SAP BTP Security Recommendations* collects information which enables you to secure the configuration and operation of SAP BTP services in your landscape.
+
+For more information, see [SAP BTP Security Recommendations](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?version=Cloud).
+
+
+
 <a name="loio951d36ce07324f919f74f52b0f9f9e0a__section_jp5_q4n_cgb"/>
 
 ## General SAP BTP and Network Security Aspects

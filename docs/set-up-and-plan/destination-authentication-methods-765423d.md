@@ -228,9 +228,6 @@ Yes
 
 Yes
 
-> ### Note:  
-> Only for Neo
-
 
 
 </td>
@@ -307,9 +304,6 @@ Yes
 
 Yes
 
-> ### Note:  
-> Only for Neo
-
 
 
 </td>
@@ -347,7 +341,7 @@ Yes
 </td>
 <td valign="top">
 
-No
+Yes
 
 
 
@@ -384,7 +378,7 @@ Yes
 </td>
 <td valign="top">
 
-No
+Yes
 
 
 
@@ -423,7 +417,7 @@ Yes
 </td>
 <td valign="top">
 
-No
+Yes
 
 
 

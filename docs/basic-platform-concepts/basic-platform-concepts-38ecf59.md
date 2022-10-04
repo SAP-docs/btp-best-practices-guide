@@ -154,7 +154,7 @@ For more information, see [Entitlements and Quotas](https://help.sap.com/viewer/
 
 ## User and Member Management
 
-On the cloud platform, member management happens at all levels from global account to space, while user management is done for deployed applications.
+On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.
 
 
 
@@ -164,14 +164,14 @@ On the cloud platform, member management happens at all levels from global accou
 
 -   **Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP.
 
--   **Business users** use the applications that are deployed to SAP BTP. For example, the end users of your deployed application or users of subscribed apps or services, such as SAP Business Application Studio or SAP Web IDE, are business users.
+-   **Business users** use the applications that are deployed to SAP BTP. For example, the end users of SaaS apps or services, such as SAP Workflow service or SAP Cloud Integration, or end users of your custom applications are business users.
 
 
 **Member management** refers to managing permissions for platform users. A member is a user who is assigned to an SAP BTP global account or subaccount. Administrators can add users to global accounts and subaccounts and assign roles to them as needed. You can use predefined roles, for example the administrator role for managing subaccount members.
 
-**User management** refers to managing authentication and authorization for your business users. This is only done for your deployed applications.
+**User management** refers to managing authentication and authorization for your business users.
 
-For more information, see [User and Member Management](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cc1c676b43904066abb2a4838cbd0c37.html "On the cloud platform, member management happens at all levels from global account to space, while user management is done for deployed applications.") :arrow_upper_right:.
+For more information, see [User and Member Management](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cc1c676b43904066abb2a4838cbd0c37.html "On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.") :arrow_upper_right:.
 
  <a name="loio730bdd6a9a6b46c4ae3c5bce3bea8e5c"/>
 
@@ -260,7 +260,7 @@ Each subaccount is associated with a region, which is the physical location wher
 
 The entitlements and quotas that have been purchased for a global account have to be assigned to the individual subaccounts.
 
-Global accounts and subaccounts are completely independent of user accounts. For more information, see [User and Member Management](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cc1c676b43904066abb2a4838cbd0c37.html "On the cloud platform, member management happens at all levels from global account to space, while user management is done for deployed applications.") :arrow_upper_right:.
+Global accounts and subaccounts are completely independent of user accounts. For more information, see [User and Member Management](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cc1c676b43904066abb2a4838cbd0c37.html "On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.") :arrow_upper_right:.
 
 **Relationship between Subaccounts, Orgs, and Spaces**
 

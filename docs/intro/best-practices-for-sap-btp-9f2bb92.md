@@ -46,13 +46,6 @@ Plan and set up your landscape to manage the lifecycle of your cloud application
 
 ![](images/sap_cp_lm_cycle_3177b14.png)
 
--   [Improve and Retire](../improve-and-retire/improve-and-retire-89ffeab.md#loio89ffeab7ea7742fd9a1ad2de4970b077)
--   [Set Up and Plan](../set-up-and-plan/set-up-and-plan-75e5031.md)
--   [Develop and Build](../develop-and-build/develop-and-build-7e30686.md)
--   [Deploy and Deliver](../deploy-and-deliver/deploy-and-deliver-5972cdb.md)
--   [Integrate and Test](../integrate-and-test/integrate-and-test-84ddc25.md#loio84ddc25bf6024506b9c56fbbe4438169)
--   [Go Live and Monitor](../go-live-and-monitor/go-live-and-monitor-b0ab4fb.md#loiob0ab4fb5cb914ee19923e4a8f020e868)
-
 1.  **[Set Up and Plan](../set-up-and-plan/set-up-and-plan-75e5031.md)** – build teams, set up your account and security model, and create an enrollment process for your development projects.
 2.  **[Develop and Build](../develop-and-build/develop-and-build-7e30686.md)** – find out about the tools and programming languages that are available on SAP BTP, and how to use multitarget applications to efficiently manage dependencies.
 3.  **[Deploy and Deliver](../deploy-and-deliver/deploy-and-deliver-5972cdb.md)** – deploy and deliver simple and multitarget applications.
