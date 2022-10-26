@@ -1,5 +1,7 @@
 <!-- loio9f2bb927464e4d1ba3d13b2d79ca9bd1 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Best Practices for SAP BTP
 
 This document helps you plan and set up your landscape and your lifecycle management for running applications on SAP Business Technology Platform \(SAP BTP\). It contains best practices and recommendations for planning development projects – from setting up the correct organizational structure to creating an account and security model, to developing and operating applications.
@@ -52,6 +54,24 @@ Plan and set up your landscape to manage the lifecycle of your cloud application
 4.  **[Integrate and Test](../integrate-and-test/integrate-and-test-84ddc25.md#loio84ddc25bf6024506b9c56fbbe4438169)** – test and integrate your application with other solutions.
 5.  **[Go Live and Monitor](../go-live-and-monitor/go-live-and-monitor-b0ab4fb.md#loiob0ab4fb5cb914ee19923e4a8f020e868)** – learn what's important for going live and monitoring applications, services, and hybrid landscapes.
 6.  **[Improve and Retire](../improve-and-retire/improve-and-retire-89ffeab.md#loio89ffeab7ea7742fd9a1ad2de4970b077)** – make improvements to your application, perform housekeeping, and learn about what's important to consider when you want to retire it.
+
+> ### Tip:  
+> The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:
+> 
+> -   :pencil2:: Contribute to a documentation page. This option opens a pull request on GitHub.
+> 
+> -   <span class="SAP-icons"></span> Feedback: Provide feedback about a documentation page. This option opens an issue on GitHub.
+> 
+> 
+> You need a GitHub account to use these options.
+> 
+> More information:
+> 
+> -   [Contribution Guidelines](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html)
+> 
+> -   [Introduction Video](https://www.youtube.com/watch?v=WJ0oarMlVW4)
+> 
+> -   [Introduction Blog Post](https://blogs.sap.com/2021/11/29/sap-btp-documentation-goes-github-new-collaboration-process/)
 
 
 

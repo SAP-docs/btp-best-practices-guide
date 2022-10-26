@@ -283,7 +283,7 @@ Log viewer collecting error messages
 </td>
 <td valign="top">
 
- [Using Logs in the Cockpit for HTML5 Applications](https://help.sap.com/viewer/f88a032109f0429caea276fc6e3a95f9/Cloud/en-US/9f358860642c4ed283cd889a5bc42461.html "You can view logs on an HTML5 application running in your subaccount or on a subscription to an HTML application.") :arrow_upper_right: 
+ [Using Logs in the Cockpit for HTML5 Applications](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/9f358860642c4ed283cd889a5bc42461.html "You can view logs on an HTML5 application running in your subaccount or on a subscription to an HTML application.") :arrow_upper_right: 
 
 
 
@@ -340,7 +340,7 @@ Consider embedding applications with internal end users in the SAP Fiori launchp
 
 Ensure that the business users of your application are being provided by using SAP ID service or configuring the trust relationship to an external identity provider. They should also get the right authorization by using application-based authorization artifacts provided by the developers. This allows the administrators to create roles, build role collections, and assign these collections to business users and user groups.
 
-For more information, see [Security Administration: Managing Authentication and Authorization](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/1ff47b2d980e43a6b2ce294352333708.html "This section describes the tasks of administrators in the Cloud Foundry environment of SAP BTP. Administrators ensure user authentication and assign authorization information to users and user groups.") :arrow_upper_right: .
+For more information, see [Security Administration: Managing Authentication and Authorization](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/1ff47b2d980e43a6b2ce294352333708.html "This section describes the tasks of administrators in the Cloud Foundry environment of SAP BTP. Administrators ensure user authentication and assign authorization information to users and user groups.") :arrow_upper_right: .
 
 
 
