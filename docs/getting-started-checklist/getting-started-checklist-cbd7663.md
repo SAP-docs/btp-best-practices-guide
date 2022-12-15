@@ -30,7 +30,7 @@ More Information and Troubleshooting
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="8">
+<td valign="top" rowspan="7">
 
 **Fulfill prerequisites**
 
@@ -116,7 +116,7 @@ More Information and Troubleshooting
 </td>
 <td valign="top">
 
-If you don't receive this email, for some reason, or have inadvertently deleted it, simply access your SAP BTP cockpit using the region-specific link [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.") :arrow_upper_right:. SAP has activated your account prior to sending you this e-mail.
+If you've chosen an existing global account from within your company, you'll need to contact the global account admin of this global account, as they'll receive the communication emails. In this case, we recommend to have them add you as Global Account Administrator. See [Assign Users to Role Collections](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/c5766765bda74ad59fe656977c8fa4d6.html?locale=en-US&version=Cloud).
 
 
 
@@ -141,26 +141,7 @@ Check with your system administrator if you do not know your customer number.
 <tr>
 <td valign="top">
 
-7. If you use SAP ID Service, create SAP user IDs \(S-users\) for all technical users who need access to your SAP BTP accounts.
-
-
-
-</td>
-<td valign="top">
-
-Contact a user administrator in your company. If you don't want to use SAP ID Service, configure your subaccounts to use a different identity provider.
-
-> ### Note:  
-> SAP cannot assign additional S- or P-user IDs on your company's behalf.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-8. Build a Cloud Administration and a Cloud Development Team \(and optionally, a Cloud Center of Excellence\).
+7. Build a Cloud Administration and a Cloud Development Team \(and optionally, a Cloud Center of Excellence\).
 
 
 
@@ -183,7 +164,7 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 <td valign="top">
 
-9. Set up your account model.
+8. Set up your account model.
 
 
 
@@ -199,7 +180,7 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 <tr>
 <td valign="top">
 
-10. Set up your security model.
+9. Set up your security model.
 
 
 
@@ -215,7 +196,7 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 <tr>
 <td valign="top">
 
-11. Create an enrollment process for development projects.
+10. Create an enrollment process for development projects.
 
 
 
@@ -238,7 +219,7 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 </td>
 <td valign="top">
 
-12. Develop, integrate, deploy, and transport your application.
+11. Develop, integrate, deploy, and transport your application.
 
 
 
@@ -258,7 +239,7 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 <tr>
 <td valign="top">
 
-13. Test and evaluate your application.
+12. Test and evaluate your application.
 
 
 
@@ -274,7 +255,7 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 <tr>
 <td valign="top">
 
-14. Go live with your application.
+13. Go live with your application.
 
 
 
@@ -290,7 +271,7 @@ Contact a user administrator in your company. If you don't want to use SAP ID Se
 <tr>
 <td valign="top">
 
-15. Make improvements to your application, or retire it if it's no longer needed.
+14. Make improvements to your application, or retire it if it's no longer needed.
 
 
 

@@ -16,7 +16,7 @@ The figure below depicts the relationship between a global account, its subaccou
 
    
   
-<a name="loio38ecf59cdda64150a102cfaa62d5faab__fig_cwb_2l1_mgb"/>Overview of Global Accounts and Subaccounts \(Feature Set A\)
+**Overview of Global Accounts and Subaccounts \(Feature Set A\)**
 
  ![](images/domain_model_pptx_2b90418.png "Overview of Global Accounts and Subaccounts (Feature Set A)") 
 
@@ -26,7 +26,7 @@ The figure below depicts the relationship between a global account, its director
 
    
   
-<a name="loio38ecf59cdda64150a102cfaa62d5faab__fig_edb_kg4_gnb"/>Overview of Global Accounts, Directories, and Subaccounts \(Feature Set B\)
+**Overview of Global Accounts, Directories, and Subaccounts \(Feature Set B\)**
 
  ![](images/plm_domain_model_B_d437840.png "Overview of Global Accounts, Directories, and Subaccounts (Feature Set B)") 
 

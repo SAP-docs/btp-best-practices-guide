@@ -276,7 +276,7 @@ possible
 
     SAP offers two main approaches for applying CI/CD in your software development. Depending on your expertise in CI/CD, the required level of flexibility, the infrastructure you bring \(or don’t bring\) along, and the desired level of support, choose one of the following options:
 
-    <a name="loiob39bae31d35d4d039431973116363d57__table_k4x_kts_hnb"/>SAP Solutions for Continuous Integration and Delivery
+    **SAP Solutions for Continuous Integration and Delivery**
 
 
     <table>

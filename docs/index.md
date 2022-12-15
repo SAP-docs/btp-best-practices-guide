@@ -71,6 +71,7 @@
     -   [Configuring Backup](deploy-and-deliver/configuring-backup-7821fcf.md#loio7821fcf6f0cc487799fb6b75e8d0e0f7)
         -   [Data Backups Managed by SAP](deploy-and-deliver/configuring-backup-7821fcf.md#loio6c1e071845dd4db2829b413a05154a7c)
         -   [Service Configurations Managed by Customers](deploy-and-deliver/configuring-backup-7821fcf.md#loio9de0caa8abe34f4897e5b727868019c0)
+    -   [Reference Use Cases for Multi-Region Architectures](deploy-and-deliver/multi-region-usecases.md)
 -   [Integrate and Test](integrate-and-test/integrate-and-test-84ddc25.md#loio84ddc25bf6024506b9c56fbbe4438169)
     -   [Performing Integration Tests](integrate-and-test/integrate-and-test-84ddc25.md#loio998fbbb1a53c4fbb888e9b14892b3c0c)
     -   [Integrating Your Application](integrate-and-test/integrate-and-test-84ddc25.md#loiof0cc091b8e154132a84b449bd19adb0b)

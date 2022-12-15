@@ -8,7 +8,7 @@ We recommend that you use the SAP Cloud Application Programming Model for your d
 
 Depending on your use case and the skill set of your developers, you can choose the runtime environment of your choice:
 
-<a name="loio7e306865dadb4473a4d66d81b7d83004__table_jsf_jmx_l4b"/>Environment options
+**Environment options**
 
 
 <table>

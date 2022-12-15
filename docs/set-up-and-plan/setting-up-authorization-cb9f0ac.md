@@ -27,7 +27,7 @@ Use the decision tree below to determine how to set up authorization.
 
    
   
-<a name="loiocb9f0ac174a248c4bc7391e5bf5a0b1a__fig_sgf_zrw_42b"/>Setting Up Authorization
+**Setting Up Authorization**
 
  ![](images/sap_cp_lm_authorization_34cb489.png "Setting Up Authorization") 
 

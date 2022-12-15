@@ -11,7 +11,7 @@ Use the decision tree below to determine how to set up authentication. Once you'
 
    
   
-<a name="loio1dbce9caa4314103bbc9a7e3ca548280__fig_d4w_mrw_42b"/>Setting Up Authentication
+**Setting Up Authentication**
 
  ![](images/sap_cp_lm_authentication_49d26c9.png "Setting Up Authentication") 
 

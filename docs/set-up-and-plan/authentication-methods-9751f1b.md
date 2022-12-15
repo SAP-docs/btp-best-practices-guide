@@ -4,7 +4,7 @@
 
 You can implement the authentication methods that are available on SAP BTP on the frontend of applications.
 
-<a name="loio9751f1b234ac4024a173887c67df1f0d__table_qsd_fhg_l2b"/>Authentication Methods on SAP BTP
+**Authentication Methods on SAP BTP**
 
 
 <table>

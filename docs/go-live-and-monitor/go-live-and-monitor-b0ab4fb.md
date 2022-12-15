@@ -18,7 +18,7 @@ If you've integrated SAP BTP with your on-premise SAP landscape, you can use SAP
 
 For example, the table below lists monitoring options offered by SAP Solution Manager.
 
-<a name="loio85cd2c84ad3b4d2bb0229b7d97fd8c63__table_xzc_byq_p2b"/>
+****
 
 
 <table>
@@ -186,7 +186,7 @@ You can also configure health checks that continually monitor the status of a ru
 
 In the Neo environment, you can use the cockpit to monitor applications:
 
-<a name="loio318c3653da0f42c88bd7a1c38273f79e__table_yzh_g3d_p2b"/>Monitoring Applications Using the Cockpit in the Neo Environment
+**Monitoring Applications Using the Cockpit in the Neo Environment**
 
 
 <table>

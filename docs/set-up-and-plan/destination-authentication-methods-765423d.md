@@ -6,7 +6,7 @@ Destinations are part of SAP BTP Connectivity and are used for communication bet
 
 Destinations are required to consume a target remote service from an application. They're resolved at runtime based on their symbolic names, resulting in an object that contains customer-specific configuration details, such as the URL of the remote system or service, the authentication type, and the respective credentials.
 
-<a name="loio765423ddb66147bc8141607a8522fe65__table_ctt_glg_l2b"/>Destination Authentication Methods on SAP BTP
+**Destination Authentication Methods on SAP BTP**
 
 
 <table>

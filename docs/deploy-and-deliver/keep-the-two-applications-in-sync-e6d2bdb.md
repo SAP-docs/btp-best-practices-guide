@@ -55,7 +55,7 @@ The following figure illustrates this procedure:
 
    
   
-<a name="loio8b3131f1b7504bc7b8a2e1e8b46f71f0__fig_ob4_vjs_yhb"/>Synchronization Through Solution Export Wizard and Transport Management
+**Synchronization Through Solution Export Wizard and Transport Management**
 
  ![Synchronization Through Solution Export Wizard and Transport Management](images/Solution_Export_Wizard_TMS_ccec825.png "Synchronization Through Solution Export Wizard and Transport
 						Management") 
@@ -116,7 +116,7 @@ The following figure illustrates this procedure:
 
    
   
-<a name="loioe603c7411eb0483eaeda10fee8aacb5b__fig_t3t_kjs_yhb"/>Synchronized Deployment Through a CI/CD Pipeline
+**Synchronized Deployment Through a CI/CD Pipeline**
 
  ![Synchronized Deployment Through a CI/CD Pipeline](images/CI_CD_Synchronization_6216d70.png "Synchronized Deployment Through a CI/CD Pipeline") 
 
@@ -144,7 +144,7 @@ The following figure illustrates this process:
 
    
   
-<a name="loio5606f91c66b44354bd99cce0a0b9da5d__fig_glj_vql_wgb"/>Manual Synchronization
+**Manual Synchronization**
 
  ![Manual Synchronization](images/Manual_Synchronization_53bfe9d.png "Manual Synchronization") 
 

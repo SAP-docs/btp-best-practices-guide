@@ -10,7 +10,7 @@ The following figure illustrates this procedure:
 
    
   
-<a name="loio88b86dbbbee34092a2e30a32ada5dc19__fig_o11_gks_yhb"/>Failover Detection
+**Failover Detection**
 
  ![Failover Detection](images/Failover_Detection_4713dc4.png "Failover Detection") 
 

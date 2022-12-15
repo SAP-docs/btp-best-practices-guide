@@ -23,7 +23,7 @@ The following figure illustrates this concept for a mutli-data center setup, as 
 
   
   
-Failover in Multi-DC Setup
+**Failover in Multi-DC Setup**
 
  ![Failover in Multi-DC Setup](images/Failover_Flowchart_1bd23e7.png "Failover in Multi-DC Setup") 
 

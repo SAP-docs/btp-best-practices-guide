@@ -20,7 +20,7 @@ Setting up your application with multiple instances might have an impact on your
 
    
   
-<a name="loiob1b929a5aea64571b2f74e810b622568__fig_cmc_bh3_1kb"/>Distribution During an Availability Zone Failure
+**Distribution During an Availability Zone Failure**
 
  ![](images/AZ_failure_3e96947.png "Distribution During an Availability Zone Failure") 
 

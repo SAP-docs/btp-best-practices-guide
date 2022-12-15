@@ -6,7 +6,7 @@ A shared responsibility model applies to SAP BTP: SAP manages the platform, wher
 
   
   
-<a name="loio898509dd6f1346448d5057f4dc6b8b30__fig_sgf_zrw_42b"/>Shared Responsibilities Between You and SAP
+**Shared Responsibilities Between You and SAP**
 
  ![](images/sap_cp_lm_shared_responsibility_model_e94f81a.png "Shared Responsibilities Between You and SAP") 
 
