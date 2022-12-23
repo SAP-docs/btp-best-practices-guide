@@ -4,7 +4,7 @@
 
 Implement multi-region architectures for applications deployed on SAP BTP, based on several reference use cases.
 
-You can implement multi-region architectures for the applications that are deployed on SAP BTP, such as for SAP CAP applications or SAP SaaS applications such as SAP Launchpad service or SAP Cloud Integration, by introducing geographic redundancy, application health checks and the application synchorinzation between different regions. To monitor the health of the applications in two data centers, you can use any of the available hyperscaler solutions such as Azure Traffic Manger or Amazon Route 53.
+You can implement multi-region architectures for the applications that are deployed on SAP BTP, such as for SAP CAP applications or SAP SaaS applications such as SAP Build Work Zone, standard edition or SAP Cloud Integration, by introducing geographic redundancy, application health checks and the application synchorinzation between different regions. To monitor the health of the applications in two data centers, you can use any of the available hyperscaler solutions such as Azure Traffic Manger or Amazon Route 53.
 
 
 
@@ -61,7 +61,7 @@ Discovery Center Mission
 <tr>
 <td valign="top">
 
-Multi-region high availability architecture for SAP Launchpad service using Azure Traffic Manager
+Multi-region high availability architecture for SAP Build Work Zone, standard edition using Azure Traffic Manager
 
 
 
@@ -91,7 +91,7 @@ Multi-region high availability architecture for SAP Launchpad service using Azur
 <tr>
 <td valign="top">
 
-Multi-region high availability architecture for SAP Launchpad service using Amazon Route 53
+Multi-region high availability architecture for SAP Build Work Zone, standard edition using Amazon Route 53
 
 
 
