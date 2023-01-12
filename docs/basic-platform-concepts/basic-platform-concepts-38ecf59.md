@@ -212,9 +212,9 @@ Global accounts are region- and environment-independent. Within a global account
 
 A directory can contain directories and subaccounts to create a hierarchy. Using directories to group other directories and subaccounts is optional - you can still create subaccounts directly under your global account.
 
-You can create a hierarchical structure that is 7 levels deep. The highest level of a given path is always the global account and the lowest is a subaccount, which means that you can have up to 5 levels of directories.
+You can create a hierarchical structure that is up to 7 levels deep. The highest level of a given path is always the global account and the lowest is a subaccount, which means that you can have up to 5 levels of directories bewteen the global account and the lowest level subaccount.
 
-![Directories and Subaccounts](images/Relationship_Between_Directories_and_Subaccounts_d60105c.png)
+![Sample hierarchy of directories and subaccounts](images/Relationship_Between_Directories_and_Subaccounts_d60105c.png)
 
 Directories allow you to:
 
@@ -223,11 +223,14 @@ Directories allow you to:
 -   Monitor usage and costs for contracts that use the consumption-based commercial model
 
 
-In addition, you can also add the following features to your directories \(optional\):
+Optionally, you can also enable the following features in your directories:
 
 -   Manage Entitlements: Enables the assignment of a quota for services and applications to the directory from the global account quota for distribution to the directory's subaccounts.
 
     When you assign entitlements to a directory, you express the entitlements and maximum quota that can be distributed across its children subaccounts. You also have the option to choose the auto-assignment of a set amount of quota to all subaccounts created or moved to that directory. Subaccounts that are already in the directory when you select that option will not be auto-assigned quota.
+
+    > ### Note:  
+    > If you've enabled the Manage Entitlements feature for a given directory, you must first assign the necessary entitlements and maximum allowed quota from the global account to that directory before you can distribute this "reserved" quota to any of the directory's child subaccounts.
 
 -   Manage Authorizations: Enables authorization management for the directory. For example, it allows certain users to manage directory entitlements. You can only use this feature in combination with the *Manage Entitlements* feature.
 
