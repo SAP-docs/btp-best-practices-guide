@@ -15,7 +15,7 @@
     -   [Creating a Governance Model](set-up-and-plan/creating-a-governance-model-bf0ce2c.md)
         -   [Building Teams](set-up-and-plan/building-teams-fdeddf2.md#loiofdeddf22a6964d86a199b9eb11c7075e)
             -   [Cloud Development Teams](set-up-and-plan/building-teams-fdeddf2.md#loio4157200ef2644243aa74ae2770df1d94)
-            -   [Cloud Administration Team / Center of Excellence](set-up-and-plan/building-teams-fdeddf2.md#loiof36d159b91004ebda56faf35c2ebd90d)
+            -   [Platform Engineering Team / Center of Excellence](set-up-and-plan/building-teams-fdeddf2.md#loiof36d159b91004ebda56faf35c2ebd90d)
         -   [Creating an Onboarding Process for Development Projects](set-up-and-plan/creating-an-onboarding-process-for-development-projects-4bd29a8.md)
         -   [Creating a Knowledge Transfer Process](set-up-and-plan/creating-a-knowledge-transfer-process-630c14c.md)
     -   [Setting Up Your Account Model](set-up-and-plan/setting-up-your-account-model-2db81f4.md)

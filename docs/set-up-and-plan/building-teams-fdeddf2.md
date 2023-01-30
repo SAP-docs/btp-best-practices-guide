@@ -2,7 +2,7 @@
 
 # Building Teams
 
-We recommend that you set up two types of teams: **Cloud Development Teams**, who build and operate applications, and a central **Cloud Administration Team / Center of Excellence**, who is responsible for any account operations, the build infrastructure, for defining central governance and compliance guidelines, and for driving cloud adoption throughout your organization.
+We recommend that you set up two types of teams: **Cloud Development Teams**, who build and operate applications, and a central **Platform Engineering Team / Center of Excellence**, who is responsible for any account operations, the build infrastructure, for defining central governance and compliance guidelines, and for driving cloud adoption throughout your organization.
 
  <a name="loio4157200ef2644243aa74ae2770df1d94"/>
 
@@ -20,17 +20,17 @@ We recommend that Cloud Development Teams follow a DevOps approach, which means 
 
 <!-- loiof36d159b91004ebda56faf35c2ebd90d -->
 
-## Cloud Administration Team / Center of Excellence
+## Platform Engineering Team / Center of Excellence
 
-The Cloud Administration Team defines, sets up, and maintains your cloud landscape.
+The Platform Engineering Team defines, sets up, and maintains your cloud landscape.
 
 The responsibility of this team is to operate and ensure a stable and secure cloud landscape, and to enable other developers to build cloud applications. The members of this team are highly qualified experts who have development experience and experience with setting up and running a build infrastructure for continuous deployments and integration scenarios.
 
-This team can support your development teams by providing knowledge and defining guidelines that match your company’s quality and security requirements. The Cloud Administration Team should generally not be responsible for the lifecycle management of specific applications; the Cloud Development Team should take responsibility for this task.
+This team can support your development teams by providing knowledge and defining guidelines that match your company’s quality and security requirements. The Platform Engineering Team should generally not be responsible for the lifecycle management of specific applications; the Cloud Development Team should take responsibility for this task.
 
-The Cloud Administration Team can also operate as a Center of Excellence \(CoE\), driving cloud adoption, migration, and operation throughout your organization by providing thought leadership and guidance for resolving roadblocks. The CoE is also responsible for identifying, evaluating, and implementing use cases for the SAP BTP.
+The Platform Engineering Team can also operate as a Center of Excellence \(CoE\), driving cloud adoption, migration, and operation throughout your organization by providing thought leadership and guidance for resolving roadblocks. The CoE is also responsible for identifying, evaluating, and implementing use cases for the SAP BTP.
 
-We recommend that the Cloud Administration Team / Center of Excellence \(CoE\) create the following documents:
+We recommend that the Platform Engineering Team / Center of Excellence \(CoE\) create the following documents:
 
 -   [Onboarding Document](creating-an-onboarding-process-for-development-projects-4bd29a8.md#loio4bd29a8a49c84727aeb81a8f60e74ea0__section_onboarding_doc)
 

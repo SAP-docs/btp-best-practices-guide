@@ -4,7 +4,7 @@
 
 If you're planning on starting multiple development projects on SAP BTP, we recommend that you set up an onboarding process to ensure that new projects are tracked and documented properly, compliant with the security standards and guidelines you define.
 
-Every new application that is managed and tracked by a Cloud Administration Team should have an onboarding process. Owners of new applications should fill out an onboarding document and a security template. Maintaining administrative information about all applications in one central place helps the Cloud Administration Team to keep an overview about all projects, applications, and responsibilities. It also allows the team to inform all project managers and developers about changes and updates to the cloud landscape.
+Every new application that is managed and tracked by a Platform Engineering Team should have an onboarding process. Owners of new applications should fill out an onboarding document and a security template. Maintaining administrative information about all applications in one central place helps the Platform Engineering Team to keep an overview about all projects, applications, and responsibilities. It also allows the team to inform all project managers and developers about changes and updates to the cloud landscape.
 
 
 
@@ -64,7 +64,7 @@ If you're going to onboard multiple development projects, we recommend that you 
 
 All services should be offered as templates in a service catalog that developers can fill out, for example, in a ticketing system.
 
-We recommend that the Cloud Administration Team makes the consumption of services as easy as possible, or even automates it using SAP BTP APIs. The team may want to, for example, write scripts for database schema creation and access management. The Lifecycle Management API lets the Cloud Development Team restart an application in the production subaccount without having access to it and without affecting any other application. For more information, see the [Lifecycle Management API](https://api.sap.com/api/SAP_HCP_Lifecycle_Management/overview).
+We recommend that the Platform Engineering Team makes the consumption of services as easy as possible, or even automates it using SAP BTP APIs. The team may want to, for example, write scripts for database schema creation and access management. The Lifecycle Management API lets the Cloud Development Team restart an application in the production subaccount without having access to it and without affecting any other application. For more information, see the [Lifecycle Management API](https://api.sap.com/api/SAP_HCP_Lifecycle_Management/overview).
 
 **Related Information**  
 
