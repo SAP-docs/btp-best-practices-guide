@@ -68,6 +68,7 @@
             -   [Synchronize Your Applications Manually](deploy-and-deliver/keep-the-two-applications-in-sync-e6d2bdb.md#loio5606f91c66b44354bd99cce0a0b9da5d)
         -   [Define How a Failover Is Detected](deploy-and-deliver/define-how-a-failover-is-detected-88b86db.md)
         -   [Decide on the Failback](deploy-and-deliver/decide-on-the-failback-963f962.md)
+        -   [Reference Use Cases for Multi-Region Architectures](deploy-and-deliver/multi-region-usecases.md)
     -   [Configuring Backup](deploy-and-deliver/configuring-backup-7821fcf.md#loio7821fcf6f0cc487799fb6b75e8d0e0f7)
         -   [Data Backups Managed by SAP](deploy-and-deliver/configuring-backup-7821fcf.md#loio6c1e071845dd4db2829b413a05154a7c)
         -   [Service Configurations Managed by Customers](deploy-and-deliver/configuring-backup-7821fcf.md#loio9de0caa8abe34f4897e5b727868019c0)
