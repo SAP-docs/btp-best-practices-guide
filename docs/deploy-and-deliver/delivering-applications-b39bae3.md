@@ -400,7 +400,7 @@ possible
 -   If you want to have more control, especially when propagating changes towards your production environment, consider the following transport and change management options:
     -   For cloud transports, also in hybrid landscapes: the **SAP Cloud Transport Management** service, which allows you to transport content archives, delivery units of SAP HANA XS classic model, and application-specific content, such as SAP Cloud Integration content, between different subaccounts that might even reside in different global accounts, spread across different regions. This service is recommended to handle SAP BTP application-specific content, independent of whether it is provided as multitarget application \(MTA\) files or in other formats.
 
-        For more information, see [SAP Transport Management Service](https://help.sap.com/viewer/7f7160ec0d8546c6b3eab72fb5ad6fd8/Cloud/en-US).
+        For more information, see [What is SAP Cloud Transport Management](https://help.sap.com/viewer/7f7160ec0d8546c6b3eab72fb5ad6fd8/Cloud/en-US).
 
     -   For ABAP-centric or hybrid scenarios, the enhanced Change and Transport System \(CTS+\), running in an on-premise ABAP system. Besides handling the transport of on-premise systems, CTS+ also lets you transport SAP BTP artifacts from one subaccount to another. However, this is only supported if the artifacts are packaged as multitarget application \(MTA\) archives. Please note that no other SAP BTP content format is planned to be supported by CTS+. Therefore, consider CTS+ for SAP BTP content, if you have CTS+ already in use and only have to handle MTA-based content on SAP BTP \(today and in the future\).
 

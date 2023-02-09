@@ -98,7 +98,7 @@ Multi-region high availability architecture for SAP Build Work Zone, standard ed
 </td>
 <td valign="top">
 
-[High Availability of SAP Launchpad Service with Amazon Route 53](https://blogs.sap.com/2022/11/04/high-availability-of-sap-launchpad-service-with-amazon-route-53/)
+[High Availability of SAP Build Work Zone with Amazon Route 53](https://blogs.sap.com/2022/11/04/high-availability-of-sap-launchpad-service-with-amazon-route-53/)
 
 
 
