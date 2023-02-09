@@ -12,7 +12,7 @@ SAP BTP offers services, tools, and capabilities to develop, extend, or integrat
 
 All standard SAP solutions are offered with customizing capabilities. Additionally, customers often have their own requirements for innovative or industry-specific extensions and the extension capability of SAP BTP can help them build, deploy, and operate their new functionalities easily and securely.
 
-You can use SAP BTP to extend standard SAP solutions without disrupting their performance and core processes. When building extension applications, you can also benefit from the automation of the integration between and the SAP BTPextended SAP solutions.
+You can use SAP BTP to extend standard SAP solutions without disrupting their performance and core processes. When building extension applications, you can also benefit from the automation of the integration between SAP BTP and the extended SAP solutions.
 
 
 
