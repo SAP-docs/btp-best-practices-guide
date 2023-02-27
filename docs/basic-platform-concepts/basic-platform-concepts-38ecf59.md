@@ -307,7 +307,7 @@ SAP BTP offers two different commercial models for enterprise accounts.
     For more information, see [What Is the Subscription-Based Commercial Model?](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/96e78abc7f1c445e880346924441dc51.html#loio239b6e045e7e48f58b61655b02748d45 "Your organization receives a fixed price and period (typically a 1 to 3-year period) for access to your subscribed SAP BTP services.") :arrow_upper_right:
 
 
-For information about service availability, prices, and estimators, see [https://www.sap.com/products/extension-suite/pricing.html](https://www.sap.com/products/extension-suite/pricing.html) and [https://www.sap.com/products/integration-suite/pricing.html](https://www.sap.com/products/integration-suite/pricing.html). You can also view the service catalog via the [SAP Discovery Center](https://discovery-center.cloud.sap).
+For information about service availability, prices, and estimators, see [https://www.sap.com/products/technology-platform/solutions.html](https://www.sap.com/products/technology-platform/solutions.html) and [https://www.sap.com/products/technology-platform/integration-suite/pricing.html](https://www.sap.com/products/technology-platform/integration-suite/pricing.html). You can also view the service catalog via the [SAP Discovery Center](https://discovery-center.cloud.sap).
 
 > ### Note:  
 > You can use both commercial models, either in separate global accounts or in the same global account depending on your business needs. Contact your SAP account executive or sales representative for more information.
