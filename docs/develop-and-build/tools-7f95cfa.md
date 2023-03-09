@@ -79,7 +79,7 @@ The Cloud Foundry command line interface enables you to work with the Cloud Foun
 <tr>
 <td valign="top">
 
-[SAP BTP Command Line Interface [Feature Set B]](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7c6df2db6332419ea7a862191525377c.html "Use the SAP BTP command line interface (btp CLI) for account management tasks, such as creating or updating subaccounts and directories, and managing entitlements. It is an alternative to the SAP BTP cockpit for all users who like to work in a terminal or want to automate operations using scripts.") :arrow_upper_right:
+[SAP BTP Command Line Interface [Feature Set B]](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7c6df2db6332419ea7a862191525377c.html "Use the SAP BTP command line interface (btp CLI) for account management tasks, such as creating or updating subaccounts and directories, and managing entitlements. It is an alternative to the SAP BTP cockpit for users who like to work in a terminal or want to automate operations using scripts.") :arrow_upper_right:
 
 
 
@@ -249,7 +249,7 @@ The SAP BTP cockpit is the web-based administration interface of SAP BTP and pro
 <tr>
 <td valign="top">
 
-[Account Administration Using the SAP BTP Command Line Interface (btp CLI)](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7c6df2db6332419ea7a862191525377c.html "Use the SAP BTP command line interface (btp CLI) for account management tasks, such as creating or updating subaccounts and directories, and managing entitlements. It is an alternative to the SAP BTP cockpit for all users who like to work in a terminal or want to automate operations using scripts.") :arrow_upper_right:
+[Account Administration Using the SAP BTP Command Line Interface (btp CLI)](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7c6df2db6332419ea7a862191525377c.html "Use the SAP BTP command line interface (btp CLI) for account management tasks, such as creating or updating subaccounts and directories, and managing entitlements. It is an alternative to the SAP BTP cockpit for users who like to work in a terminal or want to automate operations using scripts.") :arrow_upper_right:
 
 
 
