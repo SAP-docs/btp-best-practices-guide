@@ -223,18 +223,23 @@ Java applications
 </td>
 <td valign="top">
 
--   Application monitoring
-
--   Application performance statistics \(Beta\)
--   Custom JMX checks
--   Monitoring APIs
+- Application monitoring
+- Custom thresholds
+- Availability checks
+- Custom JMX checks
+- Heap and thread dumps
+- Email alert notifications
+- Monitoring APIs
+- Application logging
+- Logs API
 
 
 
 </td>
 <td valign="top">
 
- [Managing Applications in the SAP BTP Cockpit](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/764f53e1cc9c4a50b2d0587ac82fdd7f.html "For an overview of the current status of the individual applications in your subaccount, use the cockpit. It provides key information in a summarized form and allows you to initiate actions, such as starting, stopping, and undeploying applications.") :arrow_upper_right: 
+- [Monitoring Java Applications](https://help.sap.com/docs/monitoring-service/sap-monitoring-service-for-sap-btp/monitoring-java-applications?version=Cloud "To monitor whether your deployed application is up and running, register an availability check and JMX checks for it and configure alerting if the application goes down. Use a REST API to get the status or the metrics of a Java application and its processes.") :arrow_upper_right:
+- [Using Logs in the Cockpit for Java Applications](https://help.sap.com/docs/application-logging-service/sap-application-logging-service-for-neo-environment/using-logs-in-cockpit-for-java-applications?version=Cloud "You can view the logs and change the log settings of any Java application deployed in your subaccount.") :arrow_upper_right:
 
 
 
@@ -250,17 +255,19 @@ SAP HANA XS applications
 </td>
 <td valign="top">
 
--   Health statistics for SAP HANA database instances
-
--   Application availability checks
--   Email notifications
+- Application monitoirng
+- Availability checks
+- Custom HTTP checks
+- Email alert notifications
+- Monitoring APIs
+- Health statistics for SAP HANA database instances
 
 
 
 </td>
 <td valign="top">
 
- [SAP HANA: Application Operations](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/6902b488768a4b13a75c8d9d50055fa2.html "") :arrow_upper_right: 
+ [Monitoring Database Systems](https://help.sap.com/docs/monitoring-service/sap-monitoring-service-for-sap-btp/monitoring-database-systems?version=Cloud "You can monitor your database system by viewing its metrics, by retrieving them with the Metrics REST API, or by receiving alerts for them. Furthermore, when you use an SAP HANA database system, you can also configure monitoring for its SAP HANA XS applications.") :arrow_upper_right: 
 
 
 
@@ -276,14 +283,19 @@ HTML5 applications
 </td>
 <td valign="top">
 
-Log viewer collecting error messages
-
+- Application monitoirng
+- Custom checks
+- Email alert notifications
+- Monitoring APIs
+- Application logging
+- Logs API
 
 
 </td>
 <td valign="top">
 
- [Using Logs in the Cockpit for HTML5 Applications](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/9f358860642c4ed283cd889a5bc42461.html "You can view logs on an HTML5 application running in your subaccount or on a subscription to an HTML application.") :arrow_upper_right: 
+ - [Monitoring HTML5 Applications](https://help.sap.com/docs/monitoring-service/sap-monitoring-service-for-sap-btp/monitoring-html5-applications?version=Cloud "To monitor your HTML5 application, create custom checks for it by specifying your own metrics. Furthermore, configure alert notifications for any changes to the states of the configured checks.") :arrow_upper_right:
+ - [Using Logs in the Cockpit for HTML5 Applications](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/9f358860642c4ed283cd889a5bc42461.html "You can view logs on an HTML5 application running in your subaccount or on a subscription to an HTML application.") :arrow_upper_right: 
 
 
 
