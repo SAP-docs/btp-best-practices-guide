@@ -2,51 +2,130 @@
 
 # Setting Up Authorization
 
-Users in an application require different authorizations because they work in different jobs. For more information, see **[Authorization Entities](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/5d8ed75b5c72432cb0e4d846f411e0cd.html "Business users in an application require different authorizations because they work in different jobs.") :arrow_upper_right:**. SAP BTP provides various options for implementing user authorization.
+The methods for assigning authorizations on SAP BTP include manual assignment, federation, and provisioning. In practice, you use all these methods according to the situation.
 
--   Manual assignment by using the command line interface \(btp CLI\) or the SAP BTP cockpit. Small-sized enterprises are typical use cases for this method.
+When your system has many users in widely used production accounts, identity federation or provisioning is the preferred method. We recommend provisioning over federation where possible.
 
--   Assignment using a custom identity provider \(IdP\), based on the group attributes used for federation. Large firms, especially in the production phase, are candidates for this option.
-
-    -   Technically, with a prerequisite of the passing of the group attribute in the SAML assertion, you can set up federated authorization with platform users configured with a custom IdP too.
+**Methods for Assigning Authorizations**
 
 
--   Provisioning by way of external tools like the Identity Provisioning service and the SAP Cloud Identity Access Governance service. Like federation, this is an automated process and maps the roles to the organizations. This method is also typical for large firms, especially in the production phase.
+<table>
+<tr>
+<th valign="top">
 
-    -   With provisioning, you assign individual authorizations to a business role. For example, if you have a user who needs access to different systems, the automation makes sure to assign all the authorizations that are necessary to access all the connected systems.
+Method
 
+</th>
+<th valign="top">
 
+Provisioning
 
-> ### Note:  
-> Although technically handled differently, federation and provisioning are inherently similar. Doing the assignment in the IdP is simpler to implement but does not scale in the same way that provisioning can. The use of approval workflows and the information that authorizations belong together by way of role definitions are other distinct advantages in using the provisioning option. With setting up authorization in the IdP, this can only be manually achieved.
+</th>
+<th valign="top">
 
-Use the decision tree below to determine how to set up authorization.
+Federation
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Description
+
+</td>
+<td valign="top">
+
+Provisioning synchronizes users between source systems and target systems based on rules or processes. Individual authorizations are assigned to business roles. When a user needs access a target system, the automation makes sure to assign all the required authorizations defined by the business role in the target system. For example, when a new hire is assigned to a sales organization in an HR system, provisioning triggers the creation of the user in the target sales system with the required authorizations.
+
+Provision user data with tools like Identity Provisioning and the SAP Cloud Identity Access Governance service.
+
+</td>
+<td valign="top">
+
+Federation is an agreement between the administrator of the identity provider and the administrator of the system that consume it. The agreement specifies what attributes to include in tokens used to authenticate users in the relying system. The administrator of the relying system assigns authorizations indirectly on the attributes the identity provider sends. For example, an identity provider includes the user groups attribute in authentication tokens it issues. The administrator of the relying system maps authorizations for sales applications to any user who belongs to the *sales* user group and not to individual users.
+
+Use tools such as the command-line interface \(btp CLI\) or the SAP BTP cockpit
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Restrictions
+
+</td>
+<td valign="top">
+
+Provisioning is partially available for platform users. In Feature Set B, role collections on the subaccount level can be provisioned, such as *Subaccount Administrator*.
+
+</td>
+<td valign="top">
+
+The ABAP environment doesn't support federation.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Advantages
+
+</td>
+<td valign="top">
+
+Centrally defined business roles define which authorizations belong together.
+
+Approval workflows for authorizations.
+
+When a user changes their job or leaves the organization, provisioning can remove the user data from target systems in accordance with compliance rules.
+
+</td>
+<td valign="top">
+
+Simpler to implement than provisioning.
+
+Authorization information comes with the authentication token. The user has information about their authorizations as soon as the changes have been made in the identity provider.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Disadvantages
+
+</td>
+<td valign="top">
+
+To get authorizations in a system, the user must wait until a provisioning job has run to update the target system.
+
+</td>
+<td valign="top">
+
+Doesn't scale like provisioning.
+
+Information that authorizations belong together can only be achieved manually.
+
+When a user is removed from the identity provider, the user can't log on, but their user data remains in the relying systems. You must actively ensure the deletion of the remaining data.
+
+</td>
+</tr>
+</table>
 
 > ### Remember:  
-> There are two types of users on SAP BTP: platform and business. Platform users are usually developers, administrators, or operators who deploy, administer, and troubleshoot applications and services. Business users are those who use the applications that are deployed to SAP BTP.
-
-   
-  
-**Setting Up Authorization**
-
- ![](images/sap_cp_lm_authorization_34cb489.png "Setting Up Authorization") 
-
-In general, although you can use either identity federation or provisioning in development and testing accounts too, it makes sense to just use the manual authorization configuration.
-
-If you have a lot of users like in widely used production accounts, identity federation or provisioning is typically used.
-
-The federation approach is valid only for business users. Provisioning is partially available for platform users. In Feature Set B, role collections on the subaccount level can be provisioned \(for example, for Subaccount Administrator\).
-
-In addition to subaccount authorizations \(like role collections\), you also need to assign roles for the environment, such as the Cloud Foundry [User and Member Management](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cc1c676b43904066abb2a4838cbd0c37.html "On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.") :arrow_upper_right:.
+> There are two types of users on SAP BTP: platform and business. Platform users are usually developers, administrators, or operators who deploy, administer, and troubleshoot applications and services. Business users are those users who consume the applications that are deployed to SAP BTP.
+> 
+> In addition to subaccount authorizations \(role collections\), assign roles for the environment.
+> 
+> For more information, see [Giving Access Rights to Platform Users](giving-access-rights-to-platform-users-a03d08e.md).
 
 **Related Information**  
 
 
-[Setup SAML 2.0 for Identity Federation](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/dc618538d97610148155d97dcd123c24.html#loiodc618538d97610148155d97dcd123c24 "The application identity provider supplies the user base for your applications. For example, you can use your corporate identity provider for your applications. This is called identity federation. SAP BTP supports Security Assertion Markup Language (SAML) 2.0 for identity federation.") :arrow_upper_right:
+[Mapping Role Collections in the Subaccount](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/9e1bf57130ef466e8017eab298b40e5e.html)
 
-[Setup and Manage Roles for Authorization](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/db8175b9d976101484e6fa303b108acd.html "In SAP BTP, you can use Java EE roles to define access to the application resources.") :arrow_upper_right:
+[Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0039cf082d3d43eba9200fe15647922a.html "In the cloud management tools feature set B, SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.") :arrow_upper_right:
 
-[Security Administration: Managing Authentication and Authorization](https://help.sap.com/viewer/ae8e8427ecdf407790d96dad93b5f723/Cloud/en-US/1ff47b2d980e43a6b2ce294352333708.html "This section describes the tasks of administrators in the Cloud Foundry environment of SAP BTP. Administrators ensure user authentication and assign authorization information to users and user groups.") :arrow_upper_right:
+[Setting Up Identity Lifecycle](setting-up-identity-lifecycle-2c30208.md "As people join, change roles, and eventually leave your organization, you care for the onboarding, maintenance, and offboarding of their users in your systems. If you're a small organization, you can use manual processes, otherwise you need to automate.")
 
-[SAP Cloud Identity Services](https://help.sap.com/viewer/f48e822d6d484fa5ade7dda78b64d9f5/Cloud/en-US)
+[Onboard to SAP Cloud Identity Services](../onboard-to-sap-cloud-identity-services-9c897ee.md "When setting up accounts, you need to assign users. While we provide you with your first users to get you started, your organization has identity providers that you want to integrate.")
 

@@ -27,7 +27,10 @@ An onboarding document ensures that a new application is properly onboarded and 
 -   URL of the Git repository, if applicable
 -   Test strategy
 
-After the document is verified, application owners and developers should get access to the development subaccount to start developing. Make sure that all developers understand that on the development subaccount, all applications can be stopped, and code can be deleted by users at any time without notice. We recommend that the Cloud Development Team keeps the relevant code and files in a repository outside of SAP BTP to avoid that applications and artifacts like git repositories \(containing code\) are deleted in the subaccount by accident.
+After the document is verified, application owners and developers should get access to the development subaccount to start developing. Make sure that all developers understand that on the development subaccount, all applications can be stopped, and code can be deleted by users at any time without notice.
+
+> ### Recommendation:  
+> We recommend that the Cloud Development Team keeps the relevant code and files in a repository outside of SAP BTP to avoid that applications and artifacts like Git repositories \(containing code\) are deleted in the subaccount by accident.
 
 
 
@@ -53,7 +56,7 @@ We recommend you provide a template for the security document that is filled out
 
 ## Services Catalog
 
-If you're going to onboard multiple development projects, we recommend that you set up a services catalog that summarizes all services offered by the Cloud Administration Team, especially when access to the testing and production subaccounts are restricted for developers. This facilitates and speeds up the collaboration between the Cloud Administration and the Cloud Development Teams. Examples of such services include the following:
+If you're going to onboard multiple development projects, we recommend that you set up a services catalog that summarizes all services offered by the Platform Engineering Team, especially when access to the testing and production subaccounts are restricted for developers. This facilitates and speeds up the collaboration between the Platform Engineering Team and the Cloud Development Team. Examples of such services include the following:
 
 -   Adding or managing destinations
 
@@ -64,7 +67,7 @@ If you're going to onboard multiple development projects, we recommend that you 
 
 All services should be offered as templates in a service catalog that developers can fill out, for example, in a ticketing system.
 
-We recommend that the Platform Engineering Team makes the consumption of services as easy as possible, or even automates it using SAP BTP APIs. The team may want to, for example, write scripts for database schema creation and access management. The Lifecycle Management API lets the Cloud Development Team restart an application in the production subaccount without having access to it and without affecting any other application. For more information, see the [Lifecycle Management API](https://api.sap.com/api/SAP_HCP_Lifecycle_Management/overview).
+We recommend that the Platform Engineering Team makes the consumption of services as easy as possible, or even automates it using SAP BTP APIs, the btp CLI, or the SAP BTP Setup Automator. For example, the team may want to write scripts for database schema creation and access management. The Lifecycle Management API lets the Cloud Development Team restart an application in the production subaccount without having access to it and without affecting any other application. For more information, see the [Lifecycle Management API](https://api.sap.com/api/SAP_HCP_Lifecycle_Management/overview).
 
 **Related Information**  
 

@@ -20,7 +20,7 @@ There are three different ways to synchronize your applications in the primary a
 -   Orchestrate your applications through a combination of the Solution Export Wizard and the SAP Cloud Transport Management service. See [Use the Solution Export Wizard and SAP Cloud Transport Management](keep-the-two-applications-in-sync-e6d2bdb.md#loio8b3131f1b7504bc7b8a2e1e8b46f71f0).
 
 
- <a name="loio8b3131f1b7504bc7b8a2e1e8b46f71f0"/>
+<a name="loio8b3131f1b7504bc7b8a2e1e8b46f71f0"/>
 
 <!-- loio8b3131f1b7504bc7b8a2e1e8b46f71f0 -->
 
@@ -53,12 +53,12 @@ In your subaccount in the Neo environment hosted in your primary data center, us
 
 The following figure illustrates this procedure:
 
-   
+  
   
 **Synchronization Through Solution Export Wizard and Transport Management**
 
- ![Synchronization Through Solution Export Wizard and Transport Management](images/Solution_Export_Wizard_TMS_ccec825.png "Synchronization Through Solution Export Wizard and Transport
-						Management") 
+![Synchronization Through Solution Export Wizard and Transport Management](images/Solution_Export_Wizard_TMS_ccec825.png "Synchronization Through Solution Export Wizard and Transport
+						Management")
 
 > ### Note:  
 > You can also use the solution export wizard independently from SAP Cloud Transport Management by manually uploading your exported changes to the target account.
@@ -104,7 +104,7 @@ The following figure illustrates this procedure:
 
 [Blog - SAP Cloud Transport Management service generally available](https://blogs.sap.com/2019/01/08/sap-cloud-platform-transport-management-service-generally-available/)
 
- <a name="loioe603c7411eb0483eaeda10fee8aacb5b"/>
+<a name="loioe603c7411eb0483eaeda10fee8aacb5b"/>
 
 <!-- loioe603c7411eb0483eaeda10fee8aacb5b -->
 
@@ -114,11 +114,11 @@ You can synchronize the deployment of your applications in two different data ce
 
 The following figure illustrates this procedure:
 
-   
+  
   
 **Synchronized Deployment Through a CI/CD Pipeline**
 
- ![Synchronized Deployment Through a CI/CD Pipeline](images/CI_CD_Synchronization_6216d70.png "Synchronized Deployment Through a CI/CD Pipeline") 
+![Synchronized Deployment Through a CI/CD Pipeline](images/CI_CD_Synchronization_6216d70.png "Synchronized Deployment Through a CI/CD Pipeline")
 
 > ### Recommendation:  
 > Use a pre-configured pipeline of project "Piper" and adapt it for multi-deployment to your two subaccounts in different data centers. For more information, see [project "Piper"](https://sap.github.io/jenkins-library/).
@@ -132,7 +132,7 @@ The following figure illustrates this procedure:
 
 [Blog - Continuous Delivery with Jenkins Pipelines](https://blogs.sap.com/2017/11/21/continuous-delivery-with-jenkins-pipelines/)
 
- <a name="loio5606f91c66b44354bd99cce0a0b9da5d"/>
+<a name="loio5606f91c66b44354bd99cce0a0b9da5d"/>
 
 <!-- loio5606f91c66b44354bd99cce0a0b9da5d -->
 
@@ -142,11 +142,11 @@ You can orchestrate your applications manually by duplicating your modifications
 
 The following figure illustrates this process:
 
-   
+  
   
 **Manual Synchronization**
 
- ![Manual Synchronization](images/Manual_Synchronization_53bfe9d.png "Manual Synchronization") 
+![Manual Synchronization](images/Manual_Synchronization_53bfe9d.png "Manual Synchronization")
 
 With this approach, you can decide yourself which of your changes to transport from one data center to the other. Therefore, synchronizing your applications manually allows you to maintain two non-identical applications, for example, if you want to visually differentiate between the UIs in your primary and the backup version.
 

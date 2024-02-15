@@ -8,7 +8,7 @@ A shared responsibility model applies to SAP BTP: SAP manages the platform, wher
   
 **Shared Responsibilities Between You and SAP**
 
- ![](images/sap_cp_lm_shared_responsibility_model_e94f81a.png "Shared Responsibilities Between You and SAP") 
+![](images/sap_cp_lm_shared_responsibility_model_e94f81a.png "Shared Responsibilities Between You and SAP")
 
 
 
@@ -34,5 +34,5 @@ In addition, it's up to you to develop and operate applications. You are respons
 
 If you're using the SAP HANA service, you're required to trigger updates of SAP HANA revisions when applicable, using a self-service from SAP BTP.
 
-For a more granular overview of the responsibilities for operating SAP BTP, see [Operating Model in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de55b6e9aaa749ffbb8122c8f1097a34.html "This operating model clearly defines the separation of tasks between the operator and the customer during all phases of an integration project.") :arrow_upper_right:.
+For a more granular overview of the responsibilities for operating SAP BTP, see [Operating Model](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9aafc94077c0447c88e2f5f2024a9c8e.html "An operating model clearly defines the separation of tasks between SAP and the customer during all phases of an integration project.") :arrow_upper_right:.
 

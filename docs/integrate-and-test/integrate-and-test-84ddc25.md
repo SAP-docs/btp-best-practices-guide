@@ -4,9 +4,9 @@
 
 Test and integrate your application with other solutions.
 
- 
 
- <a name="loio998fbbb1a53c4fbb888e9b14892b3c0c"/>
+
+<a name="loio998fbbb1a53c4fbb888e9b14892b3c0c"/>
 
 <!-- loio998fbbb1a53c4fbb888e9b14892b3c0c -->
 
@@ -22,7 +22,7 @@ In contrast to unit tests that are performed locally on your development subacco
 
 One Page Acceptance Tests \(OPA5\) is an API for SAPUI5 controls. It hides asynchronicity and eases access to SAPUI5 elements. This makes OPA especially helpful for testing user interactions, integration with SAPUI5, navigation, and data binding. See [Integration Testing with One Page Acceptance Tests \(OPA5\)](https://help.sap.com/doc/saphelp_uiaddon20/2.05/en-US/7c/dee404cac441888539ed7bfe076e57/frameset.htm).
 
- <a name="loiof0cc091b8e154132a84b449bd19adb0b"/>
+<a name="loiof0cc091b8e154132a84b449bd19adb0b"/>
 
 <!-- loiof0cc091b8e154132a84b449bd19adb0b -->
 

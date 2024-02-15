@@ -6,29 +6,47 @@ SAP BTP offers users the ability to turn data into business value, compose end-t
 
 
 
-The services and solutions of SAP BTP are available on multiple cloud infrastructure providers. The **multi-cloud foundation** supports different environments, such as Cloud Foundry, ABAP, and Kyma, as well as multiple different regions, and a broad choice of programming languages.
+SAP Business Technology Platform is built on a multi-cloud foundation, which lets you choose from different infrastructures and runtimes. The services and solutions of SAP BTP are available on multiple cloud infrastructure providers, and it supports different runtimes, such as Cloud Foundry, ABAP, and Kyma, as well as multiple different regions, and a broad choice of programming languages.
 
-The central point of entry to the cloud platform is the **SAP BTP cockpit**, where you can access your accounts and applications and manage all activities associated with them.
+The counterpart of the multi-cloud foundation of SAP BTP is the SAP BTP, Neo. To access the documentation for the Neo environment, see [What Is SAP BTP, Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/34ac79024d41469a804ba9b9deeb5b1d.html "SAP BTP, Neo environment is an enterprise platform-as-a-service (enterprise PaaS) that provides comprehensive application development services and capabilities, which lets you build, extend, and integrate business applications in the cloud.") :arrow_upper_right:. For migration information, see [Migrating from the SAP BTP Neo Environment to the Multi-Cloud Foundation](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html).
+
+The central point of entry to the platform is the **SAP BTP cockpit**, where you can access your accounts and applications and manage all activities associated with them.
 
 
 
-The figure below depicts the relationship between a global account, its subaccounts, environments, regions, entitlements, and quotas. It shows the administrative tasks to be considered at the global acccount level as well as at the subaccount level.
+<a name="loio38ecf59cdda64150a102cfaa62d5faab__section_jb2_jxx_tmb"/>
 
-   
+## Overview of Global Accounts and Subaccounts \(Feature Set A\)
+
+The figure below depicts the relationship between a global account, its subaccounts, environments, regions, entitlements, and quotas in feature set A. It shows the administrative tasks to be considered at the global acccount level as well as at the subaccount level.
+
+  
   
 **Overview of Global Accounts and Subaccounts \(Feature Set A\)**
 
- ![](images/domain_model_pptx_2b90418.png "Overview of Global Accounts and Subaccounts (Feature Set A)") 
+![](images/domain_model_pptx_2b90418.png "Overview of Global Accounts and Subaccounts (Feature Set A)")
 
-If your global account is on cloud management tools, feature set B, the account structure looks different. With feature set B, the new hierarchical element called **directory** is introduced, which is essentially a grouping of subaccounts. Furthermore, subaccounts can have multiple environments.
 
-The figure below depicts the relationship between a global account, its directories, subaccounts, environments, regions, entitlements, and quotas for feature set B.
 
-   
+<a name="loio38ecf59cdda64150a102cfaa62d5faab__section_ocw_nbx_ywb"/>
+
+## Overview of Global Accounts, Directories, and Subaccounts \(Feature Set B\)
+
+If your global account is on cloud management tools, feature set B, the account structure looks different. Feature set B introduces the new hierarchical element called **directory**, which is essentially a grouping of subaccounts.
+
+The figure below depicts the relationship between a global account, its directories, subaccounts, runtime environments, regions, entitlements, and quotas for feature set B.
+
+  
   
 **Overview of Global Accounts, Directories, and Subaccounts \(Feature Set B\)**
 
- ![](images/plm_domain_model_B_d437840.png "Overview of Global Accounts, Directories, and Subaccounts (Feature Set B)") 
+![](images/plm_domain_model_B_d437840.png "Overview of Global Accounts, Directories, and Subaccounts (Feature Set B)")
+
+
+
+<a name="loio38ecf59cdda64150a102cfaa62d5faab__section_ozn_1cx_ywb"/>
+
+## Administrative Tasks
 
 
 <table>
@@ -37,14 +55,10 @@ The figure below depicts the relationship between a global account, its director
 
 Level
 
-
-
 </th>
 <th valign="top">
 
 Administrative Tasks
-
-
 
 </th>
 </tr>
@@ -53,14 +67,14 @@ Administrative Tasks
 
 Global Account
 
-
-
 </td>
 <td valign="top">
 
--   For each commercial model \(licence type\), you get a separate global account.
+-   Global accounts are region- and runtime-independent.
 
--   Appoint at least one person as administrator. The administrator is responsible for adding new subaccounts, adding members to a global account, and managing the entitlements. We recommend that you also appoint at least one substitute administrator. If the main administrator leaves the company or is unavailable, it's important that you have someone who's available to take over these tasks.
+-   Usually, for each commercial model \(licence type\), you get a separate global account. It is however possible to combine two commercial models in one global account. See[commercial models](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts#commercial-models).
+
+-   Appoint at least one person as administrator. The administrator is responsible for adding new subaccounts, adding members to a global account, and managing the entitlements.
 
 -   You purchase entitlements for each global account \(according to your commercial model\). The administrator of the global account distributes quotas to the individual subaccounts.
 
@@ -74,14 +88,12 @@ Global Account
 
 Directory \(optional, feature set B\)
 
-
-
 </td>
 <td valign="top">
 
 -   Directories are only available with feature set B. See [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:. They are groups of subaccounts that you can manage, operate, and analyze together.
 
--   Appoint at least one person as administrator. The administrator is responsible for adding new subaccounts, managing members, and managing entitlements. We recommend that you also appoint at least one substitute administrator. If the main administrator leaves the company or is unavailable, it's important that you have someone who's available to take over these tasks.
+-   Appoint at least one person as administrator. The administrator is responsible for adding new subaccounts, managing members, and managing entitlements.
 
 
 
@@ -93,14 +105,12 @@ Directory \(optional, feature set B\)
 
 Subaccount
 
-
-
 </td>
 <td valign="top">
 
--   Each subaccount runs in exactly one region \(data center\) and one environment.
+-   Each subaccount runs in exactly one region \(data center\). Within a subaccount, you can enable multiple, different runtime environments.
 
--   Appoint at least one person as administrator. The administrator is responsible for adding new members to the subaccount and assigning their business roles. We recommend that you also appoint at least one substitute administrator. If the main administrator leaves the company or is unavailable, it's important that you have someone who's available to take over these tasks.
+-   Appoint at least one person as administrator. The administrator is responsible for adding new members to the subaccount and assigning their business roles.
 
 
 
@@ -109,9 +119,12 @@ Subaccount
 </tr>
 </table>
 
+> ### Recommendation:  
+> For each administrator, we recommend that you also appoint at least one substitute administrator. If the main administrator leaves the company or is unavailable, it's important that you have someone who's available to take over these tasks.
+
 For more information, see [Account Model](basic-platform-concepts-38ecf59.md#loio730bdd6a9a6b46c4ae3c5bce3bea8e5c) and [Setting Up Your Account Model](../set-up-and-plan/setting-up-your-account-model-2db81f4.md).
 
- <a name="loio860a4d65945b4ca3a757be079d6825e5"/>
+<a name="loio860a4d65945b4ca3a757be079d6825e5"/>
 
 <!-- loio860a4d65945b4ca3a757be079d6825e5 -->
 
@@ -119,13 +132,13 @@ For more information, see [Account Model](basic-platform-concepts-38ecf59.md#loi
 
 SAP BTP offers fast in-memory processing, sustainable, agile **solutions** and **services** to integrate data and extend applications, and fully embedded analytics and intelligent technologies. 
 
- **Services** enable, facilitate, or accelerate the development of business applications and other platform services on SAP BTP. 
+**Services** enable, facilitate, or accelerate the development of business applications and other platform services on SAP BTP. 
 
 For a complete list of services and capabilities, see [Services](https://discovery-center.cloud.sap/serviceCatalog).
 
-For more information, see [Solutions and Services](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7613d9ce711e1014839a8273b0e91070.html#loio7613d9ce711e1014839a8273b0e91070 "Consume the solutions and services by SAP BTP according to your preferred development environment and use cases.") :arrow_upper_right:.
+For more information, see [Solutions and Services](https://help.sap.com/docs/btp/sap-business-technology-platform/solutions-and-services?locale=en-US&version=Cloud).
 
- <a name="loio363f0f68f9704830ac65c87a2562559b"/>
+<a name="loio363f0f68f9704830ac65c87a2562559b"/>
 
 <!-- loio363f0f68f9704830ac65c87a2562559b -->
 
@@ -141,14 +154,14 @@ When you purchase an enterprise account, you’re entitled to use a specific set
 
 -   An **entitlement** is your right to provision and consume a resource. In other words, entitlements are **the service plans** that you're entitled to use.
 
--   A **quota** represents the numeric quantity that defines the maximum allowed consumption of a resource. In other words, **how much** of a service plan you're entitled to use.
+-   A **quota** represents the numeric quantity of a service plan that you're entitled to consume in your global account and its subaccounts.
 
--   Entitlements are either managed at subaccount or directory level.
+-   Entitlements are either managed at global account or directory level and are distributed from there to subaccounts.
 
 
 For more information, see [Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html "When you purchase an enterprise account, you’re entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.") :arrow_upper_right: and [Managing Entitlements and Quotas Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c8248745dde24afb91479361de336111.html "When you purchase an enterprise account, you are entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.") :arrow_upper_right:.
 
- <a name="loioc9c9dd2686354c67939bbc20d541f597"/>
+<a name="loioc9c9dd2686354c67939bbc20d541f597"/>
 
 <!-- loioc9c9dd2686354c67939bbc20d541f597 -->
 
@@ -173,7 +186,7 @@ On SAP BTP, member management happens at all levels from global account to envir
 
 For more information, see [User and Member Management](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/cc1c676b43904066abb2a4838cbd0c37.html "On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.") :arrow_upper_right:.
 
- <a name="loio730bdd6a9a6b46c4ae3c5bce3bea8e5c"/>
+<a name="loio730bdd6a9a6b46c4ae3c5bce3bea8e5c"/>
 
 <!-- loio730bdd6a9a6b46c4ae3c5bce3bea8e5c -->
 
@@ -212,7 +225,7 @@ Global accounts are region- and environment-independent. Within a global account
 
 A directory can contain directories and subaccounts to create a hierarchy. Using directories to group other directories and subaccounts is optional - you can still create subaccounts directly under your global account.
 
-You can create a hierarchical structure that is up to 7 levels deep. The highest level of a given path is always the global account and the lowest is a subaccount, which means that you can have up to 5 levels of directories bewteen the global account and the lowest level subaccount.
+You can create a hierarchical structure that is up to 7 levels deep. The highest level of a given path is always the global account and the lowest is a subaccount, which means that you can have up to 5 levels of directories between the global account and the lowest level subaccount.
 
 ![Sample hierarchy of directories and subaccounts](images/Relationship_Between_Directories_and_Subaccounts_d60105c.png)
 
@@ -225,12 +238,12 @@ Directories allow you to:
 
 Optionally, you can also enable the following features in your directories:
 
--   Manage Entitlements: Enables the assignment of a quota for services and applications to the directory from the global account quota for distribution to the directory's subaccounts.
+-   Manage Entitlements: Enables the assignment of a quota for services and applications to the directory from the global account quota, for distribution to the directory's subaccounts.
 
     When you assign entitlements to a directory, you express the entitlements and maximum quota that can be distributed across its children subaccounts. You also have the option to choose the auto-assignment of a set amount of quota to all subaccounts created or moved to that directory. Subaccounts that are already in the directory when you select that option will not be auto-assigned quota.
 
     > ### Note:  
-    > If you've enabled the Manage Entitlements feature for a given directory, you must first assign the necessary entitlements and maximum allowed quota from the global account to that directory before you can distribute this "reserved" quota to any of the directory's child subaccounts.
+    > If you've enabled the Manage Entitlements feature for a given directory, you must first assign the necessary entitlements and maximum allowed quota from the global account to that directory. Then you can distribute this "reserved" quota to any of the directory's child subaccounts.
 
 -   Manage Authorizations: Enables authorization management for the directory. For example, it allows certain users to manage directory entitlements. You can only use this feature in combination with the *Manage Entitlements* feature.
 
@@ -243,7 +256,7 @@ Optionally, you can also enable the following features in your directories:
 
 Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily. They let you organize and filter your directories, subaccounts, instances and subscriptions within your global account.
 
-For more information, see [Labels [Feature Set B]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.") :arrow_upper_right:.
+For more information, see [Labels \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.") :arrow_upper_right:.
 
 
 
@@ -281,14 +294,14 @@ For more information, see
 
 -   [Managing Global Accounts Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/667f34ba9222450491c2b848cd17e189.html "Your SAP BTP global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner.") :arrow_upper_right:
 
--   [Managing Directories Using the Cockpit [Feature Set B]](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/f495ac1a62684affbff9f2629fe58bb0.html "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the SAP BTP cockpit.") :arrow_upper_right:
+-   [Managing Directories Using the Cockpit \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/f495ac1a62684affbff9f2629fe58bb0.html "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the SAP BTP cockpit.") :arrow_upper_right:
 
--   [Managing Subaccounts Using the Cockpit](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/55d0b6d8b96846b8ae93b85194df0944.html "Learn how to structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements by managing subaccounts.") :arrow_upper_right:
+-   [Managing Subaccounts Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/55d0b6d8b96846b8ae93b85194df0944.html "Learn how to structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements by managing subaccounts.") :arrow_upper_right:
 
 -   [Setting Up Your Account Model](../set-up-and-plan/setting-up-your-account-model-2db81f4.md)[Setting Up Your Account Model](../set-up-and-plan/setting-up-your-account-model-2db81f4.md)
 
 
- <a name="loio263d40009a5a4237a62e8f5c05ee641e"/>
+<a name="loio263d40009a5a4237a62e8f5c05ee641e"/>
 
 <!-- loio263d40009a5a4237a62e8f5c05ee641e -->
 
@@ -298,25 +311,25 @@ SAP BTP offers two different commercial models for enterprise accounts.
 
 
 
--   **Consumption-based commercial model:** Your organization receives access to all current and future services that are eligible for this model. You have complete flexibility to turn services on and off and to switch between services as your business requires throughout the duration of your contract. This commercial model is available in two flavors: Cloud Platform Enterprise Agreement \(CPEA\) and Pay-As-You-Go for SAP BTP.
+-   **Consumption-based commercial model:** Your organization receives access to all current and future services that are eligible for this model. You have complete flexibility to turn services on and off and to switch between services as your business requires throughout the duration of your contract. This commercial model is available in the following flavors: Cloud Platform Enterprise Agreement \(CPEA\) and Pay-As-You-Go for SAP BTP.
 
     For more information, see [What Is the Consumption-Based Commercial Model?](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7047eb4a15a84ac7be3c8612179e6d1f.html "With the consumption-based model, your organization purchases an entitlement to all current and future SAP BTP services that are eligible for this model. Throughout the duration of your contract, you have complete flexibility to turn services on and off and to switch between services as your business requires.") :arrow_upper_right:
 
 -   **Subscription-based commercial model:** Your organization subscribes only to the services that you plan to use. You can then use these services at a fixed cost, irrespective of consumption.
 
-    For more information, see [What Is the Subscription-Based Commercial Model?](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/96e78abc7f1c445e880346924441dc51.html#loio239b6e045e7e48f58b61655b02748d45 "Your organization receives a fixed price and period (typically a 1 to 3-year period) for access to your subscribed SAP BTP services.") :arrow_upper_right:
+    For more information, see [What Is the Subscription-Based Commercial Model?](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/239b6e045e7e48f58b61655b02748d45.html "Your organization receives a fixed price and period (typically a 1 to 3-year period) for access to your subscribed SAP BTP services.") :arrow_upper_right:
 
+
+> ### Note:  
+> You can use both commercial models, either in separate global accounts or in the same global account depending on your business needs. Contact your SAP account executive or sales representative for more information. You cannot however, mix Cloud Platform Enterprise Agreement \(CPEA\) and Pay-As-You-Go for SAP BTP in the same global account.
 
 For information about service availability, prices, and estimators, see [https://www.sap.com/products/technology-platform/solutions.html](https://www.sap.com/products/technology-platform/solutions.html) and [https://www.sap.com/products/technology-platform/integration-suite/pricing.html](https://www.sap.com/products/technology-platform/integration-suite/pricing.html). You can also view the service catalog via the [SAP Discovery Center](https://discovery-center.cloud.sap).
 
-> ### Note:  
-> You can use both commercial models, either in separate global accounts or in the same global account depending on your business needs. Contact your SAP account executive or sales representative for more information.
 
 
+![Commercial Models Available for Enterprise Accounts](images/Infographic_-_SAP_CP_Commercial_Models_6734474.png)
 
- ![Commercial Models Available for Enterprise Accounts](images/Infographic_-_SAP_CP_Commercial_Models_6734474.png) 
-
- <a name="loio91d37e3e7ea8418d86c15078a352d70d"/>
+<a name="loio91d37e3e7ea8418d86c15078a352d70d"/>
 
 <!-- loio91d37e3e7ea8418d86c15078a352d70d -->
 
@@ -325,6 +338,8 @@ For information about service availability, prices, and estimators, see [https:/
 Environments constitute the actual platform-as-a-service offering of SAP BTP that allows for the development and administration of business applications. Environments are anchored in SAP BTP on subaccount level. 
 
 Each environment comes equipped with specific tools, technologies, and runtimes that you need to build applications. So a multi-environment subaccount is your single address to host a variety of applications and offer diverse development options. One advantage of using different environments in one subaccount is that you only need to manage users, authorizations, and entitlements once per subaccount, and thus grant more flexibility to your developers.
+
+When you create subaccounts in a global account on feature set B, you can use different environments within the same subaccount: Choose multi-environment subaccounts to use Cloud Foundry, ABAP, and Kyma within the same subaccount. However, inside such a multi-environment subaccount, you cannot use Neo. To use Neo, you create a separate Neo subaccount. Neo cannot be combined with other environments in the same subaccount.
 
 ![](images/Environment_ae827d3.png)
 
@@ -340,7 +355,7 @@ SAP offers the following environments:
 
     To plan and set up your landscape and lifecycle management in the ABAP environment, see [ABAP Lifecycle Management](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5c7b17d68bb7427d93ff2086f01b2a55.html "") :arrow_upper_right:.
 
--   [Kyma Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/468c2f3c3ca24c2c8497ef9f83154c44.html#loio468c2f3c3ca24c2c8497ef9f83154c44 "SAP BTP, Kyma runtime provides a fully managed Kubernetes runtime based on the open-source project &quot;Kyma&quot;. With this cloud-native solution, developers can extend SAP solutions with serverless Functions and combine them with containerized microservices.") :arrow_upper_right:
+-   [Kyma Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/468c2f3c3ca24c2c8497ef9f83154c44.html "SAP BTP, Kyma runtime provides a fully managed cloud-native Kubernetes application runtime based on the open-source project "Kyma". Based on modular building blocks, Kyma runtime includes all the necessary capabilities to simplify the development and to run enterprise-grade cloud-native applications.") :arrow_upper_right:
 
     The Kyma environment is a fully managed Kubernetes runtime based on the open-source project "Kyma" that allows developers to extend SAP solutions with serverless functions and combine them with containerized microservices.
 
@@ -348,8 +363,6 @@ SAP offers the following environments:
 
     The Neo environment lets you develop HTML5, Java, and SAP HANA extended application services \(SAP HANA XS\) applications. You can also use the UI Development Toolkit for HTML5 \(SAPUI5\) to develop rich user interfaces for modern web-based business applications.
 
-
-When you create subaccounts in a global account on feature set B, you can use different environments within the same subaccount: Choose multi-environment subaccounts to use Cloud Foundry, ABAP, and Kyma within the same subaccount. However, inside such a multi-environment subaccount, you cannot use Neo. To use Neo, you create a separate Neo subaccount. Neo cannot be combined with other environments in the same subaccount.
 
 If you consider to create Neo subaccounts, see [Migrating from the Neo Environment to the Multi-Cloud Foundation (Cloud Foundry and Kyma)](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html "Learn why and how to migrate your scenarios on SAP Business Technology Platform (SAP BTP) from the Neo environment to the multi-cloud foundation.") :arrow_upper_right: to learn about the Neo environment and the multi-cloud foundation.
 
@@ -375,7 +388,7 @@ To actually use an environment in a subaccount, you need to**enable** it by crea
 
 [Consuming SAP BTP Services from Various Environments](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/aa2ba1475dc943498a9d873af074821c.html)
 
- <a name="loioabaaf083a6574edc8ad30d9cd9a062f3"/>
+<a name="loioabaaf083a6574edc8ad30d9cd9a062f3"/>
 
 <!-- loioabaaf083a6574edc8ad30d9cd9a062f3 -->
 
@@ -397,7 +410,17 @@ For more information, see [Regions](https://help.sap.com/viewer/65de2977205c403b
 
 ## Selecting a Region
 
-When deciding on the location of your Platform as a Service \(PaaS\), consider existing Software as a Service \(SaaS\) and Infrastructure as a Service \(IaaS\) and try to locate it close to those or even in the same data center. You can also optimize application performance \(response time, latency\) by selecting a region that's geographically close to your users. However, the selection of a region is also dependent on many other factors: First, check the availability of specific services in the individual regions. Second, ensure that you comply with security requirements, such as country- or industry-specific data privacy regulations. And third, consider the location of other cloud offerings you’re using. You might have to locate your solutions in the same data center.
+When deciding on the location of your Platform as a Service \(PaaS\), consider existing Software as a Service \(SaaS\) and Infrastructure as a Service \(IaaS\) and try to locate it close to those or even in the same data center. You can also optimize application performance \(response time, latency\) by selecting a region that's geographically close to your users. However, the selection of a region also depends on many other factors:
+
+-   Check the availability of specific services in the individual regions.
+
+-   Ensure that you comply with security requirements, such as country- or industry-specific data privacy regulations.
+
+-   Consider the location of other cloud offerings you’re using. You might have to locate your solutions in the same data center.
+
 
 For a complete overview of the availability of services in the different regions, see [Services](https://discovery-center.cloud.sap/serviceCatalog).
+
+> ### Note:  
+> To work with the Kyma environment, you need to specify the region for both your **subaccount** and the **cluster**. Note that there is a number of regions available within each plan. For details, see [Regions for the Kyma Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/557ec3adc3174ed4914ec9d6d13487cf.html "To work with the Kyma environment, you need to specify the region for both your subaccount and the cluster.") :arrow_upper_right:.
 

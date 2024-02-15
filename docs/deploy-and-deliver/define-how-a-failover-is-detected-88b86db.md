@@ -8,11 +8,11 @@ You can choose from different test categories to decide when the automatic switc
 
 The following figure illustrates this procedure:
 
-   
+  
   
 **Failover Detection**
 
- ![Failover Detection](images/Failover_Detection_4713dc4.png "Failover Detection") 
+![Failover Detection](images/Failover_Detection_4713dc4.png "Failover Detection")
 
 > ### Example:  
 > As an example, you could define `25` seconds as maximum read timeout and set a number of server error codes \(`5xx`\) to be checked. At each first HTTP request towards the URL of your application, both checks are triggered. All following HTTP requests are ignored to avoid an unnecessary failover if, for example, only an image resource is missing. If one of the two checks fails, the user is automatically redirected to an HTML down page, which must not be cached. This down page provides the link to your failover application. Strictly speaking, the failover itself is therefore manually performed by the user of your application.

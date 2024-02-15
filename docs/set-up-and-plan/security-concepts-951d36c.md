@@ -2,7 +2,7 @@
 
 # Security Concepts
 
-The level of security you implement may vary depending on your use case and your company's general security requirements. However, there are a few best practices that we recommend, regardless of your implementation.
+The level of security you implement varies depending on your use case and your company's general security requirements. However, there are a few best practices that we recommend, regardless of your implementation.
 
 
 
@@ -10,7 +10,7 @@ The level of security you implement may vary depending on your use case and your
 
 ## SAP BTP Security Recommendations
 
-*SAP BTP Security Recommendations* collects information which enables you to secure the configuration and operation of SAP BTP services in your landscape.
+*SAP BTP Security Recommendations* collects information, which enables you to secure the configuration and operation of SAP BTP services in your landscape.
 
 For more information, see [SAP BTP Security Recommendations](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?version=Cloud).
 
@@ -18,55 +18,67 @@ For more information, see [SAP BTP Security Recommendations](https://help.sap.co
 
 <a name="loio951d36ce07324f919f74f52b0f9f9e0a__section_jp5_q4n_cgb"/>
 
-## General SAP BTP and Network Security Aspects
+## Network Security Aspects
 
-The SAP BTP landscape runs in an isolated network that is protected from the outside by firewalls, a DMZ, and communication proxies for all inbound and outbound communication. All user access is protected with transport layer security \(TLS\). Use SAP BTP Connectivity to enable your SAP BTP applications to access remote services on the Internet or in your on-premise systems. For connecting to Internet services, we recommend that you use APIs with destinations, and for cloud-to-on-premise scenarios, we recommend that you use destinations and the Cloud Connector. If you use destinations, you achieve a separation between the application and the configuration, which means it's easier to make configuration changes. And you can use the destinations to store credentials and certificates.
+The SAP BTP landscape runs in an isolated network that is protected from the outside by firewalls, a DMZ, and communication proxies for all inbound and outbound communication. All user access is protected with transport layer security \(TLS\).
 
-The Cloud Connector is a lightweight on-premise agent that establishes a tunnel for connecting your cloud applications to on-premise systems. The Cloud Connector acts as a reverse invoke between the on-premise network and SAP BTP. That means you don't need to open in-bound ports in the firewall for external access from the cloud. The Cloud Connector provides a fine-granular access control mechanism, supports multiple protocols, such as RFC and HTTP, and can forward the cloud user identity using principal propagation. It enables users to log on to on-premise systems without logging in again by forwarding their current identity from the cloud. You can configure the Cloud Connector directly from the subaccount in the SAP BTP cockpit.
+For more information, see [Transport Layer Security \(TLS\) Connectivity Support](https://help.sap.com/docs/btp/sap-business-technology-platform/btp-security?version=Cloud#transport-layer-security-(tls)-connectivity-support).
 
-For more information, see:
 
--   [Principal Propagation](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/f70fcf1c2d0a4a979adfe44cebc93c20.html "Exchange user ID information between systems or environments in SAP BTP.") :arrow_upper_right:
 
--    [Connectivity](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html) 
+<a name="loio951d36ce07324f919f74f52b0f9f9e0a__section_ofg_qzg_1yb"/>
 
--   [Cloud Connector](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e6c7616abb5710148cfcf3e75d96d596.html)
+## User and Member Management
 
+On SAP BTP, member management happens at all levels from global account to environment, while user management is done for business applications.
+
+Before diving into the different user and member management concepts, it's important to understand the difference between the different types of users we’re referring to: **Platform users** and **business users**.
+
+  
+  
+**Platform and Business Users**
+
+![Platform and Business Users](../basic-platform-concepts/images/user-accounts_27c8463.png "Platform and Business Users")
+
+-   **Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP. They’re the users that you give certain permissions for instance at global account or subaccount level, by adding them as members.
+
+    **Member management** refers to managing permissions for **platform users**. You can think about it as managing the members of your team.
+
+    Member management happens at global account, directory, subaccount, and environment level. Members' permissions apply to all operations that are associated with the global account, the organization, or the space, irrespective of the tool used. Depending on the scope and the cloud management tools feature set you're using, you manage members in different ways.
+
+-   **Business users** use the applications that are deployed to SAP BTP. For example, the end users of SaaS apps or services, such as SAP Workflow service or SAP Cloud Integration, or end users of your custom applications are business users.
+
+
+Restrict access to applications through authentication and authorization. Identity and authorization management ensures that only the intended group, such as employees of your company, can access your applications.
+
+Global accounts and subaccounts get their users from identity providers. There's a default identity provider or administrators can configure custom identity providers. Administrators decide which identity providers to trust and grant access rights to users from these identity providers. You have full control over your user base.
 
 
 
 <a name="loio951d36ce07324f919f74f52b0f9f9e0a__section_jm5_1nw_jgb"/>
 
-## Identity Management and Authorization Management
+## Identity Providers and Federation
 
-Restrict access to any endpoint of your application through authentication and authorization. Identity and authorization management ensures that only the intended target group, such as your company's employees, can access your application. We recommend that you use SAML or OpenID Connect single sign-on protocol for user access and principal propagation for back-end access. If only access for technical users is needed, however, principal propagation isn't necessary. Once a user is authenticated, single sign-on propagates the credentials to the back-end system without requiring the user to reauthenticate.
+SAP BTP supports identity federation, a concept of linking and reusing digital identities of a user base across loosely coupled systems. Identity federation frees applications on SAP BTP as well as the platform itself from the need to obtain and store the credentials of users and to authenticate them. Instead, the user base is reused from identity providers, which support the administration of digital user identities, authentication, and authorizations in a centralized and decoupled manner. To enable communication between SAP BTP and identity providers, you must cross-configure the communication endpoints of the involved systems, establishing a trust relationship between them.
 
-Subaccounts get their users from identity providers. Administrators ensure that users can access only their subaccounts by establishing a dedicated trust relationship between the identity providers and the respective subaccounts. The preconfigured default identity provider for SAP BTP is SAP ID service. If you have an SAP Universal ID, you can log on with that service. You can also connect your own identity provider, which means you have full control over your user base.
+  
+  
+**Identity Federation**
 
-> ### Recommendation:  
-> For developing and administrating your own applications on SAP BTP, we recommend that you use [SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/viewer/p/IDENTITY_AUTHENTICATION) as a hub, especially if your business users are stored in multiple corporate identity providers. Identity Authentication is SAP's cloud solution for identity lifecycle management for SAP BTP applications, and optionally for on-premise applications.
+![User authenticates with identity provider trusted by SAP BTP and accesses application.](images/Simple_Identity_Federation_c39af58.png "Identity Federation")
 
-See the following for more information about security best practices:
+The two types of users on SAP BTP, platform users and business users, have separate trust configurations for identity providers. Platform users share one or more identity providers configured for the global account and further apply to the directory, subaccount, and the environment levels. Business users use the identity provider configured individually for each subaccount.
 
--   [Setting Up Authentication](setting-up-authentication-1dbce9c.md)
--   [Setting Up Authorization](setting-up-authorization-cb9f0ac.md)
--   [Setting Up Identity Propagation](setting-up-identity-propagation-12cf719.md)
+The following figure shows the default trust configuration for SAP BTP as well as a possible custom configuration for platform and business users.
 
+  
+  
+**Trust Relationship Between SAP BTP and Identity Providers**
 
+![](images/idp-trust-complex_f32a930.png "Trust Relationship Between SAP BTP and Identity Providers")
 
-<a name="loio951d36ce07324f919f74f52b0f9f9e0a__section_ex2_25n_cgb"/>
+> ### Note:  
+> Some services have their own user store or trust configuration. For the ABAP environment, business users reside in the ABAP user store. SAP HANA Database users have their own user store. The Kyma environment has a separate trust configuration from the subaccount.
 
-## Security Considerations for Applications
-
-When building applications, use the security features of SAP BTP, such as protection from web attacks. We recommend that your developers configure and deploy application-based security artifacts containing authorizations, and administrators assign these authorizations using the cockpit. SAP BTP offers platform roles that help you ensure a segregation of duties, such as between app development and administration.
-
-It's likely that data protection and privacy influence your architecture and the functions of your application. Consider any implications as early as possible in your development process. Security monitoring is done with audit logging. SAP BTP writes logs for security-relevant events and the written log files are digitally signed to ensure their integrity.
-
-See the following for more information about security best practices:
-
--   [Protection from Web Attacks](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/52750a8f86bb428ca224daa4312d122e.html "To protect your applications from different kind of web attacks, Neo environment provides mechanisms for you to use with your applications.") :arrow_upper_right:
-
--   [Giving Access Rights to Platform Users](giving-access-rights-to-platform-users-a03d08e.md)
--   [Data Protection and Privacy](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7e513d31704a4a87831191e504ca850a.html "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.") :arrow_upper_right:
-
+Once a user is authenticated, single sign-on enables the user to log on to other trusted applications without reauthenticating. Principal propagation enables applications to pass credentials to back-end systems without requiring the user to reauthenticate. For technical users, principal propagation isn't needed for back-end access.
 

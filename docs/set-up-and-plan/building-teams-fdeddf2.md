@@ -4,7 +4,7 @@
 
 We recommend that you set up two types of teams: **Cloud Development Teams**, who build and operate applications, and a central **Platform Engineering Team / Center of Excellence**, who is responsible for any account operations, the build infrastructure, for defining central governance and compliance guidelines, and for driving cloud adoption throughout your organization.
 
- <a name="loio4157200ef2644243aa74ae2770df1d94"/>
+<a name="loio4157200ef2644243aa74ae2770df1d94"/>
 
 <!-- loio4157200ef2644243aa74ae2770df1d94 -->
 
@@ -16,7 +16,7 @@ Teams that develop on-premise applications often follow a Build-Run setup. The B
 
 We recommend that Cloud Development Teams follow a DevOps approach, which means that the team both develops**and** operates applications. The team should maintain applications regularly after Go Live, and fix any issues. For example, if the team develops an SAPUI5 front end, they should verify at least every six months that the UI controls used are still supported by the latest SAPUI5 version. This doesn't require much effort, but does need to be checked to ensure the application continues running properly.
 
- <a name="loiof36d159b91004ebda56faf35c2ebd90d"/>
+<a name="loiof36d159b91004ebda56faf35c2ebd90d"/>
 
 <!-- loiof36d159b91004ebda56faf35c2ebd90d -->
 

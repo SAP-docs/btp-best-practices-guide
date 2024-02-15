@@ -4,7 +4,7 @@
 
 Backup and recovery of data stored in the following services are performed by SAP. For other services, you can follow our best practices to back up your configurations.
 
- <a name="loio6c1e071845dd4db2829b413a05154a7c"/>
+<a name="loio6c1e071845dd4db2829b413a05154a7c"/>
 
 <!-- loio6c1e071845dd4db2829b413a05154a7c -->
 
@@ -59,7 +59,7 @@ The following services don’t currently provide any backup and restore features
 
 
 
- <a name="loio9de0caa8abe34f4897e5b727868019c0"/>
+<a name="loio9de0caa8abe34f4897e5b727868019c0"/>
 
 <!-- loio9de0caa8abe34f4897e5b727868019c0 -->
 
@@ -86,7 +86,7 @@ Different configurations can be backed up, depending on your specific service. H
 
 -   **Process Visibility capability within the SAP Workflow Management service**: You can back up your visibility scenarios. For more information, see [Export a Scenario](https://help.sap.com/viewer/62fd39fa3eae4046b23dba285e84bfd4/Cloud/en-US/27f76c0dd1534ca0980706f7d72d86a1.html).
 
--   **SAP Authorization and Trust Management service**: You can back up your configurations with the [SAP Authorization and Trust Management service API package](https://api.sap.com/package/authtrustmgmnt?section=Artifacts) available on the [SAP API Business Hub](https://api.sap.com/). The configurations include:
+-   **SAP Authorization and Trust Management service**: You can back up your configurations with the [SAP Authorization and Trust Management service API package](https://api.sap.com/package/authtrustmgmnt?section=Artifacts) available on the [SAP Business Accelerator Hub](https://api.sap.com/). The configurations include:
 
     -   Roles. You can back up role configurations with the [Authorization](https://api.sap.com/api/AuthorizationAPI/overview) API.
 

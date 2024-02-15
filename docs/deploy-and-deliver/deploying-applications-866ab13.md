@@ -4,7 +4,7 @@
 
 You can leverage different deployment tools and methods, depending on the application type and your requirements.
 
- <a name="loio47e40d941149489299af4d15a6064465"/>
+<a name="loio47e40d941149489299af4d15a6064465"/>
 
 <!-- loio47e40d941149489299af4d15a6064465 -->
 
@@ -14,14 +14,14 @@ There are two options for deploying MTAs: Manually or managed.
 
 -   **Manually:** You can archive all components of your application into one package that includes the deployment descriptor. You can then manually trigger the deployment of the solution using the SAP BTP cockpit or the Console Client. The actual deployment of the MTA files is then performed automatically by the SAP BTP deployment infrastructure, considering all interdependencies specified in the MTA deployment descriptor that is part of the MTA archive. By assigning roles and encapsulating the Console Client in a script, you can achieve a somewhat controlled release mechanism.
 
--   **Managed:** If you prefer a managed approach, you can deploy MTAs as part of a CI/CD approach. See [SAP Continuous Integration and Delivery service](https://help.sap.com/docs/CICD_OVERVIEW) for more information. Or you can implement transport or change management processes for your SAP BTP apps, using enhanced Change and Transport \(CTS+\) for example. For more information, see [Transporting Multitarget Applications in Cloud Foundry using CTS+](https://help.sap.com/docs/btp/sap-business-technology-platform/transporting-multitarget-applications-in-cloud-foundry-using-cts).
+-   **Managed:** If you prefer a managed approach, you can deploy MTAs as part of a CI/CD approach. See [SAP Continuous Integration and Delivery service](https://help.sap.com/docs/CICD_OVERVIEW) for more information. Or you can implement transport or change management processes for your SAP BTP apps, using SAP Cloud Transport Management service, for example. For more information, see [Delivering Applications](delivering-applications-b39bae3.md).
 
 **Related Information**  
 
 
 [Deploying to the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2a21055cc94b4a528a820f73e6fa7d69.html "Get an overview of available deployment options.") :arrow_upper_right:
 
- <a name="loioe3b003d6734d4f41a069324f8ed6ea27"/>
+<a name="loioe3b003d6734d4f41a069324f8ed6ea27"/>
 
 <!-- loioe3b003d6734d4f41a069324f8ed6ea27 -->
 
@@ -66,9 +66,9 @@ In the Cloud Foundry environment, you can deploy Node.js applications from withi
 
 ## SAP HANA Extended Application Services, Classic Model \(SAP HANA XS\)
 
-In the Neo environment, you can create a delivery unit as a .tgz file that contains all the artifacts for applications that are based on SAP HANA XS. You can import and export the application using SAP HANA administration tools, and open the application using the SAP BTP cockpit.
+In the Neo environment, you can create a delivery unit as a .tgz file that contains all the artifacts for applications that are based on SAP HANA XS. You can import and export the application using SAP HANA administration tools, and open the application using the SAP BTP cockpit. It is also possible to deploy delivery units using SAP Cloud Transport Management.
 
-Please be aware that SAP HANA Extended Application Services, Classic Model has been deprecated – for more information, see [0002465027](https://launchpad.support.sap.com/#/notes/0002465027).
+Please be aware that SAP HANA Extended Application Services, Classic Model has been deprecated – for more information, see [0002465027](https://me.sap.com/notes/0002465027).
 
 
 

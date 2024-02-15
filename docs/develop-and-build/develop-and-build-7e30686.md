@@ -4,7 +4,7 @@
 
 SAP BTP offers various tools and programming languages for application development. You might also want to consider to integrate your application with other solutions.
 
-We recommend that you use the SAP Cloud Application Programming Model for your development projects. For more information, see [Cloud Application Programming Model](cloud-application-programming-model-042061d.md).
+We recommend that you use the SAP Cloud Application Programming Model for your development projects. For more information, see [SAP Cloud Application Programming Model](sap-cloud-application-programming-model-042061d.md).
 
 Depending on your use case and the skill set of your developers, you can choose the runtime environment of your choice:
 
@@ -17,28 +17,20 @@ Depending on your use case and the skill set of your developers, you can choose 
 
  
 
-
-
 </th>
 <th valign="top">
 
 Cloud Foundry
-
-
 
 </th>
 <th valign="top">
 
 Kyma
 
-
-
 </th>
 <th valign="top">
 
 ABAP
-
-
 
 </th>
 </tr>
@@ -46,8 +38,6 @@ ABAP
 <td valign="top">
 
 **Benefits**
-
-
 
 </td>
 <td valign="top">
@@ -66,9 +56,14 @@ ABAP
 
 -   Free choice of programming languages and models \(containerized deployments\)
 -   Combines microservices and serverless functions
--   Brings built-in, managed, service mesh
+-   Built-in, managed, service mesh, and other cloud-native open-source modules to reduce the development effort
+-   Managed infrastructure: day-2 operations, security patches, and updates
+-   Refined horizontal and vertical automatic scalability
 -   More flexible with Kubernetes
+-   Dedicated application runtime
+-   Zero downtime infrastructure setup by default
 -   Support for CAP – an opinionated business app development framework
+-   More flexible with Kubernetes
 
 
 
@@ -87,9 +82,29 @@ ABAP
 <tr>
 <td valign="top">
 
+**Additional Information**
+
+</td>
+<td valign="top">
+
+[Comparison: SAP BTP, Kyma Runtime and SAP BTP, Cloud Foundry Runtime](https://help.sap.com/docs/btp/comparison-btp-runtimes/runtime-comparison?version=Cloud)
+
+</td>
+<td valign="top">
+
+[Comparison: SAP BTP, Kyma Runtime and SAP BTP, Cloud Foundry Runtime](https://help.sap.com/docs/btp/comparison-btp-runtimes/runtime-comparison?version=Cloud)
+
+</td>
+<td valign="top">
+
+[Development in the ABAP Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/development-in-abap-environment?version=Cloud)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 **Shared Benefits**
-
-
 
 </td>
 <td valign="top" colspan="3">
@@ -112,8 +127,6 @@ ABAP
 
 **Good For**
 
-
-
 </td>
 <td valign="top">
 
@@ -129,7 +142,10 @@ ABAP
 <td valign="top">
 
 -   Open build-on approach
+-   Enterprise-grade applications
 -   Cloud-native development of apps and services
+-   Low latency infra-services communication
+-   Reduced infrastructure management effort
 -   Highly scalable, microservice-based applications
 -   Applications built with CAP
 
@@ -152,8 +168,6 @@ ABAP
 <td valign="top">
 
 **Skills**
-
-
 
 </td>
 <td valign="top">
@@ -189,11 +203,20 @@ ABAP
 
 
 
-We recommend that you create multitarget applications for managing dependencies more easily. For more information, see [Using Multitarget Applications to Manage Dependencies](using-multitarget-applications-to-manage-dependencies-41184aa.md).
+Metering:
+
+-   Cloud Foundry runtime: Metering starts when you start using the runtime memory, for example, when you deploy an application.
+
+    If your global account uses the consumption-based commercial model and you want to understand how the consumption of SAP BTP, Cloud Foundry runtime is calculated, see[Consumption Monitoring](https://help.sap.com/docs/cf-runtime/cloud-foundry-runtime/monitoring-and-troubleshooting?version=Cloud) in the SAP BTP Cloud Foundry runtime documentation.
+
+-   Kyma runtime: Metering starts when you enable the Kyma environment. This triggers the creation of a dedicated Kubernetes cluster, and the cluster is metered from the start, before you have deployed any applications.
+
+
+
+
+For Cloud Foundry , we recommend that you create multitarget applications for managing dependencies more easily. For more information, see [Using Multitarget Applications to Manage Dependencies](using-multitarget-applications-to-manage-dependencies-41184aa.md).
 
 For best practices, guidelines and step-by-step instructions, see [Development](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c2fec62b49fa43b8bd945c85ecc2e5bd.html "Develop and run business applications on SAP Business Technology Platform (SAP BTP) using our cloud application programming model, APIs, services, tools, and capabilities.") :arrow_upper_right:.
-
-If you need information about the Neo environment, please have a look at [Development, Neo Environment.](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/4543511443c640da94f2850f8f73dda2.html)
 
 
 

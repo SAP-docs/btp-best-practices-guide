@@ -99,8 +99,6 @@ The extension use cases include but are not limited to:
 
 
 
-For more use cases, see [https://www.sap.com/products/cloud-platform/use-cases.html?sort=title\_asc](https://www.sap.com/products/cloud-platform/use-cases.html?sort=title_asc).
-
 
 
 <a name="loio40aa23277c7346a0a68de2f4c8b73e1c__section_i5q_521_xmb"/>

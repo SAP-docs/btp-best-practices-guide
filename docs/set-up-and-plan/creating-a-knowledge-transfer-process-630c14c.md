@@ -8,5 +8,5 @@ Before you start your development project, we recommend that you do the followin
 
 -   Ensure that the Platform Engineering Team, which should consist of skilled and experienced technology experts, documents and shares their knowledge with existing and new colleagues.
 -   Set up training and enablement sessions to get everyone on board.
--   Create and promote a dedicated communication channel, such as SAP Jam Collaboration, to share lessons learned or provide other developers with guidance and recommendations. For more information, see [SAP Jam Collaboration](https://www.sap.com/products/enterprise-social-collaboration.html).
+-   Create and promote a dedicated communication channel, such as SAP Build Work Zone, to share lessons learned or provide other developers with guidance and recommendations. For more information, see [SAP Build Work Zone](https://www.sap.com/products/technology-platform/workzone.html).
 

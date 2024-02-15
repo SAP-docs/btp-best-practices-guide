@@ -4,7 +4,7 @@
 
 Once your application has gone live, we recommend that you continually ensure its quality. If you determine that you no longer need it, you should retire it.
 
- <a name="loio13cbe434ce0a48bca14f1112f3db52b7"/>
+<a name="loio13cbe434ce0a48bca14f1112f3db52b7"/>
 
 <!-- loio13cbe434ce0a48bca14f1112f3db52b7 -->
 
@@ -14,7 +14,7 @@ SAP is integrating more closely with hyperscalers, such as Amazon Web Services, 
 
 [Migrating from the Neo Environment to the Multi-Cloud Foundation (Cloud Foundry and Kyma)](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html "Learn why and how to migrate your scenarios on SAP Business Technology Platform (SAP BTP) from the Neo environment to the multi-cloud foundation.") :arrow_upper_right:
 
- <a name="loio06deb3339dfa4b91aa8ed99a3018303d"/>
+<a name="loio06deb3339dfa4b91aa8ed99a3018303d"/>
 
 <!-- loio06deb3339dfa4b91aa8ed99a3018303d -->
 
@@ -22,7 +22,7 @@ SAP is integrating more closely with hyperscalers, such as Amazon Web Services, 
 
 If your application is no longer needed, the Cloud Administration and the Cloud Development Teams should ensure that it is properly retired, and that all data retention requirements are met.
 
- <a name="loio069ff72db3624ea3ba06582ad65e3996"/>
+<a name="loio069ff72db3624ea3ba06582ad65e3996"/>
 
 <!-- loio069ff72db3624ea3ba06582ad65e3996 -->
 

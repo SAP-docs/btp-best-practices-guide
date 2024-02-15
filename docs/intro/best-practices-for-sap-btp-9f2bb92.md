@@ -1,7 +1,5 @@
 <!-- loio9f2bb927464e4d1ba3d13b2d79ca9bd1 -->
 
-<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
-
 # Best Practices for SAP BTP
 
 This document helps you plan and set up your landscape and your lifecycle management for running applications on SAP Business Technology Platform \(SAP BTP\). It contains best practices and recommendations for planning development projects – from setting up the correct organizational structure to creating an account and security model, to developing and operating applications.
@@ -31,9 +29,9 @@ If you're an **SAP partner**, this guide helps you to set up SAP BTP for develop
 
 If you're **new to SAP BTP**:
 
--   SAP BTP is an integrated offering comprised of four technology portfolios: database and data management, application development and integration, analytics, and intelligent technologies. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly. It is a vital part of the transition to the Intelligent Enterprise. The application development and integration capabilities of SAP BTP enable you to develop new applications, extend existing ones, and are at the center of integration scenarios. For more information about the Intelligent Enterprise, see [https://www.sap.com/products/intelligent-enterprise.html](https://www.sap.com/products/intelligent-enterprise.html)
+-   SAP BTP is an integrated offering comprised of five technology portfolios: application development, automation, integration, data and analytics, and AI. The platform offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly. It is a vital part of the transition to the Intelligent Enterprise. The application development capabilities of SAP BTP enable you to develop new applications and extend existing ones. For more information about the Intelligent Enterprise, see [https://www.sap.com/products/intelligent-enterprise.html](https://www.sap.com/products/intelligent-enterprise.html)
 
--   [Basic Platform Concepts](../basic-platform-concepts/basic-platform-concepts-38ecf59.md#loio38ecf59cdda64150a102cfaa62d5faab) – regions, environments, accounts, members, quotas, capabilities and links to in-depth explanations.
+-   [Basic Platform Concepts](../basic-platform-concepts/basic-platform-concepts-38ecf59.md#loio38ecf59cdda64150a102cfaa62d5faab) – regions, runtimes, accounts, members, quotas, capabilities and links to in-depth explanations.
 
 -   [Shared Responsibility Model Between You and SAP](../shared-responsibility/shared-responsibility-model-between-you-and-sap-898509d.md) – your responsibilities and SAP's responsibilities when it comes to application lifecycle management.
 
@@ -52,15 +50,15 @@ Plan and set up your landscape to manage the lifecycle of your cloud application
 2.  **[Develop and Build](../develop-and-build/develop-and-build-7e30686.md)** – find out about the tools and programming languages that are available on SAP BTP, and how to use multitarget applications to efficiently manage dependencies.
 3.  **[Deploy and Deliver](../deploy-and-deliver/deploy-and-deliver-5972cdb.md)** – deploy and deliver simple and multitarget applications.
 4.  **[Integrate and Test](../integrate-and-test/integrate-and-test-84ddc25.md#loio84ddc25bf6024506b9c56fbbe4438169)** – test and integrate your application with other solutions.
-5.  **[Go Live and Monitor](../go-live-and-monitor/go-live-and-monitor-b0ab4fb.md#loiob0ab4fb5cb914ee19923e4a8f020e868)** – learn what's important for going live and monitoring applications, services, and hybrid landscapes.
+5.  **[Go Live and Operate](../go-live-and-monitor/go-live-and-operate-b0ab4fb.md#loiob0ab4fb5cb914ee19923e4a8f020e868)** – learn what's important for going live and operating applications, services, and hybrid landscapes.
 6.  **[Improve and Retire](../improve-and-retire/improve-and-retire-89ffeab.md#loio89ffeab7ea7742fd9a1ad2de4970b077)** – make improvements to your application, perform housekeeping, and learn about what's important to consider when you want to retire it.
 
 > ### Tip:  
 > The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:
 > 
-> -   :pencil2:: Contribute to a documentation page. This option opens a pull request on GitHub.
+> -   *Feedback* \> *Create issue*: Provide feedback about a documentation page. This option opens an issue on GitHub.
 > 
-> -   <span class="SAP-icons"></span> Feedback: Provide feedback about a documentation page. This option opens an issue on GitHub.
+> -   *Feedback* \> *Edit page*: Contribute to a documentation page. This option opens a pull request on GitHub.
 > 
 > 
 > You need a GitHub account to use these options.

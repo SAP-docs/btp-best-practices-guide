@@ -18,11 +18,11 @@ In the Cloud Foundry environment, you can make use of the availability zones \(A
 
 Setting up your application with multiple instances might have an impact on your applications' capability for handling requests: In case of an AZ failure in a 3-AZ-deployment, at least one third of the application instances are affected and unavailable until Cloud Foundry can reschedule these instances on a healthy virtual machine.
 
-   
+  
   
 **Distribution During an Availability Zone Failure**
 
- ![](images/AZ_failure_3e96947.png "Distribution During an Availability Zone Failure") 
+![](images/AZ_failure_3e96947.png "Distribution During an Availability Zone Failure")
 
 During that period, the remaining instances in the healthy AZs have to carry the request load.
 
