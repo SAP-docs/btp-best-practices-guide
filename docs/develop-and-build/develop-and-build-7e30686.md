@@ -207,7 +207,7 @@ Metering:
 
 -   Cloud Foundry runtime: Metering starts when you start using the runtime memory, for example, when you deploy an application.
 
-    If your global account uses the consumption-based commercial model and you want to understand how the consumption of SAP BTP, Cloud Foundry runtime is calculated, see[Consumption Monitoring](https://help.sap.com/docs/cf-runtime/cloud-foundry-runtime/monitoring-and-troubleshooting?version=Cloud) in the SAP BTP Cloud Foundry runtime documentation.
+    If your global account uses the consumption-based commercial model and you want to understand how the consumption of SAP BTP, Cloud Foundry runtime is calculated, see [Consumption Monitoring](https://help.sap.com/docs/cf-runtime/cloud-foundry-runtime/monitoring-and-troubleshooting?version=Cloud) in the SAP BTP Cloud Foundry runtime documentation.
 
 -   Kyma runtime: Metering starts when you enable the Kyma environment. This triggers the creation of a dedicated Kubernetes cluster, and the cluster is metered from the start, before you have deployed any applications.
 
