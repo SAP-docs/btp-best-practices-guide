@@ -2,87 +2,118 @@
 
 # Deploying Applications
 
-You can leverage different deployment tools and methods, depending on the application type and your requirements.
+For simple applications \(and if you don't have a need for governance and scalability\), you can use different manual deployment tools and methods, depending on your environment and your application.
 
-<a name="loio47e40d941149489299af4d15a6064465"/>
 
-<!-- loio47e40d941149489299af4d15a6064465 -->
 
-## Deploying Multitarget Applications
+<a name="loio866ab13d5f8e48cdaac6d70e55e76e09__section_yrm_k3x_m1c"/>
 
-There are two options for deploying MTAs: Manually or managed.
+## Deploying Simple Applications in Cloud Foundry and Neo
 
--   **Manually:** You can archive all components of your application into one package that includes the deployment descriptor. You can then manually trigger the deployment of the solution using the SAP BTP cockpit or the Console Client. The actual deployment of the MTA files is then performed automatically by the SAP BTP deployment infrastructure, considering all interdependencies specified in the MTA deployment descriptor that is part of the MTA archive. By assigning roles and encapsulating the Console Client in a script, you can achieve a somewhat controlled release mechanism.
+> ### Recommendation:  
+> We recommend to handle interdependencies in Cloud Foundry and Neo by archiving all components of your application into one package, which also includes a deployment descriptor. On SAP BTP, this package is called “multitarget application archive” \(MTA archive\).
+> 
+> For a manual process, you trigger the deployment of the solution manually, depending on your programming language. The SAP BTP deployment infrastructure automatically deploys the MTA files, considering all interdependencies specified in the MTA deployment descriptor that is part of the MTA archive.
 
--   **Managed:** If you prefer a managed approach, you can deploy MTAs as part of a CI/CD approach. See [SAP Continuous Integration and Delivery service](https://help.sap.com/docs/CICD_OVERVIEW) for more information. Or you can implement transport or change management processes for your SAP BTP apps, using SAP Cloud Transport Management service, for example. For more information, see [Delivering Applications](delivering-applications-b39bae3.md).
+
+
+### Deploying a Java application manually
+
+For Java applications, you can use:
+
+-   The SAP BTP cockpit
+
+-   The Cloud Foundry command-line interface
+
+-   The console client \(Neo\)
+
+
+You can choose from several options with regards to runtimes, Java Virtual Machine versions, and more.
+
+
+
+### Deploying an HTML5 application manually
+
+For HTML5 applications, you can use:
+
+-   The SAP Business Application Studio
+
+-   The Cloud Foundry command-line interface
+
+-   The SAP BTP cockpit
+
+
+
+
+### Deploying a Node.js application manually
+
+For Node.js applications \(in Cloud Foundry\), you can use:
+
+-   The SAP Business Application Studio
+
+-   The Cloud Foundry command-line interface
+
+
+
+
+### Deploying an SAP HANA Extended Application Services, Advanced Model \(SAP HANA XSA\) application manually
+
+For SAP HANA XSA applications \(in Cloud Foundry\), you can use:
+
+-   The SAP HANA Deployment Infrastructure \(HDI\) from within SAP Business Application Studio
+
+-   The Cloud Foundry command-line interface
+
+
+
+
+### Bring Your Own Buildpack
+
+In the SAP BTP, Cloud Foundry environment, you can use your own buildpack to create applications. The deployment of such an application depends on the buildpack-specific development and deployment infrastructure.
+
+
+
+<a name="loio866ab13d5f8e48cdaac6d70e55e76e09__section_bdc_fcg_s1c"/>
+
+## Deploying Simple Applications in Kyma
+
+In the Kyma environment, you can use any technology of choice, such as Java, NodeJS, Python, Scala, .Net, or others. The only requirement is to package your application in a Linux Docker image. For creating a Docker image, you can use a standard [Dockerfile](https://docs.docker.com/reference/dockerfile/), or use a [Cloud Native Buildpack](https://buildpacks.io/).
+
+> ### Recommendation:  
+> For a productive setup, use automation tools such as SAP Continuous Integration and Delivery, with [Helm charts](https://helm.sh/docs/topics/charts/) for configurations. For details, see [Delivering Applications](delivering-applications-b39bae3.md#loiob39bae31d35d4d039431973116363d57).
+> 
+> For simple scenarios, you can consider manual deployments.
+
+
+
+### Deploying a Java application manually
+
+Package your Java application in a Docker image and deploy it to Kyma environment. For an example, see [Java-based extension with API exposed via Microgateway](https://github.com/SAP-samples/kyma-runtime-extension-samples/tree/main/sample-extension-java), which covers both approaches - with a Dockerfile, and with Cloud Native Buildpacks.
+
+
+
+### Deploying an HTML5 application manually
+
+Package your application in a Docker image and use a Kubernetes Job with a [HTML5 application deployer](https://www.npmjs.com/package/@sap/html5-app-deployer#enable-process-exit-after-upload).
+
+
+
+### Deploying a Node.js application manually
+
+Package your application in a Docker image and and deploy it to Kyma environment. For an example, see [HANA Cloud NodeJS API](https://github.com/SAP-samples/kyma-runtime-extension-samples/tree/main/hana-nodejs), which outlines the approach with a Dockerfile. Alternatively, you can also use Cloud Native Buildpacks.
+
+
+
+### Bring Your Own Buildpack
+
+In the Kyma environment, use [Cloud Native Buildpacks](https://buildpacks.io/). For details, see [Wishes come true - Cloud Native Buildpack Support in SAP Continuous Integration and Delivery!](https://community.sap.com/t5/technology-blogs-by-sap/wishes-come-true-cloud-native-buildpack-support-in-sap-continuous/ba-p/13578382)
 
 **Related Information**  
 
 
 [Deploying to the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2a21055cc94b4a528a820f73e6fa7d69.html "Get an overview of available deployment options.") :arrow_upper_right:
 
-<a name="loioe3b003d6734d4f41a069324f8ed6ea27"/>
+[SAP Tutorials: Deploying to the Kyma environment](https://developers.sap.com/tutorial-navigator.html?search=kyma+deploy)
 
-<!-- loioe3b003d6734d4f41a069324f8ed6ea27 -->
-
-## Deploying Simple Applications
-
-If your application consists of only one module, there are different native options for deploying it, depending on the programming language you're using.
-
-
-
-<a name="loioe3b003d6734d4f41a069324f8ed6ea27__section_zzq_scx_m2b"/>
-
-## Java
-
-You can use the SAP BTP cockpit, the console client \(Neo\), or the command-line tool \(Cloud Foundry\) to deploy a Java application. You have several options to choose from with regards to runtimes, Java Virtual Machine versions, and more.
-
-For large-scale development setups, we recommend that you connect your own development infrastructure.
-
-
-
-<a name="loioe3b003d6734d4f41a069324f8ed6ea27__section_alw_qfx_m2b"/>
-
-## HTML5
-
-You can deploy HTML5 applications from within the SAP Web IDE. In addition:
-
--   In the Neo environment, you can export and import your application via the SAP BTP cockpit.
-
--   In the Cloud Foundry environment, you can deploy your application using the Cloud Foundry command-line interface.
-
-
-
-
-<a name="loioe3b003d6734d4f41a069324f8ed6ea27__section_jpb_xfx_m2b"/>
-
-## Node.js
-
-In the Cloud Foundry environment, you can deploy Node.js applications from within SAP Web IDE, or use the Cloud Foundry command-line interface.
-
-
-
-<a name="loioe3b003d6734d4f41a069324f8ed6ea27__section_pd1_3hx_m2b"/>
-
-## SAP HANA Extended Application Services, Classic Model \(SAP HANA XS\)
-
-In the Neo environment, you can create a delivery unit as a .tgz file that contains all the artifacts for applications that are based on SAP HANA XS. You can import and export the application using SAP HANA administration tools, and open the application using the SAP BTP cockpit. It is also possible to deploy delivery units using SAP Cloud Transport Management.
-
-Please be aware that SAP HANA Extended Application Services, Classic Model has been deprecated – for more information, see [0002465027](https://me.sap.com/notes/0002465027).
-
-
-
-<a name="loioe3b003d6734d4f41a069324f8ed6ea27__section_sqp_vhx_m2b"/>
-
-## SAP HANA Extended Application Services, Advanced Model \(SAP HANA XSA\)
-
-In the Cloud Foundry environment, you can deploy applications based on SAP HANA XSA using the SAP HANA Deployment Infrastructure \(HDI\) from within SAP Web IDE. You can also deploy your application using the Cloud Foundry command-line interface.
-
-
-
-<a name="loioe3b003d6734d4f41a069324f8ed6ea27__section_h15_d3x_m2b"/>
-
-## Bring Your Own Buildpack
-
-In the Cloud Foundry environment, you can use your own buildpack to create applications. The deployment of such an application depends on the buildpack-specific development and deployment infrastructure.
+[Deploy Workloads in the Kyma Environment to Extend SAP Systems](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fe4ba5b46f794037a4aee13df9df2d3c.html "Access the Kyma environment and start creating extensions for SAP systems.") :arrow_upper_right:
 

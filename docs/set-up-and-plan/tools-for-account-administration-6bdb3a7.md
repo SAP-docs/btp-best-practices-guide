@@ -2,7 +2,7 @@
 
 # Tools for Account Administration
 
-Not only can you choose an account model that meets your business and technical requirements, you also have a choice of different experiences for creating directories and subaccounts in your global account.
+Not only can you choose an account model that meets your business and technical requirements, you also have a choice of different experiences for creating and managing directories and subaccounts in your global account.
 
 Choose between the following tools:
 
@@ -12,17 +12,25 @@ Choose between the following tools:
 
 -   Public REST APIs: [Account Administration Using APIs](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/1c8db1483d914cd99047aac5280f61ea.html "SAP BTP provides REST APIs that enable you to perform administrative tasks on the global account, directory, and subaccount level, such as creating or updating subaccounts, monitoring usage information, managing access, and managing service resources.") :arrow_upper_right:
 
--   There is a [Terraform provider for SAP BTP](https://registry.terraform.io/providers/SAP/btp/latest) available in the Hashicorps registry that you can use to automate your account setup. Note that it is still in beta. If you're not familiar with Terraform, you can check out the samples and best practices in this [GitHub repository](https://github.com/SAP-samples/btp-terraform-samples).
+-   Infrastructure-as-Code: There's a [Terraform provider for SAP BTP](https://registry.terraform.io/providers/SAP/btp/latest) available in the Hashicorps registry that you can use to automate your account setup. To learn more, see [Account Administration Using Infrastructure as Code](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8d201e43cd8a46d19aca9071c2faa56d.html "Infrastructure as Code (IaC) automates infrastructure provisioning and management using code. It helps ensure consistency, scalability, versioning, collaboration, and documentation. The Terraform Provider for SAP BTP allows you to provision and manage SAP BTP resources as code, with open-source support.") :arrow_upper_right:.
 
+-   Automation of technical operations tasks: [SAP Automation Pilot](https://help.sap.com/docs/automation-pilot?version=Cloud) is a low code/no code automation engine to reduce operation efforts for apps on SAP BTP and also brings catalogs for automated account setup and management.
 
-For information about creating subaccounts in the SAP BTP cockpit, see [Create a Subaccount](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/05280a123d3044ae97457a25b3013918.html "Create subaccounts in your global account using the SAP BTP cockpit.") :arrow_upper_right:. For the same procedure using the btp CLI, see [Create a Subaccount Using the btp CLI](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-create-accounts-subaccount).
 
 **Related Information**  
 
 
-[Managing Global Accounts Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/667f34ba9222450491c2b848cd17e189.html "Your SAP BTP global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner.") :arrow_upper_right:
+[Account Administration](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5d62ec89de39442f8f31d527855cbced.html "Learn how to manage global accounts, directories, and subaccounts on SAP BTP using different tools.") :arrow_upper_right:
 
-[Managing Directories Using the Cockpit \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/f495ac1a62684affbff9f2629fe58bb0.html "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the SAP BTP cockpit.") :arrow_upper_right:
+<a name="loio6dd97e11cae44afa809351e1222aafd8"/>
 
-[Managing Subaccounts Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/55d0b6d8b96846b8ae93b85194df0944.html "Learn how to structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements by managing subaccounts.") :arrow_upper_right:
+<!-- loio6dd97e11cae44afa809351e1222aafd8 -->
+
+## Automated SAP BTP Infrastructure Setup
+
+Terraform is the de-facto industry standard for infrastructure as code with more than 3000 providers. With the Terraform provider for SAP BTP, you can now use this standard to create Terraform scripts that set up your SAP BTP landscapes. Given the nature of Terraform, it is even possible to add non-SAP infrastructure to those scripts if the infrastructure provider offers a Terraform provider as well.
+
+The Terraform provider for SAP BTP enables you to automate the provisioning, management, and configuration of resources on SAP BTP. By leveraging this provider, you can simplify and streamline the deployment and maintenance of SAP BTP services and applications. See [Terraform Provider for SAP BTP](https://registry.terraform.io/providers/SAP/btp/latest/docs).
+
+Currently, the Terraform provider for SAP BTP is available for non-productive use and SAP is working with several customers on shaping the first release for productive use. You can check out some of the Terraform scripts in a samples repository in the [GitHub repository for the Terraform Provider for SAP BTP](https://github.com/SAP-samples/btp-terraform-samples).
 

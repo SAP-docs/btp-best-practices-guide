@@ -16,11 +16,13 @@ A shared responsibility model applies to SAP BTP: SAP manages the platform, wher
 
 ## SAP's Responsibilities
 
-SAP is responsible for operating the overall infrastructure of SAP BTP, including monitoring, patching, applying software updates, and maintaining the infrastructure and underlying operating systems. SAP is also responsible for technical operations such as monitoring SAP BTP services, providing health check services, managing capacity, performing troubleshooting and housekeeping, implementing regular updates, and managing incidents.
+SAP is responsible for operating the overall infrastructure of SAP BTP, including applying software updates and patches, as well as maintaining and monitoring the infrastructure and underlying operating systems. SAP is also responsible for technical operations such as monitoring SAP BTP services, providing health check services, managing capacity, performing troubleshooting and housekeeping, implementing regular updates, and managing incidents.
 
 SAP creates your global account and provides you with the resources and services you've purchased.
 
 Finally, SAP is responsible for SAP HANA database platform operations, including hardware configuration management, backup and recovery, space management, security management, and providing SAP HANA data center service point revisions as self-service update options.
+
+If you're using SAP BTP, Kyma runtime, you have full access to the cluster, except for the `kyma-system` namespace, which is managed and monitored by SAP.
 
 
 
@@ -28,9 +30,11 @@ Finally, SAP is responsible for SAP HANA database platform operations, including
 
 ## Your Responsibilities
 
-As an SAP BTP customer, you must manage your global account and any subaccounts; that is, you are responsible for coming up with an account concept, creating and configuring your subaccounts based on the requirements of your development projects, and for distributing resources and services accordingly.
+As an SAP BTP customer, you must manage your global account and any subaccounts. That is, you are responsible for coming up with an account concept, creating and configuring your subaccounts based on the requirements of your development projects, and for distributing resources and services accordingly.
 
-In addition, it's up to you to develop and operate applications. You are responsible for creating and deploying applications, managing application-specifc role assignments, integrating with existing systems and applications, monitoring and implementing health checks, and performing housekeeping, troubleshooting, and regular updates for your applications that are running on SAP BTP.
+In addition, it's up to you to develop and operate applications in a secure manner. You are responsible for creating and deploying applications, managing application-specific role assignments, integrating with existing systems and applications, monitoring and implementing health checks, and performing housekeeping, troubleshooting, and regular updates for your applications that are running on SAP BTP.
+
+We recommend following the security recommendations for applications built on SAP BTP \(see [SAP BTP Security Recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations?version=Cloud)\). If you're using open source software, keep your version up to date and make an open source vulnerability scanning tool an integral part of your software development process.
 
 If you're using the SAP HANA service, you're required to trigger updates of SAP HANA revisions when applicable, using a self-service from SAP BTP.
 

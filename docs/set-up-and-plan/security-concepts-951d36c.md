@@ -44,7 +44,7 @@ Before diving into the different user and member management concepts, it's impor
 
     **Member management** refers to managing permissions for **platform users**. You can think about it as managing the members of your team.
 
-    Member management happens at global account, directory, subaccount, and environment level. Members' permissions apply to all operations that are associated with the global account, the organization, or the space, irrespective of the tool used. Depending on the scope and the cloud management tools feature set you're using, you manage members in different ways.
+    Member management happens at global account, directory, subaccount, and environment level. Members' permissions apply to all operations that are associated with the global account, the organization, or the space, irrespective of the tool used. Depending on the scope you're using, you manage members in different ways.
 
 -   **Business users** use the applications that are deployed to SAP BTP. For example, the end users of SaaS apps or services, such as SAP Workflow service or SAP Cloud Integration, or end users of your custom applications are business users.
 

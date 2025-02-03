@@ -25,7 +25,7 @@ For more information about connectivity in ABAP and Kyma environments, see:
 
 -   [Communication Operations](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ac9137dd683d4c23b79e281278c499bb.html "") :arrow_upper_right: for the ABAP environment
 
--   [Configure SAP BTP Connectivity in the Kyma Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0c035010a9d64cc8a02d872829c7fa75.html "Extend your Kyma environment with SAP BTP Connectivity.") :arrow_upper_right:
+-   [Connectivity in the Kyma Environment](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/7501fbc9aebd4e3180eddec977ca288d.html "Find an overview of Connectivity components you can use for different purposes in the Kyma environment.") :arrow_upper_right:
 
 
 **Related Information**  

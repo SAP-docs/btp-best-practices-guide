@@ -56,7 +56,7 @@ Restrictions
 </td>
 <td valign="top">
 
-Provisioning is partially available for platform users. In Feature Set B, role collections on the subaccount level can be provisioned, such as *Subaccount Administrator*.
+Provisioning is partially available for platform users: Role collections on the subaccount level can be provisioned, such as *Subaccount Administrator*.
 
 </td>
 <td valign="top">
@@ -123,7 +123,7 @@ When a user is removed from the identity provider, the user can't log on, but th
 
 [Mapping Role Collections in the Subaccount](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/9e1bf57130ef466e8017eab298b40e5e.html)
 
-[Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0039cf082d3d43eba9200fe15647922a.html "In the cloud management tools feature set B, SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.") :arrow_upper_right:
+[Role Collections and Roles in Global Accounts, Directories, and Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0039cf082d3d43eba9200fe15647922a.html "SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.") :arrow_upper_right:
 
 [Setting Up Identity Lifecycle](setting-up-identity-lifecycle-2c30208.md "As people join, change roles, and eventually leave your organization, you care for the onboarding, maintenance, and offboarding of their users in your systems. If you're a small organization, you can use manual processes, otherwise you need to automate.")
 

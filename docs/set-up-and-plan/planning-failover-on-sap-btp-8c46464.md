@@ -71,5 +71,5 @@ For more information, see [Decide on the Failback](../deploy-and-deliver/decide-
 **Related Information**  
 
 
-[Develop Resilient Applications](../develop-and-build/develop-resilient-applications-b1b929a.md "Our best practices about resilient application design help you to make your applications running on SAP BTP stable and highly available.")
+[Developing Resilient Applications](https://help.sap.com/docs/BTP/0c8c1db388f645159e134a005aaabbcf/b1b929a5aea64571b2f74e810b622568.html?locale=en-US)
 

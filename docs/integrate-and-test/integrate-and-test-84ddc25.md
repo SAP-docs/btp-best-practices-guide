@@ -60,7 +60,7 @@ SAP Cloud Integration \(Cloud Integration\) supports end-to-end process integrat
 -   Out-of-the-box connectivity support \(IDoc, SFTP, SOAP/HTTPS, SAP SuccessFactors, OData, HTTPS\)
 -   Security features such as content encryption and certificate-based communication
 
-Cloud Integration offers full flexibility for the manner in which messages are exchanged between your systems. We recommend that you use the Cloud Connector if you require any of the following \(or if you don't require on-premise-based middleware, such as SAP Process Orchestration\):
+SAP Cloud Integration offers full flexibility for the manner in which messages are exchanged between your systems. We recommend that you use the Cloud Connector if you require any of the following \(or if you don't require on-premise-based middleware, such as SAP Process Orchestration\):
 
 -   Compliance scenarios, such as e-invoicing and payroll
 -   Graphical model of integration flow
@@ -76,7 +76,7 @@ For more information, see [SAP Cloud Integration](https://help.sap.com/viewer/pr
 
 ## Cloud Integration Automation Service
 
-If you're planning on integrating your SAP BTP application into a hybrid landscape, you can also leverage the Cloud Integration Automation Service that is offered for selected integration scenarios. This service provides a guided workflow that uses customer-specific system information, reusable configuration settings between tasks, and automated execution capabilities, thereby reducing the manual work for your scenario integration. For more information, see [Cloud Integration Automation Service](https://help.sap.com/viewer/p/Cloud%20Integration%20Automation%20Service).
+If you're planning on integrating your SAP BTP application into a hybrid landscape, you can also leverage the Cloud Integration Automation service that is offered for selected integration scenarios. This service provides a guided workflow that uses customer-specific system information, reusable configuration settings between tasks, and automated execution capabilities, thereby reducing the manual work for your scenario integration. For more information, see [Cloud Integration Automation Service](https://help.sap.com/viewer/p/Cloud%20Integration%20Automation%20Service).
 
 **Related Information**  
 

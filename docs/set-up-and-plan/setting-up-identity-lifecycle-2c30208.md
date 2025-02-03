@@ -9,7 +9,7 @@ We recommend creating users within the SAP Cloud Identity Services. The persiste
 The global user ID is a unique identifier across technology layers, products, and solutions in the Intelligent Enterprise. The global user ID enables you to correlate information about a user across applications. SAP Cloud Identity Services is best equipped to handle SAP-specific attributes, such as the global user ID. In fact, some services and solution only function when using SAP Cloud Identity Services to manage the global user ID. SAP Cloud Identity Services can generate the global user ID or you must fill it yourself.
 
 > ### Recommendation:  
-> If you generate your own global user ID, don't use attributes such as an e-mail address. E-mail addresses are often based on a person's name. Names change when a person changes their marital status or other reasons. We generate a universally unique identifier \(UUID\) that remains stable as long as the user is in the system.
+> If you generate your own global user ID, don't use attributes such as an e-mail address. E-mail addresses are often based on a person's name. Names change, for example when a person changes their marital status or for other reasons. We generate a universally unique identifier \(UUID\) that remains stable as long as the user is in the system.
 > 
 > For more information, see [Global User ID in Integration Scenarios](https://help.sap.com/docs/SAP_CLOUD_IDENTITY/b95c3d5bab324a3a8409eee5267a5b75/a04611df60404a248a7a8089c85b9761.html) in the *System Integration Guide for SAP Cloud Identity Services*.
 

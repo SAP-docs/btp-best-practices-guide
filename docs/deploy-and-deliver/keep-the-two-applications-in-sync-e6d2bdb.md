@@ -71,9 +71,9 @@ The following figure illustrates this procedure:
 
 1.  In the cockpit, navigate to your subaccount in the Neo environment, in which your HTML5 application is deployed. See [Navigate to Global Accounts and Subaccounts in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html).
 
-2.  From the navigation pane, choose <span class="SAP-icons"></span> *Solutions*.
+2.  From the navigation pane, choose <span class="SAP-icons-V5"></span> *Solutions*.
 
-3.  To access the solution export wizard, choose <span class="SAP-icons"></span> *Export*. For more information, see [Exporting Solutions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/14a0ff1480494bcd993674061fb4f505.html).
+3.  To access the solution export wizard, choose <span class="SAP-icons-V5"></span> *Export*. For more information, see [Exporting Solutions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/14a0ff1480494bcd993674061fb4f505.html).
 
 4.  In the *Select Components* section of the *Solution Export Wizard* dialog, select the components of your HTML5 application you have changed.
 
@@ -84,11 +84,11 @@ The following figure illustrates this procedure:
 
 6.  In the cockpit, navigate to your subaccount in the Cloud Foundry environment. See [Navigate to Global Accounts and Subaccounts in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0874895f1f78459f9517da55a11ffebd.html).
 
-7.  From the navigation pane, choose <span class="SAP-icons"></span> *Subscriptions*.
+7.  From the navigation pane, choose <span class="SAP-icons-V5"></span> *Subscriptions*.
 
-8.  On the <span class="SAP-icons"></span> *Transport Management Service* tile, choose *Go to Application*.
+8.  On the <span class="SAP-icons-V5"></span> *Transport Management Service* tile, choose *Go to Application*.
 
-9.  From the navigation pane, choose <span class="SAP-icons"></span> *Transport Nodes* and select the target node.
+9.  From the navigation pane, choose <span class="SAP-icons-V5"></span> *Transport Nodes* and select the target node.
 
 10. In the *IMPORT QUEUE* tab, select the MTA archive you have exported with the help of the solution export wizard.
 

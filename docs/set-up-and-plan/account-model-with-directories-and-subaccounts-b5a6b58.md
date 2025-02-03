@@ -4,8 +4,6 @@
 
 The account models in this section show use cases for directories as structuring elements for your subaccounts.
 
-If, in your global account, you cannot create directories, it means that your global account has not been migrated to feature set B yet. See [Cloud Management Tools — Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html "Cloud management tools represent the group of technologies designed for managing SAP BTP.") :arrow_upper_right:.
-
 
 
 <a name="loiob5a6b58694784d0c9f4ff85f9b7336dd__section_h4f_bhz_fnb"/>
@@ -55,12 +53,12 @@ Here are some examples of simple labels:
 > ### Tip:  
 > Directories and labels offer two different ways of structuring subaccounts into groups. We recommend to use directories as the primary structuring mechanism and to use labels to build virtual groups of subaccounts or directories for which you need to create reports.
 > 
-> The below-mentioned account models for feature set B work for all runtimes. Inside a subaccount, you can further structure your projects depending on the runtime, for example by creating Cloud Foundry spaces or Kyma namespaces.
+> The suggested account models work for all runtimes. Inside a subaccount, you can further structure your projects depending on the runtime, for example, by creating Cloud Foundry spaces or Kyma namespaces.
 
 **Related Information**  
 
 
-[Labels \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.") :arrow_upper_right:
+[Labels](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.") :arrow_upper_right:
 
 <a name="loio9a100731c3f649e7a50a2f9c2c1af5fa"/>
 
@@ -74,213 +72,8 @@ Within each of those directories, three subaccounts \(for development, test, and
 
 ![](images/plm_account_model_6_1f0bc9e.png)
 
-
-
-<a name="loio9a100731c3f649e7a50a2f9c2c1af5fa__section_nxz_bxz_knb"/>
-
-## Example of naming conventions for this account model in the Cloud Foundry environment
-
-To ensure that there are no conflicts with special characters, we recommend to stick with lower-case letters and hyphens, and not to use spaces in names. This way, you can name a subaccount, its subdomain, and its Cloud Foundry org exactly the same. Cloud Foundry spaces should be named identically across the three tiers \(dev, test, prod\).
-
-
-<table>
-<tr>
-<td valign="top">
-
-Directory
-
-</td>
-<td valign="top" colspan="3">
-
-mycompany-hr
-
-</td>
-<td valign="top" colspan="3">
-
-my-company-sales
-
-</td>
-<td valign="top" colspan="3">
-
-my-company-IT
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Subaccounts and subdomains
-
-</td>
-<td valign="top">
-
-mycompany-hr-dev
-
-</td>
-<td valign="top">
-
-my-company-hr-test
-
-</td>
-<td valign="top">
-
-my-company-hr-prod
-
-</td>
-<td valign="top">
-
-my-company-sales-dev
-
-</td>
-<td valign="top">
-
-my-company-sales-test
-
-</td>
-<td valign="top">
-
-my-company-sales-prod
-
-</td>
-<td valign="top">
-
-my-company-IT-dev
-
-</td>
-<td valign="top">
-
-my-company-IT-test
-
-</td>
-<td valign="top">
-
-my-company-IT-prod
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Cloud Foundry Orgs \(same name as subaccounts\)
-
-</td>
-<td valign="top">
-
-mycompany-hr-dev
-
-</td>
-<td valign="top">
-
-my-company-hr-test
-
-</td>
-<td valign="top">
-
-my-company-hr-prod
-
-</td>
-<td valign="top">
-
-my-company-sales-dev
-
-</td>
-<td valign="top">
-
-my-company-sales-test
-
-</td>
-<td valign="top">
-
-my-company-sales-prod
-
-</td>
-<td valign="top">
-
-my-company-IT-dev
-
-</td>
-<td valign="top">
-
-my-company-IT-test
-
-</td>
-<td valign="top">
-
-my-company-IT-prod
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Spaces
-
-</td>
-<td valign="top">
-
-project-portal
-
-activity-recording
-
-</td>
-<td valign="top">
-
-project-portal
-
-activity-recording
-
-</td>
-<td valign="top">
-
-project-portal
-
-activity-recording
-
-</td>
-<td valign="top">
-
-customer-acquisition
-
-sales-support
-
-</td>
-<td valign="top">
-
-customer-acquisition
-
-sales-support
-
-</td>
-<td valign="top">
-
-customer-acquisition
-
-sales-support
-
-</td>
-<td valign="top">
-
-it-support
-
-central-service
-
-</td>
-<td valign="top">
-
-it-support
-
-central-service
-
-</td>
-<td valign="top">
-
-it-support
-
-central-service
-
-</td>
-</tr>
-</table>
+> ### Tip:  
+> For an example of naming conventions with this account model, see [Naming Conventions for SAP BTP Accounts](naming-conventions-for-sap-btp-accounts-5302ea4.md).
 
 <a name="loiodd78c89de7b04ae4a2147edd7a811187"/>
 

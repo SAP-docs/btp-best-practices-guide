@@ -349,7 +349,7 @@ Yes
 
 See the following for more information:
 
--   [HTTP Destinations (Cloud Foundry Environment)](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/42a0e6b966924f2e902090bdf435e1b2.html "Find information about HTTP destinations for Internet and on-premise connections (Cloud Foundry environment).") :arrow_upper_right:
+-   [HTTP Destinations (Cloud Foundry Environment)](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/42a0e6b966924f2e902090bdf435e1b2.html "Find information about HTTP destinations for Internet and on-premise connections.") :arrow_upper_right:
 
 -   [HTTP Destinations (Neo Environment)](https://help.sap.com/viewer/b865ed651e414196b39f8922db2122c7/Cloud/en-US/b068356dd7c34cf7ad6b6023deeb317d.html "") :arrow_upper_right:
 

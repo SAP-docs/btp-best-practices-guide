@@ -16,6 +16,8 @@ Independent of the account model you choose, we recommend going through the foll
 
 3.  Define account hierarchy and guidelines and roll them out to a few pilot project managers to get their feedback.
 
+4.  Familiarize yourself with the different tools you can use for account administration: [Account Administration](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5d62ec89de39442f8f31d527855cbced.html "Learn how to manage global accounts, directories, and subaccounts on SAP BTP using different tools.") :arrow_upper_right:
+
 
 
 
@@ -25,25 +27,14 @@ Independent of the account model you choose, we recommend going through the foll
 
     -   The global account should be owned by the Platform Engineering Team/Center of Excellence.
 
-    -   Directories and subaccounts can be operated by dedicated account owners, which have been upskilled by the Platform Engineering Team/Center of Excellence.
+    -   Directories and subaccounts can be operated by dedicated account owners, which have been upskilled by the Platform Engineering Team/Center of Excellence. Use the predefined role collections for this. For details, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts](https://help.sap.com/docs/btp/sap-business-technology-platform/role-collections-and-roles-in-global-accounts-directories-and-subaccounts?version=Cloud).
 
     -   Spaces/namespaces/packages \(depending on the runtime\) can be owned by the respective development units.
 
 
 2.  Optionally, create a template for new directories. See [Template for New Directories](checklist-for-the-account-model-setup-7f1c318.md#loio7f1c318292934e088e5cd119271f0b1e__section_template_for_directories) and [Account Model With Directories and Subaccounts](account-model-with-directories-and-subaccounts-b5a6b58.md#loiob5a6b58694784d0c9f4ff85f9b7336dd).
 
-3.  Define naming conventions, for example:
-
-    -   To prevent conflicts with special characters, we recommend sticking with lower-case letters and hyphens, and not to use spaces in names.
-
-    -   To avoid issues with too long URLS, use short names for subaccount, Cloud Foundry org and subdomain, Kyma cluster, and Cloud Foundry spaces/Kyma namespaces. We recommend that all names aren't longer than 63 characters.
-
-    -   Give the directory a descriptive name that starts with your company or global account name.
-
-    -   There's a 1:1 relationship between a subaccount on the one hand, and on the other hand, Cloud Foundry org and subdomain, or respectively, the Kyma cluster; so you should give them identical names.
-
-    -   Because there's no connection between spaces/namespaces in different subaccounts, we recommend giving identical names to the dev, test, and prod versions of projects and spaces/namespaces.
-
+3.  Define naming conventions. See [Naming Conventions for SAP BTP Accounts](naming-conventions-for-sap-btp-accounts-5302ea4.md).
 
 4.  Define labels and values according to the reports you want to create.
 
@@ -132,5 +123,5 @@ Describe how projects can enroll in your directory.
 **Related Information**  
 
 
-[Labels \[Feature Set B\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.") :arrow_upper_right:
+[Labels](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.") :arrow_upper_right:
 
