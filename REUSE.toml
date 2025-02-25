@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "btp-best-practices-guide"
+SPDX-PackageSupplier = "Boris Zarske (boris.zarske@sap.com)"
+SPDX-PackageDownloadLocation = "https://github.com/SAP-docs/btp-best-practices-guide"
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2021-2023 SAP SE or an SAP affiliate company and btp-best-practices-guide contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
