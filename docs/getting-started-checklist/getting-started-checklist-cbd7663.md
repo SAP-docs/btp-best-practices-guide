@@ -38,7 +38,7 @@ If you're new to SAP BTP, this checklist helps you ensure the implementation rea
 
 8.  Obtain a customer number \(needed for support tickets\). If you don't know your customer number, check with your system administrator.
 
-9.  Build a Platform Engineering Team \(respectively, a Cloud Center of Excellence\) and a Cloud Development Team. See [Building Teams](../set-up-and-plan/building-teams-fdeddf2.md#loiofdeddf22a6964d86a199b9eb11c7075e).
+9.  Build a Platform Engineering Team \(respectively, a Cloud Center of Expertise\) and one or more Cloud Development Teams. See [Building Teams](../set-up-and-plan/building-teams-fdeddf2.md#loiofdeddf22a6964d86a199b9eb11c7075e).
 
 
 

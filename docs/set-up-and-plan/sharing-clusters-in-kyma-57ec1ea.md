@@ -33,7 +33,7 @@ For multiple teams, cluster sharing \(with the respective mitigations\) is usefu
 
 -   Small teams or applications: If you have a small number of teams or applications with low resource requirements, sharing a cluster can maximize resource utilization and reduce infrastructure costs.
 
--   Development and testing environments: Sharing a cluster is often acceptable for development and testing purposes. These environments typically have lower security and isolation requirements, making it easier to share resources. For more information, see [Staged Development with the Kyma Environment](staged-development-with-the-kyma-environment-ec8a269.md).
+-   Development and testing environments: Sharing a cluster is often acceptable for development and testing purposes. These environments typically have lower security and isolation requirements, making it easier to share resources. For more information, see [The Basic Account Model](setting-up-your-account-model-2db81f4.md#loio2db81f42f5194454beecde6cd4994dda__section_basic_account_model).
 
 -   Non-critical workloads: If the workloads running on the cluster are non-critical or have a low impact on business operations, sharing a cluster can be a viable option. This is especially true for non-production environments or temporary projects.
 

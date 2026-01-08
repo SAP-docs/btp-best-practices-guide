@@ -2,7 +2,7 @@
 
 # Building Teams
 
-We recommend that you set up different types of teams: besides **Cloud Development Teams**, who build and operate applications, set up a central **Platform Engineering Team / Center of Excellence** that's responsible for any account operations, the build infrastructure, for defining central governance and compliance guidelines, and for driving cloud adoption throughout your organization.
+We recommend that you set up different types of teams: besides **Cloud Development Teams**, who build and operate applications, set up a central **Platform Engineering Team** or **Center of Expertise \(CoE\)** that's responsible for any account operations, the build infrastructure, for defining central governance and compliance guidelines, and for driving cloud adoption throughout your organization.
 
 Also, the Platform Engineering Team strives to improve the development experience and the operational efficiency, in order to reduce the cognitive load of the development teams.
 
@@ -22,19 +22,19 @@ We recommend that Cloud Development Teams follow a DevOps approach, which means 
 
 <a name="loiofdeddf22a6964d86a199b9eb11c7075e__section_ujc_qpd_pdc"/>
 
-## Platform Engineering Team / Center of Excellence
+## Platform Engineering Team / Center of Expertise
 
 The Platform Engineering Team defines, sets up, and maintains your cloud landscape.
 
 The responsibility of this team is to operate and ensure a stable and secure cloud landscape \(including the internal developer platform\), and to enable other developers to build cloud applications with reduced cognitive load. The members of this team are highly qualified experts who have development experience and experience with setting up and running a build infrastructure for continuous deployments and integration scenarios.
 
-This team can support your development teams by providing knowledge and defining guidelines that match your company’s quality and security requirements. The Platform Engineering Team should generally not be responsible for the lifecycle management of specific applications; the Cloud Development Team should take responsibility for this task.
+This team can support your development teams by providing knowledge and defining guidelines that match your company’s quality and security requirements. The Platform Engineering Team should generally not be responsible for the lifecycle management of specific applications - the Cloud Development Team should take responsibility for this task.
 
-The Platform Engineering Team can also operate as a Center of Excellence \(CoE\), driving cloud adoption, migration, and operation throughout your organization by providing thought leadership and guidance for resolving roadblocks. The CoE is also responsible for identifying, evaluating, and implementing use cases for the SAP BTP.
+The Platform Engineering Team can also operate as a Center of Expertise \(CoE\), driving cloud adoption, migration, and operation throughout your organization by providing thought leadership and guidance for resolving roadblocks. The CoE is also responsible for identifying, evaluating, and implementing use cases for the SAP BTP.
 
 Platform Engineering Teams can be complemented by enabling teams, composed of specialists that help to bridge knowledge gaps of development teams, detect missing capabilities and come up with ideas what additional offerings could help to further reduce the cognitive load of the development teams. For more information, see [Key Concepts from Team Topologies](https://teamtopologies.com/key-concepts).
 
-We recommend that the Platform Engineering Team / Center of Excellence \(CoE\) create the following documents:
+We recommend that the Platform Engineering Team / Center of Expertise \(CoE\) create the following documents:
 
 -   [Onboarding Document](creating-an-onboarding-process-for-development-projects-4bd29a8.md#loio4bd29a8a49c84727aeb81a8f60e74ea0__section_onboarding_doc)
 
@@ -42,4 +42,9 @@ We recommend that the Platform Engineering Team / Center of Excellence \(CoE\) c
 
 -   [Services Catalog](creating-an-onboarding-process-for-development-projects-4bd29a8.md#loio4bd29a8a49c84727aeb81a8f60e74ea0__section_services_catalog)
 
+
+**Related Information**  
+
+
+[SAP BTP Center of Expertise \(CoE\) Guide](https://help.sap.com/docs/sap_btp_guidance_framework/4b5ea626b38a490b85e8c4d060286b46/d960c25778d341cb9e1e77022e575561.html?locale=en-US)
 

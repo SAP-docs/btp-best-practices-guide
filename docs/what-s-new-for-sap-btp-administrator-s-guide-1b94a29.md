@@ -6,14 +6,14 @@
 
 
 
-**2024**
+**2025**
 
 
 <table>
 <tr>
 <th valign="top">
 
-Technical Component
+Component
 
 </th>
 <th valign="top">
@@ -83,7 +83,360 @@ SAP BTP Administrator's Guide
 -   ABAP
 -   Cloud Foundry
 -   Kyma
--   Neo
+-   Other
+
+
+
+</td>
+<td valign="top">
+
+Updated Shared Responsibility Model
+
+</td>
+<td valign="top">
+
+In alignment with the [learning journey for administrators](https://learning.sap.com/learning-journeys/administrating-sap-business-technology-platform), we've updated the [Shared Responsibility Model Between You and SAP](https://help.sap.com/docs/btp/btp-admin-guide/shared-responsibility-model-between-you-and-sap?locale=en-US&version=Cloud).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-10-01
+
+</td>
+<td valign="top">
+
+2025-10-01
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP Administrator's Guide
+
+</td>
+<td valign="top">
+
+-   ABAP
+-   Cloud Foundry
+-   Kyma
+-   Other
+
+
+
+</td>
+<td valign="top">
+
+Updated Deploying and Delivering Applications
+
+</td>
+<td valign="top">
+
+We've updated the recommendations in [Deploying Applications](https://help.sap.com/docs/btp/btp-admin-guide/deploying-applications?locale=en-US&version=Cloud) and [Delivering Applications](https://help.sap.com/docs/btp/btp-admin-guide/delivering-applications?locale=en-US&version=Cloud).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-08-28
+
+</td>
+<td valign="top">
+
+2025-08-28
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP Administrator's Guide
+
+</td>
+<td valign="top">
+
+-   ABAP
+-   Cloud Foundry
+-   Kyma
+-   Other
+
+
+
+</td>
+<td valign="top">
+
+Enhanced Security Recommendations
+
+</td>
+<td valign="top">
+
+We've updated the following documents:
+
+-   [Onboard to SAP Cloud Identity Services](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/9c897ee8df014b3b8d7c67bab16f385c.html): New tenant landscape recommendations, visual comparisons of different setups, and details on key concepts like tenant domains and migration.
+-   [Setting Up Identity Lifecycle](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/2c30208f5bfd4608a19fc5d5e964e5ec.html): New recommendations for using Identity Provisioning to streamline your identity lifecycle processes.
+-   [Security Concepts](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/951d36ce07324f919f74f52b0f9f9e0a.html) and [Setting Up Authentication](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/1dbce9caa4314103bbc9a7e3ca548280.html): Improved recommendation on configuring your custom tenant of SAP Cloud Identity Services.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-08-06
+
+</td>
+<td valign="top">
+
+2025-08-06
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP Administrator's Guide
+
+</td>
+<td valign="top">
+
+-   ABAP
+-   Cloud Foundry
+-   Kyma
+-   Other
+
+
+
+</td>
+<td valign="top">
+
+Various Minor Enhancements
+
+</td>
+<td valign="top">
+
+-   Added guidance about SAP BTP ABAP environment in [Data Backups Managed by SAP](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/6c1e071845dd4db2829b413a05154a7c.html).
+-   Updated [SAP Job Scheduling Service](https://help.sap.com/docs/btp/btp-admin-guide/go-live-and-monitor?version=Cloud#sap-job-scheduling-service).
+-   Terminology updates for [Building Teams](https://help.sap.com/docs/btp/btp-admin-guide/building-teams?locale=en-US&version=Cloud), [Creating an Onboarding Process for Development Projects](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/4bd29a8a49c84727aeb81a8f60e74ea0.html?locale=en-US), and [Subaccounts or Spaces/Namespaces?](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/4cb5276d832847aa8e5c82e73ef9ff10.html?locale=en-US)
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-05-08
+
+</td>
+<td valign="top">
+
+2025-05-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP Administrator's Guide
+
+</td>
+<td valign="top">
+
+-   ABAP
+-   Cloud Foundry
+-   Kyma
+-   Other
+
+
+
+</td>
+<td valign="top">
+
+Updated Account Model Guidance
+
+</td>
+<td valign="top">
+
+-   We've rejuvenated the chapter [Setting Up Your Account Model](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/2db81f42f5194454beecde6cd4994dda.html?locale=en-US)!
+
+    Now, it covers working with multiple runtimes and shared services, how to draft your ideal account model, and which templates and automation tools make your life easier.
+
+-   We've updated [Onboard to SAP Cloud Identity Services](https://help.sap.com/docs/btp/btp-admin-guide/onboard-to-sap-cloud-identity-services?locale=en-US&version=Cloud)
+
+-   We've adjusted the diagram for [User and Member Management](https://help.sap.com/docs/btp/btp-admin-guide/security-concepts?locale=en-US&version=Cloud#user-and-member-management).
+
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2025-03-31
+
+</td>
+<td valign="top">
+
+2025-03-31
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP Administrator's Guide
+
+</td>
+<td valign="top">
+
+-   ABAP
+-   Cloud Foundry
+-   Kyma
 -   Other
 
 

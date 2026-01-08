@@ -35,7 +35,7 @@ The SAP BTP Failover Guide focuses on four principles to consider when planning 
 
 Our guide focuses on a multi-data center setup in which you deploy your application in two different data centers in parallel. The described setup is active/passive, which means that the traffic is generally directed to the application in the primary \(active\) data center. Only if the active data center experiences a downtime, the traffic is redirected to the application in the secondary \(passive\) one.
 
-For more information, see [Deploy Your Application in Two Data Centers](../deploy-and-deliver/deploy-your-application-in-two-data-centers-61d08d8.md).
+For more information, see [Deploy Your Application in Two Data Centers](https://help.sap.com/viewer/2c674b8190ef4978ba40ba8283cf5adb/Cloud/en-US/61d08d8c85f448a0b7399e83f01a1a04.html "Deploy your application in two data centers in parallel so that in case of an issue, you can switch from one to the other.") :arrow_upper_right:.
 
 
 
@@ -43,14 +43,14 @@ For more information, see [Deploy Your Application in Two Data Centers](../deplo
 
 To maintain the functionality of your application, make sure that both applications in the primary and the secondary data center are kept in sync. In this guide, we consider three different ways to orchestrate your applications:
 
--   Orchestrate your applications manually. See [Synchronize Your Applications Manually](../deploy-and-deliver/keep-the-two-applications-in-sync-e6d2bdb.md#loio5606f91c66b44354bd99cce0a0b9da5d).
+-   Orchestrate your applications manually. See [Synchronize Your Applications Manually](https://help.sap.com/viewer/2c674b8190ef4978ba40ba8283cf5adb/Cloud/en-US/e6d2bdb006734bd69e394379ff0dd956.html#loio5606f91c66b44354bd99cce0a0b9da5d "") :arrow_upper_right:.
 
--   Orchestrate your applications with the help of a continuous integration and delivery pipeline. See [Use a Continuous Integration and Delivery Pipeline](../deploy-and-deliver/keep-the-two-applications-in-sync-e6d2bdb.md#loioe603c7411eb0483eaeda10fee8aacb5b).
+-   Orchestrate your applications with the help of a continuous integration and delivery pipeline. See [Use a Continuous Integration and Delivery Pipeline](https://help.sap.com/viewer/2c674b8190ef4978ba40ba8283cf5adb/Cloud/en-US/e6d2bdb006734bd69e394379ff0dd956.html#loioe603c7411eb0483eaeda10fee8aacb5b "") :arrow_upper_right:.
 
--   Orchestrate your applications through a combination of the Solution Export Wizard and the SAP BTP Transport Management service. See [Use the Solution Export Wizard and SAP Cloud Transport Management](../deploy-and-deliver/keep-the-two-applications-in-sync-e6d2bdb.md#loio8b3131f1b7504bc7b8a2e1e8b46f71f0).
+-   Orchestrate your applications through a combination of the Solution Export Wizard and the SAP BTP Transport Management service. See [Use the Solution Export Wizard and SAP Cloud Transport Management](https://help.sap.com/viewer/2c674b8190ef4978ba40ba8283cf5adb/Cloud/en-US/e6d2bdb006734bd69e394379ff0dd956.html#loio8b3131f1b7504bc7b8a2e1e8b46f71f0 "You can orchestrate your applications through a combination of the solution export wizard and the SAP Cloud Transport Management service.") :arrow_upper_right:.
 
 
-For more information, see [Keep the Two Applications in Sync](../deploy-and-deliver/keep-the-two-applications-in-sync-e6d2bdb.md#loioe6d2bdb006734bd69e394379ff0dd956).
+For more information, see [Keep the Two Applications in Sync](https://help.sap.com/viewer/2c674b8190ef4978ba40ba8283cf5adb/Cloud/en-US/e6d2bdb006734bd69e394379ff0dd956.html#loioe6d2bdb006734bd69e394379ff0dd956 "Synchronize your applications in both data centers to maintain their functionality in case of a downtime.") :arrow_upper_right:.
 
 
 
@@ -58,7 +58,7 @@ For more information, see [Keep the Two Applications in Sync](../deploy-and-deli
 
 To implement an automated failover from one data center to another, you must specify the cases in which the automatic switch has to be performed. You can choose from several options that vary in both their setup effort and flexibility, and use, for example, arbiters and different monitoring tools. In this guide, we describe a basic scenario, in which a user request triggers checks for both error codes and inappropriate response times.
 
-For more information, see [Define How a Failover Is Detected](../deploy-and-deliver/define-how-a-failover-is-detected-88b86db.md).
+For more information, see [Define How a Failover Is Detected](https://help.sap.com/viewer/2c674b8190ef4978ba40ba8283cf5adb/Cloud/en-US/88b86dbbbee34092a2e30a32ada5dc19.html "Define in which cases the automatic failover from one data center to the other is triggered.") :arrow_upper_right:.
 
 
 
@@ -66,7 +66,7 @@ For more information, see [Define How a Failover Is Detected](../deploy-and-deli
 
 Depending on your failover setup, a failback to the primary data center is either required or optional. In our active/passive scenario, the failback is mandatory and performed by the user himself. Additionally, we recommend to visually differentiate between the applications in the primary and the secondary data center so that the user is constantly reminded of the necessity to switch back as soon as the primary data center is available again.
 
-For more information, see [Decide on the Failback](../deploy-and-deliver/decide-on-the-failback-963f962.md).
+For more information, see [Decide on the Failback](https://help.sap.com/viewer/2c674b8190ef4978ba40ba8283cf5adb/Cloud/en-US/963f9622c81b4161b9c34cc42069f320.html "In the setup of your failover scenario, define whether a failback is needed and how it is performed.") :arrow_upper_right:.
 
 **Related Information**  
 

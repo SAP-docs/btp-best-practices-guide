@@ -8,10 +8,10 @@ For simple applications \(and if you don't have a need for governance and scalab
 
 <a name="loio866ab13d5f8e48cdaac6d70e55e76e09__section_yrm_k3x_m1c"/>
 
-## Deploying Simple Applications in Cloud Foundry and Neo
+## Deploying Simple Applications in Cloud Foundry
 
 > ### Recommendation:  
-> We recommend to handle interdependencies in Cloud Foundry and Neo by archiving all components of your application into one package, which also includes a deployment descriptor. On SAP BTP, this package is called “multitarget application archive” \(MTA archive\).
+> We recommend to handle interdependencies in Cloud Foundry by archiving all components of your application into one package, which also includes a deployment descriptor. On SAP BTP, this package is called “multitarget application archive” \(MTA archive\).
 > 
 > For a manual process, you trigger the deployment of the solution manually, depending on your programming language. The SAP BTP deployment infrastructure automatically deploys the MTA files, considering all interdependencies specified in the MTA deployment descriptor that is part of the MTA archive.
 
@@ -24,8 +24,6 @@ For Java applications, you can use:
 -   The SAP BTP cockpit
 
 -   The Cloud Foundry command-line interface
-
--   The console client \(Neo\)
 
 
 You can choose from several options with regards to runtimes, Java Virtual Machine versions, and more.

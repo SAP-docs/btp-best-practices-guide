@@ -17,5 +17,5 @@ Also, don't forget to implement **failover**, for example, by deploying your app
 
 [Delivering Applications](delivering-applications-b39bae3.md#loiob39bae31d35d4d039431973116363d57 "In enterprise environments, use a managed and automated delivery approach – because it is less error-prone and creates repeatable outcomes. Furthermore, you can apply governance and central control of the propagation of your changes towards your production environment.")
 
-[Implementing Failover](implementing-failover-df972c5.md "")
+[Implementing Failover](implementing-failover-df972c5.md "Implementing failover ensures your applications remain available even during disruptions.")
 

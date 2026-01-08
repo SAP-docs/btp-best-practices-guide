@@ -64,19 +64,19 @@ Consider the following when using a CDN:
 
 Use SAP Cloud ALM to monitor and operate your landscape.
 
-SAP Cloud ALM is included in your SAP Cloud Service subscription containing Enterprise Support, cloud editions, in SAP Enterprise Support and in Product Support for Large Enterprises.
+SAP Cloud ALM is included in your SAP Cloud Service subscription containing Enterprise Support, cloud edition, in SAP Enterprise Support and in Product Support for Large Enterprises.
 
 SAP Cloud ALM helps you to implement and operate intelligent cloud and hybrid business solutions. You benefit from an out-of-the-box, native cloud solution running on SAP BTP, designed as the central entry point to manage your complete SAP landscape with content-driven guided implementation and highly automated operations.
 
-With with the operations solutions in SAP Cloud ALM, you can handle both SAP BTP-based SaaS applications and your own applications.
+With the operations use cases in SAP Cloud ALM, you can handle both SAP BTP-based SaaS applications and your own, customer-built applications.
 
-SAP Cloud ALM for operations provides a personalized and unified operations user experience. You can use purpose-driven different monitoring, analysis, and management use cases optimized for certain operations aspects. SAP Cloud ALM for operations empowers you to understand the health of your SAP business solutions and acts as collaboration platform between lines of business and IT.
+SAP Cloud ALM for operations provides a personalized and unified operations user experience. You can use purpose-driven monitoring, analysis, and management use cases optimized for certain operations aspects. SAP Cloud ALM for operations empowers you to understand the health of your SAP business solutions and acts as collaboration platform between lines of business and IT.
 
-Under [Supported Solutions](https://help.sap.com/docs/cloud-alm/setup-administration/supported-solutions), you see which monitoring capabilities are available with SAP Cloud ALM. Under *SAP Solution*, filter for BTP and check the supported services from the operations area.
+Under [Supported Solutions](https://help.sap.com/docs/cloud-alm/setup-administration/supported-solutions), you see which monitoring capabilities are available for which SAP solution with SAP Cloud ALM. Under *SAP Solution*, filter for BTP and check the supported services from the operations area.
 
 Benefit from the powerful *Intelligent Event Processing*, embedded analytics, and intelligence functionality with a large variety of inbound and outbound integration. *Synthetic User Monitoring* monitors the performance and availability of web applications from a client-side perspective based on Selenium-based scripts. *Business Service Management* consolidates all operational events at business service level and shows them in a well-arranged event calendar.
 
-Specifically for Java and Node.js custom-built applications in SAP BTP, Cloud Foundry runtime, there are the Data Collection Instrumentation Libraries based on Open Telemetry designed to enable the data collection infrastructure in SAP Cloud ALM. With these libraries, you can collect data for the following use cases:
+Specifically for Java and Node.js customer-built applications in SAP BTP, Cloud Foundry runtime, there are the Data Collection Instrumentation Libraries based on OpenTelemetry designed to enable the data collection infrastructure in SAP Cloud ALM. With these libraries, you can collect data for the following use cases:
 
 -   *Real User Monitoring*: Leverage both front-end and back-end measurements on single request level.
 
@@ -87,9 +87,9 @@ Specifically for Java and Node.js custom-built applications in SAP BTP, Cloud Fo
 -   *Job and Automation Monitoring*: Monitor SAP Job Scheduling Service jobs.
 
 
-SAP Cloud ALM is the central place to integrate and access the monitoring of your existing IT service management processes, such as ticketing systems.
+As SAP Cloud ALM is the central place to monitor your SAP solution landscape, you can integrate it in your existing IT service management processes, for example, you can connect your ticketing system.
 
-Inbound and outbound APIs enable you to integrate data from your own applications. For more information, see the [API Guide for SAP Cloud ALM](https://help.sap.com/docs/cloud-alm/apis/api-reference).
+Inbound and outbound APIs enable you to integrate data from your own applications and consume the data, for example, for your own analytics purposes. For more information, see the [API Guide for SAP Cloud ALM](https://help.sap.com/docs/cloud-alm/apis/api-reference).
 
 ![](images/SAPCloudALM_operations_d378eed.png)
 
@@ -99,7 +99,7 @@ Inbound and outbound APIs enable you to integrate data from your own application
 
 ## More
 
--   [Implement SAP Cloud ALM](https://help.sap.com/docs/cloud-alm/setup-administration/provisioning) via SAP for Me
+-   [Request and Implement SAP Cloud ALM](https://help.sap.com/docs/cloud-alm/setup-administration/provisioning) via SAP for Me
 
 -   Application help for [SAP Cloud ALM for Operations](https://help.sap.com/docs/cloud-alm/applicationhelp/operations)
 
@@ -121,9 +121,9 @@ There are various options you can use to monitor applications and services on SA
 
 <a name="loio318c3653da0f42c88bd7a1c38273f79e__section_tnw_5qn_11c"/>
 
-## SAP Job Scheduling service
+## SAP Job Scheduling Service
 
-SAP Job Scheduling service allows you to define and manage jobs that run once or on a recurring schedule. Use this runtime-agnostic service to schedule action endpoints in your application or long-running processes using Cloud Foundry tasks. Use REST APIs to schedule jobs, including long-running jobs asynchronously, and create multiple schedule formats for simple and complex recurring schedules. Manage jobs and tasks and manage schedules with a web-based user interface.
+With SAP Job Scheduling service, you can define and manage jobs that run once or on a recurring schedule. Use this runtime-agnostic service to schedule action endpoints in your application \(Cloud Foundry or Kyma\) or long-running processes using Cloud Foundry tasks. Use REST APIs to schedule jobs, including long-running jobs asynchronously, and create multiple schedule formats for simple and complex recurring schedules. Manage jobs and tasks and manage schedules with a web-based user interface. Enable integration with the SAP Alert Notification Service that sends events for both failed and successful job executions, ensuring that you stay informed about the status of your jobs and can act upon them. To monitor your job executions in SAP Cloud ALM with the job monitoring integration, mark the job in the Dashboard UI or using the REST API.
 
 For more information, see [SAP Job Scheduling Service](https://help.sap.com/docs/job-scheduling?version=Cloud).
 
@@ -133,7 +133,7 @@ For more information, see [SAP Job Scheduling Service](https://help.sap.com/docs
 
 ## Monitoring Applications in the Cloud Foundry and Kyma Runtimes
 
-SAP Cloud Logging is an observability service to store, visualize, and analyze application logs, metrics, and traces from SAP BTP Cloud Foundry, Kyma, Kubernetes and other runtime environments. It enables application developers and operators to analyze their SAP BTP workloads regarding performance, errors, usage, and other characteristics. For Cloud Foundry and Kyma, it offers an easy integration by providing predefined contents to investigate load, latency, and error rates of the observed applications based on their requests and correlate them with additional data.
+SAP Cloud Logging is an observability service to store, visualize, and analyze application logs, metrics, and traces from SAP BTP Cloud Foundry Kyma, Kubernetes and other runtime environments. It enables application developers and operators to analyze their SAP BTP workloads regarding performance, errors, usage, and other characteristics. For Cloud Foundry and Kyma, it offers an easy integration by providing predefined contents to investigate load, latency, and error rates of the observed applications based on their requests and correlate them with additional data.
 
 In Cloud Foundry, SAP Cloud Logging is the successor of the SAP Application Logging service. In the Cloud Foundry runtime, you can still use the [SAP Application Logging service for SAP BTP](https://help.sap.com/viewer/ee8e8a203e024bbb8c8c2d03fce527dc/Cloud/en-US/68454d44ad41458788959485a24305e2.html) to access logs from your applications.
 
@@ -214,7 +214,7 @@ SAP HANA XS applications
 </td>
 <td valign="top">
 
--   Application monitoirng
+-   Application monitoring
 
 -   Availability checks
 
@@ -244,7 +244,7 @@ HTML5 applications
 </td>
 <td valign="top">
 
--   Application monitoirng
+-   Application monitoring
 
 -   Custom checks
 
@@ -278,18 +278,15 @@ You can also connect your Java applications to a **Dynatrace SaaS monitoring env
 
 ## Monitoring Platform and Service Availability
 
-You can follow the availability of the platform at [SAP Trust Center](https://www.sap.com/about/trust-center/cloud-service-status.html). You can check:
+To check the availability status of SAP Cloud services, use the [SAP Trust Center](https://www.sap.com/about/trust-center/cloud-service-status.html).
 
--   the availability by service on the *SAP BTP* tile of the *Cloud Status* tab page;
+For planned downtimes, you can also check the general information on [Maintenance Windows for SAP Cloud services](https://support.sap.com/en/my-support/systems-installations/cac/maintenance-windows.html).
 
--   the availability by region on the *Data Center* tab page.
+To receive customized notifications regarding planned and unplanned downtimes for your SAP Cloud services and tenants, use [Cloud Service Availability Notifications](https://me.sap.com/systemsprovisioning/availability) in SAP for Me. There, you can select which type of notifications you would like to receive, and who should be notified based on the affected SAP Cloud service and individual service tenant. Administrator users with an S-user and respective privileges can create subscriptions for other users by email \(they do not need an S-user account\).
 
+By default, a subscription is created for the user who's named as “IT contact” in the contract.
 
-To get notifications for updates and downtimes, subscribe at the [Cloud System Notification Subscriptions](https://support.sap.com/en/my-support/systems-installations/cac.html) application. Create a subscription by specifying Cloud Product, Cloud Service, and Notification Type. For more information, see [Cloud System Notification Subscriptions User Guide](https://support.sap.com/content/dam/support/en_us/library/ssp/my-support/systems-installations/cac/csns_user_guide.pdf).
-
-In addition, you can get a personalized, at-a-glance view of additional SAP BTP offerings in the [Cloud Availability section of SAP for Me](https://support.sap.com/en/my-support/systems-installations/cac.html), such as SAP BTP Integration.
-
-There are additional monitoring tools and options available for certain SAP BTP services, such as the SAP BTP Identity Authentication service. Please refer to the respective service documentation for more details: [Solutions and Services](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7613d9ce711e1014839a8273b0e91070.html#loio7613d9ce711e1014839a8273b0e91070 "Consume the solutions and services by SAP BTP according to your preferred development environment and use cases.") :arrow_upper_right:.
+To configure notifications based on business scenarios that involve multiple services or tenants, you can create [bundles](https://support.sap.com/content/s4m/help/systems/getnotified/bundles.html).
 
 
 

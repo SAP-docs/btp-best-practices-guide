@@ -1,8 +1,8 @@
 <!-- loio5302ea447ecf4c3f8999989088a2c27c -->
 
-# Naming Conventions for SAP BTP Accounts
+# Naming and Directory Templates
 
-While naming conventions are specific for each organization and use case, consider the following recommendations and examples.
+While naming conventions are specific for each organization and use case, the following recommendations and examples might help you. To establish a process for the creation of new directories, consider using a template.
 
 
 
@@ -12,7 +12,7 @@ While naming conventions are specific for each organization and use case, consid
 
 -   Each Cloud Foundry org, and respectively, each Kyma cluster, belongs to exactly one subaccount. Thus, it's recommended that you derive the org and cluster names from the subaccount name.
 
--   Because there's no connection between spaces/namespaces in different subaccounts, we recommend giving identical names to the dev, test, and prod versions of projects and spaces/namespaces.
+-   Because there's no connection between spaces/namespaces in different subaccounts, we recommend giving identical names to the DEV, TEST, and PROD versions of projects and spaces/namespaces.
 
 -   To prevent conflicts with special characters, use lower-case letters and hyphens, and avoid spaces or underscores in names. As an exception, subaccount names may use natural language with capitalization and blank spaces.
 
@@ -25,14 +25,12 @@ While naming conventions are specific for each organization and use case, consid
 
 
 
-<a name="loio5302ea447ecf4c3f8999989088a2c27c__section_nxz_bxz_knb"/>
-
-## Example: Naming per Functional Area in Cloud Foundry
+### Example: Naming per Functional Area in Cloud Foundry
 
 > ### Recommendation:  
 > -   Similar name for a subaccount, its subdomain, and its Cloud Foundry org
 > 
-> -   Identical names for related Cloud Foundry spaces across the landscapes \(dev, test, prod\)
+> -   Identical names for related Cloud Foundry spaces across the landscapes \(DEV, TEST, PROD\)
 
 
 <table>
@@ -288,14 +286,12 @@ central-service
 
 
 
-<a name="loio5302ea447ecf4c3f8999989088a2c27c__section_hk2_mjd_r1c"/>
-
-## Example: Naming per Functional Area in Kyma
+### Example: Naming per Functional Area in Kyma
 
 > ### Recommendation:  
 > -   Similar name for a subaccount, its subdomain, and its Kyma cluster
 > 
-> -   Identical names for related Kyma namespaces across the landscapes \(dev+test and prod\)
+> -   Identical names for related Kyma namespaces across the landscapes \(DEV+TEST and PROD\)
 
 
 <table>
@@ -399,6 +395,85 @@ sales
 <td valign="top">
 
 it
+
+</td>
+</tr>
+</table>
+
+
+
+<a name="loio5302ea447ecf4c3f8999989088a2c27c__section_alg_xzh_q2c"/>
+
+## Template for New Directories
+
+We recommend that you create a process for the creation of new directories. You can use the following example template or adapt it to meet your requirements:
+
+
+<table>
+<tr>
+<th valign="top" colspan="2">
+
+New Directory
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Name
+
+</td>
+<td valign="top">
+
+Refer to your naming guidelines.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Owners
+
+</td>
+<td valign="top">
+
+We recommend appointing at least two owners.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Description
+
+</td>
+<td valign="top">
+
+Describe the developer audience, which LoB or department do they belong to, what types of applications will be developed, which runtimes should be used, subscriptions that will be used.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cost center
+
+</td>
+<td valign="top">
+
+Define accounting requirements.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enrollment
+
+</td>
+<td valign="top">
+
+Describe how projects can enroll in your directory.
 
 </td>
 </tr>

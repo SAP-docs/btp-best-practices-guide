@@ -2,13 +2,13 @@
 
 # Giving Access Rights to Platform Users
 
-If you've set up a staged development environment using different subaccounts or spaces, such as for development, testing, and production, grant the Cloud Development Team access to development subaccounts and environments. Only grant the Platform Engineering Team access to the testing and production subaccounts or environments.
+If you've set up a staged development environment using different subaccounts or spaces, such as for development, testing, and production, grant the Cloud Development Team access to development subaccounts and environments. Only grant the Platform Engineering Team or Center of Expertise \(CoE\) access to the testing and production subaccounts or environments.
 
 All developers and stakeholders for a particular development project or application should get access to the development subaccount or environment, if the project or application has been properly enrolled. We recommend that you assign all developers authorizations to develop, assign roles, and test the application's functionalities.
 
-In cases where even the Platform Engineering Team isn't allowed to see or access the data, automate tasks that require developer access or integrate them into a deployment pipeline using a technical user with the developer authorizations. Firefighter situations where temporary use of the role is needed for manual actions by an actual administrative user can be handled by temporary assignment of the developer access. You can also use a special user account with access whose credentials are only given out when needed and changed immediately after use. Remember to log the use of this role in an audit trail or another tracking tool.
+In cases where even the Platform Engineering Team/CoE isn't allowed to see or access the data, automate tasks that require developer access or integrate them into a deployment pipeline using a technical user with the developer authorizations. Firefighter situations where temporary use of the role is needed for manual actions by an actual administrative user can be handled by temporary assignment of the developer access. You can also use a special user account with access whose credentials are only given out when needed and changed immediately after use. Remember to log the use of this role in an audit trail or another tracking tool.
 
-As every small change that's made in a single application \(for example, changing a destination\) can affect all other applications. Only grant the Platform Engineering Team access to the test and prod subaccounts or environments. Have this team manage them centrally. If necessary, assign developers read access. For all changes required in subaccounts or spaces, the Cloud Development Team should reach out to the Platform Engineering Team.
+As every small change that's made in a single application \(for example, changing a destination\) can affect all other applications. Only grant the Platform Engineering Team/CoE access to the test and prod subaccounts or environments. Have this team manage them centrally. If necessary, assign developers read access. For all changes required in subaccounts or spaces, the Cloud Development Team should reach out to the Platform Engineering Team/CoE.
 
   
   
@@ -17,7 +17,7 @@ As every small change that's made in a single application \(for example, changin
 ![](images/dev_pipeline_best_practices_pptx_6451607.png "Division of Access to Different Stages of the Development Pipeline")
 
 > ### Tip:  
-> To avoid overwhelming the Platform Engineering Team with inquiries, consider automating tasks and providing a build infrastructure for continuous deployment.
+> To avoid overwhelming the Platform Engineering Team/CoE with inquiries, consider automating tasks and providing a build infrastructure for continuous deployment.
 
 
 
@@ -53,7 +53,7 @@ We recommend that you assign all developers the `Space Developer` role, so they 
 > ### Caution:  
 > The `Space Developer` role has broad rights within Cloud Foundry and, in particular, has access to the credentials used in various services and app bindings as well as other sensitive data. Users with this role can access the data in the environment, either directly through administration tools or indirectly through an application or other client.
 
-In production environments, only give this role to members of the Platform Engineering Team that are authorized to access data in the environment.
+In production environments, only give this role to members of the Platform Engineering Team/CoE that are authorized to access data in the environment.
 
 For more information, see [About User Management in the Cloud Foundry Environment](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/8e6ce969c432437dbaecedea385df8c8.html).
 
@@ -61,7 +61,7 @@ For more information, see [About User Management in the Cloud Foundry Environmen
 
 ### ABAP
 
-Platform users in the ABAP environment depend on Cloud Foundry. Administrators need the `Org Manager` and `Space Manager` roles. Developers need the `Space Developer` role. The same recommendations apply as in the Cloud Foundry environment to members of the Cloud Development and Platform Engineering teams.
+Platform users in the ABAP environment depend on Cloud Foundry. Administrators need the `Org Manager` and `Space Manager` roles. Developers need the `Space Developer` role. The same recommendations apply as in the Cloud Foundry environment to members of the Cloud Development and Platform Engineering/CoE teams.
 
 In addition, platform users need the relevant business roles of the ABAP system: `SAP_BR_ADMINISTRATOR` and `SAP_BR_DEVELOPER`.
 

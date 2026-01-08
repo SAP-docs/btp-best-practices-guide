@@ -189,7 +189,7 @@ For more information, see [Deploying Applications](deploying-applications-866ab1
 ## Delivery Options
 
 > ### Recommendation:  
-> **For Cloud Foundry and Neo**, use continuous integration together with transport management, to combine agility with control:
+> **For Cloud Foundry**, use continuous integration together with transport management, to combine agility with control:
 > 
 > -   Your development team can benefit from the highly automated CI process that automatically qualifies their changes after submitting them to the source code repository. Also, this approach makes sure that only qualified changes are considered for propagation towards your production environment. Especially with SAP Continuous Integration and Delivery, you can drastically reduce the cognitive load of your development teams.
 > 
@@ -299,7 +299,7 @@ Open Source community and SAP Community support \(no direct support by SAP\)
 
 So, with the out-of-the-box pipeline templates for typical SAP development use cases, SAP Continuous Integration and Delivery targets rather typical SAP customers and partners with an ABAP background that are transitioning into the cloud, while Project 'Piper' offers full flexibility for experienced users with their own CI/CD stack and a high level of expertise.
 
-SAP Continuous Integration and Delivery offers pipeline templates for SAP BTP Cloud Foundry, Kyma, and Neo – and for the deployment of SAP Fiori apps on ABAP front-end servers.
+SAP Continuous Integration and Delivery offers pipeline templates for SAP BTP Cloud Foundry and Kyma, and for the deployment of SAP Fiori apps on ABAP front-end servers.
 
 For more information, see [SAP Solutions for Continuous Integration and Delivery](https://help.sap.com/viewer/8cacec64ed854b2a88e9a0973e0f97a2/Cloud/en-US/e9fa320181124fa9808d4446a1bf69dd.html) and [Which SAP Solution for CI/CD Meets Your Needs?](https://help.sap.com/viewer/8cacec64ed854b2a88e9a0973e0f97a2/Cloud/en-US/e9fa320181124fa9808d4446a1bf69dd.html#loioa49d1ba1ecef4e9d96deffd127c4522d).
 
@@ -324,9 +324,9 @@ For transport management, SAP BTP offers the following :
     > As a future-proof way forward, to be able to cover also more and more application-specific content with one central approach, SAP recommends SAP Cloud Transport Management.
 
 
-Both, CTS+ and SAP Cloud Transport Management, support integration with change management in SAP Cloud ALM and SAP Solution Manager:
+You can integrate transport management with change management in SAP Cloud ALM and SAP Solution Manager:
 
--   For information about integration with change and deployment management of SAP Cloud ALM, see [SAP Cloud Transport Management Service](https://help.sap.com/docs/cloud-alm/setup-administration/cloud-transport-management?locale=en-US). If you want to benefit from change and deployment management capabilities of SAP Cloud ALM for SAP BTP changes, integrate a standalone instance of SAP Cloud Transport Management, running in one of your subaccounts. For more information, see [New Integration of SAP Cloud Transport Management and SAP Cloud ALM](https://community.sap.com/t5/technology-blogs-by-sap/new-integration-of-sap-cloud-transport-management-and-sap-cloud-alm/ba-p/13728049).
+-   For information about integration of SAP Cloud Transport Management with SAP Cloud ALM, see [SAP Cloud Transport Management Service](https://help.sap.com/docs/cloud-alm/setup-administration/cloud-transport-management?locale=en-US). If you want to benefit from change and deployment management capabilities of SAP Cloud ALM for SAP BTP changes, integrate a standalone instance of SAP Cloud Transport Management, running in one of your subaccounts. For more information, see [New Integration of SAP Cloud Transport Management and SAP Cloud ALM](https://community.sap.com/t5/technology-blogs-by-sap/new-integration-of-sap-cloud-transport-management-and-sap-cloud-alm/ba-p/13728049).
 
 -   For integration into change management approaches around SAP Solution Manager, you have the choice: Either run CTS+ centrally on SAP Solution Manager and integrate it with change management tools, such as Change Request Management or Quality Gate Management – or integrate SAP Cloud Transport Management into these tools running on SAP Solution Manager \(minimum version: SAP Solution Manager 7.2 SP10\). You can even use CTS+ and SAP Cloud Transport Management in parallel within Change Request Management or Quality Gate Management.
 
@@ -337,18 +337,16 @@ Both, CTS+ and SAP Cloud Transport Management, support integration with change m
 
 ### CI/CD with Transport Management
 
-In Cloud Foundry and Neo, combine CI/CD with transport management \(either in the form of SAP Cloud Transport Management service or CTS+\), to gain more control over the delivery of release candidates towards your production environment and at the same time benefit from the agility CI/CD brings to your development. For more information, see [How to integrate SAP Transport Management into your CI/CD pipeline](https://blogs.sap.com/2019/08/20/how-to-integrate-sap-cloud-platform-transport-management-into-your-cicd-pipeline/). It's also possible to combine CI/CD, CTS+, SAP Cloud Transport Management, and change management. If you use SAP Continuous Integration and Delivery, you can define an automated hand-over from your pipeline into SAP Cloud Transport Management out-of-the-box.
+In Cloud Foundry, combine CI/CD with transport management \(either in the form of SAP Cloud Transport Management service or CTS+\), to gain more control over the delivery of release candidates towards your production environment and at the same time benefit from the agility CI/CD brings to your development. For more information, see [How to integrate SAP Transport Management into your CI/CD pipeline](https://blogs.sap.com/2019/08/20/how-to-integrate-sap-cloud-platform-transport-management-into-your-cicd-pipeline/). It's also possible to combine CI/CD, CTS+, SAP Cloud Transport Management, and change management. If you use SAP Continuous Integration and Delivery, you can define an automated hand-over from your pipeline into SAP Cloud Transport Management out-of-the-box.
 
 
 
 ### Manually
 
--   **Deploy applications manually** from your IDE to different subaccounts. Import or export your application using the SAP BTP cockpit, or use the Console Client for the Neo environment or the Cloud Foundry command-line interface to deploy your application. For details, see [Deploying Applications](deploying-applications-866ab13.md#loio866ab13d5f8e48cdaac6d70e55e76e09).
+-   **Deploy applications manually** from your IDE to different subaccounts. Import or export your application using the SAP BTP cockpit, or use the Cloud Foundry command-line interface to deploy your application. For details, see [Deploying Applications](deploying-applications-866ab13.md#loio866ab13d5f8e48cdaac6d70e55e76e09).
 
     > ### Note:  
     > You can transport portal settings and configurations only by manually redeploying your application in each subaccount.
-
--   In the Neo environment, consider using the Solution Export Wizard that you can start in SAP BTP cockpit: You can model solutions by selecting included components \(with an automated resolution of interdependencies\) and either export the outcome \(as a multitarget application file\) or directly handle the modeled solution using the change management options outlined earlier. For more information, see [Solution Export Wizard - Ease Modeling and Export of Solutions as MTA](https://blogs.sap.com/2018/08/03/solution-export-wizard-ease-modeling-and-export-of-solutions-as-mta/).
 
 -   \(HTML5 applications only\) **Synchronize Git repositories** and create build scripts that let you transfer commits from the repository of the source subaccount to the repository of the target subaccount. After the synchronization, you must still deploy the application manually using the SAP BTP cockpit.
 -   \(SAP HANA XS applications only\) Use the **SAP HANA XS Application Lifecycle Management \(HALM\)** to create transport routes between two SAP HANA systems, then transport delivery units between those systems. For more information, see [SAP HANA Application Lifecycle Management](https://help.sap.com/viewer/52715f71adba4aaeb480d946c742d1f6/2.0.03/en-US/9a012d6438764459a581e6af55a87c46.html).

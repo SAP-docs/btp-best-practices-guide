@@ -4,7 +4,7 @@
 
 If you're planning on starting multiple development projects on SAP BTP, we recommend that you set up an onboarding process to ensure that new projects are tracked and documented properly, compliant with the security standards and guidelines you define.
 
-Every new application that is managed and tracked by a Platform Engineering Team should have an onboarding process. Owners of new applications should fill out an onboarding document and a security template. Maintaining administrative information about all applications in one central place helps the Platform Engineering Team to keep an overview about all projects, applications, and responsibilities. It also allows the team to inform all project managers and developers about changes and updates to the cloud landscape.
+Every new application that is managed and tracked by a Platform Engineering Team or Center of Expertise \(CoE\) should have an onboarding process. Owners of new applications should fill out an onboarding document and a security template. Maintaining administrative information about all applications in one central place helps the Platform Engineering Team/CoE to keep an overview about all projects, applications, and responsibilities. It also allows the team to inform all project managers and developers about changes and updates to the cloud landscape.
 
 
 
@@ -56,18 +56,22 @@ We recommend you provide a template for the security document that is filled out
 
 ## Services Catalog
 
-If you're going to onboard multiple development projects, we recommend that you set up a services catalog that summarizes all services offered by the Platform Engineering Team, especially when access to the testing and production subaccounts are restricted for developers. This facilitates and speeds up the collaboration between the Platform Engineering Team and the Cloud Development Team. Examples of such services include the following:
+If you're going to onboard multiple development projects, we recommend that you set up a services catalog that summarizes all services offered by the Platform Engineering Team/CoE, especially when access to the testing and production subaccounts are restricted for developers. This facilitates and speeds up the collaboration between the Platform Engineering Team/CoE and the Cloud Development Team. Examples of such services include the following:
 
 -   Adding or managing destinations
 
 -   Creating build plans
+
 -   Restarting applications
+
 -   Providing read access to the testing or production subaccounts
+
 -   Creating database schemas and giving access to a specific schema
+
 
 All services should be offered as templates in a service catalog that developers can fill out, for example, in a ticketing system.
 
-We recommend that the Platform Engineering Team makes the consumption of services as easy as possible, or even automates it using SAP BTP APIs, the btp CLI, or the SAP BTP Setup Automator. For example, the team may want to write scripts for database schema creation and access management. The Lifecycle Management API lets the Cloud Development Team restart an application in the production subaccount without having access to it and without affecting any other application. For more information, see the [Lifecycle Management API](https://api.sap.com/api/SAP_HCP_Lifecycle_Management/overview).
+We recommend that the Platform Engineering Team/CoE makes the consumption of services as easy as possible, or even automates it - for example, by offering an automated self-service for account provisioning. For details, see [Tools for Account Administration](tools-for-account-administration-6bdb3a7.md#loio6bdb3a7170b84254bfaf0df52a112980).
 
 **Related Information**  
 

@@ -65,6 +65,12 @@ For services running in the **SAP BTP, Neo** environment, the backed-up data is 
 
 ![](images/Data_copied_to_a_secondary_AZ_449d088.png)
 
+
+
+### SAP BTP ABAP Environment
+
+The ABAP environment relies on backups from SAP HANA Cloud. For details, see [Backups](https://help.sap.com/docs/btp/sap-business-technology-platform/backups?state=DRAFT&version=Cloud).
+
 **Related Information**  
 
 

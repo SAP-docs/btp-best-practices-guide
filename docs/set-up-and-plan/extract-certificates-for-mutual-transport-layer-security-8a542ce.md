@@ -31,8 +31,8 @@ Some SAP BTP services such as the SAP Destination service need an X.509 certific
 
 2.  Copy the values of the `key` and `certificate` attributes to two separate text files in a text editor, such as Notepad.
 
-    > ### Tip:  
-    > Use the *Form* view to avoid copying line break \(`\n`\) characters. Otherwise, replace all line breaks with new lines \([Enter\] \). There are third-party tools to help handle such characters.
+    > ### Restriction:  
+    > Certificate files have strict formatting requirements, such as line length and the use of line breaks. For more information, see [RFC 7468](https://datatracker.ietf.org/doc/html/rfc7468). There are third-party tools to help handle such characters.
 
 3.  Save the files with the `.pem` extension.
 
@@ -42,7 +42,7 @@ Some SAP BTP services such as the SAP Destination service need an X.509 certific
 
 4.  Create the final PEM file with both certificate and key.
 
-    Line break restrictions still apply.
+    Formatting restrictions of RFC 7468 still apply.
 
     1.  From your private key file, copy and paste the contents to a new text file.
 
@@ -57,20 +57,21 @@ Some SAP BTP services such as the SAP Destination service need an X.509 certific
 
     ```
     -----BEGIN RSA PRIVATE KEY-----
-    gXZZ1TXt6X5oD5cCt9vB9HUDLIRQKBgQCtAav5Z8ssAL/
-    7tgfhfEUIuicshS2YcEBlatIB7YgRq+CZrnBAHENGUoLL
+    MB2NmLWV1MjAxDzANBgNVBAoMBlNBUCBTRTEYMBYGA1UECwwPU0FQIEJUUCBDbG
+    llbnRzMS4wLAYDVQQDDCVTQVAgUEtJIENlcnRpZmljYXRlIFNlcnZpY2UgQ2xpZ
     -----END RSA PRIVATE KEY-----
     
     -----BEGIN CERTIFICATE-----
-    MIIFwTCCA6mgAwIBAgIQDDQ4UrvbIZnBHIvG4EsM3jANB
-    cxusCPum+71nXNOk5R5O+qFK+cPSSMR34ak8P86YkMQ==
+    MIIGaTCCBFGgAwIBAgIQND4V8+sFquk7Lndu82bZ9jANBgkqhkiG9w0BAQsFADB
+    jMQswCQYDVQQGEwJERTENMAsGA1UEBwwERVUxMDEPMA0GA1UECgwGU0FQIFNFMR
     -----END CERTIFICATE-----
     -----BEGIN CERTIFICATE-----
-    MIIGaDCCBFCgAwIBAgITcAAAAAWaX7qDX+136AAAAAAABT
+    MIIGSjCCBDKgAwIBAgITcAAAAApMdyh1162sZgAAAAAACjANBgkqhkiG9w0BAQs
+    FADBNMQswCQYDVQQGEwJERTERMA8GA1UEBwwIV2FsbGRvcmYxDzANBgNVBAoMBl
     -----END CERTIFICATE-----
     -----BEGIN CERTIFICATE-----
-    MIIFZjCCA06gAwIBAgIQGHcPvmUGa79M6pM42bGFYjANBg
-    ED8HWX97lLVbmbnPkbpKxo+LvHPhNDM3rMsLu06agF4JTb
+    MIIGSjCCBDKgAwIBAgITcAAAAApMdyh1162sZgAAAAAACjANBgkqhkiG9w0BAQs
+    FADBNMQswCQYDVQQGEwJERTERMA8GA1UEBwwIV2FsbGRvcmYxDzANBgNVBAoMBl
     -----END CERTIFICATE-----
     ```
 

@@ -2,7 +2,7 @@
 
 # SAP BTP Administrator's Guide
 
-Learn about the SAP BTP Administrator's Guide and how you can use it to plan and set up your landscape and your lifecycle management for running applications on SAP Business Technology Platform \(SAP BTP\).
+This guide is the starting point for setting up application lifecycle management for your specific use case, business, and IT landscape. It contains recommendations and best practices that give you an overview of what you should consider when planning development projects on SAP BTP – from setting up the correct organizational structure to creating an account and security model, to developing and operating applications. It also includes links to step-by-step instructions when required.
 
 
 
@@ -10,11 +10,9 @@ Learn about the SAP BTP Administrator's Guide and how you can use it to plan and
 
 ## Is This Guide for You?
 
-This guide is the starting point for setting up application lifecycle management for your specific use case, business, and IT landscape. It's part of the SAP BTP Guidance Framework and contains recommendations and best practices that give you an overview of what you should consider when planning development projects on SAP BTP – from setting up the correct organizational structure to creating an account and security model, to developing and operating applications. It does not contain specific task descriptions, but does include links to step-by-step instructions when required.
-
 If you're an **architect or a development project lead**, this guide helps you plan the architecture of your application and establish boundary conditions to foster the required level of governance and compliance for your development teams \(such as by defining the best-fitting delivery and observability concepts\).
 
-If you're an **administrator**, this guide helps you define the correct organizational structure and create an account and security model. Also, it enables you to understand and plan tasks required to run your organization's applications on SAP BTP reliably - and which SAP BTP services to consider for doing so.
+If you're an **administrator**, this guide helps you define the correct organizational structure and create an account and security model. Also, it enables you to understand and plan the tasks required to run your organization's applications on SAP BTP reliably - and which SAP BTP services to consider for doing so.
 
 If you're an **SAP partner**, this guide helps you to set up SAP BTP for running production services for your customers.
 
@@ -28,17 +26,15 @@ If you're an **SAP partner**, this guide helps you to set up SAP BTP for running
 
 <a name="loio9f2bb927464e4d1ba3d13b2d79ca9bd1__section_tf1_xml_s2b"/>
 
-## How to Use This Guide
+## Prerequisites
 
-
-
-### If you're new to SAP BTP, read:
+If you're new to SAP BTP, read:
 
 -   [SAP Business Technology Platform](https://www.sap.com/products/technology-platform/what-is-sap-business-technology-platform.html)
 
     SAP BTP is a cloud platform that brings together application development, automation, data management, analytics and planning, integration, and AI capabilities into one unified environment optimized for SAP applications. It offers:
 
-    -   An intuitive, modern development environment for both, professional IT and citizen and business developers
+    -   An intuitive, modern development environment for both, professional IT as well as citizen and business developers
 
     -   Built-in data models, integrations, workflows, app templates, and AI business services
 
@@ -61,7 +57,7 @@ If you're an **SAP partner**, this guide helps you to set up SAP BTP for running
 
     This guide helps you improve the process of implementing a business application on SAP BTP. It's part of the SAP BTP Guidance Framework and contains recommendations and best practices that give you an overview of what you should consider when working on development projects on SAP BTP.
 
--   [DevOps for Application Development on SAP BTP](https://help.sap.com/doc/221f8f84afef43d29ad37ef2af0c4adf/HP_2.0/en-US/2297e49af15c4ebba9246efb18fc5d96.html)
+-   [**Administrating SAP Business Technology Platform**](https://learning.sap.com/learning-journeys/administrating-sap-business-technology-platform-1)
 
     This learning journey provides an extensive, well-structured collection of links to resources such as videos, blog posts, openSAP courses, and additional documentation.
 
@@ -70,7 +66,9 @@ If you're an **SAP partner**, this guide helps you to set up SAP BTP for running
 
 
 
-### If you're familiar with SAP BTP:
+<a name="loio9f2bb927464e4d1ba3d13b2d79ca9bd1__section_bt3_2rf_zcc"/>
+
+## How to Use This Guide
 
 Plan and set up your landscape to manage the lifecycle of your cloud applications.
 

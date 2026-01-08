@@ -6,7 +6,7 @@ Carefully plan for sufficient enablement of all stakeholders, and ensure that th
 
 Before you start your development project, we recommend that you do the following:
 
--   Ensure that the Platform Engineering Team, which should consist of skilled and experienced technology experts, documents and shares their knowledge with existing and new colleagues.
+-   Ensure that the Platform Engineering Team or Center of Expertise \(CoE\), which should consist of skilled and experienced technology experts, documents and shares their knowledge with existing and new colleagues.
 -   Set up training and enablement sessions to get everyone on board.
 -   Create and promote a dedicated communication channel, such as SAP Build Work Zone, to share lessons learned or provide other developers with guidance and recommendations. For more information, see [SAP Build Work Zone](https://www.sap.com/products/technology-platform/workzone.html).
 

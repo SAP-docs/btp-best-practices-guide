@@ -400,5 +400,5 @@ Used in **Prod** clusters:
 
 [Assign Roles in the Kyma Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/148ae38b7d6f4e61bbb696bbfb3996b2.html "Kyma uses roles to manage access within the cluster, which give the assigned users the permissions suitable for their purposes.") :arrow_upper_right:
 
-[Staged Development with the Kyma Environment](staged-development-with-the-kyma-environment-ec8a269.md "While creating a staged development environment is a good idea in any case, there are some considerations specific to Kyma you might want to take into account.")
+[Cloud Foundry, Kyma, or Both?](cloud-foundry-kyma-or-both-ec8a269.md "You can set up one or more subaccounts that run both Cloud Foundry and Kyma, so that they can share SAP BTP services, such as SAP HANA Cloud. However, if your account model needs more complexity than just development stages, it's recommended to create one or more subaccounts specifically for Kyma, which can be shared between your teams.")
 
