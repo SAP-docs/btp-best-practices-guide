@@ -42,7 +42,7 @@ For multiple teams, cluster sharing \(with the respective mitigations\) is usefu
 
 <a name="loio57ec1ea5ca3b4cdeb5f60453b91058af__section_lgm_vgj_w1c"/>
 
-## Checklist for Shared Clusters
+## Isolation Measures for Shared Clusters
 
 Consider the following mitigative actions for the control plane and data plane:
 
@@ -62,7 +62,7 @@ Control plane isolation ensures that different tenants cannot access or affect e
 
 -   Cluster admins manage global resources and Custom Resource Definitions \(CRDs\).
 
-    Global resources are outside of the namespace concept and must be managed by administrators. They are applied to all “tenants” in the same way and updates affect everyone at the same time. While this is limiting, there are several benefits: It incentivizes teams to use the same tools without needing to operate them, keeps the versions consistent across teams, and encourages that global best practices are provided or even enforced.
+    Global resources are outside of the namespace concept and must be managed by administrators. They are applied to all “tenants” in the same way and updates affect everyone at the same time. Although this is limiting, there are several benefits: It incentivizes teams to use the same tools without needing to operate them, keeps the versions consistent across teams, and encourages that global best practices are provided or even enforced.
 
 -   Use policies for compliance.
 

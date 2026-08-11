@@ -231,7 +231,7 @@ No, but you can set limits for resource consumption on namespace level.
 
 ## Billing
 
--   You can **monitor** the consumption of resources in your global account only per directory or subaccount \(Cloud Foundry org/Kyma cluster\) and space, not per application or Kyma namespace. To monitor the resources consumed by a specific project, department, or application, create a dedicated subaccount for them.
+-   You can **monitor** the consumption of resources in your global account only per directory or subaccount \(Cloud Foundry org/Kyma clusters\) and space, not per application or Kyma namespace. To monitor the resources consumed by a specific project, department, or application, create a dedicated subaccount for them.
 
 -   Accurate **billing** is only possible for global accounts. For the consumption-based model, you can calculate costs according to usage, but note that this is only approximate. See [Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.") :arrow_upper_right: and [Managing Cost](managing-cost-c615301.md).
 
@@ -241,7 +241,7 @@ No, but you can set limits for resource consumption on namespace level.
 
 
 > ### Tip:  
-> Provisioning a Kyma cluster isn't free of cost. Use subaccounts only if you need them for segregation, not just for structuring purposes. For details, see [Sharing Clusters in Kyma](sharing-clusters-in-kyma-57ec1ea.md).
+> Provisioning a Kyma cluster isn't free of cost. Use separate clusters only if you need them for segregation, not just for structuring purposes. For details, see [Sharing Clusters in Kyma](sharing-clusters-in-kyma-57ec1ea.md).
 
 **Related Information**  
 

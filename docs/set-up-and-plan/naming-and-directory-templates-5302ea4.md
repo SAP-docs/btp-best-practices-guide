@@ -10,18 +10,21 @@ While naming conventions are specific for each organization and use case, the fo
 
 ## Recommended Naming Conventions
 
--   Each Cloud Foundry org, and respectively, each Kyma cluster, belongs to exactly one subaccount. Thus, it's recommended that you derive the org and cluster names from the subaccount name.
+-   Each Cloud Foundry org, and respectively, each Kyma cluster, belongs to exactly one subaccount. Thus, it's recommended that you use a consistent naming pattern across subaccount, subdomain, and org or cluster name - example, by lowercasing the subaccount name and replacing spaces with hyphens.
 
--   Because there's no connection between spaces/namespaces in different subaccounts, we recommend giving identical names to the DEV, TEST, and PROD versions of projects and spaces/namespaces.
+-   Because spaces and namespaces in different subaccounts are independent of each other, you can safely reuse names across your DEV, TEST, and PROD subaccounts. We recommend using a consistent naming pattern across environments to make it easier to identify corresponding resources.
 
--   To prevent conflicts with special characters, use lower-case letters and hyphens, and avoid spaces or underscores in names. As an exception, subaccount names may use natural language with capitalization and blank spaces.
+-   To prevent conflicts with special characters, use lower-case letters and hyphens, and avoid spaces or underscores in names. As an exception, subaccount names can contain capitalization and blank spaces.
 
--   URLs cannot be longer than 63 characters, so use short names for subaccount, subdomain, Cloud Foundry org and spaces, and Kyma cluster and namespaces. For example, use “prod” instead of “production”.
-
--   There's no need to mention the company in subaccount names, which are always seen in the context of your global account in the SAP BTP cockpit. However, it's recommended to include the company name in the subdomain and Cloud Foundry org name.
+-   You don't need to include the company name in subaccount names, because subaccounts are always displayed in the context of your global account in the SAP BTP cockpit. However, we recommend including the company name or an abbreviation of it in subdomains and Cloud Foundry org names.
 
 -   If you use directories to group your subaccounts, choose descriptive directory names that reflect the desired distinction - for example, by functional area, location, or subsidiary.
 
+-   Individual segments of a hostname \(DNS labels\) are limited to 63 characters. In SAP BTP, application routes combine multiple naming components into a single label, for example, `{CF_ORG}-{CF_SPACE}-{APPNAME}` in Cloud Foundry. The more components are combined, the shorter each individual name must be. Use short names for subaccounts, subdomains, Cloud Foundry orgs and spaces, Kyma namespaces, and application modules. For example, use “prod” instead of “production”. If you exceed the limit, you can configure a custom route in the deployment descriptor \(for example, `mta.yaml` or `values.yaml`; for details, see [Routes](https://help.sap.com/docs/btp/sap-business-technology-platform/mta-routes?locale=en-US&version=Cloud)\) or use the [Custom Domain Service](https://discovery-center.cloud.sap/serviceCatalog/custom-domain?service_plan=custom-domain&region=all&commercialModel=btpea).
+
+
+> ### Caution:  
+> Don't enter personal data in any of these fields. For details, see [Data Protection and Privacy](https://help.sap.com/docs/btp/sap-business-technology-platform/data-protection-and-privacy?state=DRAFT&locale=en-US#generic-fields).
 
 
 
@@ -146,17 +149,17 @@ mycompany-sales-prod
 </td>
 <td valign="top">
 
-mycompany-IT-dev
+mycompany-it-dev
 
 </td>
 <td valign="top">
 
-mycompany-IT-test
+mycompany-it-test
 
 </td>
 <td valign="top">
 
-mycompany-IT-prod
+mycompany-it-prod
 
 </td>
 </tr>
@@ -198,17 +201,17 @@ mycompany-sales-prod
 </td>
 <td valign="top">
 
-mycompany-IT-dev
+mycompany-it-dev
 
 </td>
 <td valign="top">
 
-mycompany-IT-test
+mycompany-it-test
 
 </td>
 <td valign="top">
 
-mycompany-IT-prod
+mycompany-it-prod
 
 </td>
 </tr>
@@ -289,9 +292,9 @@ central-service
 ### Example: Naming per Functional Area in Kyma
 
 > ### Recommendation:  
-> -   Similar name for a subaccount, its subdomain, and its Kyma cluster
+> -   Similar name for a subaccount, its subdomain, and its Kyma clusters
 > 
-> -   Identical names for related Kyma namespaces across the landscapes \(DEV+TEST and PROD\)
+> -   Use a consistent base name for related Kyma namespaces across landscapes \(for example, “hr”\). Within a shared cluster, add a stage suffix \(“hr-dev”, “hr-test”\) to distinguish environments that coexist in the same cluster. In a dedicated production cluster, the suffix is unnecessary \(“hr”\).
 
 
 <table>
@@ -335,9 +338,14 @@ mycompany-prod
 Kyma Clusters
 
 </td>
-<td valign="top" colspan="6">
+<td valign="top" colspan="4">
 
-dev-test
+dev-test-1
+
+</td>
+<td valign="top" colspan="2">
+
+dev-test-2
 
 </td>
 <td valign="top" colspan="3">
@@ -425,7 +433,7 @@ Name
 </td>
 <td valign="top">
 
-Refer to your naming guidelines.
+Follow your company's naming guidelines - for example, a name reflecting the functional area, location, or subsidiary.
 
 </td>
 </tr>
@@ -449,7 +457,18 @@ Description
 </td>
 <td valign="top">
 
-Describe the developer audience, which LoB or department do they belong to, what types of applications will be developed, which runtimes should be used, subscriptions that will be used.
+Document the following:
+
+-   Target developer audience \(LoB or department\)
+
+-   Types of applications to be developed
+
+-   Runtimes to be used
+
+-   Subscriptions to be used
+
+
+
 
 </td>
 </tr>
@@ -473,7 +492,7 @@ Enrollment
 </td>
 <td valign="top">
 
-Describe how projects can enroll in your directory.
+Describe how development projects can enroll in your directory. For details, see [Creating an Onboarding Process for Development Projects](creating-an-onboarding-process-for-development-projects-4bd29a8.md).
 
 </td>
 </tr>

@@ -22,9 +22,9 @@ Cloud Foundry and Kyma offer parity with regards to non-functionals. Both bring 
 > ### Recommendation:  
 > -   In Cloud Foundry, we recommend that you create three subaccounts to set up a staged development environment: one subaccount each for development, testing, and production. To do so, you create subaccounts and enable Cloud Foundry, which essentially creates a Cloud Foundry org.
 > 
-> -   In Kyma, we recommend using at least two separate subaccounts to set up a staged development environment: one for development and testing \(separated by using different namespaces\), and one for production. Within those clusters, set up namespaces according to your projects or organizational setup, such as for Sales and Logistics. For details, see [Sharing Clusters in Kyma](sharing-clusters-in-kyma-57ec1ea.md). Ideally, you use a separate third cluster for testing. However, if cost-efficiency is important, one subaccount may be enough.
+> -   In Kyma, we recommend using at least two separate subaccounts to set up a staged development environment: one for development and testing \(separated by using different namespaces\), and one for production. Within those clusters, set up separate namespaces according to your projects or organizational setup, such as for Sales and Logistics. For details, see [Sharing Clusters in Kyma](sharing-clusters-in-kyma-57ec1ea.md). Ideally, you use a separate third cluster \(in the same subaccount, or separately\) for testing. However, if cost-efficiency is important, one subaccount may be enough.
 
-The subaccount and the Cloud Foundry org or Kyma cluster have a 1:1 relationship and the same navigation level in SAP BTP cockpit \(even though they may have different names\). Enabling Cloud Foundry creates a Cloud Foundry org, and enabling Kyma creates a Kyma cluster.
+In the SAP BTP cockpit, both environments appear at the same navigation level as the subaccount \(even though they may have different names\). Each subaccount can contain only oneCloud Foundry org \(1:1 relationship\), but multiple, independent Kyma clusters \(1:n relationship\). Enabling Cloud Foundry creates a Cloud Foundry org, and enabling Kyma creates one or more Kyma clusters.
 
 Typically, some additional systems are also part of the landscape:
 

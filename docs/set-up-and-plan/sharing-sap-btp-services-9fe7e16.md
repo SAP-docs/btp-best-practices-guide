@@ -36,7 +36,7 @@ See the following examples for services that might qualify to be run centrally a
 
 ### Without Instance Sharing
 
--   [SAP Automation Pilot](https://help.sap.com/docs/automation-pilot?locale=en-US) is designed as a centralized service. Set up one instance.
+-   [Automation Pilot](https://help.sap.com/docs/automation-pilot?locale=en-US) is designed as a centralized service. Set up one instance.
 
 -   [SAP Build Work Zone](https://help.sap.com/docs/build-work-zone-standard-edition?locale=en-US): Depending on your requirements, SAP Build Work Zone can either be set up as a central shared service \(to allow your end users access from a central place, optionally complemented with the concept of “sites” to cater to different use cases served from central instances\) - or in a distributed/mixed way, where you create dedicated/additional instances of SAP Build Work Zone in non-central/non-shared subaccounts. Applying a standard staged setup is recommended in either case.
 

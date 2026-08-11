@@ -12,11 +12,11 @@ If you're new to SAP BTP, this checklist helps you ensure the implementation rea
 
 1.  Get familiar with SAP Business Technology Platform and its role within the intelligent, sustainable enterprise, understand the basic platform concepts and your responsibilities throughout the implementation project. See:
 
-    -   [SAP BTP Guidance Framework](https://help.sap.com/docs/sap-btp-guidance-framework/guidance-framework/what-is-sap-btp-guidance-framework)
+    -   [SAP BTP Adoption Framework](https://discovery-center.cloud.sap/adoption-framework)
 
     -   [Learning Journey: Discover SAP Business Technology Platform](https://learning.sap.com/learning-journey/discover-sap-business-technology-platform)
 
-    -   [Basic Platform Concepts](../basic-platform-concepts/basic-platform-concepts-38ecf59.md#loio38ecf59cdda64150a102cfaa62d5faab)
+    -   [Basic Platform Concepts](../basic-platform-concepts/basic-platform-concepts-38ecf59.md)
 
     -   [Shared Responsibility Model Between You and SAP](../shared-responsibility/shared-responsibility-model-between-you-and-sap-898509d.md)
 

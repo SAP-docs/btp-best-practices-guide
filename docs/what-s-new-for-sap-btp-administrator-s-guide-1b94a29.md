@@ -6,7 +6,7 @@
 
 
 
-**2025**
+**2026**
 
 
 <table>
@@ -90,12 +90,86 @@ SAP BTP Administrator's Guide
 </td>
 <td valign="top">
 
+Improved Naming Conventions
+
+</td>
+<td valign="top">
+
+[Naming and Directory Templates](https://help.sap.com/docs/btp/btp-admin-guide/naming-directory-templates?locale=en-US&version=Cloud):
+
+-   We've updated the guidance on character limits for DNS labels.
+
+-   We've improved naming per functional area in Kyma
+
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-08-04
+
+</td>
+<td valign="top">
+
+2026-08-05
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP Administrator's Guide
+
+</td>
+<td valign="top">
+
+-   ABAP
+-   Cloud Foundry
+-   Kyma
+-   Other
+
+
+
+</td>
+<td valign="top">
+
 Updated Shared Responsibility Model
 
 </td>
 <td valign="top">
 
-In alignment with the [learning journey for administrators](https://learning.sap.com/learning-journeys/administrating-sap-business-technology-platform), we've updated the [Shared Responsibility Model Between You and SAP](https://help.sap.com/docs/btp/btp-admin-guide/shared-responsibility-model-between-you-and-sap?locale=en-US&version=Cloud).
+In alignment with the [learning journey for administrators](https://learning.sap.com/courses/operating-sap-business-technology-platform), we've updated the [Shared Responsibility Model Between You and SAP](https://help.sap.com/docs/btp/btp-admin-guide/shared-responsibility-model-between-you-and-sap?locale=en-US&version=Cloud).
 
 </td>
 <td valign="top">

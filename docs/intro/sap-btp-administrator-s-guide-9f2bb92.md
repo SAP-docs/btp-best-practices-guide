@@ -41,7 +41,7 @@ If you're new to SAP BTP, read:
     -   Self-service data discovery, modeling, planning, and analytics for business users in a governed environment
 
 
--   [SAP BTP Guidance Framework](https://help.sap.com/docs/sap-btp-guidance-framework/guidance-framework/what-is-sap-btp-guidance-framework)
+-   [SAP BTP Adoption Framework](https://discovery-center.cloud.sap/adoption-framework)
 
     This is the central access point for architects, developers, and administrators to build and run enterprise-grade solutions on SAP BTP. It comprises decision guides, reference architectures, methodologies, recommendations, and DevOps principles.
 

@@ -123,7 +123,7 @@ There are various options you can use to monitor applications and services on SA
 
 ## SAP Job Scheduling Service
 
-With SAP Job Scheduling service, you can define and manage jobs that run once or on a recurring schedule. Use this runtime-agnostic service to schedule action endpoints in your application \(Cloud Foundry or Kyma\) or long-running processes using Cloud Foundry tasks. Use REST APIs to schedule jobs, including long-running jobs asynchronously, and create multiple schedule formats for simple and complex recurring schedules. Manage jobs and tasks and manage schedules with a web-based user interface. Enable integration with the SAP Alert Notification Service that sends events for both failed and successful job executions, ensuring that you stay informed about the status of your jobs and can act upon them. To monitor your job executions in SAP Cloud ALM with the job monitoring integration, mark the job in the Dashboard UI or using the REST API.
+With SAP Job Scheduling service, you can define and manage jobs that run once or on a recurring schedule. Use this runtime-agnostic service to schedule action endpoints in your application \(Cloud Foundry or Kyma\) or long-running processes using Cloud Foundry tasks. Use REST APIs to schedule jobs, including long-running jobs asynchronously, and create multiple schedule formats for simple and complex recurring schedules. Manage jobs and tasks and manage schedules with a web-based user interface. Enable integration with the SAP Alert Notification service that sends events for both failed and successful job executions, ensuring that you stay informed about the status of your jobs and can act upon them. To monitor your job executions in SAP Cloud ALM with the job monitoring integration, mark the job in the Dashboard UI or using the REST API.
 
 For more information, see [SAP Job Scheduling Service](https://help.sap.com/docs/job-scheduling?version=Cloud).
 
@@ -306,9 +306,9 @@ For more information, see [SAP Cloud ALM](https://support.sap.com/en/alm/sap-clo
 
 ## Ops Automation
 
-To simplify and automate complex manual technical processes that are required to run your applications on SAP BTP, consider using SAP Automation Pilot.
+To simplify and automate complex manual technical processes that are required to run your applications on SAP BTP, consider using Automation Pilot.
 
-SAP Automation Pilot provides catalogs of commands for application lifecycle management, database management, SAP BTP resource and runtime handling, and many more. These provided out-of-the-box automation commands can be complemented by your own content, such your own scripts, HTTP requests, btp CLI tasks, etc. They can then be used in a low-code/no-code approach to compile recommended actions or complex processes to be executed ad hoc or automatically triggered by SAP Cloud ALM and SAP Alert Notification Service services for SAP BTP upon a specific event. This helps you reduce your technical operations efforts and make your scenarios more reliable.
+Automation Pilot provides catalogs of commands for application lifecycle management, database management, SAP BTP resource and runtime handling, and many more. These provided out-of-the-box automation commands can be complemented by your own content, such your own scripts, HTTP requests, btp CLI tasks, etc. They can then be used in a low-code/no-code approach to compile recommended actions or complex processes to be executed ad hoc or automatically triggered by SAP Cloud ALM and SAP Alert Notification service services for SAP BTP upon a specific event. This helps you reduce your technical operations efforts and make your scenarios more reliable.
 
 For more information, see [SAP Automation Pilot](https://help.sap.com/docs/automation-pilot).
 

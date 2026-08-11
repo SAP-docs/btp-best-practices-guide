@@ -50,7 +50,7 @@ Used for application-to-application communication if the caller needs to propaga
 </td>
 <td valign="top">
 
-Neo
+Neo 
 
 </td>
 <td valign="top">
@@ -77,7 +77,7 @@ Used for destinations that refer to a service on the Internet or an on-premise s
 </td>
 <td valign="top">
 
-Neo and Cloud Foundry
+Neo and Cloud Foundry 
 
 </td>
 <td valign="top">
@@ -104,7 +104,7 @@ Uses a technical user certificate to perform mutual transport layer security \(T
 </td>
 <td valign="top">
 
-Neo and Cloud Foundry
+Neo and Cloud Foundry 
 
 </td>
 <td valign="top">
@@ -131,7 +131,7 @@ Used for destinations that refer to a service on the Internet or an on-premise s
 </td>
 <td valign="top">
 
-Neo and Cloud Foundry
+Neo and Cloud Foundry 
 
 </td>
 <td valign="top">
@@ -158,7 +158,7 @@ Enables applications to use SAML assertions to access OAuth-protected resources.
 </td>
 <td valign="top">
 
-Neo and Cloud Foundry
+Neo and Cloud Foundry 
 
 </td>
 <td valign="top">
@@ -185,7 +185,7 @@ Forwards the identity of an on-demand user to the Cloud Connector, and from ther
 </td>
 <td valign="top">
 
-Neo and Cloud Foundry
+Neo and Cloud Foundry 
 
 </td>
 <td valign="top">
@@ -214,7 +214,7 @@ The retrieved access token is cached and auto-renovated. When a token is about t
 </td>
 <td valign="top">
 
-Neo and Cloud Foundry
+Neo and Cloud Foundry 
 
 </td>
 <td valign="top">
@@ -243,7 +243,7 @@ This enables you to use a user token that you already have, in order to fetch a 
 </td>
 <td valign="top">
 
-Cloud Foundry
+Cloud Foundry 
 
 </td>
 <td valign="top">
@@ -270,7 +270,7 @@ Provides support for applications to use the OAuth password grant flow for consu
 </td>
 <td valign="top">
 
-Cloud Foundry
+Cloud Foundry 
 
 </td>
 <td valign="top">
@@ -299,7 +299,7 @@ This enables you to use a user token that you already have, in order to fetch a 
 </td>
 <td valign="top">
 
-Cloud Foundry
+Cloud Foundry 
 
 </td>
 <td valign="top">
@@ -326,7 +326,7 @@ Retrieves a generated SAML assertion from the destination service.
 </td>
 <td valign="top">
 
-Cloud Foundry
+Cloud Foundry 
 
 </td>
 <td valign="top">

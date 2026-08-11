@@ -40,9 +40,9 @@ The team should:
 
 -   Listen to user feedback
 
--   Set up alerting that informs you automatically about issues with your application, for example by using SAP Alert Notification Service
+-   Set up alerting that informs you automatically about issues with your application, for example by using SAP Alert Notification service
 
--   Identify recurring operation tasks and automate them, such as by using SAP Automation Pilot. This services provides catalogs of automated technical operation tasks for handling the lifecycle of apps running on SAP BTP, such as for alert remediation and recurring DevOps tasks.
+-   Identify recurring operation tasks and automate them, such as by using Automation Pilot. This services provides catalogs of automated technical operation tasks for handling the lifecycle of apps running on SAP BTP, such as for alert remediation and recurring DevOps tasks.
 
 -   Adapt/extend your application as required:
 

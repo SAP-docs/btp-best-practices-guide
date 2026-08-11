@@ -9,7 +9,7 @@ Choosing the appropriate tools for account administration on SAP BTP depends on 
 > 
 > -   The btp CLI and APIs offer powerful automation and integration capabilities to advanced users.
 > 
-> -   SAP Automation Pilot provides pre-designed automated actions.
+> -   Automation Pilot provides pre-designed automated actions.
 > 
 > -   Finally, the Terraform Provider for SAP BTP offers scalability and repeatability for complex configurations and sustainable automation.
 
@@ -148,9 +148,9 @@ Recommended Usage Scenarios
 <tr>
 <td valign="top">
 
-**SAP Automation Pilot**
+**Automation Pilot**
 
-\(see [SAP Automation Pilot](https://help.sap.com/docs/automation-pilot?version=Cloud)\)
+\(see [Automation Pilot](https://help.sap.com/docs/automation-pilot?version=Cloud)\)
 
 </td>
 <td valign="top">
@@ -166,7 +166,7 @@ Recommended Usage Scenarios
 </td>
 <td valign="top">
 
--   If you want to automate generic or one-time tasks and use predefined templates and a GenAI-based command assistant, SAP Automation Pilot is a fitting tool.
+-   If you want to automate generic or one-time tasks and use predefined templates and a GenAI-based command assistant, Automation Pilot is a fitting tool.
 -   If your DevOps and operations teams want to enhance efficiency for running their apps on SAP BTP and SAP BTP resources \(such as SAP HANA Cloud\), for example in terms of alert remediation, maintenance, health checks, automated root cause analysis, operational mass operations.
 -   To centrally manage technical ops automation flows from SAP Cloud ALM.
 

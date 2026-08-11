@@ -17,7 +17,7 @@ There are several commercial models for consuming SAP BTP services. Choosing the
 -   For more flexibility, especially during pilot stages of projects and for dynamically changing requirements, use a **consumption-based** model.
 
 
-For details, see [Commercial Models](../basic-platform-concepts/basic-platform-concepts-38ecf59.md#loio263d40009a5a4237a62e8f5c05ee641e).
+For details, see [Commercial Models](../basic-platform-concepts/commercial-models-263d400.md).
 
 
 
