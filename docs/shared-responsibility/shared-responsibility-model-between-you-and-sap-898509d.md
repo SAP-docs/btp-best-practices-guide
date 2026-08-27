@@ -33,7 +33,7 @@ As an SAP BTP customer, you’re responsible for the following areas:
 
 -   Account and Environment Management
 
-    You manage your account structure, which includes organizing directories, subaccounts, and service instances. You define an account strategy based on your organization's requirements, create and configure subaccounts for your development projects, and allocate resources and services as needed. For a more detailed breakdown of responsibilities, see [Operating Model](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9aafc94077c0447c88e2f5f2024a9c8e.html "This operating model defines the separation of tasks between SAP and the customer for the Cloud Foundry and Kyma runtimes.") :arrow_upper_right:.
+    You manage your account structure, which includes organizing directories, subaccounts, and service instances. You define an account strategy based on your organization's requirements, create and configure subaccounts for your development projects, and allocate resources and services as needed. For a more detailed breakdown of responsibilities, see [Operating Model](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9aafc94077c0447c88e2f5f2024a9c8e.html "Learn about the shared operational responsibilities and tasks between SAP and customers for Cloud Foundry and Kyma runtimes.") :arrow_upper_right:.
 
 -   Authorization and Identity Management
 

@@ -22,7 +22,7 @@ Cloud Foundry and Kyma offer parity with regards to non-functionals. Both bring 
 > ### Recommendation:  
 > -   In Cloud Foundry, we recommend that you create three subaccounts to set up a staged development environment: one subaccount each for development, testing, and production. To do so, you create subaccounts and enable Cloud Foundry, which essentially creates a Cloud Foundry org.
 > 
-> -   In Kyma, we recommend using at least two separate subaccounts to set up a staged development environment: one for development and testing \(separated by using different namespaces\), and one for production. Within those clusters, set up separate namespaces according to your projects or organizational setup, such as for Sales and Logistics. For details, see [Sharing Clusters in Kyma](sharing-clusters-in-kyma-57ec1ea.md). Ideally, you use a separate third cluster \(in the same subaccount, or separately\) for testing. However, if cost-efficiency is important, one subaccount may be enough.
+> -   In Kyma, we recommend using at least two separate subaccounts to set up a staged development environment: one for development and testing \(separated by using different namespaces\), and one for production. Within those clusters, set up separate namespaces according to your projects or organizational setup, such as for Sales and Logistics. For details, see [Sharing Kyma Clusters](sharing-kyma-clusters-57ec1ea.md). Ideally, you use a separate third cluster \(in the same subaccount, or separately\) for testing. However, if cost-efficiency is important, one subaccount may be enough.
 
 In the SAP BTP cockpit, both environments appear at the same navigation level as the subaccount \(even though they may have different names\). Each subaccount can contain only oneCloud Foundry org \(1:1 relationship\), but multiple, independent Kyma clusters \(1:n relationship\). Enabling Cloud Foundry creates a Cloud Foundry org, and enabling Kyma creates one or more Kyma clusters.
 
@@ -45,7 +45,7 @@ Maybe you are currently using Cloud Foundry and would like to start using Kyma a
 
 Such approaches always require finding a balance between flexibility and costs. In some cases, using the same subaccount for Cloud Foundry and Kyma for the same landscape makes sense: This way, you can reuse or share some SAP BTP services, for example, SAP HANA Cloud. In this example, one recommendation could be having the same PROD subaccount for both Cloud Foundry and Kyma. But for DEV and TEST, you might choose to create separate subaccounts.
 
-However, if your existing subaccount landscape is more complex and you have several teams, each with multiple subaccounts, then it's recommended to create a shared subaccount for SAP BTP, Kyma runtime, to which the teams get access. Instead of subaccounts, use namespaces for isolation - for details, see [Sharing Clusters in Kyma](sharing-clusters-in-kyma-57ec1ea.md).
+However, if your existing subaccount landscape is more complex and you have several teams, each with multiple subaccounts, then it's recommended to create a shared subaccount for SAP BTP, Kyma runtime, to which the teams get access. Instead of subaccounts, use namespaces for isolation - for details, see [Sharing Kyma Clusters](sharing-kyma-clusters-57ec1ea.md).
 
 ![](images/Account_Model_-_CF_Kyma_956beee.png)
 

@@ -63,7 +63,7 @@ Often, this is also the moment when you decide to introduce directories to keep 
 ![](images/Account_Model_-_Functional_w_Directories_e8b3e42.png)
 
 > ### Tip:  
-> If you're using SAP BTP, Kyma runtime, you could also consider setting up namespaces for each functional area within the clusters of your DEV, TEST, and PROD subaccounts. The idea is the same, but separation happens on namespace level instead of subaccount level. For details, see [Sharing Clusters in Kyma](sharing-clusters-in-kyma-57ec1ea.md).
+> If you're using SAP BTP, Kyma runtime, you could also consider setting up namespaces for each functional area within the clusters of your DEV, TEST, and PROD subaccounts. The idea is the same, but separation happens on namespace level instead of subaccount level. For details, see [Sharing Kyma Clusters](sharing-kyma-clusters-57ec1ea.md).
 
 
 

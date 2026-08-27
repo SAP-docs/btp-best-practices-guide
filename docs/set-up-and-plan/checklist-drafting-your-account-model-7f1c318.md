@@ -204,7 +204,7 @@ With the information you gathered, start drafting your account model:
 8.  If you want to use more than one runtime, choose your approach:
 
     -   You can either set up one or more subaccounts that run **both** **runtimes**, Cloud Foundry and Kyma, so that they can share SAP BTP services, such as SAP HANA Cloud.
-    -   Alternatively, if your account model needs more complexity than just development stages, it's recommended to create one or more subaccounts specifically for Kyma, which can be shared between your teams. For details, see [Sharing Clusters in Kyma](sharing-clusters-in-kyma-57ec1ea.md). Cost optimization is easier if you have only one runtime per subaccount.
+    -   Alternatively, if your account model needs more complexity than just development stages, it's recommended to create one or more subaccounts specifically for Kyma, which can be shared between your teams. For details, see [Sharing Kyma Clusters](sharing-kyma-clusters-57ec1ea.md). Cost optimization is easier if you have only one runtime per subaccount.
 
     For details, see [Cloud Foundry, Kyma, or Both?](cloud-foundry-kyma-or-both-ec8a269.md).
 

@@ -90,6 +90,78 @@ SAP BTP Administrator's Guide
 </td>
 <td valign="top">
 
+Updated Kyma Guidance
+
+</td>
+<td valign="top">
+
+We've updated the following documents:
+
+-   [Giving Access Rights to Platform Users](https://help.sap.com/docs/btp/btp-admin-guide/giving-access-rights-to-platform-users?locale=en-US&version=Cloud): Link to [Authorization in the Kyma Environment](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/bb31080fd0474d38a050e32a7a7ed629.html?locale=en-US&version=LATEST), which now consolidates all information about **Role-Based Access Control \(RBAC\) in Kyma**.
+-   [Cloud Foundry, Kyma, or Both?](https://help.sap.com/docs/btp/btp-admin-guide/cloudfoundry-kyma-or-both?locale=en-US&version=Cloud) and [Subaccounts or Spaces/Namespaces?](https://help.sap.com/docs/btp/btp-admin-guide/subaccounts-or-spaces-or-namespaces?locale=en-US&version=Cloud): Support for multiple Kyma clusters.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-07-26
+
+</td>
+<td valign="top">
+
+2026-08-27
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP Administrator's Guide
+
+</td>
+<td valign="top">
+
+-   ABAP
+-   Cloud Foundry
+-   Kyma
+-   Other
+
+
+
+</td>
+<td valign="top">
+
 Improved Naming Conventions
 
 </td>

@@ -30,5 +30,5 @@ When deciding on the location of your Platform as a Service \(PaaS\), consider e
 For a complete overview of the availability of services in the different regions, see [Services](https://discovery-center.cloud.sap/serviceCatalog).
 
 > ### Note:  
-> To work with the Kyma environment, you need to specify the region for both your **subaccount** and the **cluster**. Note that there is a number of regions available within each plan. For details, see [Regions for the Kyma Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/557ec3adc3174ed4914ec9d6d13487cf.html "To work with the Kyma environment, you need to specify the region for both your subaccount and the cluster.") :arrow_upper_right:.
+> To work with the Kyma environment, you need to specify the region for both your **subaccount** and the **cluster**. Note that there is a number of regions available within each plan. For details, see [Regions for the Kyma Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/557ec3adc3174ed4914ec9d6d13487cf.html "To work with the Kyma environment, you must specify the region for both your subaccount and the cluster.") :arrow_upper_right:.
 

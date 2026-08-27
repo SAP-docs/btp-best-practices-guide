@@ -69,7 +69,7 @@ See the following examples for services that might qualify to be run centrally a
 
 
 > ### Tip:  
-> For guidance about sharing SAP BTP, Kyma runtime instances, see [Sharing Clusters in Kyma](sharing-clusters-in-kyma-57ec1ea.md).
+> For guidance about sharing SAP BTP, Kyma runtime instances, see [Sharing Kyma Clusters](sharing-kyma-clusters-57ec1ea.md).
 
 
 

@@ -75,7 +75,7 @@ You can assign roles to a group of users only if you use a custom identity provi
 
 Because the development of a role concept is very specific for each organization, it’s recommended that you start with a very simple role concept: As a starting point, just separate the developers and operators of a cluster. Later, you can refine the role concept as needed.
 
-For more information, see [Role-Based Access Control \(RBAC\) in Kyma](role-based-access-control-rbac-in-kyma-bb31080.md) and [Assign Roles in the Kyma Environment](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/148ae38b7d6f4e61bbb696bbfb3996b2.html).
+For more information, see [Authorization in the Kyma Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/bb31080fd0474d38a050e32a7a7ed629.html "You control access to your Kyma cluster using Kubernetes role-based access control (RBAC). Roles define what resources users can access and what actions they can perform.") :arrow_upper_right: and [Assign Roles in the Kyma Environment](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/148ae38b7d6f4e61bbb696bbfb3996b2.html).
 
 
 

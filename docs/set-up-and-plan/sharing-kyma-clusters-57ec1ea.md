@@ -1,6 +1,6 @@
 <!-- loio57ec1ea5ca3b4cdeb5f60453b91058af -->
 
-# Sharing Clusters in Kyma
+# Sharing Kyma Clusters
 
 Sharing a Kyma cluster among multiple teams, applications, or in partner scenarios, can improve efficiency with regard to cost, administration, and rule enforcement. However, before you set up cluster sharing, carefully consider your specific use case to ensure optimal security, isolation, and resource allocation.
 
@@ -58,7 +58,7 @@ Control plane isolation ensures that different tenants cannot access or affect e
 
 -   Use RBAC to control their access to resources and scope them to their respective namespaces.
 
-    Implement RBAC to manage user access and permissions within the cluster. Assign appropriate roles and permissions to ensure that users have the necessary access without compromising security. See [Role-Based Access Control \(RBAC\) in Kyma](role-based-access-control-rbac-in-kyma-bb31080.md).
+    Implement RBAC to manage user access and permissions within the cluster. Assign appropriate roles and permissions to ensure that users have the necessary access without compromising security. See [Authorization in the Kyma Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/bb31080fd0474d38a050e32a7a7ed629.html "You control access to your Kyma cluster using Kubernetes role-based access control (RBAC). Roles define what resources users can access and what actions they can perform.") :arrow_upper_right:.
 
 -   Cluster admins manage global resources and Custom Resource Definitions \(CRDs\).
 

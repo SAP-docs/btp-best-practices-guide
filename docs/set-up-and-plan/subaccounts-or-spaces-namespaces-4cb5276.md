@@ -241,12 +241,12 @@ No, but you can set limits for resource consumption on namespace level.
 
 
 > ### Tip:  
-> Provisioning a Kyma cluster isn't free of cost. Use separate clusters only if you need them for segregation, not just for structuring purposes. For details, see [Sharing Clusters in Kyma](sharing-clusters-in-kyma-57ec1ea.md).
+> Provisioning a Kyma cluster isn't free of cost. Use separate clusters only if you need them for segregation, not just for structuring purposes. For details, see [Sharing Kyma Clusters](sharing-kyma-clusters-57ec1ea.md).
 
 **Related Information**  
 
 
 [Configuring a Custom Identity Provider for Kyma](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/67bcc6e2d4d749659faf3ede1853f19e.html "Enable the Kyma environment with a custom identity provider (IdP).") :arrow_upper_right:
 
-[Role-Based Access Control \(RBAC\) in Kyma](role-based-access-control-rbac-in-kyma-bb31080.md "Assigning permissions in Kyma is based on the Kubernetes role-based access control (RBAC). It’s recommended that you start with separating the developers and operators of a cluster. Later, you can refine the role concept as required.")
+[Authorization in the Kyma Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/bb31080fd0474d38a050e32a7a7ed629.html "You control access to your Kyma cluster using Kubernetes role-based access control (RBAC). Roles define what resources users can access and what actions they can perform.") :arrow_upper_right:
 
