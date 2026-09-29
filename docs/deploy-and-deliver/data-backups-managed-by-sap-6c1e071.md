@@ -27,13 +27,15 @@ The following services don’t currently provide any backup and restore features
 
 -   **Redis on SAP BTP, hyperscaler option**: This service doesn’t support persistence.
 
--   **Object Store on SAP BTP**: There's no backup and restore feature provided by the Object Store service. However, there are additional features that could help with backup and restore in certain scenarios:
+-   **Object Store on SAP BTP**: The Object Store service doesn't provide backup and restore features by default. However, there are additional features that could help with backup and restore in certain scenarios:
+
+    -   [Enable Continuous Backup](https://help.sap.com/docs/object-store/object-store-service-on-sap-btp/enable-continuous-backup?version=Cloud&ai=true) allows you to enable continuous backup of an Amazon S3 bucket to safeguard data from accidental deletion of objects. The feature is disabled by default and comes with additional cost when enabled.
 
     -   [Object Versioning](https://help.sap.com/viewer/2ee77ef7ea4648f9ab2c54ee3aef0a29/Cloud/en-US/787fbe77f4eb46e0ae9a6222d57ba50e.html) allows you to recover from accidental deletion and modification of objects because the hyperscalers keep older versions in case the objects are modified or deleted.
 
     -   [Object Expiration Rules](https://help.sap.com/viewer/2ee77ef7ea4648f9ab2c54ee3aef0a29/Cloud/en-US/52e2c18af86c45e2b1495cd594602304.html) helps with the automatic deletion of older versions.
 
-    -   The **prevent deletion** feature helps preventing your blob stores from accidental deletion. For more information, see [Prevent Accidental Deletion of AWS S3 Buckets](https://help.sap.com/viewer/2ee77ef7ea4648f9ab2c54ee3aef0a29/Cloud/en-US/8c3c66da50364e0bafb994f4c4b57042.html) and [Preventing Accidental Deletion of Azure Containers](https://help.sap.com/viewer/2ee77ef7ea4648f9ab2c54ee3aef0a29/Cloud/en-US/67e5ba7dae7749c88483b8a3fe395eff.html)
+    -   The **prevent deletion** feature helps preventing your blob stores from accidental deletion. For more information, see [Preventing Accidental Deletion of AWS S3 Buckets](https://help.sap.com/viewer/2ee77ef7ea4648f9ab2c54ee3aef0a29/Cloud/en-US/8c3c66da50364e0bafb994f4c4b57042.html) and [Preventing Accidental Deletion of Azure Containers](https://help.sap.com/viewer/2ee77ef7ea4648f9ab2c54ee3aef0a29/Cloud/en-US/67e5ba7dae7749c88483b8a3fe395eff.html).
 
 
 

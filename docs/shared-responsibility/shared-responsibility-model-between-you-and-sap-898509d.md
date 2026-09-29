@@ -83,7 +83,7 @@ As the service provider, SAP is responsible for the following areas:
 
     SAP delivers and operates the services and runtimes of SAP BTP, including solutions such as Cloud Foundry, SAP Integration Suite, SAP Build, and more. SAP also implements regular updates to ensure that these services remain current and secure.
 
-    When you use the SAP BTP, Kyma runtime, you have full access to your cluster, except for the `kyma-system` namespace. SAP exclusively manages and monitors this namespace to ensure stability and security. For the SAP BTP ABAP environment, you can manage certain aspects through the Landscape Portal.
+    When you use the SAP BTP, Kyma runtime, you have full access to your cluster, except for the `kyma-system` namespace. SAP exclusively manages and monitors this namespace to ensure stability and security. For the SAP Business AI Platform, ABAP environment, you can manage certain aspects through the Landscape Portal.
 
 
 

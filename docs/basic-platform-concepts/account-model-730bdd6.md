@@ -109,5 +109,5 @@ For more information, see [Labels](https://help.sap.com/viewer/65de2977205c403bb
 
 [Managing Subaccounts Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/55d0b6d8b96846b8ae93b85194df0944.html "Learn how to structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements by managing subaccounts.") :arrow_upper_right:
 
-[Setting Up Your Account Model](../set-up-and-plan/setting-up-your-account-model-2db81f4.md "Learn how to set up your account model with global accounts and subaccounts, and how to use directories, spaces and namespaces to match your business and development needs.")
+[Setting Up Your Account Model](../set-up-and-plan/setting-up-your-account-model-2db81f4.md "Your account model defines how you organize global accounts, directories, and subaccounts in SAP BTP to match your business and development needs.")
 

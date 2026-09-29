@@ -448,7 +448,7 @@ Various Minor Enhancements
 </td>
 <td valign="top">
 
--   Added guidance about SAP BTP ABAP environment in [Data Backups Managed by SAP](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/6c1e071845dd4db2829b413a05154a7c.html).
+-   Added guidance about SAP Business AI Platform, ABAP environment in [Data Backups Managed by SAP](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/6c1e071845dd4db2829b413a05154a7c.html).
 -   Updated [SAP Job Scheduling Service](https://help.sap.com/docs/btp/btp-admin-guide/go-live-and-monitor?version=Cloud#sap-job-scheduling-service).
 -   Terminology updates for [Building Teams](https://help.sap.com/docs/btp/btp-admin-guide/building-teams?locale=en-US&version=Cloud), [Creating an Onboarding Process for Development Projects](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/4bd29a8a49c84727aeb81a8f60e74ea0.html?locale=en-US), and [Subaccounts or Spaces/Namespaces?](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/4cb5276d832847aa8e5c82e73ef9ff10.html?locale=en-US)
 
