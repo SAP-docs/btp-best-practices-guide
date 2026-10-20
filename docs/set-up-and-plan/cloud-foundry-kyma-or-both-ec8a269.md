@@ -17,7 +17,7 @@ Regardless of whether you are new to SAP BTP and are trying to pick the runtime 
 
 In the cloud \(just like on premise\), we recommend a **staged development process**, to qualify changes before bringing them to production. For details, see [Setting Up Your Account Model](setting-up-your-account-model-2db81f4.md).
 
-Cloud Foundry and Kyma offer parity with regards to non-functionals. Both bring multi-availability-zone infrastructure support and the same SLA levels. The difference and the main decision point is your application architecture, driven by business aspects. For details about the runtimes as well as the required developer skillset, see [Comparison: SAP BTP, Kyma Runtime and SAP BTP, Cloud Foundry Runtime](https://help.sap.com/docs/BTP/8cc4e6b957be41d0b7a07680d1d9bb07/de5c964bd17443409e11c55f4f5dacb7.html?locale=en-US).
+Cloud Foundry and Kyma offer parity with regards to non-functionals. Both bring multi-availability-zone infrastructure support and the same SLA levels. The difference and the main decision point is your application architecture, driven by business aspects. For details about the runtimes as well as the required developer skillset, see [Comparison: Kyma Runtime and Cloud Foundry Runtime](https://help.sap.com/docs/BTP/8cc4e6b957be41d0b7a07680d1d9bb07/de5c964bd17443409e11c55f4f5dacb7.html?locale=en-US).
 
 > ### Recommendation:  
 > -   In Cloud Foundry, we recommend that you create three subaccounts to set up a staged development environment: one subaccount each for development, testing, and production. To do so, you create subaccounts and enable Cloud Foundry, which essentially creates a Cloud Foundry org.

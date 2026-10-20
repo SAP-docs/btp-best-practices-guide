@@ -308,7 +308,7 @@ For more information, see [SAP Cloud ALM](https://support.sap.com/en/alm/sap-clo
 
 To simplify and automate complex manual technical processes that are required to run your applications on SAP BTP, consider using Automation Pilot.
 
-Automation Pilot provides catalogs of commands for application lifecycle management, database management, SAP BTP resource and runtime handling, and many more. These provided out-of-the-box automation commands can be complemented by your own content, such your own scripts, HTTP requests, btp CLI tasks, etc. They can then be used in a low-code/no-code approach to compile recommended actions or complex processes to be executed ad hoc or automatically triggered by SAP Cloud ALM and SAP Alert Notification service services for SAP BTP upon a specific event. This helps you reduce your technical operations efforts and make your scenarios more reliable.
+Automation Pilot provides catalogs of commands for application lifecycle management, database management, SAP BTP resource and runtime handling, and many more. These provided out-of-the-box automation commands can be complemented by your own content, such your own scripts, HTTP requests, BTP CLI tasks, etc. They can then be used in a low-code/no-code approach to compile recommended actions or complex processes to be executed ad hoc or automatically triggered by SAP Cloud ALM and SAP Alert Notification service services for SAP BTP upon a specific event. This helps you reduce your technical operations efforts and make your scenarios more reliable.
 
 For more information, see [SAP Automation Pilot](https://help.sap.com/docs/automation-pilot).
 

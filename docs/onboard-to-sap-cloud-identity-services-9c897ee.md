@@ -18,7 +18,7 @@ SAP Cloud Identity Services is our solution for integrating identity and access 
 
 **Tenant and Landscape Planning**
 
-The standard offering for SAP Cloud Identity Services includes a productive tenant and a test tenant. Additional tenants can be requested in the SAP BTP Cockpit through the CPEA and Pay-As-You-Go consumption-based commercial models, or through the SAP SuccessFactors Upgrade Center. The lifetime of the additional tenants is tied to SAP BTP or SAP SuccessFactors.
+The standard offering for SAP Cloud Identity Services includes a productive tenant and a test tenant. Additional tenants can be requested in the SAP BTP cockpit through the CPEA and Pay-As-You-Go consumption-based commercial models, or through the SAP SuccessFactors Upgrade Center. The lifetime of the additional tenants is tied to SAP BTP or SAP SuccessFactors.
 
 For more information, see [Tenant Lifecycle](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/tenant-lifecycle?version=Cloud) and [Tenant Model and Licensing](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html).
 
@@ -183,7 +183,7 @@ Onboard to SAP Cloud Identity Services now.
 
 Now, you're ready to integrate SAP Cloud Identity Services with SAP BTP.
 
-For more information, see [SAP BTP Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-btp-integration-scenario) in the *System Integration Guide for SAP Cloud Identity Services*.
+For more information, see the [Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-btp-integration-scenario) in the *System Integration Guide for SAP Cloud Identity Services*.
 
 **Related Information**  
 

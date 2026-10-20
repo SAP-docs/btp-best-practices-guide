@@ -355,7 +355,7 @@ In Cloud Foundry, combine CI/CD with transport management \(either in the form o
 **Related Information**  
 
 
-[Blog Post: Transport Approaches in SAP BTP](https://blogs.sap.com/2017/06/30/part-6-transport-approaches-in-sap-cp/)
+[Blog Post: Transport Approaches](https://blogs.sap.com/2017/06/30/part-6-transport-approaches-in-sap-cp/)
 
 [Blog Post: Getting started with the predefined CI/CD pipeline for Kyma runtime](https://community.sap.com/t5/technology-blogs-by-sap/getting-started-with-the-predefined-ci-cd-pipeline-for-kyma-runtime/ba-p/13525740)
 

@@ -25,7 +25,7 @@ As every small change that's made in a single application \(for example, changin
 
 ## Global Accounts and Directories
 
-Platform users depend on role collections for access at the global account and directory level. By default, user management isn't enabled for directories. To manage platform users at this level, use SAP BTP cockpit or the btp cli.
+Platform users depend on role collections for access at the global account and directory level. By default, user management isn't enabled for directories. To manage platform users at this level, use SAP BTP cockpit.
 
 For more information, see:
 

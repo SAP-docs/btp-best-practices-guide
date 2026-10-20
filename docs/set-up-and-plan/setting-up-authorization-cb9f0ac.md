@@ -44,7 +44,7 @@ Provision user data with tools like Identity Provisioning and the SAP Cloud Iden
 
 Federation is an agreement between the administrator of the identity provider and the administrator of the system that consume it. The agreement specifies what attributes to include in tokens used to authenticate users in the relying system. The administrator of the relying system assigns authorizations indirectly on the attributes the identity provider sends. For example, an identity provider includes the user groups attribute in authentication tokens it issues. The administrator of the relying system maps authorizations for sales applications to any user who belongs to the *sales* user group and not to individual users.
 
-Use tools such as the command-line interface \(btp CLI\) or the SAP BTP cockpit
+Use tools such as the command-line interface \(BTP CLI\) or the SAP BTP cockpit
 
 </td>
 </tr>

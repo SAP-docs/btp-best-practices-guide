@@ -90,6 +90,73 @@ SAP BTP Administrator's Guide
 </td>
 <td valign="top">
 
+Restructured Service Sharing Recommendations
+
+</td>
+<td valign="top">
+
+We've restructured [Sharing SAP BTP Services](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/9fe7e160bf58488aa42e726ebe3c7111.html?locale=en-US&version=LATEST) around sharing scenarios - same subaccount, cross-subaccount, and cross-region - so you can find the right method based on the boundary you need to cross.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-10-13
+
+</td>
+<td valign="top">
+
+2026-10-13
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP Administrator's Guide
+
+</td>
+<td valign="top">
+
+-   ABAP
+-   Cloud Foundry
+-   Kyma
+-   Other
+
+
+
+</td>
+<td valign="top">
+
 Updated Kyma Guidance
 
 </td>

@@ -57,7 +57,7 @@ If you're new to SAP BTP, read:
 
     This guide helps you improve the process of implementing a business application on SAP BTP. It's part of the SAP BTP Guidance Framework and contains recommendations and best practices that give you an overview of what you should consider when working on development projects on SAP BTP.
 
--   [**Administrating SAP Business Technology Platform**](https://learning.sap.com/learning-journeys/administrating-sap-business-technology-platform-1)
+-   [Administrating SAP Business Technology Platform](https://learning.sap.com/learning-journeys/administrating-sap-business-technology-platform-1)
 
     This learning journey provides an extensive, well-structured collection of links to resources such as videos, blog posts, openSAP courses, and additional documentation.
 

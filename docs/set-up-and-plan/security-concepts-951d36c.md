@@ -61,6 +61,11 @@ Global accounts and subaccounts get their users from identity providers. There's
 
 SAP BTP supports identity federation, a concept of linking and reusing digital identities of a user base across loosely coupled systems. Identity federation frees applications on SAP BTP as well as the platform itself from the need to obtain and store the credentials of users and to authenticate them. Instead, the user base is reused from identity providers, which support the administration of digital user identities, authentication, and authorizations in a centralized and decoupled manner. To enable communication between SAP BTP and identity providers, you must cross-configure the communication endpoints of the involved systems, establishing a trust relationship between them.
 
+> ### Recommendation:  
+> We strongly recommend that you configure your custom tenant of SAP Cloud Identity Services as the identity provider and connect SAP Cloud Identity Services to your own corporate identity provider.
+> 
+> For more information, see [https://help.sap.com/docs/btp/sap-business-technology-platform/trust-and-federation-with-identity-providers?version=Cloud](https://help.sap.com/docs/btp/sap-business-technology-platform/trust-and-federation-with-identity-providers?version=Cloud).
+
   
   
 **Identity Federation**
@@ -75,7 +80,8 @@ The following figure shows the default trust configuration for SAP BTP as well a
   
 **Trust Relationship Between SAP BTP and Identity Providers**
 
-![](images/idp-trust-complex_f32a930.png "Trust Relationship Between SAP BTP and Identity Providers")
+![](images/idp-trust-complex_f32a930.png "Trust Relationship Between SAP BTP and
+					Identity Providers")
 
 > ### Note:  
 > Some services have their own user store or trust configuration. For the ABAP environment, business users reside in the ABAP user store. SAP HANA Database users have their own user store. The Kyma environment has a separate trust configuration from the subaccount.
