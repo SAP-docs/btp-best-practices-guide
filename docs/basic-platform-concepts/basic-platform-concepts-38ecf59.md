@@ -8,7 +8,7 @@ SAP BTP offers users the ability to turn data into business value, compose end-t
 
 SAP Business Technology Platform is built on a multi-cloud foundation, which lets you choose from different infrastructures and runtimes. The services and solutions of SAP BTP are available on multiple cloud infrastructure providers, and it supports different runtimes, such as Cloud Foundry, ABAP, and Kyma, as well as multiple regions, and a broad choice of programming languages.
 
-The central point of entry to the platform is the **SAP BTP cockpit**, where you can access your accounts and applications and manage all activities associated with them.
+The central point of entry to the platform is the **cockpit**, where you can access your accounts and applications and manage all activities associated with them.
 
 
 

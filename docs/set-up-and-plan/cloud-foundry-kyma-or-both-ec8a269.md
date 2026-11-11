@@ -45,7 +45,7 @@ Maybe you are currently using Cloud Foundry and would like to start using Kyma a
 
 Such approaches always require finding a balance between flexibility and costs. In some cases, using the same subaccount for Cloud Foundry and Kyma for the same landscape makes sense: This way, you can reuse or share some SAP BTP services, for example, SAP HANA Cloud. In this example, one recommendation could be having the same PROD subaccount for both Cloud Foundry and Kyma. But for DEV and TEST, you might choose to create separate subaccounts.
 
-However, if your existing subaccount landscape is more complex and you have several teams, each with multiple subaccounts, then it's recommended to create a shared subaccount for SAP BTP, Kyma runtime, to which the teams get access. Instead of subaccounts, use namespaces for isolation - for details, see [Sharing Kyma Clusters](sharing-kyma-clusters-57ec1ea.md).
+However, if your existing subaccount landscape is more complex and you have several teams, each with multiple subaccounts, then it's recommended to create a shared subaccount for Kyma runtime on SAP platform, to which the teams get access. Instead of subaccounts, use namespaces for isolation - for details, see [Sharing Kyma Clusters](sharing-kyma-clusters-57ec1ea.md).
 
 ![](images/Account_Model_-_CF_Kyma_956beee.png)
 

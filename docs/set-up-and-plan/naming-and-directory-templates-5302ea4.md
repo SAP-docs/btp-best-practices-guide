@@ -16,7 +16,7 @@ While naming conventions are specific for each organization and use case, the fo
 
 -   To prevent conflicts with special characters, use lower-case letters and hyphens, and avoid spaces or underscores in names. As an exception, subaccount names can contain capitalization and blank spaces.
 
--   You don't need to include the company name in subaccount names, because subaccounts are always displayed in the context of your global account in the SAP BTP cockpit. However, we recommend including the company name or an abbreviation of it in subdomains and Cloud Foundry org names.
+-   You don't need to include the company name in subaccount names, because subaccounts are always displayed in the context of your global account in the cockpit. However, we recommend including the company name or an abbreviation of it in subdomains and Cloud Foundry org names.
 
 -   If you use directories to group your subaccounts, choose descriptive directory names that reflect the desired distinction - for example, by functional area, location, or subsidiary.
 

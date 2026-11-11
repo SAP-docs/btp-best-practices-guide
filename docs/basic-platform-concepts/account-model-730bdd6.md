@@ -2,7 +2,7 @@
 
 # Account Model
 
-The SAP BTP cockpit is structured according to global accounts and subaccounts. You can also use directories and labels to organize your account model.
+The cockpit is structured according to global accounts and subaccounts. You can also use directories and labels to organize your account model.
 
 
 
@@ -34,7 +34,7 @@ A global account can contain one or more subaccounts in which you deploy applica
 
 ![Subaccounts](images/Subaccounts_bd96ff2.png)
 
-Each subaccount is associated with a region, which is the physical location where applications, data, or services are hosted. The specific region is relevant when you deploy applications and access the SAP BTP cockpit using the corresponding cockpit URL. The region assigned to your subaccount doesn't have to be directly related to your location. You could be located in the United States, for example, but operate your subaccount in Europe.
+Each subaccount is associated with a region, which is the physical location where applications, data, or services are hosted. The specific region is relevant when you deploy applications and access the cockpit using the corresponding cockpit URL. The region assigned to your subaccount doesn't have to be directly related to your location. You could be located in the United States, for example, but operate your subaccount in Europe.
 
 The entitlements and quotas that have been purchased for a global account have to be assigned to the individual subaccounts.
 
@@ -105,7 +105,7 @@ For more information, see [Labels](https://help.sap.com/viewer/65de2977205c403bb
 
 [Managing Global Accounts Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/667f34ba9222450491c2b848cd17e189.html "Your SAP BTP global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner.") :arrow_upper_right:
 
-[Managing Directories Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/f495ac1a62684affbff9f2629fe58bb0.html "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the SAP BTP cockpit.") :arrow_upper_right:
+[Managing Directories Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/f495ac1a62684affbff9f2629fe58bb0.html "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the cockpit.") :arrow_upper_right:
 
 [Managing Subaccounts Using the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/55d0b6d8b96846b8ae93b85194df0944.html "Learn how to structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements by managing subaccounts.") :arrow_upper_right:
 

@@ -16,7 +16,7 @@ Before you start creating subaccounts, take the time to research and draft your 
 
 
 > ### Remember:  
-> If you're still using Neo, prepare to migrate to the multi-cloud foundation. For details, see [Migrating from the Neo Environment to the Multi-Cloud Foundation for SAP BTP (Cloud Foundry and Kyma)](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html "Learn why and how to migrate scenarios from the Neo environment to the multi-cloud foundation for SAP BTP. This guide is for SAP Business Technology Platform (SAP BTP) customers and partners with scenarios in the Neo environment that need to move to the multi-cloud foundation, including the Cloud Foundry environment or the Kyma environment.") :arrow_upper_right:.
+> If you're still using Neo, prepare to migrate to the multi-cloud foundation. For details, see [Migrating from the Neo Environment to the Multi-Cloud Foundation (Cloud Foundry and Kyma)](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html "Learn why and how to migrate scenarios from the Neo environment to the multi-cloud foundation. This guide is for SAP Business Technology Platform (SAP BTP) customers and partners with scenarios in the Neo environment that need to move to the multi-cloud foundation, including the Cloud Foundry environment or the Kyma environment.") :arrow_upper_right:.
 
 
 
@@ -60,7 +60,7 @@ For considerations on segregation and billing, see [Subaccounts or Spaces/Namesp
 
 Do you want to use SAP BTP services that can be shared to save costs or maintenance effort?
 
-For example, consider [SAP HANA Cloud](https://help.sap.com/docs/hana-cloud/sap-hana-cloud-administration-guide/map-sap-hana-database-to-another-environment-context), SAP Integration Suite, SAP Build Work Zone, or SAP Task Center, but potentially also SAP BTP, Kyma runtime.
+For example, consider [SAP HANA Cloud](https://help.sap.com/docs/hana-cloud/sap-hana-cloud-administration-guide/map-sap-hana-database-to-another-environment-context), SAP Integration Suite, SAP Build Work Zone, or SAP Task Center, but potentially also Kyma runtime on SAP platform.
 
 Create one or more central subaccounts with shared services, to which several development teams have access.
 
@@ -80,7 +80,7 @@ Consider which criteria are relevant for your company's organization and reporti
 -   ...
 -   Development stages \(recommended\)
 
-At the very least, it's recommended to distinguish development stages in separate subaccounts. For details, see [The Basic Account Model](setting-up-your-account-model-2db81f4.md#loio2db81f42f5194454beecde6cd4994dda__section_basic_account_model).
+At the very least, it's recommended to distinguish development stages in separate subaccounts. For details, see [Start With the Basics](setting-up-your-account-model-2db81f4.md#loio2db81f42f5194454beecde6cd4994dda__section_basic_account_model).
 
 Everything else is up to the requirements of your organization.
 

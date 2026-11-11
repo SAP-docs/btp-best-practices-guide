@@ -15,7 +15,7 @@ Generally speaking, subaccounts are for isolation, while spaces and namespaces a
 Whether you want to use subaccounts or spaces/namespaces depends a lot on your preference - customers have set up many successful account models either way. However, some features are only available for subaccounts or spaces or namespaces, which may influence your decision.
 
 > ### Recommendation:  
-> At the very least, we recommend that you create two different subaccounts for a staged development environment \(see [The Basic Account Model](setting-up-your-account-model-2db81f4.md#loio2db81f42f5194454beecde6cd4994dda__section_basic_account_model)\). This way, you can have dedicated user management between the different stages, as well as dedicated data management in elastic services, such as SAP HANA Cloud. Within each subaccount \(that is, Cloud Foundry org and Kyma cluster\), you can then create dedicated spaces/namespaces for each application, extension, solution, team, or other project.
+> At the very least, we recommend that you create two different subaccounts for a staged development environment \(see [Start With the Basics](setting-up-your-account-model-2db81f4.md#loio2db81f42f5194454beecde6cd4994dda__section_basic_account_model)\). This way, you can have dedicated user management between the different stages, as well as dedicated data management in elastic services, such as SAP HANA Cloud. Within each subaccount \(that is, Cloud Foundry org and Kyma cluster\), you can then create dedicated spaces/namespaces for each application, extension, solution, team, or other project.
 > 
 > If you have dependencies to SAP BTP services that don't support the concept of spaces or namespaces, use subaccounts.
 
@@ -223,7 +223,7 @@ No, but you can set limits for resource consumption on namespace level.
 
 
 > ### Tip:  
-> In SAP BTP, Kyma runtime, we recommend mounting the Secret of the service binding as a volume. When using the service binding mechanism with volume mounts, applications can consume services only within their own namespace.
+> In Kyma runtime on SAP platform, we recommend mounting the Secret of the service binding as a volume. When using the service binding mechanism with volume mounts, applications can consume services only within their own namespace.
 
 
 
@@ -233,11 +233,11 @@ No, but you can set limits for resource consumption on namespace level.
 
 -   You can **monitor** the consumption of resources in your global account only per directory or subaccount \(Cloud Foundry org/Kyma clusters\) and space, not per application or Kyma namespace. To monitor the resources consumed by a specific project, department, or application, create a dedicated subaccount for them.
 
--   Accurate **billing** is only possible for global accounts. For the consumption-based model, you can calculate costs according to usage, but note that this is only approximate. See [Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.") :arrow_upper_right: and [Managing Cost](managing-cost-c615301.md).
+-   Accurate **billing** is only possible for global accounts. For the consumption-based model, you can calculate costs according to usage, but note that this is only approximate. See [Monitoring Usage and Consumption Costs in Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/de6f0db8919f4e6f97e54bc4ddaf2ab8.html "cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.") :arrow_upper_right: and [Managing Cost](managing-cost-c615301.md).
 
 -   You can assign SAP BTP **quotas** to subaccounts, see [Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html "When you purchase an enterprise account, you’re entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.") :arrow_upper_right:. If you're using one of the SAP BTP services that don't support fixed quotas, make sure to monitor usage and cost.
 
-    In Cloud Foundry spaces, you can create space quotas - see [Create Space Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/b13c4a2666dd4018a52780da581bbf6d.html "You can use the SAP BTP cockpit to create space quotas.") :arrow_upper_right:, which are slightly different. In Kyma namespaces, you can set limits for resource consumption on namespace level with [Kubernetes quotas](https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/quota-memory-cpu-namespace/).
+    In Cloud Foundry spaces, you can create space quotas - see [Create Space Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/b13c4a2666dd4018a52780da581bbf6d.html "You can use the cockpit to create space quotas.") :arrow_upper_right:, which are slightly different. In Kyma namespaces, you can set limits for resource consumption on namespace level with [Kubernetes quotas](https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/quota-memory-cpu-namespace/).
 
 
 > ### Tip:  

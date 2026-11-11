@@ -46,5 +46,5 @@ We recommend that the Platform Engineering Team / Center of Expertise \(CoE\) cr
 **Related Information**  
 
 
-[SAP BTP Center of Expertise \(CoE\) Guide](https://help.sap.com/docs/sap_btp_guidance_framework/4b5ea626b38a490b85e8c4d060286b46/d960c25778d341cb9e1e77022e575561.html?locale=en-US)
+[Center of Expertise \(CoE\) Guide](https://help.sap.com/docs/sap_btp_guidance_framework/4b5ea626b38a490b85e8c4d060286b46/d960c25778d341cb9e1e77022e575561.html?locale=en-US)
 

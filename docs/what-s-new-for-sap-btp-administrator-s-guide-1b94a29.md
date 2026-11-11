@@ -90,6 +90,73 @@ SAP BTP Administrator's Guide
 </td>
 <td valign="top">
 
+Project-specific Account Setup
+
+</td>
+<td valign="top">
+
+We've updated [Setting Up Your Account Model](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/2db81f42f5194454beecde6cd4994dda.html?locale=en-US) to reflect project-specific account setups and automated administration.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2026-11-11
+
+</td>
+<td valign="top">
+
+2026-11-11
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP BTP Administrator's Guide
+
+</td>
+<td valign="top">
+
+-   ABAP
+-   Cloud Foundry
+-   Kyma
+-   Other
+
+
+
+</td>
+<td valign="top">
+
 Restructured Service Sharing Recommendations
 
 </td>
@@ -951,7 +1018,7 @@ Best Practices Guide - Major Update
 </td>
 <td valign="top">
 
-The guide [Best Practices for SAP BTP](https://help.sap.com/docs/btp/best-practices/best-practices-for-sap-btp?locale=en-US) has seen a major update in the guidance for setting up your [Account Model](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/2db81f42f5194454beecde6cd4994dda.html) and your [Security and Compliance Model](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/aaaad9424e7442eab5d44b20f0ecbfd7.html). Furthermore, we have added recommendations for SAP BTP, Kyma runtime across the whole guide. Various minor improvements have been made based on customer feedback.
+The guide [Best Practices for SAP BTP](https://help.sap.com/docs/btp/best-practices/best-practices-for-sap-btp?locale=en-US) has seen a major update in the guidance for setting up your [Account Model](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/2db81f42f5194454beecde6cd4994dda.html) and your [Security and Compliance Model](https://help.sap.com/docs/BTP/df50977d8bfa4c9a8a063ddb37113c43/aaaad9424e7442eab5d44b20f0ecbfd7.html). Furthermore, we've added recommendations for SAP BTP, Kyma runtime across the whole guide. Various minor improvements have been made based on customer feedback.
 
 </td>
 <td valign="top">

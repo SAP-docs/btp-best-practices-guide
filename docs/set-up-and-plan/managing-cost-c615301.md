@@ -58,7 +58,7 @@ Be aware that for services with unlimited quota, usage can potentially increase 
 
 ## Monitor Usage and Cost
 
-In SAP BTP cockpit, go to *Costs and Usage* to monitor current and past usage of services, both on a global account level, and directory or subaccount level. It's recommended to do this at least once a month.
+In cockpit, go to *Costs and Usage* to monitor current and past usage of services, both on a global account level, and directory or subaccount level. It's recommended to do this at least once a month.
 
 For example, you can use the reports to check how much individual services contribute to the total cost, and how cost or usage have evolved over time. Filter by directories and subaccounts, or use labels to filter based on custom criteria. For details, see [Labels](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8ed4a705efa0431b910056c0acdbf377.html#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.") :arrow_upper_right:.
 
@@ -72,12 +72,12 @@ For hybrid accounts \(accounts with both consumption- and subscription-based con
 
 ## Validate Monthly Bills
 
-If you have a consumption-based contract, go to *Billing* in SAP BTP cockpit to validate the information in your monthly balance statements.
+If you have a consumption-based contract, go to *Billing* in cockpit to validate the information in your monthly balance statements.
 
 The current month is shown as an estimation, until the billing of the current month has closed. The balance statement is ordered according to the product column. You can also analyze the balance statements further, for example, by drilling into the cost for a subaccount and individual service.
 
 > ### Tip:  
-> Instead of manually checking usage and costs, you can also set up automatic alerts using the SAP Usage Data Management service in combination with the SAP Alert Notification service for SAP BTP. For an example, see [BTP Resource Consumption Monitor](https://github.com/SAP-samples/btp-resource-consumption-monitor).
+> Instead of manually checking usage and costs, you can also set up automatic alerts using the SAP Usage Data Management service in combination with the SAP Alert Notification service on SAP Platform. For an example, see [BTP Resource Consumption Monitor](https://github.com/SAP-samples/btp-resource-consumption-monitor).
 
 
 
@@ -85,7 +85,7 @@ The current month is shown as an estimation, until the billing of the current mo
 
 ## Distribute Costs Across Internal Consumers
 
-If you want to cross-charge cost to internal consumers, you can use the data in SAP BTP cockpit, *Costs and Usage*, to split cost by directory or subaccount.
+If you want to cross-charge cost to internal consumers, you can use the data in cockpit, *Costs and Usage*, to split cost by directory or subaccount.
 
 You can also use labels, for example, to assign individual subaccounts or directories to a cost center or project, and then report on the cost by label.
 

@@ -76,7 +76,7 @@ Under [Supported Solutions](https://help.sap.com/docs/cloud-alm/setup-administra
 
 Benefit from the powerful *Intelligent Event Processing*, embedded analytics, and intelligence functionality with a large variety of inbound and outbound integration. *Synthetic User Monitoring* monitors the performance and availability of web applications from a client-side perspective based on Selenium-based scripts. *Business Service Management* consolidates all operational events at business service level and shows them in a well-arranged event calendar.
 
-Specifically for Java and Node.js customer-built applications in SAP BTP, Cloud Foundry runtime, there are the Data Collection Instrumentation Libraries based on OpenTelemetry designed to enable the data collection infrastructure in SAP Cloud ALM. With these libraries, you can collect data for the following use cases:
+Specifically for Java and Node.js customer-built applications in Cloud Foundry runtime on SAP platform, there are the Data Collection Instrumentation Libraries based on OpenTelemetry designed to enable the data collection infrastructure in SAP Cloud ALM. With these libraries, you can collect data for the following use cases:
 
 -   *Real User Monitoring*: Leverage both front-end and back-end measurements on single request level.
 
@@ -135,7 +135,7 @@ For more information, see [SAP Job Scheduling Service](https://help.sap.com/docs
 
 SAP Cloud Logging is an observability service to store, visualize, and analyze application logs, metrics, and traces from SAP BTP Cloud Foundry Kyma, Kubernetes and other runtime environments. It enables application developers and operators to analyze their SAP BTP workloads regarding performance, errors, usage, and other characteristics. For Cloud Foundry and Kyma, it offers an easy integration by providing predefined contents to investigate load, latency, and error rates of the observed applications based on their requests and correlate them with additional data.
 
-In Cloud Foundry, SAP Cloud Logging is the successor of the SAP Application Logging service. In the Cloud Foundry runtime, you can still use the [SAP Application Logging service for SAP BTP](https://help.sap.com/viewer/ee8e8a203e024bbb8c8c2d03fce527dc/Cloud/en-US/68454d44ad41458788959485a24305e2.html) to access logs from your applications.
+In Cloud Foundry, SAP Cloud Logging is the successor of the SAP Application Logging service. In the Cloud Foundry runtime, you can still use the [SAP Application Logging service on SAP platform](https://help.sap.com/viewer/ee8e8a203e024bbb8c8c2d03fce527dc/Cloud/en-US/68454d44ad41458788959485a24305e2.html) to access logs from your applications.
 
 For Kyma, find detailed guidance in [Integrate with SAP Cloud Logging](https://help.sap.com/docs/btp/sap-business-technology-platform/integrate-with-sap-cloud-logging?locale=en-US&version=Cloud) and [SAP Cloud Logging: Ingest via Kyma Runtime](https://help.sap.com/docs/cloud-logging/cloud-logging/ingest-via-kyma-runtime?locale=en-US&version=Cloud).
 
@@ -294,7 +294,7 @@ To configure notifications based on business scenarios that involve multiple ser
 
 ## Alerting
 
-In addition to the general notifications mentioned above, SAP Alert Notification service for SAP BTP lets you know instantly whenever there's an issue with your specific cloud application or its dependencies, independent of the runtime your apps are running in. You can subscribe to events coming from SAP BTP services, hyperscalers, third-party tools such as Dynatrace, or you can create custom alerts for your apps that can be pushed directly into the public APIs of SAP Alert Notification service for SAP BTP.
+In addition to the general notifications mentioned above, SAP Alert Notification service on SAP Platform lets you know instantly whenever there's an issue with your specific cloud application or its dependencies, independent of the runtime your apps are running in. You can subscribe to events coming from SAP BTP services, hyperscalers, third-party tools such as Dynatrace, or you can create custom alerts for your apps that can be pushed directly into the public APIs of SAP Alert Notification service on SAP Platform.
 
 Furthermore, you can subscribe to notifications of your interest and choose the most appropriate channel for delivery, such as email, instant messages to your corporate chat, a ticketing system \(like Jira, ServiceNow, etc.\), or SAP Cloud ALM.
 
@@ -308,7 +308,7 @@ For more information, see [SAP Cloud ALM](https://support.sap.com/en/alm/sap-clo
 
 To simplify and automate complex manual technical processes that are required to run your applications on SAP BTP, consider using Automation Pilot.
 
-Automation Pilot provides catalogs of commands for application lifecycle management, database management, SAP BTP resource and runtime handling, and many more. These provided out-of-the-box automation commands can be complemented by your own content, such your own scripts, HTTP requests, BTP CLI tasks, etc. They can then be used in a low-code/no-code approach to compile recommended actions or complex processes to be executed ad hoc or automatically triggered by SAP Cloud ALM and SAP Alert Notification service services for SAP BTP upon a specific event. This helps you reduce your technical operations efforts and make your scenarios more reliable.
+Automation Pilot provides catalogs of commands for application lifecycle management, database management, SAP BTP resource and runtime handling, and many more. These provided out-of-the-box automation commands can be complemented by your own content, such your own scripts, HTTP requests, btp CLI tasks, etc. They can then be used in a low-code/no-code approach to compile recommended actions or complex processes to be executed ad hoc or automatically triggered by SAP Cloud ALM and SAP Alert Notification service services for SAP BTP upon a specific event. This helps you reduce your technical operations efforts and make your scenarios more reliable.
 
 For more information, see [SAP Automation Pilot](https://help.sap.com/docs/automation-pilot).
 

@@ -14,11 +14,11 @@ With your global account, you were provided a user to access to manage the platf
 
 You most likely already have your own identity and access management solution. Most importantly, in this solution you've defined your own security policies, such as password policies. The default identity provider doesn't support custom security policies. Nor does it support multifactor authentication, SCIM APIs, branding, or numerous other features.
 
-SAP Cloud Identity Services is our solution for integrating identity and access not just with your own solution, but also across the solutions across SAP. If you didn't already have a tenant of SAP Cloud Identity Services, there's an option in the SAP BTP cockpit to request one.
+SAP Cloud Identity Services is our solution for integrating identity and access not just with your own solution, but also across the solutions across SAP. If you didn't already have a tenant of SAP Cloud Identity Services, there's an option in the cockpit to request one.
 
 **Tenant and Landscape Planning**
 
-The standard offering for SAP Cloud Identity Services includes a productive tenant and a test tenant. Additional tenants can be requested in the SAP BTP cockpit through the CPEA and Pay-As-You-Go consumption-based commercial models, or through the SAP SuccessFactors Upgrade Center. The lifetime of the additional tenants is tied to SAP BTP or SAP SuccessFactors.
+The standard offering for SAP Cloud Identity Services includes a productive tenant and a test tenant. Additional tenants can be requested in the cockpit through the CPEA and Pay-As-You-Go consumption-based commercial models, or through the SAP SuccessFactors Upgrade Center. The lifetime of the additional tenants is tied to SAP BTP or SAP SuccessFactors.
 
 For more information, see [Tenant Lifecycle](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/tenant-lifecycle?version=Cloud) and [Tenant Model and Licensing](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html).
 

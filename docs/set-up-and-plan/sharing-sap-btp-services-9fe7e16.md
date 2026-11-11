@@ -10,7 +10,7 @@ You can share many SAP BTP services across different scopes, such as spaces, env
 
 ## Sharing Scenarios
 
-To find the right sharing method, identify your scenario. The boundary that you want to cross determines which methods you can use.
+To find the right sharing method, identify your scenario. The boundary that you want to cross determines which methods you can use. For guided tutorials, see [Share BTP Services Across Runtimes and Subaccounts](https://tutorial-system-prod-tutorials-approuter.cfapps.eu10-005.hana.ondemand.com/tutorials/group-share-btp-services-across-runtimes-and-subaccounts).
 
 ![Diagram showing three sharing scenarios: same subaccount with different spaces or namespaces, different subaccounts within the same global account, and different regions or global accounts](images/Sharing_BTP_Services_bd246ec.png)
 
@@ -180,7 +180,7 @@ Constraints:
 
 ## Services That Support Sharing
 
-To check whether a service plan supports instance sharing, go to the SAP BTP cockpit and look for the *Share* option under *Instances and Subscriptions*.
+To check whether a service plan supports instance sharing, go to the cockpit and look for the *Share* option under *Instances and Subscriptions*.
 
 For example, the following services support standard instance sharing:
 

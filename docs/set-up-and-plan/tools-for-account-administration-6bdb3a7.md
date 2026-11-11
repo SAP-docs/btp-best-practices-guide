@@ -7,7 +7,7 @@ Choosing the appropriate tools for account administration on SAP BTP depends on 
 > ### Recommendation:  
 > -   SAP BTP cockpit provides an accessible and graphical interface suitable for general administrative tasks.
 > 
-> -   The BTP CLI and APIs offer powerful automation and integration capabilities to advanced users.
+> -   The btp CLI and APIs offer powerful automation and integration capabilities to advanced users.
 > 
 > -   Automation Pilot provides pre-designed automated actions.
 > 
@@ -41,7 +41,7 @@ Recommended Usage Scenarios
 
 **SAP BTP Cockpit**
 
-\(see [Account Administration in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8061ecc529d74465b2b9566a634943ec.html "Learn about frequent administrative tasks you can perform using the SAP BTP cockpit, such as managing global accounts, directories, subaccounts, entitlements, and members.") :arrow_upper_right:\)
+\(see [Account Administration in the Cockpit](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8061ecc529d74465b2b9566a634943ec.html "Learn about frequent administrative tasks you can perform using the cockpit, such as managing global accounts, directories, subaccounts, entitlements, and members.") :arrow_upper_right:\)
 
 </td>
 <td valign="top">
@@ -65,9 +65,9 @@ Recommended Usage Scenarios
 <tr>
 <td valign="top">
 
-**BTP CLI**
+**btp CLI**
 
-\(see [Account Administration Using the SAP BTP Command Line Interface (btp CLI)](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7c6df2db6332419ea7a862191525377c.html "Use the SAP BTP command line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for users who like to work in a terminal or want to automate operations using scripts.") :arrow_upper_right:\)
+\(see [Account Administration Using the SAP BTP Command Line Interface (btp CLI)](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7c6df2db6332419ea7a862191525377c.html "Use the SAP BTP command line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the cockpit for users who like to work in a terminal or want to automate operations using scripts.") :arrow_upper_right:\)
 
 </td>
 <td valign="top">
@@ -82,7 +82,7 @@ Recommended Usage Scenarios
 </td>
 <td valign="top">
 
--   To start managing SAP BTP in a more concise and understandable approach. However, as a command-line tool, the BTP CLI follows an imperative approach and leaves some heavy lifting on your end.
+-   To start managing SAP BTP in a more concise and understandable approach. However, as a command-line tool, the btp CLI follows an imperative approach and leaves some heavy lifting on your end.
 -   To quickly get insights into your SAP BTP setup by running particular commands to get machine-readable outputs.
 -   To trigger one-off actions, for example cleaning up a role collection assignment in a subaccount that was set up manually.
 

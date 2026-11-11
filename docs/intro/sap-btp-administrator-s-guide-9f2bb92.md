@@ -2,7 +2,7 @@
 
 # SAP BTP Administrator's Guide
 
-This guide is the starting point for setting up application lifecycle management for your specific use case, business, and IT landscape. It contains recommendations and best practices that give you an overview of what you should consider when planning development projects on SAP BTP – from setting up the correct organizational structure to creating an account and security model, to developing and operating applications. It also includes links to step-by-step instructions when required.
+This guide is the starting point for setting up application lifecycle management for your specific use case, business, and IT landscape. It contains best practices for planning development projects on SAP BTP - from setting up the correct organizational structure to creating an account and security model, to developing and operating applications. It also includes links to step-by-step instructions when required.
 
 
 
@@ -10,9 +10,9 @@ This guide is the starting point for setting up application lifecycle management
 
 ## Is This Guide for You?
 
-If you're an **architect or a development project lead**, this guide helps you plan the architecture of your application and establish boundary conditions to foster the required level of governance and compliance for your development teams \(such as by defining the best-fitting delivery and observability concepts\).
+If you're an **architect or a development project lead**, this guide helps you plan your application architecture and establish boundary conditions for governance and compliance across your development teams, such as delivery and observability concepts.
 
-If you're an **administrator**, this guide helps you define the correct organizational structure and create an account and security model. Also, it enables you to understand and plan the tasks required to run your organization's applications on SAP BTP reliably - and which SAP BTP services to consider for doing so.
+If you're an **administrator**, use this guide to define the correct organizational structure and create an account and security model. It also helps you understand and plan the tasks for running applications on SAP BTP reliably, including which services to use.
 
 If you're an **SAP partner**, this guide helps you to set up SAP BTP for running production services for your customers.
 
@@ -32,14 +32,7 @@ If you're new to SAP BTP, read:
 
 -   [SAP Business Technology Platform](https://www.sap.com/products/technology-platform/what-is-sap-business-technology-platform.html)
 
-    SAP BTP is a cloud platform that brings together application development, automation, data management, analytics and planning, integration, and AI capabilities into one unified environment optimized for SAP applications. It offers:
-
-    -   An intuitive, modern development environment for both, professional IT as well as citizen and business developers
-
-    -   Built-in data models, integrations, workflows, app templates, and AI business services
-
-    -   Self-service data discovery, modeling, planning, and analytics for business users in a governed environment
-
+    SAP BTP is a cloud platform that unifies application development, automation, data management, analytics, integration, and AI capabilities, optimized for SAP applications.
 
 -   [SAP BTP Adoption Framework](https://discovery-center.cloud.sap/adoption-framework)
 
@@ -70,9 +63,9 @@ If you're new to SAP BTP, read:
 
 ## How to Use This Guide
 
-Plan and set up your landscape to manage the lifecycle of your cloud applications.
+Plan and set up your landscape to manage the lifecycle of your cloud applications with the governance, security, and operational reliability your organization needs.
 
-![](images/sap_cp_lm_cycle_3177b14.png)
+![Lifecycle diagram showing the six phases of application lifecycle management on SAP BTP: Set Up, Develop, Deploy and Deliver, Test and Integrate, Go Live and Operate, and Improve and Retire.](images/sap_cp_lm_cycle_3177b14.png)
 
 1.  **[Set Up and Plan](../set-up-and-plan/set-up-and-plan-75e5031.md)** – build teams, set up your account and security model, and create an enrollment process for your development projects.
 2.  **[Develop and Build](../develop-and-build-8a44d9c.md)** – find out about the tools and programming languages that are available on SAP BTP, and how to use multitarget applications to efficiently manage dependencies.

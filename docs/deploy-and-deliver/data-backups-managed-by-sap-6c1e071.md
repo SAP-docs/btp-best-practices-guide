@@ -14,7 +14,7 @@ Data stored in the following services and components is automatically backed up 
 
 -   **SAP HANA Cloud**: SAP HANA Cloud instances are continually backed up to safeguard your database and ensure that it can be recovered. For more information, see [Backup and Recovery](https://help.sap.com/docs/HANA_CLOUD/9ae9104a46f74a6583ce5182e7fb20cb/89d71f01daca4ecaaa069d6a060167f5.html).
 
--   **PostgreSQL on SAP BTP, Hyperscaler Option**: SAP keeps backups of your PostgreSQL database instances for a retention period of 14 days. You can restore a database instance to any point in time within the backup retention period by creating a new database instance. For more information, see [Restore Database Instance to a Specified Time](https://help.sap.com/viewer/b3fe3621fa4a4ed28d7bbe3d6d88f036/Cloud/en-US/724c9112ed5a48c59c8e88f17290550d.html).
+-   **PostgreSQL service on SAP platform, hyperscaler option**: SAP keeps backups of your PostgreSQL database instances for a retention period of 14 days. You can restore a database instance to any point in time within the backup retention period by creating a new database instance. For more information, see [Restore Database Instance to a Specified Time](https://help.sap.com/viewer/b3fe3621fa4a4ed28d7bbe3d6d88f036/Cloud/en-US/724c9112ed5a48c59c8e88f17290550d.html).
 
 
 
@@ -23,11 +23,11 @@ Data stored in the following services and components is automatically backed up 
 
 ## Services Without Automated Data Backups
 
-The following services don’t currently provide any backup and restore features:
+The following services don't currently provide any backup and restore features:
 
--   **Redis on SAP BTP, hyperscaler option**: This service doesn’t support persistence.
+-   **Redis service on SAP platform, hyperscaler option**: This service doesn't support persistence.
 
--   **Object Store on SAP BTP**: The Object Store service doesn't provide backup and restore features by default. However, there are additional features that could help with backup and restore in certain scenarios:
+-   **Object Store service on SAP platform**: The Object Store service doesn't provide backup and restore features by default. However, there are additional features that could help with backup and restore in certain scenarios:
 
     -   [Enable Continuous Backup](https://help.sap.com/docs/object-store/object-store-service-on-sap-btp/enable-continuous-backup?version=Cloud&ai=true) allows you to enable continuous backup of an Amazon S3 bucket to safeguard data from accidental deletion of objects. The feature is disabled by default and comes with additional cost when enabled.
 
@@ -47,23 +47,23 @@ The following services don’t currently provide any backup and restore features
 
 
 
-### SAP BTP, Cloud Foundry Runtime
+### Cloud Foundry Runtime on SAP Platform
 
-For services running in the SAP BTP, Cloud Foundry runtime, the backed-up data is copied to additional availability zones within the same region. Each availability zone represents a physically separate location with its own power supply, network, and cooling. For more information, see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html).
+For services running in the Cloud Foundry runtime on SAP platform, the backed-up data is copied to additional availability zones within the same region. Each availability zone represents a physically separate location with its own power supply, network, and cooling. For more information, see [Regions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html).
 
 ![](images/Data_copied_to_additional_AZs_in_a_region_6198557.png)
 
 
 
-### SAP BTP, Kyma Runtime
+### Kyma Runtime on SAP Platform
 
-SAP BTP, Kyma runtime relies on managed Kubernetes clusters for periodic backups of Kubernetes objects. Automatic backup doesn't include Kubernetes volumes. For more information, see [Kyma Environment Backup](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ab959cfbd07b46af97aecfd6577bfb10.html).
+Kyma runtime on SAP platform relies on managed Kubernetes clusters for periodic backups of Kubernetes objects. Automatic backup doesn't include Kubernetes volumes. For more information, see [Kyma Environment Backup](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ab959cfbd07b46af97aecfd6577bfb10.html).
 
 
 
-### SAP BTP, Neo Environment
+### Neo Environment
 
-For services running in the **SAP BTP, Neo** environment, the backed-up data is copied to an availability zone in another region. For more information, see [Regions in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/21c30a4e491544fc927ecf3a5857c54e.html).
+For services running in the **Neo** environment, the backed-up data is copied to an availability zone in another region. For more information, see [Regions in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/21c30a4e491544fc927ecf3a5857c54e.html).
 
 ![](images/Data_copied_to_a_secondary_AZ_449d088.png)
 

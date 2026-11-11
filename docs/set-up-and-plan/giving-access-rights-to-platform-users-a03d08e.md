@@ -25,13 +25,13 @@ As every small change that's made in a single application \(for example, changin
 
 ## Global Accounts and Directories
 
-Platform users depend on role collections for access at the global account and directory level. By default, user management isn't enabled for directories. To manage platform users at this level, use SAP BTP cockpit.
+Platform users depend on role collections for access at the global account and directory level. By default, user management isn't enabled for directories. To manage platform users at this level, use cockpit.
 
 For more information, see:
 
--   [Add Members to Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/4a0491330a164f5a873fa630c7f45f06.html "Add users as global account members using the SAP BTP cockpit.") :arrow_upper_right:
+-   [Add Members to Your Global Account](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/4a0491330a164f5a873fa630c7f45f06.html "Add users as global account members using the cockpit.") :arrow_upper_right:
 
--   [Manage Users in Directories](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ff4d4a4caff94b0486b6427eaa8a0b91.html "Manage members in your directory using the SAP BTP cockpit.") :arrow_upper_right:
+-   [Manage Users in Directories](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ff4d4a4caff94b0486b6427eaa8a0b91.html "Manage members in your directory using the cockpit.") :arrow_upper_right:
 
 -   [Role Collections and Roles in Global Accounts, Directories, and Subaccounts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0039cf082d3d43eba9200fe15647922a.html "SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.") :arrow_upper_right:
 

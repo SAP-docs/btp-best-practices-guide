@@ -67,7 +67,7 @@ For SAP HANA XSA applications \(in Cloud Foundry\), you can use:
 
 ### Bring Your Own Buildpack
 
-In the SAP BTP, Cloud Foundry environment, you can use your own buildpack to create applications. The deployment of such an application depends on the buildpack-specific development and deployment infrastructure.
+In the Cloud Foundry environment, you can use your own buildpack to create applications. The deployment of such an application depends on the buildpack-specific development and deployment infrastructure.
 
 
 
